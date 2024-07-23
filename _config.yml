@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Seb in the ☁️
+title: Le podcast 🎙️ AWS ☁️ en 🇫🇷
 author: Sébastien Stormacq
-email: sebastien.stormacq@gmail.com
+email: stormacq@amazon.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Developer Advocate for AWS. <p/> This blog is about AWS Cloud, Mobile, Security, Voice-Based Interfaces & Alexa. 
+  Le podcast qui parle du cloud en français <p/>. 
 baseurl: "/web" # the subpath of your site, e.g. /blog
 url: "https://francais.podcast.go-aws.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sebsto
