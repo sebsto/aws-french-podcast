@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: main
 title: Podcast
 subtitle: Le podcast 🎙️ AWS ☁️ en 🇫🇷
 description: Le podcast AWS en français
@@ -38,7 +38,7 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
 <li><a href="https://www.stitcher.com/podcast/sebastien-stormacq/le-podcast-aws-en-francais?refid=stpr" target="_blank">Stitcher</a></li>
 -->
 <li><a href="https://tunein.com/podcasts/Technology-Podcasts/Le-Podcast-AWS-en-Francais-p1205086/" target="_blank">TuneIn</a></li>
-<li><a href="/podcasts/feed.xml" target="_blank">Feed RSS pour ajouter manuellement dans vos applications</a></li>
+<li><a href="{{ "/podcasts/feed.xml" | absolute_url }}" target="_blank">Feed RSS pour ajouter manuellement dans vos applications</a></li>
 </ul>
 </div>
 
@@ -58,7 +58,7 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
   {% capture date %}{{ podcasts.date | date: '%s' | plus: 0 }}{% endcapture %}
   {% if date < now %}
   <article class="post-preview">
-      <a href="{{ site.url | xml_escape }}{{ podcasts.url | append: 'index.html' | xml_escape }}">
+      <a href="{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}{{ podcasts.url | append: 'index.html' | xml_escape }}">
         {% if page.episode %}
         <h3 class="post-title">#{{ podcasts.episode }} {{ podcasts.title }}</h2>
         {% else %}
