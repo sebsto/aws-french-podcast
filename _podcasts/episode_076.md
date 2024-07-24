@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 29 octobre 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de preuve formelle de programmes pour S3, de vision assistée par ordinateur, de recommandations automatiques pour vous aider à migrer vos applications, de nouveaux types d'instances pour l'apprentissage machine et de deux nouveautés en matière de base de données, une qui concerne Oracle et l'autre MS SQL Server et Postgres."
@@ -12,7 +13,6 @@ date: 2021-10-29 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000540104060
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

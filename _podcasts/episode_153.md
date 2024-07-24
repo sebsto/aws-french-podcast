@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119759
 title:  Replibyte
 subtitle: Vos bases de données répliquées et anonymisées
 description: "Replibyte est un outil open-source de réplication de vos bases de données à des fins de tests et de développement. Il exporte un sous-ensemble anonymisé de vos données à la volée pour que vos bases de tests et de devs ne contiennent pas de données personnelles qui viennent de la production. Replibyte fonctionne avec les bases PostgreSQL, MySQL et MongoDB. Dans cet épisode on explique pourquoi et comment utiliser cet outil et comment ca marche sous le capot. Spoiler alert : il est écrit en Rust par les équipes de Qovery."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000604609360
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

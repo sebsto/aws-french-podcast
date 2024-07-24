@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119986
 title:  "Music Work"
 subtitle: "L'identité musicale pour les marques"
 description: "60 millions de personnes écoutent chaque année la musique sélectionnée par Music Work dans des magasins, des hotels, des restaurants. Quels sont les choix techniques qui ont été faits pour construire un système global de création d'ambiance et de diffusion de musique ? Comment gérer les données collectées à grande échelle et au juste coût ? Comment l'IA pourrait assister les concepteurs d'ambiances musicales à concevoir les playlistes qui satisferont les demandes des clients. On parle aussi des players qui capitalisent sur les services AWS tels que IoT Core, de IoT Greengrass et de edge computing en général."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000618835929
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

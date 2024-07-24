@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120306
 title:  "Le déploiement multi-région."
 subtitle: "Déployez vos applications à proximité de vos clients"
 description: "AWS vous propose 22 régions et 69 zones de disponibilités pour déployer vos applications. Il est conseillé de déployer à proximité de vos clients pour minimiser les temps d'accès à votre application (la latence). Quand vous avez des clients partout dans le monde, cela revient à déployer votre application sur plusieurs régions AWS. Outre minimiser la latence, certains clients choisissent une architecture multi-régions pour augmenter la disponibilité de leurs applications. Dans tous les cas, vous devrez répondre aux questions suivantes : comment router le traffic vers la bonne région ? Comment repliquer vos données d'une région à l'autre ? Découvrez pourquoi et comment Front App à mis en place leur architecététailure multi-régions."
@@ -12,7 +13,6 @@ date: 2019-08-29 06:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045013
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

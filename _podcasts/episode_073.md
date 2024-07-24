@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120190
 title:  "Cosmian"
 subtitle: "Collaboration sans partage"
 description: "Cosmian vous permet de mettre en place une solution de collaboration sur les données, sans partager celles-ci.  Ils créent des environnements logiciels - CipherCompute - pour que les artisants de la data puissent lancer des calculs collaboratifs sur différents silos de données, sans jamais dévoiler les données en clair aux participants du calcul. On parle de techniques de cryptographie, de zero trust et de collaboration sur les données"
@@ -12,7 +13,6 @@ date: 2021-10-08 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000537936385
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

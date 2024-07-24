@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119960
 title:  "Kayrros"
 subtitle: "Suivi des projets de compensation carbone"
 description: "Dans cet épisode nous parlons de technologie et d'environnement. Comment mesurer l’impact de l’activité humaine sur l'environnement. Comment les images satellites, l’IA et le cloud impactent nos decisions et nos investissements dans les projets de reforestation ou de compensation carbone. On parle aussi de Kubernetes, quel est le gap entre le petit cluster de test ou de prototype et arriver à gérer un cluster qui lance des millions de pods en production ? Sans divulgacher, les thèmes sont la sécurité, le logging, le monitoring et l'intégration continue."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000618051799
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

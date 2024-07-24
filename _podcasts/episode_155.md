@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120027
 title:  Ateme - Cloud DVR
 subtitle: Enregistrez vos programmes TV dans le cloud
 description: "Ateme est une société française qui construit des solutions vidéos pour les chaînes de télé et les opérateurs telco. Une de leurs solutions est un enregistreur de flux vidéos dans le cloud. La fameuse fonction 'Enregistrer' de vos boxes - quand votre opérateur utilise les solutions d'Ateme - enregistre les programmes télé sur S3. Dans cet épisode, nous parlons de l'architecture de cette solution, comment ca marche sous le capot. Spoiler alerte : nous parlons de Kubernetes (un peu), de Amazon S3 (beaucoup) et d'infrastructure as code."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000606704503
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

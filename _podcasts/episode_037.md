@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120131
 title:  "Réduisez votre facture cloud"
 subtitle: "Discussion avec Mr FinOps de Veolia"
 description: "Dans cet épisode, nous parlons de ce nouveau métier qu'est le FinOps et comment un grande organisation, comme Veolia, insufle des bonnes pratiques et des règles pour économiser sur leur facture cloud, au travers de leurs collaborateurs, leurs processus et leurs outils. Une discussion ouverte ..."
@@ -12,7 +13,6 @@ date: 2020-11-27 08:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500448680
 #appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

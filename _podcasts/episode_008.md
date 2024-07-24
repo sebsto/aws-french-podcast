@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120307
 title:  "Technique Avancée IAM."
 subtitle: "Limitez les droits des admins sur vos comptes d'Organisation."
 description: "Dans cet épisode, nous parlons d'une technique qui permet de donner un compte AWS à un département, un consultant, avec plein accès Administrateur, mais sans qu'il ne puisse détacher le compte de l'organisation ni altérer les autorisations du compte Maître sur ce compte.
@@ -14,7 +15,6 @@ date: 2019-10-03 06:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045015
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

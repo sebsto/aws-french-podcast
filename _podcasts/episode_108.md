@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 20 mai 2022"
 description: "Des nouveautés côté infrastructure puisqu'on parle de Trusted Platform Module (TPM), de EC2 auto-scaling et de Backup, mais aussi dans le monde du serverless avec Step Functions et dans le monde du mobile avec Amplify."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000562750299
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

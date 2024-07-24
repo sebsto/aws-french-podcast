@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 22 septembre"
 description: "Parmis les 72 nouveautés de ces deux dernières semaines, j'en ai retenu pour vous 7 plus un livre et un article de blog. Dans cet épisode on parle de Bedrock, des ses agents et de ses bases de connaissance vectorielles. On parle de Java et de chaos - il n'y a aucun rapport entre ces deux news - IAM Roles Anywhere support maintenant PKCS#11, c'est quoi ca ? Et puis j'ai repéré cette semaine un nouveau livre sur AWS qui semble intéressant et un article de blog en français qui explique comment déployer des web apps sur AWS Lambda, sans changer votre code."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000628834491
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

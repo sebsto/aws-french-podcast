@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120158
 title:  "Intelligence et AIML"
 subtitle: "L'apprentissage machine pour les données de renseignements"
 description: "Preligens développe des solutions d'apprentissage machine pour identifer des données suceptibles d'intéresser des agences de renseignements, militaires ou civiles. Dans cet épisode, nous parlons de l'acquisition et le stockage de données, d'apprentissage machine et de confidentialité des données, avec un approche pragmatique quant aux aspects de souverainté et sécurité."
@@ -12,7 +13,6 @@ date: 2021-07-30 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000530481879
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

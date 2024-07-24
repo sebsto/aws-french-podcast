@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 26 août 2022"
 description: "Cette semaine, nous parlons de HTTP/3 et de QUIC, mais pas que. Nous parlerons de S3 et DynamoDB, nous jeterons un regard rétrospectif sur 10 années d'évolution de EBS. Enfin, je vous indiquerai un nouveau moyen de bloquer les attaques sur la page d'authentification de vos apps. On parlera DevOps aussi - ou de ChatOps plus précisement."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000577473913
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120275
 title:  "Des canaris pour tester vos sites web"
 subtitle: "Amazon CloudWatch Synthetics"
 description: "Amazon CloudWatch Synthetics est un nouveau service qui permet de tester vos sites web ou API, en exécutant des scripts de tests qui simulent une activité sur vos endpoints."
@@ -12,7 +13,6 @@ date: 2020-04-30 09:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045018
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

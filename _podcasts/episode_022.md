@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120303
 title:  "Infrastructure as Code"
 subtitle: "Automatisez tout, vraiment tout"
 description: "\"En automatisant, nous déployons en heures plutôt que en semaines, nos environnements sont tous identiques et nous pouvons donner des outils à ceux qui en ont besoin.\" Découvrez les bénéfices de l'Infrastructure as Code. Nous parlons automatisation, outils et méthode."
@@ -12,7 +13,6 @@ date: 2020-04-05 18:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045009
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

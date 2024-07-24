@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120184
 title:  "Scenario3D"
 subtitle: "Creez vos scènes en 3D"
 description: "Scenario est une application qui vous permet de créer et de partager une expérience 3D en quelques minutes. Chacun peut, avec son téléphone, créer un modèle 3D des objets qui nous entourent et puis les injecter dans des scènes, les combiner et les partager avec ses amis. Dans cet épisode, Marie et Hervé nous expliquent comment ca marche, sous le capot, et comment ils utilisent les services AWS pour construire cette application."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000569228837
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

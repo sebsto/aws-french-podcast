@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 8 avril 2022"
 description: "Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de la durabilité, de la gestion de comptes et de AWS Lambda.  Vous voulez en savoir plus ? Voici le podcast AWS en français."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000556618011
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

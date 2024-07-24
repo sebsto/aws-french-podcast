@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 6 mai 2022"
 description: "Entre deux conférence AWS Summit, les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour des bases de données RDS, de Kafka, et encore une nouvelle famille d'instances EC2"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000559802061
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

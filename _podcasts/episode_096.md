@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 25 février 20222"
 description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de nouvelles instances EC2, de Elastic File System qui reduit la latence en lecture, de CodeGuru Reviewer qui enrichit ses librairies. Il sera question d'un anniversaire et de deux nouveautés attendues par les développeurs de fonctions Lambda ou d'API GraphQL avec AppSync."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000552196332
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

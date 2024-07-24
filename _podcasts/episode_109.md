@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119995
 title:  "AIML et Sécurité"
 subtitle: "Comment protéger vos projets AIML"
 description: "AIML et Sécurité : l'association n'est pas toujours évidente. Pourtant les projets AIML sont également susceptibles d'attaques.  Quels sont les risques ? Qu'est ce qu'une personne malveillante va chercher à faire avec vos données, vos entraînements et vos points d'inférences ? Comment les protéger ? Quelles sont les implications du RGPD sur l'AIML ? Ce sont ces sujets et bien d'autres dont nous parlons cette semaine."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000564197449
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

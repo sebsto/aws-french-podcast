@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 22 avril 2022"
 description: "Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de bourses pour apprendre la programmation des intelligences artificielles, d'automatisation des workflows de migrations, de jumeaux digitaux, mais que se cache-t-il donc sous ce terme ? Et puis Amplify Studio débarque après avoir été annoncé en novembre dernier. Il y a eu un AWS Summit aussi, je vous dit ou trouver les vidéos."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000558338593
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

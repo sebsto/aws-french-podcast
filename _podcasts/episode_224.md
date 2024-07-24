@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119981
 title:  "Thomas Barandon"
 subtitle: "Passer de 9% à 25% de femmes dans une équipe"
 description: "Dans cet épisode, nous discutons avec Thomas, un manager expérimenté, de l'importance de la diversité, de l'équité et de l'inclusion (DE&I) en milieu de travail. S'appuyant sur sa propre expérience, Thomas explore le rôle crucial des managers dans la promotion d'un environnement de travail inclusif, du recrutement et de l'étiquette en réunion aux interactions quotidiennes. Avec une augmentation de la représentation féminine de son équipe de 9% à 25%, Thomas partage les stratégies concrètes qu'il a mises en place pour cultiver un environnement de travail qui embrasse la DE&I"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/224.png
-appleEpisodeId: 1000657879660
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

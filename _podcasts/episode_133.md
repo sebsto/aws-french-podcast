@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119818
 title:  "Le programme AWS TechU"
 subtitle: "Un CDI pour vous former comme Solution Architect"
 description: "Le programme AWS TechU recrute des étudiants fraichement diplomés pour les engager en tant que Solution Architect. Pendant les 6 premiers mois, vous êtes en formation pour apprendre les ficelles du métier de Solution Architect. La formation concerne la technique du cloud, mais aussi des softs skills : comment gèrer des réunions avec des clients, comment écrire des blogs ou faire des présentations en public. Ce n'est pas un stage, vous êtes employés en CDI dès le premier jour. Nous engageons maintenant pour le prochain groupe, postulez aujourd'hui!"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000585065649
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

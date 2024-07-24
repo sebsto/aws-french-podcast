@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 14 mai 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Amazon FinSpace, un service pour faciliter la vie des analystes financiers, d'un nouveau volet ajouté à AWS Systems Manager, de la possibilité de déployer des minis fonctions sur les edges de Amazon CloudFront, d'un nouveau SDK en version Alpha pour les développeurs Rust et d'un cours en ligne et gratuit sur Amazon DynamoDB."
@@ -12,7 +13,6 @@ date: 2021-05-14 09:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000521698562
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

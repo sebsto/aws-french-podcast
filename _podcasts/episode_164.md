@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 2 juin"
 description: "J'ai compté 73 nouveautés ces deux dernières semaines. Comme chaque semaine, ma sélection est biaisée et je retiens les nouveautés qui vont parler aux builders: les architectes et les développeur-peuses. Si vous manipulez des gros volumes de données, j'ai quelque chose pour vous cette semaine. De même si travaillez avec des architectures orientées évenements ou si vous déployez des conteneurs sur K8s. Restez aussi si vous développez des applications mobiles sur iOS ou Android. Et je terminerai par un nouveau service : Security Data Lake. On détaille tout cela dans le podcast 🎙 AWS ☁️ en 🇫🇷."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000615379260
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

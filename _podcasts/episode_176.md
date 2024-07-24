@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 25 août"
 description: "L'épisode de rentrée du podcast 🎙 AWS ☁️ en 🇫🇷. Que s'est-il passé dans le monde d'AWS ces deux derniers mois ? Dans cet épisode on parle d'une nouvelle région, d'un nouveau service, du chargement d'images de container dans Lambda, des adresses IPv4 qui vont devenir payantes, de S3 qui se dote d'un mountpoint pour les applications qui ont besoin d'un accès à travers un file system, et finallement de Generative AI et Bedrock !"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000625635072
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

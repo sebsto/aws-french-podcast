@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 21 octobre"
 description: "Cette semaine est assez calme, j'ai tout de même noté des changements dans le programme AWS Activate pour les startups, Aurora Serverless qui est supporté par CloudFormation, un nouveau type d'instance EC2 pour l'entrainement de gros (très gros) modèles AIML, et surtout, les S3 Object Lambda qui s'enrichissent des requêtes HEAD et LIST. Je vous explique à quoi ca peut servir à la fin de cet épisode."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000583383455
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

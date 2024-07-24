@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119782
 title:  "Les stratégies de travail avec Git"
 subtitle: "Le trunk-based development"
 description: "Cette semaine, on parle de Git, l'outil de contrôle et de gestion de votre code source. Après un rapide historique, découvrez les cinq patterns d'utilisation de git : <a href='https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow'>GitFlow</a>, des branches par environnement, GitHub flow avec des pull requests, les feature branches et le trunk-based development. Laquelle de ces stratégies de branches pouvez-vous utiliser ? Comment votre stratégie de release ou le type de produit que vous distribuez influence la stratégie de branching ? Et comment les feature flags viennent se brancher sur votre stratégie Git ? On en discute dans l'épisode de cette semaine."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000636387778
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

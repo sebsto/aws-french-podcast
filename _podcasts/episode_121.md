@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120182
 title:  "FuturMaster"
 subtitle: "La transformation SaaS"
 description: "Cette semaine, j'ai rencontré FuturMaster, un éditeur de logiciels pour gèrer vos Supply Chains.  Comment changer d'un modèle traditionnel manuel vers un modèle SaaS avec de l'automatisation et du self-service ? Pourquoi cette entreprise globale choisit AWS - la capacité de fournir des bases de données managées sous Oracle et de déployer en Chine ont été des facteurs clés. On y parle aussi de la transformation de politique et philosophique des métiers de la finance et comment cela affecte la facturation. 'Une migration cloud n'est pas que technique, c'est une transformation complète de l'entreprise'. Une fois dans le cloud, l'exploration de nouvelles fonctionalités comme AWS Lambda permet de paraliser des calculs et ainsi les réduire de 4h à quelques minutes."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000576564703
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120093
 title:  "Se préparer pour une nouvelle région"
 subtitle: "Nouvelle régions AWS en Espagne et en Suisse"
 description: "AWS va lancer deux nouvelles régions en europe en 2022. Dans cet épisode, nous expiquons ce qu'est une région, une zone de disponibilité et pourquoi choisir de déployer sur telle ou telle région.  Nous parlons aussi des principaux outils qui permettent de gérer votre infrastructure comme du code (Cloud Development Kit) et les points auxquels vous devrez porter votre attention avant de déployer votre infrastructure sur une nouvelle région."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000565978511
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 11 juin 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons des examens de certifications qui seront bientôt en français, mais pas que, d'un nouveau cours en ligne sur CodeGuru, d'une nouvelle région annoncée et de deux services qui passent de preview en GA : Amazon Location Service et ECS Anywhere."
@@ -12,7 +13,6 @@ date: 2021-06-11 09:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000525033830
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

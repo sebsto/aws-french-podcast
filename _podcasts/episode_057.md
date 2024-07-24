@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119969
 title:  "Adikteev"
 subtitle: "Engagez-vous, ré-engagez-vous ils disaient"
 description: "Dans cet episode du podcast 🎙 AWS en 🇫🇷, nous parlons du marché très spécifique de la publicité en ligne. Comment ca marche pour vous donner la meilleure pub au meilleur moment ? Comment ré-engager des utilisateurs qui n'utilisent plus votre app ? Nous parlons des contraintes que ces règles mettent sur l’infrastructure informatique des acteurs de ce marché et comment le cloud AWS peut aider à adresser ces challenges techniques (spoiler alert : 1 million de requêtes par seconde, des centaines d'instances spots)"
@@ -12,7 +13,6 @@ date: 2021-06-18 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000525968182
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

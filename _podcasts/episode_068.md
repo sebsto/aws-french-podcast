@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 3 septembre 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous fêtons un anniversaire, nous parlons de stockage avec S3 et d'une nouvelle base de données, Grafana managé est maintenant disponible pour toutes et tous, nous parlons d'une réduction de prix et de nouvelles possibilités offertes par Amazon VPC et AWS CloudFormation."
@@ -12,7 +13,6 @@ date: 2021-09-03 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000534189087
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

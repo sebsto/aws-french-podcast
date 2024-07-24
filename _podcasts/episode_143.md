@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119817
 title:  "AWS Graduate Program"
 subtitle: "Quand AWS recrute des jeunes diplômés"
 description: "Le AWS Graduate Program est un programme de formation chez AWS à destination des jeunes diplômés. Nous vous engageons en CDI et vous formons sur les technologies du cloud. Après un an de formation, vous vous retrouvez à travailler sur des projets pour nos client. Dans cet épisode, nous parlons de ce programme avec Nada qui vient de le terminer. Comment se faire engager ? Quel est le parcours de formation ? Quelles sont les missions ou projets sur lesquels vous travaillez après ? Quelles sont les possibilités d'evolution de carrière ?"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000592801037
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

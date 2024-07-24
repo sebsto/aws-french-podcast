@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120051
 title:  Cross The Ages
 subtitle: La GameTech dans le cloud
 description: "Décrouvrez Cross The Ages.  Plus qu'un jeu, un univers dystopique et dynamique où vous pouvez jouer, collectioner et échanger des cartes virtuelles et réelles. Mais que se cache-t-il sous le capot ? Quelle est l'infrastructure cloud requise pour offrir cette expérience à des centaines de milliers de joueurs ?  On parle de fonctions Lambdas, de conteneurs, de bases de données, de replications multi-régions.  On y apprend aussi que le serverless n'est pas toujours moins cher.  Découvrez les dessous d'une architecture de jeu moderne dans le cloud."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000610975992
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

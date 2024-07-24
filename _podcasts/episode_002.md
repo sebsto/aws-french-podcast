@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120102
 title:  "Les Meetups AWS"
 subtitle: "Les groupes d'utilisateurs"
 description: "Dans ce deuxième épisode, nous avons été à la rencontre de quelques organisateurs des Meetups AWS. Nous avons parlé de contenu, d'organisation et d'animation de la communauté, pour vous donner envie de rejoindre ou de créer un meetup AWS."
@@ -12,7 +13,6 @@ date:   2019-03-04 23:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044995
 ---
 
 Vous souhaitez créer un groupe d'utilisateur dans votre ville ?  [Contactez-moi](https://twitter.com/sebsto).

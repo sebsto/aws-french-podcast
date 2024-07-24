@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120083
 title:  "RGPD"
 subtitle: "Réglement Général sur la Protection des Données"
 description: "Dans cet épisode, nous parlons du RGPD. Quelle est l'origine de ce règlement européen? A qui s'applique-t-il et pour protéger quel type de données? Quelles sont les obligations qui m'incombent si je suis éditeur ou hébergeur d'une application ou d'un site web ? Nous répondons à ces questions et d'autres encore."
@@ -12,7 +13,6 @@ date: 2020-11-20 09:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045005
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

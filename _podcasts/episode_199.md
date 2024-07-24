@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119983
 title:  "Et si nous migrions le monolithe?"
 subtitle: "MYM, la plateforme pour les créateurs de contenu"
 description: "Dans cet épisode, nous parlons de la migration d'une architecture monolithique vers des microservices, dans le cloud AWS. Nous abordons également les patterns de communication synchrones et asynchrones. Découvrez comment MYM, une plateforme où les créateurs de contenus peuvent partager leurs contenus avec leurs fans, distribue 18 petabytes de contenu par an à 14 millions d'utilisateurs."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/199.png'
-appleEpisodeId: 1000640615206
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

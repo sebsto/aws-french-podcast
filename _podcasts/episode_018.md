@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120223
 title:  "Déployez vos containeurs avec Qovery"
 subtitle: "git push, ils se chargent du reste"
 description: "Il existe plusieurs solutions pour déployer vos applications sur AWS, soit via les services AWS ou via des outils tiers.  Qovery est une startup qui joue la carte de la simplicité et facilité pour déployer vos applications sur AWS : containeurs, bases de données, pipeline d'intégration continue etc ... Découvrez les services offerts par Qovery et leur retour d'experience après avoir construit leur startup sur AWS."
@@ -12,7 +13,6 @@ date: 2020-02-27 08:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044988
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

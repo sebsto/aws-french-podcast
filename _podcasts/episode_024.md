@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120222
 title:  "L'excellence opérationelle"
 subtitle: "Culture, outils et mécanismes"
 description: "Comment assurez vous la qualité de vos opérations IT, la fiabilité de vos déployements, la disponbilité de vos applications pour vos clients ? Le chemin qui mène à l'excellence opérationnel est long et fait de culture, outils et de mécanismes."
@@ -12,7 +13,6 @@ date: 2020-04-16 09:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044996
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

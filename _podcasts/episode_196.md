@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 15 décembre"
 description: "J'ai compté 74 nouveautés depuis la fin de re:Invent, c'est moins de la moitié du rythme des semaines avant la conférence. Dans cet épisode, je vais parler d'une nouvelle possibilité offerte par Amplify, je vais aussi parler de Lambda, de Fault Injection Simulator, ce service qui permet de simuler des pannes dans vos applications, et puis deux nouveautés côté CloudShell et Rekognition Face Liveness detection."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000638644351
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

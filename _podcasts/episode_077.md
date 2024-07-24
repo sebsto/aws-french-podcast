@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120216
 title:  "Protégez vos données"
 subtitle: "Vos backups avec Veeam"
 description: "Cette semaine, nous parlons de protection de vos données, avec les solutions de sauvegarde de Veeam qui s'intègrent avec les solutions AWS, telles que Amazon EC2, Amazon S3 ou Amazon EBS. Sauvegarde, redémarrage d'activité, récupération instantanée, migration de vos données sont au menu."
@@ -12,7 +13,6 @@ date: 2021-11-05 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000540853558
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

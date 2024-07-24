@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 12 janvier"
 description: "J'ai compté 61 nouveautés depuis le 29 décembre, dont 45 en 2024. Il s'agit essentiellement de mise à disposition de services et fonctionalités existantes dans de nouvelles régions. A part ca, rien de marquant pendant la trève hivernale. Je reviens sur deux changements pour 2024, une liste de livres à recommander et le Summit AWS Paris 2024."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/200.png'
-appleEpisodeId: 1000641387921
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

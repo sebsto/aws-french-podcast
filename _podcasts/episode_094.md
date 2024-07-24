@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 11 février 20222"
 description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de RGPD, du CISPE et de la CNIL, de nouvelles possibilités offertes par Secrets Manager, S3 et AppRunner, mais au fait c'est quoi App Runner dèjà ? Un nouveau look pour la page de facturation. Et deux services qui étaient disponibles en preview deviennent disponibles pour toutes et tous. "
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000550770281
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

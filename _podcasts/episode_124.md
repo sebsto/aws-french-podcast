@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 9 septembre"
 description: "Cette semaine, il y a une nouvelle région AWS. Nous parlons open-source au sujet d'une technologie core de Event Bridge. Il y a aussi des nouveautés côté Step Functions et deux blog posts qui ont retenu mon attention, le premier sur Teradici pour Mac et le second sur l'authentification multifacteur pour vos API, avec Cognito"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000578913546
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

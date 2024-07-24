@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120063
 title:  "QuestDB"
 subtitle: "Une DB open-source pour analyser les données temporelles"
 description: "QuestDB est une base de données conçue pour ingérer, stocker et analyser des données temporelles. Utilisée dans de nombreux domaines métiers différents, elle scale de façon linéaire en exploitant au mieux les caractéristiques des plateformes modernes. On vous explique comment ca marche, mais aussi l'historique du produit et le business model open-source."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000623404286
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

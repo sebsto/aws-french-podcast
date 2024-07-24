@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120187
 title:  "Hugging Face"
 subtitle: "L'apprentissage machine facile pour les développeurs"
 description: "Les modèles d'apprentissage automatique basés sur les transformeurs et l'apprentissage par transfert (transfert learning) ont le vent en poupe pour deux raisons : leur grande précision et la facilité d'apprentissage sur des jeux de données relativement restreints.  Hugging Face, une startup française, vous propose des librairies open sources faciles à intégrer dans vos applications et plus de 20000 modèles prêts à être utilisés ou personalisés."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000547176491
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

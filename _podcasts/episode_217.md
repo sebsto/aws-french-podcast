@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120014
 title:  "Les nouveautés AWS au 3 mai"
 subtitle: "Quoi de neuf ?"
 description: "Je n'ai pas compté les nouveautés des deux dernières semaines car il y a eu essentieelement deux grosses séries d'annonces, l'une liée à Amazon Bedrock et l'autre à Amazon Q. Je vais évidement passé l'essentiel de cet épisode à expliquer cela. Mais on ne parlera pas que d'IA générative, il y aussi eu des nouveautés coté CodeArtifact et Route53, le service de DNS entièrement managé."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/217.png'
-appleEpisodeId: 1000654414953
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

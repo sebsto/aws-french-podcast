@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120041
 title:  "Les nouveautés AWS au 5 avril"
 subtitle: "Quoi de neuf ?"
 description: "C'était le Summit AWS Paris cette semaine, plus de 9000 personnes ce sont croisées au Palais des congrès de Paris. AWS a annoncé la disponibilité de Bedrock sur la région eu-west-3 et du modèle Mistral Large. Dans cet épisode, je parlerai aussi de CloudFormation qui est 40% plus rapide pour déployer vos infrastructures - je vous explique comment. Il y a de l'info aussi sur AWS Batch, CodeBuild et sur InfluxDB."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/212.png'
-appleEpisodeId: 1000651511558
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

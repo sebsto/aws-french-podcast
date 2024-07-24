@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120087
 title:  "Vos postes de travail dans le cloud"
 subtitle: "Découvrez comment comment Véolia distribue, au travers du cloud, 210 applications à 850 collaborateurs."
 description: "En 2017, Veolia à décidé de rendre ses applications disponibles depuis n'importe où et n'importe quel appareil, via une simple connection Internet.  Dans ce cinquième épisode, nous revenons sur les détails de ce projet, depuis le prototype initial, jusqu'aux techniques d'optimisations financières pour minimiser les coûts."
@@ -12,7 +13,6 @@ date: 2019-06-07 07:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044993
 ---
 
 Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).

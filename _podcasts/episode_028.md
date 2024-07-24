@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120159
 title:  "Sécurité de la chaîne CI/CD"
 subtitle: "... du et dans le pipeline"
 description: "Quand je parle DevOps, je parle souvent automatisation des builds et des déploiements. Les chaînes d'intégration continues et de déploiements continus doivent être sécurisées car elles peuvent déployer du code en production. Qui y a accès ? A quoi ont-elles accès ? Quelle est la qualité du code qui passe dedans ?  Dans cet épisode, nous discutons de la sécurité des chaînes de CI/CD."
@@ -12,7 +13,6 @@ date: 2020-05-26 05:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044990
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

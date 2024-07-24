@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 17 décembre 2021"
 description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, je reviens sur re:Post, les nouveaux forums d'échange de la communauté AWS, de FreeRTOS, d'annonces faites autour des Local Zones et de AWS Wavelength en europe et de nouveaux types d'instances EC2 disponibles dans la région de Paris."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000545254184
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

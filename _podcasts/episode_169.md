@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120023
 title:  "Time series"
 subtitle: "Stocker et analyser des données temporelles"
 description: "C'est quoi une donnée temporelle ?  A partir de cette innocente question de départ, Michael m'a emmené dans un voyage passionnant dans le monde des données temporelles. Qu'est ce qui génère ce type de données ? Comment on les ingère à grande échelle ? Comment les stocker, les analyser ? Et puis comment visualiser ces données.  On parle de Amazon Timestream, Grafana, apprentissage machine et des tas de librairies Python qui vous aident à être plus efficace pour traiter des données temporelles."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000619751047
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

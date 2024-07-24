@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 1 octobre 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, il y a beaucoup de nouveautés ! Les fonctions Lambda peuvent désormais s'exécuter sur les processeurs Arm, vous pouvez enfin visualiser toutes vos resources au travers de plusieurs régions en une seule page, une nouvelle région est annoncée, la ligne de commande pour les projets génomique est en open-source, QuickSight Q est disponible ainsi qu'un éditeur SQL pour Amazon Redshift. Mais surtout, une nouvelle API, la cloud control API vous donne un accès unifié aux services AWS et aux services tiers."
@@ -12,7 +13,6 @@ date: 2021-09-30 23:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000537159839
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

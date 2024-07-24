@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120099
 title:  "Construire des applications qui resistent aux pannes"
 subtitle: "Design patterns pour des applications resilientes"
 description: "Nous parlons de disponibilité de vos applications, de pannes dans des systèmes distribués. Après avoir décrit comment nous mesurons la disponibilité des applications, nous évoquons plusieurs techniques que vous pouvez utiliser pour que vos applications soient plus résilientes aux pannes et erreurs en tout genre."
@@ -12,7 +13,6 @@ date: 2020-07-05 08:11:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044776
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

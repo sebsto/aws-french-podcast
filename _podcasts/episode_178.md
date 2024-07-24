@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 8 septembre"
 description: "J'ai compté 83 nouveautés   ces deux dernières semaines. J'en ai retenu 7 qui j'espère sont pertinentes pour vous, les builders. Dans cet épisode, on parle de l'arrêt de EC2 Classique, de Flink managé pour vos applications data. On parle de nouvelles possibilités des Network Load Balancer et de Cloudwatch Log. Il y a une nouvelle famille d'instances EC2, les R7iz et je termine avec AWS Amplify qui vous permet maintenant de développer des flux d'authentication multi-facteurs avec les TOTP. "
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000627165128
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

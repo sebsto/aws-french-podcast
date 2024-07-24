@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 14 janvier 20222"
 description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons encore une fois de IPv6, mais cette fois au sujet de Kubernetes. Il y a aussi une nouvelle région en indonésie, une nouvelle page d'acceuil sur la console et un nouveau type d'instance pour le calcul haute performance. "
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000547859429
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

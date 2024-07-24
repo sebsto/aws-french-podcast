@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120274
 title:  "FinOps"
 subtitle: "Optimisez votre empreinte financière dans le cloud"
 description: "FinOps est l'art et la pratique d'optimiser le coût d'une infrastructure cloud, sans ralentir l'innovation ou mettre des barrières aux développeurs.  Découvrez ce nouveau métier de l'informatique fait de technologie, d'ingénierie financière, et de connaissance du (des) métier(s)"
@@ -12,7 +13,6 @@ date: 2020-04-10 09:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045020
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

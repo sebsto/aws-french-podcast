@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120125
 title:  "L'analyse de code avec CAST"
 subtitle: "Comprendre la complexité de votre code pour préparer vos migrations"
 description: "La technologie de CAST analyse le code de vos applications avec une précision chirurgicale et collecte des données sur le fonctionnement interne de vos applications, les services utilisés, l'architecture,le flux de transactions, la facilité de migration vers le cloud, les problèmes de structure logique, les risques de sécurité et de conformité. Ce type d'analyse est un outil essentiel avant une migration, un projet de modernisation, pour mieux gèrer les risques liés à l'utilisation de librairies open-source, ou les investigations avant d'acheter des assets."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000557684385
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

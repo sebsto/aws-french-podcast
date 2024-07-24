@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119968
 title:  "Apprendre le cloud quand on est étudiant"
 subtitle: "Les bons tuyaux pour démarrer"
 description: "Savoir utiliser les services cloud est un atout indispensable aujourd'hui sur le marché du travail. Comment peux-t-on apprendre sans se ruiner quand on est étudiant?  Paul était étudiant en stage chez AWS France quand je lui ai demandé quels sont les trucs et astuces qu'il peut partager. Depuis, il travaille avec nous, dans les équipes de Professional Services :-)"
@@ -12,7 +13,6 @@ date: 2021-11-19 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000542433651
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 28 mai 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de nouvelles regions, d'extensions pour vos fonctions Lambda, de rendu coté serveur pour vos application Web Amplify, et trois nouveaux services : le premier pour faciliter vos migrations de machines virtuelles, le second pour déployer simplement vos containeurs et le troisième pour analyser vos données en streaming."
@@ -12,7 +13,6 @@ date: 2021-05-28 09:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000523383085
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

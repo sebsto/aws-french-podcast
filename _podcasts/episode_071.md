@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120156
 title:  "Sovereign Keys"
 subtitle: "Sécurité et confidentialité de vos données"
 description: "La souveraineté des données est au coeur de toutes les discussions. Notre partenaire Devoteam Revolve propose une solution souveraine de gestion des clés de chiffrement. Chiffrez vos données dans le cloud AWS et conservez la clé en toute sécurité chez un tier de confiance. Quels sont les besoins des métiers qui mettent en oeuvre cette solution ? Comment ca marche d'un point de vue technique ? Ce sont les sujets de cette semaine."
@@ -12,7 +13,6 @@ date: 2021-09-24 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000536471015
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

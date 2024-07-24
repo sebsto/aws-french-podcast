@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119997
 title:  "Amplitude Studios, HumanKind, le cloud"
 subtitle: "Comment des devs gèrent la prod"
 description: "Amplitude Studios est le studio français qui développe, entre autres, HumanKind, le jeu édité par Sega. Dans cette épisode, nous découvrons comment une équipe de devs gère aussi la prod avec des services managés dans le cloud. On parle containeurs et scalabilité, alarmes et usine logicielle pour leurs déploiements continus."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000550045787
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

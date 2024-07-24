@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 04 novembre"
 description: "Beaucoup de nouveautés cette semaine. J'ai retenu celles qui peuvent influencer notre travail de développeurs, de builders. Je parlerai dans cet épisode de App Runner, de Amplify Libraries pour le language de programmation Swift. Il sera désormais plus facile d'accéder à Parameter Store et Secrets Manager depuis Lambda.  Les locale Zones débarquent en Europe. Je parlerai de EC2 qui permet de remplacer le volume principal sans arrêter complètement votre machine. Et je terminerai avec des nouveautés dans la console AWS et dans la console sur mobile."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000585067176
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 18 novembre"
 description: "Cette semaine j'ai sélectionné 4 brèves et 4 nouveautés plus longues à expliquer. Dans cet épisode, on parle des gardiens du temps, de Amplify, de macOS, de la découpe de monolithes en microservices. On parle aussi d'authentification multi facteurs, de Terraform pour le serverless et de non pas une, mais deux nouvelles régions. Efin nous terminerons avec une nouveauté qui va nous simplifier la vie à toutes et tous : le resource explorer - une recherche de resources a travers plusieurs régions."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000586667126
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

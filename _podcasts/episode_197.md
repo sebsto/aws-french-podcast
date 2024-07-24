@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119984
 title:  "Stocker des données sur de l'ADN"
 subtitle: "Le future de l'archivage de données?"
 description: "Découvrez un épisode captivant où nous explorons l'avenir du stockage de données sur de l'ADN. Plongez dans le futur de la technologie, où chaque brin d'ADN devient une bibliothèque de connaissances infinie. 🧬💽"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000639410871
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120133
 title:  "Développer une Skill Amazon Alexa (partie 1/2)"
 subtitle: "Première partie : le modèle d'interactions"
 description: "Dans ce premier épisode, nous parlons de la création du modèle d'interactions."
@@ -12,7 +13,6 @@ date: 2019-12-16 10:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045007
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

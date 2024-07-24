@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 12 novembre 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons écologie et impact énergétique du cloud, nous évoquons une nouvelle région en devenir au Canada, deux nouveaux types d'instances EC2, de RSTudio qui arrive sur Sagemaker et d'un nouveau service pour évaluer la résilience de vos applications."
@@ -12,7 +13,6 @@ date: 2021-11-12 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000541589875
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

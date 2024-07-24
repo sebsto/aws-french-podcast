@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120305
 title:  "Smash transfère vos fichiers, en serverless"
 subtitle: "Stockage et distribution à grande échelle"
 description: "Smash est un service de transfer de fichiers pour professionnels et particuliers. 100% serverless, 100% service managés, découvrez l'infrastructure qui leur permet de stocker 340 Tb et distribuer 1Pb de contenu par mois."
@@ -12,7 +13,6 @@ date: 2020-05-14 09:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045000
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

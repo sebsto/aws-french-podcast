@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119812
 title:  "Fatiha Bouabache"
 subtitle: "Solution Architect chez AWS France"
 description: "Dans cet épisode \"Women in Tech\", nous découvrons le parcours inspirant de Fatiha, la première femme architecte de solution chez AWS. Nous revenons sur son parcours inspirant et ses expériences professionnelles. J'ai retenu deux leçons de cette conversation : quand vous voulez quelque chose, concentrez-vous sur vos objectifs et éliminez les distractions extérieures. Et puis évaluez les personnes sur leurs connaissances et de leurs compétences uniquement et non de leur sexe, de leur genre, de leur couleur de peau, de leur origine sociale ou de leur religion."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/221.png
-appleEpisodeId: 1000656347994
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

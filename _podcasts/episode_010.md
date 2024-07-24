@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120101
 title:  "Mettons le cloud en boîte"
 subtitle: "Bonduelle migre ses applications vers le cloud."
 description: "Découvrez pourquoi et comment Bonduelle à décidé de migrer ses applications vers le cloud.  Dans cet épisode, nous parlons technique de migration, accompagnement de projets, automatisation de création d'infrastructure et motivation des équipes."
@@ -12,7 +13,6 @@ date: 2019-11-28 06:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044997
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

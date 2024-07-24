@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119877
 title:  "Ségolène Dessertine-Panhard"
 subtitle: "Rencontres, opportunités et empathie."
 description: "IA, apprentissage automatique et inclusion dans la tech : un parcours inspirant
@@ -29,7 +30,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/227.png
-appleEpisodeId: 1000659474490
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

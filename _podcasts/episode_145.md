@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119788
 title:  "Pernod Ricard"
 subtitle: Le portail de données
 description: "Tout le monde connait Pernod Ricard et ses marques emblématiques. Ce que nous connaissons moins c'est l'architecture cloud mise en place en interne pour le traitement et l'accès à la donnée au sein des différentes filliales du groupe.  Comme à mon habitude, on parle architecture, sécurité, FinOps, mais aussi du partenariat signé en novembre 2022 avec JC Decaux."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000595600380
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

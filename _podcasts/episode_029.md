@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120100
 title:  "KeenEye voit plus loin que les pixels"
 subtitle: "Analyse d'images biologiques dans le cloud"
 description: "<a href='https://keeneye.ai/'>KeenEye</a> est une startup qui fournit des solutions d'analyse d'images biologiques et médicales à l'aide d'intelligence artificelle. Nous revenons ensemble sur le choix d'un prestataire certifié HDS, ensuite nous levons un coin du voile sur leur architecture faite de containeurs (et k8n), d'Amazon EC2 GPU, d'applications et d'API écrites en Go et d'apprentissage machine. Ils expliquent aussi comment ils maîtrisent leur facture cloud grâce aux instances Amazon EC2 Spot."
@@ -12,7 +13,6 @@ date: 2020-06-05 08:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045002
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

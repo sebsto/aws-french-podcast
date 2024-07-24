@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120077
 title:  "Datadome"
 subtitle: "Se protéger contre les bots"
 description: "La moitié du traffic internet aujourd'hui est générée par des scripts. Comment identifier ces bots et s'en protéger ?  Datadome inspecte 1000 milliard de signaux par jour, pour identifier et bloquer les traffics malicieux sur vos sites web. Dans cet épisode, nous parlons de techniques de détection de bots et de l'infrastructure cloud qui permet de mettre en oeuvre cette détection."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000544538026
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

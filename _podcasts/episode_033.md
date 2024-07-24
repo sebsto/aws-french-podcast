@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120098
 title:  "Terega revisite son référentiel d'entreprise"
 subtitle: "Transformer une DB en service REST, serverless"
 description: "Dans cet épisode, nous parlons d'un projet de réarchitecture d'une base de donnée centralisée, vers une infrastructure moderne, basée sur des APIs, et déployée par du code, en mode blue/green. Découvrez les avantages techniques et métiers, ainsi que les outils et frameworks utilisés."
@@ -12,7 +13,6 @@ date: 2020-09-30 17:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044998
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120022
 title:  "Amazon Cloudfront"
 subtitle: "Comment utiliser votre CDN ?"
 description: "Une conversation sur le pourquoi et le comment utiliser un CDN. On commence en douceur et au fur et à mesure de la conversation, on rentre dans les détails : les stratégies de caching, des clés de caching, l'utilisation d'un CDN pour se protéger des attaques DDOS ou pour diminuer vos coûts. Ensuite nous parlons de Lambda on Edge et CloudFront functions pour exécuter du code en périmetre de votre infrastructure. Que vous soyez débutant ou expert en matière de CDN, vous apprendrez quelques chose en écoutant cet épisode."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000622605909
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 9 février"
 description: "J'ai compté 58 nouveautés depuis le 26 janvier. Cette semaine nous parlons du magic quadrant de Gartner, de deux nouveautés qui me semblent essentielles dans le monde de l'infrastructure as code et des adresses IPv4."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/204.png'
-appleEpisodeId: 1000644717726
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

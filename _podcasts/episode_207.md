@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120015
 title:  "10 leçons sur Kubernetes"
 subtitle: "EKS chez HK-Tech"
 description: "Dans cet épisode nous listons dix leçons apprises pendant plus de trois années à gérer des clusters kubernetes à grande échelle."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/207.png
-appleEpisodeId: 1000647622954
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

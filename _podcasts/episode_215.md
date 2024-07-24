@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120060
 title:  "Julien Groues, un allié"
 subtitle: "La diversité et l'inclusion au sein des entreprises"
 description: "Nous recevons un VP d'AWS inspirant pour discuter des actions concrètes que les leaders peuvent mettre en place pour créer un environnement de travail plus inclusif. Nous parlons stratégies concrètes pour favoriser la diversité et l'inclusion au sein des équipes, du rôle crucial des leaders dans la promotion d'une culture d'entreprise inclusive et expliquons comment briser les barrières et faire tomber les stéréotypes"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/215.png
-appleEpisodeId: 1000653410299
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119816
 title:  "Les erreurs qui coûtent cher"
 subtitle: "Quand mauvaise configuration rime avec facturation"
 description: "Quand on développe, quand on apprend, on fait des erreurs et c'est normal. Mais malheureusement, dans le cloud, toute resource consommée est facturée et certaines erreurs de configuration ou de programmation peuvent engendrer des coûts non contrôlés.  Découvrez un cas concret de ce genre d'erreur qui à engendré une facturation de 1500€ en à peine deux jours. En découvrant cet exemple, vous apprendrez comment réagir dans cette situation et comment vous protéger. On parle d'alarmes de facturation et de relation avec le support AWS. On parle aussi des changements de configurations et organisationnels mis en place chez ce client à la suite de cet incident. Spoiler alert : l'histoire se termine bien."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000621113406
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

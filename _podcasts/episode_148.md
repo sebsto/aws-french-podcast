@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 10 février"
 description: "AWS a annoncé 83 nouveautés depuis le 27 janvier. J'en ai épinglé 7 qui pourraient être intéressantes pour vous, les builders . On parle de visualisation de vos VPC dans la console et d'un changement sur les NAT Gateways. Pour les développeurs, on parle de SAM, de EC2 Mac, et du AWS SDK pour Java. On parle aussi d'une implémentation de référence pour vos pipelines de déployement d'application - c'est du costaud vous verrez. Je termine en parlant de l'espace, la nouvelle frontière pour le edge computing, vraiment edge puisque dans les satellites."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000598991622
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

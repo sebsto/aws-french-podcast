@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 19 mai"
 description: "J'ai compté 80 nouveautés ces deux dernières semaines (-2 WoW). Il y a des nouveautés côté Aurora, aussi une nouvelle famille d'instances EC2. On parlera d'accès privés à la console et de TimeStream. Je passerai un peu de temps sur Cedar, un nouveau language pour exprimer des règles de contrôle d'accès. Et je terminerai par CodeWhisperer, ce nouveau service qui améliore la productivité des développeurs et avec DeviceFarm pour tester vos applications sur des vrais appareils. On détaille tout cela dans le podcast 🎙 AWS ☁️ en 🇫🇷."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000613626719
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

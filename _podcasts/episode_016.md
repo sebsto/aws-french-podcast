@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120244
 title:  "Développer une Skill Amazon Alexa (partie 2/2)"
 subtitle: "Seconde partie : la programmation"
 description: "Dans cette seconde partie, nous parlons de la programmation elle-même."
@@ -12,7 +13,6 @@ date: 2019-12-20 08:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045008
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120121
 title:  "Ekonoo"
 subtitle: "L'épargne salariale dans le cloud "
 description: "Cette semaine, on parle avec Ekonoo, une société Luxembourgeoise qui propose de l'épargne salariale. L'application est cloud native dans un secteur regulé, celui de l'investissement, et c'est une première à Luxembourg. Dans cet épisode, nous parlons de conformité de services financiers, d’architecture serverless, de performance et de sécurité. Je découvre le concept de monolithe en serverless et comment ré-architecturer ce monolithe en microservices, en ré-organisant les équipes et en mettant à disposition des équipes des couches d'abstraction pour que les développeurs puisse être productifs rapidements (avec leur propre compte AWS)."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000570749119
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119980
 title:  "L'architecture data de Allianz Trade"
 subtitle: "EDA, data lake et Snowflake"
 description: "Découvrez l'architecture orientée événements d'Allianz Trade et les systèmes d'ingestion, de stockage, de transformation et d'analyse de données mis en place avec Snowflake. Nous faisons une exploration approfondie de la gestion de données à grande échelle chez Allianz Trade, leader mondial de l'assurance-crédit. Un podcast informatif pour les data scientists, analystes de données et tous ceux qui s'intéressent à la gestion de données."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/225.png
-appleEpisodeId: 1000658124085
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

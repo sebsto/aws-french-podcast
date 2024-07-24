@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 6 août 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de deux services important maintenant disponibles sur la région de Paris, de création automatique de pipeline de déploiements avec le CDK ou avec SAM, de EC2 classique qui prend sa retraite, de Lambda pour autoriser les appels d'API GraphQL avec AppSync et de Amplify qui s'intégère désormais avec Amazon Location Service."
@@ -12,7 +13,6 @@ date: 2021-08-06 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000531170851
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

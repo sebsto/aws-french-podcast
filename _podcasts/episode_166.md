@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 16 juin"
 description: "Un semaine chargée en nouveautés, un peu plus que d'habitude. Comme chaque semaine, j'ai fais un choix, forcement incomplet et forcément biaisé. J'essaye de sélectionner les nouveautés les plus importantes pour les builders,les développeurs, vous qui concevez, créez et gèrez des applications ou des infrastructures sur AWS. Cette semaine, je parle de sécurité avec Inspector pour Lambda, Detective et on enterre les bastion hosts et les rotation de clé SSH.  Sécurité toujours avec CloudTrail Lake Dashboard. Il y a aussi un nouveau service qui permet de gérer vos permissions applicatives dans vos applications et on parlera de double encryption pour S3. Je finirai avec une nouvelle API pour SQS et un projet open-source sympa autour des IA générartives pour migrer vos workload Stable Diffusion vers EC2 et Sagemaker. On détaille tout cela dans le podcast 🎙 AWS ☁️ en 🇫🇷."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000617236262
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

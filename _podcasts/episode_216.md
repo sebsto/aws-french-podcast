@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119935
 title:  "Mangopay"
 subtitle: "Migrer une architecture de payements dans le cloud"
 description: "Mangopay fournit des services de payement à des sites webs très populaires. Dans cet épisode, nous parlons du métier des payements, de la conformité aux exigences bancaires et des architectures cloud. Quelle architecture pour opérer des services financiers régulés dans le cloud? Comment migrer vers le cloud AWS en deux étapes: lift and shift puis une réarchitecture. 18 mois pour migrer, puis dépecer un monolithe et nettoyer les restes. Découvrez comment Mangopay a conduit ce projet."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/216.png
-appleEpisodeId: 1000653645173
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

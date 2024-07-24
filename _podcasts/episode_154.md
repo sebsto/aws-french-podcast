@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 24 mars"
 description: "AWS a annoncé 71 nouveautés ces 15 derniers jours. Je vais en aborder 4 cette semaine avec vous, je parlerai aussi du Summit Paris le 4 avril prochain, puis je vous ferai découvrir une newsletter en français, très complémentaire à ce podcast et une blog post de novembre dernier qui explique comment utiliser de la reconnaissance d'images pour détecter les malwares et autres virus informatiques."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000605686810
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

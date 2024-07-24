@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119957
 title:  "Alexandre Pinhel"
 subtitle: "Amazon Future Engineers"
 description: "Comment motiver et inciter les jeunes à embrasser des carrières scientifiques et techniques ? Dans cet épisode, nous explorons le programme Amazon Future Engineer, un projet ambitieux destiné à sensibiliser collégiens, lycéens et leurs enseignants aux métiers de la technologie. Depuis son lancement, ce programme a touché un demi-million de jeunes en France, un pays où 80% des filles abandonnent les filières scientifiques entre la seconde et la terminale. Rejoignez-nous pour découvrir comment nous faisons la différence et inspirons la prochaine génération de talents technologiques."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/233.png
-appleEpisodeId: 1000662478668
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

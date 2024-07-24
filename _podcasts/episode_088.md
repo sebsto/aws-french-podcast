@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 31 décembre 2021"
 description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous concluons l'année 2021 en célébrant 3 ans de podcast et près de 200000 téléchargements. Nous revenons sur une ou deux nouveautés annoncées les derniers jours concernant EC2 Image Builder et Lambda qui peut être appelé en IPv6"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000546567688
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 29 juillet 2022"
 description: "Cette semaine, beaucoup de security avec des nouveautés coté Guarduty et Detective, mais aussi des nouvelles possibilités avec EMR et Lambda. On parle open source avec Lambda Power Tools pour Typescript et Cloudscape, une librairie pour construire des interfaces web. Le bord du cloud s'étend à l'espace, une partie du cloud AWS est dans la station spaciale internationale et on terminera avec les chiffres AWS du dernier Amazon Prime Day, vous savez ? Cette journée de soldes au niveau mondial qui met beaucoup de charge sur nos infrastructures."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000571498320
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

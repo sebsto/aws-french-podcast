@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120217
 title:  "Amazon Location Service"
 subtitle: "Ajoutez de la géolocalisation dans vos apps"
 description: "En écoutant cet épisode, vous découvrez Amazon Location Service, un service qui vous permet d'ajouter des fonctionalités de gélolocations dans vos applications, en toute sécurité et confidentialité puisque les données restent dans votre compte AWS. Nous parlons de cartographie, geo-coding (adresses et points d'intérêts), itinéraire, suivi et geo-fencing (alerte quand un objet quitte ou entre dans une zone)."
@@ -12,7 +13,6 @@ date: 2021-09-10 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000534887660
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119993
 title:  "Audit de sécurité de comptes AWS"
 subtitle: "Comment leboncoin audite ses comptes AWS à l'échelle"
 description: "On ne présente plus leboncoin en France, nous y sommes tous passés pour y déposer ou regarder des petites annonces. Avec 2000 serveurs, 10000 pods et 2Gbs de bande passante sortante, l'infrastructure cloud se décline sur plusieurs comptes AWS. Comment auditer ces comptes et s'assurer qu'ils ne dévient pas de la configuration initiale ? Leboncoin a développé AWS Tower, un outil open source pour auditer la posture de sécurité de comptes AWS."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000581111806
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

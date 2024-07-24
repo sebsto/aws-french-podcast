@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 5 mai"
 description: "J'ai compté 82 nouveautés ces deux dernières semaines (-12 WoW). Java 17 est disponible sur AWS Lambda, Verified Access est disponible. Vous pouvez maintenant provisioner de la capacité sur Athena ou développer des applications web et desktop avec Amplify pour Flutter. On parle aussi de sécurité et du système Nitro. On détaille tout cela dans le podcast 🎙 AWS ☁️ en 🇫🇷."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000611830481
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

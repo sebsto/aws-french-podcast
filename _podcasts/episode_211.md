@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120043
 title:  "Engie migre son WAN dans le cloud"
 subtitle: "Mettre son WAN dans le cloud"
 description: "Engie a opéré une migration stratégique de son WAN international. Autrefois, leur réseau principal reliait des centres de données distincts, avec les régions AWS comme des data centres supplémentaires.  Désormais, le réseau AWS lui-même agit comme colonne vertébrale, centralisant la connexion des sites informatiques d'Engie. Ce changement permet d'optimiser la performance, la fiabilité et la sécurité des données, tout en réduisant les coûts et offrant un accès aux innovations cloud AWS. La migration a présenté des défis de complexité, de formation et de changement de responsabilités, mais le résultat final est un réseau international nettement amélioré pour Engie."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/211.png
-appleEpisodeId: 1000650804895
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

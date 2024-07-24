@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120241
 title:  "L'apprentissage machine et les jeux mobiles"
 subtitle: "La personalisation as a service, en temps-réel."
 description: "Pourquoi les concepteurs de jeux cherchent-ils à personaliser, en temps réel, votre expérience ? Comment l'apprentissage automatique peut-il aider à personaliser vos jeux ? Les réponses sont dans cette discussion avec Dominique et Jonathan de askblu.ai, un service de personalisation en temps réel pour les concepteurs de jeux mobiles."
@@ -12,7 +13,6 @@ date: 2021-02-26 06:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000510751254
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

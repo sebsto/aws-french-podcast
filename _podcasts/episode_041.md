@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120130
 title:  "Les centres de données AWS"
 subtitle: "Le dessous de la vie dans nos centres de données"
 description: "Dans cet épisode, nous discutons avec les personnes qui travaillent dans les data centres d'AWS en région parisienne. Nous parlons de leurs rôles et responsabilités, des procédures de sécurité, de la gestion des périphériques de stockage et comment leur travail contribue à la disponibilité et la sécurité des services AWS. Ces équipes recrutent, il y a 28 postes à pourvoir aujourd'hui, le lien se trouve dans les notes du podcast ci-dessous."
@@ -12,7 +13,6 @@ date: 2021-01-08 8:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000504701396
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

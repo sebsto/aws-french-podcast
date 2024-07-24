@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120064
 title:  "Vos applications PHP sur AWS Lambda"
 subtitle: "Bref, le framework PHP pour vos fonctions Lambda "
 description: "Bref est un outil qui vous permet de déployer vos applications PHP en serverless sur AWS Lambda. Dans cet épisode, le créateur de Bref nous explique comment ca marche, quels sont les avantages pour vous, développeurs d'applications PHP, et quel sont les évolutions du framerwork."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000621851482
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

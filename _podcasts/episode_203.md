@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120045
 title:  "La migration Cloud d'Engie"
 subtitle: "Un cloud center of excellence à l'échelle mondiale"
 description: "Dans cet épisode, plongez dans les méandres de la migration vers le cloud d'Engie, une entreprise présente dans une trentaine de pays. Remontant à 2016, nous explorons l'approche méthodique qu'Engie a adoptée pour amorcer ses premiers projets de migration. Découvrez comment la mise en place d'une cellule d'architecture au niveau groupe a été cruciale, dévoilant les intrications de la sélection des premières briques de services.
@@ -17,7 +18,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/203.png'
-appleEpisodeId: 1000643895319
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120042
 title:  "Nexity"
 subtitle: "Evolution d'une stratégie FinOps"
 description: "Cet épisode met en lumière la façon dont Nexity adopte une culture FinOps, impulsée par son Cloud Center of Excellence. Nous parlons d'abord des premiers succès rencontrés, ensuite de l'importance de l'observation et du reporting, la mise en place d'une routine FinOps, ainsi que les projets à venir dans ce domaine. Les résultats obtenus sont significatifs, avec une réduction de 20% à 30% des coûts à périmètre constant par rapport aux premières factures AWS. A écouter si vous souhaitez également réduire de manière durable et maîtrisée vos dépenses liées au cloud."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/213.png
-appleEpisodeId: 1000652220937
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

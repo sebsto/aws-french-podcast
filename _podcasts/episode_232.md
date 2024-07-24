@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119933
 title:  "Agissez pour un numérique durable ☘️"
 subtitle: "Cinq façons de se mettre au vert"
 description: "Nous explorons cinq stratégies pour rendre vos opérations IT plus écologiques et efficientes. Que vous soyez un développeur, un architecte de solutions, ou simplement passionné par la tech durable, cet épisode est fait pour vous ! N'oubliez pas de vous abonner pour ne manquer aucun de nos futurs épisodes où nous décryptons les dernières tendances et technologies du cloud AWS !
@@ -15,7 +16,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/232.png
-appleEpisodeId: 1000661987361
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

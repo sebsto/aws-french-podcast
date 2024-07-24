@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 21 avril"
 description: "J'ai compté 95 nouveautés ces deux dernières semaines (-12 WoW), dont des grosses annonces au sujet des IA génératives et des Large Language Model (LLM). Il y a eu aussi deux nouveautés importantes pour AWS Lambda. AWS CodeCatalyst, dont nous parlions la semaine passée est maintenant disponible. Et puis pour vous, les développeurs, j'ai noté quelques nouveautés côté Amplify."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000610104531
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

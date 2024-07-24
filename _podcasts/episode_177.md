@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120020
 title:  "Cloud public ou on-prem ?"
 subtitle: "Les architectures hybrides des telcos et chaînes de TV"
 description: "Pourquoi certains telcos et chaînes de TV choisissent des architectures hybrides : cloud publics et on-prem ? Quels sont les challenges lors de la construction d'une telle architecture ? Dans cet épisode, on parle de cas d'usage d'infrastructures hybrides : l'evenementiel et les sports, le débordement dans le cloud pour le transcodage de fichiers par exemple, et les plans de reprise d'activités."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000626418920
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

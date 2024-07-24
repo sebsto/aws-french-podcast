@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120221
 title:  "Migrer vers le cloud"
 subtitle: "Découvrez les techniques pour migrer vos infras sur AWS"
 description: "Dans cet épisode, nous parlons de migration de vos applications vers le cloud. Nous commencons par les trois techniques de migrations : lift & shift, replatforming et ré-architecture. Nous parlons ensuite des cas d'utilisations : bases de données et Active Directory, de migration de license, de contrôle de coûts. Et évidement, nous parlons des équipes : de vous et nous. Comment inclure les lignes métiers dans les projets et prendre en comptes les équipes techniques."
@@ -12,7 +13,6 @@ date: 2020-10-23 07:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045003
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

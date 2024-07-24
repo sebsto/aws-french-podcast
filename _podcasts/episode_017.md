@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120304
 title:  "Développement Fullstack sur AWS Amplify"
 subtitle: "Le retour d'experience de clap-time.com"
 description: "Découvrez pourquoi clap-time.com a choisi le framework AWS Amplify pour développer une application full stack"
@@ -12,7 +13,6 @@ date: 2020-02-13 08:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045004
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

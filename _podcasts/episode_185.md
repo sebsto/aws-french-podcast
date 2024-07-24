@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119939
 title:  "OSO AI"
 subtitle: "Aider les personnes fragiles"
 description: "OSO AI développe des boîtiers qui aident les personnes fragiles et ceux qui s'en occupent grâce à une technologie unique basée sur le son. Cette analyse intelligente de l'environnement sonore permet d'extraire les informations utiles pour comprendre la situation et mieux sécuriser les personnes fragiles, sans réglage ni stigmatisation. Dans cet épisode, on parle d'intelligence artificielle, d'Internet des objets (IoT) et de l'informatique sans serveur. On parle aussi d'entraînement de système d'apprentissage automatique, de labelisation des données, de tests de régression de modèles et de MLOPS."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000632792543
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

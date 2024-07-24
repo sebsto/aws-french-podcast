@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 24 février"
 description: "AWS a annoncé 83 nouveautés ces derniers 15 jours. J'en ai retenu 7 pour partager avec vous. Dans ma revue biaisée de ces news, j'ai retenu un nouveau service pour les telco, des nouvelles instances EC2 basées sur Graviton3 — le silicon AWS Arm —, une nouvelle option pour gérer vos instances avec Systems Manager. Il y a aussi une nouvelle possibilité pour déployer vos pod kubernetes. Et puis nous parlerons d'améliorations apportées aux APIs de DynamoDB et de Eventbridge qui vous donnent un bénéfice immédiat, sans que vous n'ayez rien à changer de votre côté."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000601404047
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

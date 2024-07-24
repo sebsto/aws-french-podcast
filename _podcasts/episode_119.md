@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120210
 title:  "Skello"
 subtitle: "La gestion des plannings dans le cloud"
 description: "Cette semaine, j'ai rencontré Skello, un SaaS pour gèrer vos plannings et optimiser la gestion de vos équipes. On parle de leur migration d'une plate-forme PaaS vers AWS. Mais ca consiste en quoi exactement de construire une solution de type Software-as-a-Service sur AWS ? On aborde le sujet d'optimisation de coûts : une mauvaise surprise le premier mois (x2) pour comprendre quoi optimiser, pour finalement divisier la deuxième facture par deux, puis encore réduire de 37% par la suite. On parle aussi de migration de certaines applications vers du serverless avec AWS Lambda et DynamoDB."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000575084093
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

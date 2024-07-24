@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 23 février"
 description: "J'ai compté 60 nouveautés pile poil depuis le 9 février. Dans cet épisode, nous parlons des clients légers  pour Amazon Workspaces, on parle de certificats TLS et de TLS 1.3. Il y a aussi des nouvelles APIs pour gérer vos comptes AWS avec Control Tower. Les services de transfert de fichiers communiquent avec Event Bridge et le WAF s'intègre aux ALB en un seul click. Trop d'acronymes ? Ecoutez cet épisode, je vous explique tout."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/206.png'
-appleEpisodeId: 1000646478821
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

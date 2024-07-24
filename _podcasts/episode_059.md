@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120157
 title:  "Utiliser un système de fichier partagé dans vos applications modernes"
 subtitle: "Quand NFS va à la rencontre de vos conteneurs et fonctions AWS Lambda"
 description: "Une application moderne est une application souvent serverless, conteneurisée ou utilisant des fonctions AWS Lambda. Ce sont des applications agiles qui traitent souvent de gros volumes de données.  Comment ces applications peuvent utiliser des systèmes de fichier partagés pour stocker, ou échanger de la donnée? Comment Network File System (NFS), un protocole conçu dans les années 1980, est toujours d'actualité pour ces cas d'utilisation ?  Découvrez Amazon EFS, comment l'intégrer à vos applications modernes, quelles sont les bonnes pratiques, les considérations de performance, de sécurité et les coûts ?"
@@ -12,7 +13,6 @@ date: 2021-07-02 08:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000527599417
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 27 janvier"
 description: "AWS a annoncé 64 nouveautés depuis le 13 janvier. J'en ai épinglé 4 qui pourraient être intéressantes pour les builders que vous êtes. On parle d'une nouvelle région et de nouvelles local zones. J'ai aussi trouvé un livre sur les fondamentaux d'AWS, une nouvelle page de doc pour vous aider à choisir une solution pour déployer vos conteneurs et un blog post qui explique comment AWS Lambda teste sa résilience et comment vous pouvez en faire de même."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000596869935
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

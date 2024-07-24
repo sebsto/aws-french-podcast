@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119811
 title:  "Les nouveautés AWS au 31 mai"
 subtitle: "Quoi de neuf ?"
 description: "Avec une soixantaine de news à digérer ces deux dernières semaines, ca ne m'étonne pas que vous écoutiez cet épisode du podcast 🎙️ AWS ☁️ en français 🇫🇷. J'ai accroché pour vous quelques nouveautés au sujet de RDS DB2, de OpenSearch zero ETL, de Verified Permissions et Cedar, de Event Bridge ainsi qu'une nouvelle famille d'instances EC2 pour ceux qui ont besoin de beaucoup de CPU et beaucoup de mémoire. "
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/223.png'
-appleEpisodeId: 1000657366670
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

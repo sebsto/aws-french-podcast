@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120013
 title:  "Les nouveautés AWS au 19 avril"
 subtitle: "Quoi de neuf ?"
 description: "J'ai compté 63 nouveautés ces derniers quinze jours, mais j'enregistre cet épisode tard jeudi soir, la journée n'est pas encore finie aux US, le compteur peut encore augmenter. J'ai sélectionné pour vous des changements du coté de Lambda avec CloudFront, de la rotation de clés de chiffrement sur KMS et de Bedrock."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/214.png'
-appleEpisodeId: 1000652938368
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

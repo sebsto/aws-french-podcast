@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119757
 title:  "Les nouveautés AWS au 8 mars"
 subtitle: "Quoi de neuf ?"
 description: "Cette semaine il y a du lourd. J'ai compté 61 nouveautés depuis le 23 février, on parlera de CloudFront, de Location Service, de Bedrock, de Lambda pour .Net et d'un changement de prix important. Mais ça, je le garde pour la fin de cet épisode."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/208.png'
-appleEpisodeId: 1000648439745
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

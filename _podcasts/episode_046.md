@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120220
 title:  "Les tests d'intrusion"
 subtitle: "Testez votre sécurité, proactivement"
 description: "Tester la sécurité de vos applications pendant leur dévelopement, les déploiements et une fois en production fait partie des meilleures pratiques que vous avez peut-être déjà adoptées. Dans cet épisode, nous parlons tests d'intrusion, audit de code, audit d'infrastructure. Quel est l'impact des architectures serverless sur les techniques utilisées ? Quels changements de méthode rendent possible l'automatisation du testing via les API du  cloud ? Nous en parlons "
@@ -12,7 +13,6 @@ date: 2021-03-12 06:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000512655632
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

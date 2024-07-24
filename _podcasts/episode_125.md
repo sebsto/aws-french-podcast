@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120151
 title:  "Migration d'un SaaS médical"
 subtitle: "Comment Juxta migre son infrastructure vers le cloud"
 description: "Juxta est un éditeur de logiciel médical. Dans cet épisode, ils expliquent pourquoi et comment ils ont migré leur infrastructure vers le cloud AWS. On y parle de la certification HDS, de base de données Oracle, de FinOps. Une migration lift & refactoring pour éviter les mauvaises surprises à la première facture. L'histoire d'une migration pendant les heures de bureaux. On parle d'un nouveau rôle aussi, celui de BDOps."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000579651752
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

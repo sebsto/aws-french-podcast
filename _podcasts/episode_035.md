@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120302
 title:  "Cloud Act"
 subtitle: "Clarifying Overseas Use of Data"
 description: "Dans cet épisode, nous parlons du CLOUD Act, ce cadre légal qui permet aux cours de justice des Etats-Unis d'Amérique, sous certaines conditions, de demander l'accès aux données stockées ou traitées sur les infrastrutures cloud. Nous clarifions la portée de ce texte, levons certains mythes à ce sujet et parlons du chiffrement de vos données dans le cloud AWS."
@@ -12,7 +13,6 @@ date: 2020-11-06 07:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044989
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

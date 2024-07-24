@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 7 octobre"
 description: "Cette semaine, j'ai noté pour vous deux nouvelles local zone, ca sera l'occasion de rappeller ce que c'est et pourquoi ca peut vous être utile. On parlera de Virtual Desktop avec Ubuntu, d'un nouveau service pour cacher vos fichiers dans le cloud. On parlera de AWS Budget et de contrôle des coûts et enfin, d'un nouveau cours en ligne pour apprendre comment utiliser l'IA, sans code, comme outil d'aide à la décision."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000581883267
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

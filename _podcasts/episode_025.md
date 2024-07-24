@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120196
 title:  "Les formations et certifications AWS"
 subtitle: "Apprendre, se perfectioner et se certifier"
 description: "L'offre de formation et de certifications AWS.  Dans cet épisode, nous passons en revue les différents moyens mis à votre disposition pour vous former sur les technologies du cloud AWS. Nous parlons aussi des examens de certifications : quels sont-ils ? Pourquoi se certifier AWS ? Comment se préparer pour réussir son examen ?"
@@ -12,7 +13,6 @@ date: 2020-04-24 09:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044991
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

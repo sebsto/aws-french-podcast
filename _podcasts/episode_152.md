@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 10 mars"
 description: "AWS a annoncé 77 nouveautés depuis le 24 février dernier, y compris l'auto complétion des recherches dans la console de AWS Marketplace 🧐😅. Dans cette liste, j'en ai choisi six: j'ai choisi de vous parler de services pertinents pour les développeurs : AWS App Composer est maintenant disponible, des nouvelles fonctions de SAM, Lambda PowerTools qui arrive sur .Net et je terminerai avec le blog de la semaine sur le choix d'un language de programmation pour contrôler son efficacité énergétique"
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000603551836
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

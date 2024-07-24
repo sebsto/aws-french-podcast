@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120012
 title:  "Les nouveautés AWS au 28 juin"
 subtitle: "Quoi de neuf ?"
 description: "Cette semaine, le podcast 🎙️ AWS ☁️ en français 🇫🇷 met l'accent sur la sécurité et le développement applicatif avec un florilège de nouveautés. Au programme : renforcement de la sécurité des données avec AWS KMS et le SDK de chiffrement, gestion simplifiée des dépendances et des workflows de développement avec CodeCatalyst, nouveaux environnements de développement avec AWS Codebuild, et bien plus encore. Ne manquez pas cet épisode pour découvrir toutes les dernières innovations AWS qui vous permettront de booster votre productivité et votre posture de sécurité."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/229.png
-appleEpisodeId: 1000660512556
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

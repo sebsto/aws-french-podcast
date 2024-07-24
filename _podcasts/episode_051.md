@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120240
 title:  "Migrez avant de partir en vacances"
 subtitle: "Comment l'UCPA a réussi sa transformation digitale"
 description: "Des dizaines d'applications en silos, une saisonalité importante et un besoin d'innovation ont poussé l'UCPA à adopter le cloud. Dans cet épisode, nous parlons de migration du run, de refactoring du build, de gains de coûts de 1 à 10, et de nouveaux services basés sur l'apprentissage machine."
@@ -12,7 +13,6 @@ date: 2021-05-07 09:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000520608210
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

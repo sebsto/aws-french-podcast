@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 1 juillet 2022"
 description: "Cette semaine, j'ai plein d'acronymes pour vous puisque on parle de TLS 1.2, de captcha et de WAF, on verra comment stocker de gros objets dans DynamoDB, on parlera d'appels sortants avec Amazon Connect et nous terminerons par de la génération automatique de données pour entrainer vos modèles AIML."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000568399525
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 26 janvier"
 description: "J'ai compté 54 nouveautés depuis le 12 janvier. Cette semaine, nous parlons de ECS et EBS, de DNS avec Route53, de notification mobiles avec Firebase, de EventBridge et GraphQL, d'un service qui est maintenant disponible sur la région de Paris. On terminera avec un tour des activités de la communauté des clients et partenaires AWS, avec deux projets personnels en open-source, un marathon de workshop organisés par le groupe d'utilisateurs AWS de Yaounde au Cameroun et d'un nouveau livre sur les architecture serverless."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/202.png'
-appleEpisodeId: 1000643027444
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

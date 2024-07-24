@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120225
 title:  "L'apprentissage par renforcement."
 subtitle: "Comment AWS met l'apprentissage machine à la portée de tous les développeurs ?"
 description: "En novembre 2018, AWS annoncait le service AWS Deep Racer, des voitures miniatures autonomes, qui apprenent à évoluer sur un circuit à l'aide d'un algorithme d'apprentissage par renforcement. Mais l'apprentissage par reenforcement, c'est quoi dont ?"
@@ -12,7 +13,6 @@ date: 2019-07-3 07:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500045019
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

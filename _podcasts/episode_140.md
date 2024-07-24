@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 16 décembre"
 description: "Deux semaines après la conférence AWS re:Invent, on a tendance à penser que le rythme des nouveautés AWS va ralentir quelques semaines, mais ce n'est pas le cas. Parmis les 97 annonces des 15 derniers jours, j'ai retenu pour vous des nouveautés sur Amplify, un nouveau service pour aider les développeurs à gérer l'emsemble des services connexes à leur code. Il va y avoir des changements sur Amazon S3, on vous previent 3 mois avant pour vous permettre d'ajuster vos applications si necessaire, et puis on parlera cartographie avec des nouveautés côté Amazon Location Service et des cartes en open-source."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000590366406
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

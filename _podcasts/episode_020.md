@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120085
 title:  "Se passer de SSH"
 subtitle: "Se connecter sur vos instances Amazon EC2 sans utiliser SSH"
 description: "Dans cet épisode, je montre comment se connecter à une instance Amazon EC2 sans utiliser SSH, sans gérer de clés et sans ouvrir un groupe de sécurité. Découvrez AWS Systems Manager Session Manager."
@@ -12,7 +13,6 @@ date: 2020-03-20 16:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044987
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120040
 title:  "L'excellence opérationnelle pour les DB"
 subtitle: "Prometheus RDS Exporter et Database monitoring framework"
 description: "Qonto a fait le choix d'utiliser les bases de données managées Amazon RDS. Leur modèle business mutualisé les a conduit à développer des outils de monitoring complémentaires. Dans cet épisode, nous parlons de RDS Exporter pour Prometheus et du Database Monitoring Framework, deux projets open source créés et utilisés par Qonto."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/219.png
-appleEpisodeId: 1000655129750
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

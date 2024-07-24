@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120053
 title:  "Smart Territory Framework"
 subtitle: "La gestion des données IoT simplifiée"
 description: "Cette semaine, nous parlons du Smart Territory Framework, un ensemble d'outils et de modules open source qui permet de démarrer rapidement les projets IoT à l'échelle d'un territoire, une ville, une collectivité. Vous pouvez ainsi construire et maintenir des solutions basées sur les standards de l'industries, compatible avec les solutions open source de l'écosystème FIWARE. Comme à notre habitude, nous expliquons très concrètement comment démarrer et nous illustrons nos propos avec des cas pratiques déjà mis en oeuvre par nos clients : du contrôle de building, à la surveillance des troupeaux dans les alpages, en passant par l'amélioration de la circulation et du parking en ville."

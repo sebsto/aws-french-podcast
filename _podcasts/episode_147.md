@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120028
 title:  Osteo2ls
 subtitle: Le cloud pour les développeurs indépendants
 description: "Comment le cloud aide les développeurs indépendants ? Je suis parti à la rencontre de Antoine, développeur d'un outil de gestion pour les ostéopathes.  Nous parlons de l'origine de ce projet il y a plus de 20 ans, de sa découverte du cloud grâce à des vidéos YouTube entre autres et de sa décision de migrer son application sur une infrastructure serverless. On parle de AWS Lambda et Amazon RDS. Le résultat est moins de travail pour gérer l'infrastructure et 50% moins cher qu'un hébergement classique sous VM. On parle de risque de lock-in et de perception des clients quant au déploiement dans le cloud. Vous l'entendrez, le cloud n'est pas que pour les grandes entreprises, grâce à AWS, Antoine passe des nuits et des week-ends plus tranquilles."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000597820146
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

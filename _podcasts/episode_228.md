@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119958
 title:  "Le développement d'API avec Smithy"
 subtitle: "Le développement par contrat"
 description: "Développez des API avec Smithy, le langage open source qui facilite la définition d'API et la génération de code client et serveur.
@@ -30,7 +31,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/228.png
-appleEpisodeId: 1000659706348
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

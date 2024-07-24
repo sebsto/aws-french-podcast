@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120194
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 20 octobre"
 description: "Parmis les 80 nouveautés des deux dernières semaines, j'ai retenu pour vous 9 annonces, dont 5 qui concernent EC2 dont je parlerai en fin d'épisode. Le reste concerne Lambda et IPv6, Redshift et VSCode, Managed Service for Kafka, et CodeWhisperer que vous pouvez maintenant customiser avec votre base de code privée."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000630398910
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

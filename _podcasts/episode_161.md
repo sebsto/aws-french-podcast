@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120066
 title:  "Les certifications AWS"
 subtitle: "Comment s'y préparer ?"
 description: "Dans cet épisode nous parlons des certifications AWS. Découvrez quelles sont les certifications, quels avantages elles vous apportent et surtout comment s'y préparer: apprendre à gérer son temps, à lire les questions et choisir la bonne réponse parmis les solutions proposées."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000612733651
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

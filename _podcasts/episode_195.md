@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120061
 title:  "France Télévisions"
 subtitle: "Ajout de publicités côté serveur"
 description: "France Télévisions utilise le cloud AWS pour distribuer les flux vidéos à destinations des plateformes numériques (Box fournisseurs, ordinateurs, tablettes et téléphones). Découvrez le parcours du flux vidéo depuis sa sortie de régie jusqu'à votre écran. On parle d'encodage et de traitement de vidéos, d'inclusion de publicités personnalisées côté serveur et de synchronisation de pistes audios. Entrez dans le monde de la diffusion vidéo en numérique et découvrez comment le cloud permet de manipuler des flux vidéos en temps réels."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000637926384
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

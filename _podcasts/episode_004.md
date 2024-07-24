@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120245
 title:  "Le serverless chez 20 Minutes"
 subtitle: "Comment et pourquoi passer sur une architecture serverless"
 description: "La dernière génération des applications de 20 Minutes est entièrement basée sur du serverless (AWS Lambda, Amazon API Gateway, Amazon S3,...).  Découvrez pourquoi et comment ils ont adopté ce type d'architecture, leurs challenges et les bénéfices qu'ils en tirent."
@@ -12,7 +13,6 @@ date: 2019-05-14 23:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000500044999
 ---
 
 Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).

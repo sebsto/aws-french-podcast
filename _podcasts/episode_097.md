@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663119966
 title:  "De l'analytique sur Arm"
 subtitle: "32% plus rapide et moins cher"
 description: "Bedrock Streaming fournit les plate-formes de streaming video pour 6 Play, Salto, RTLPlay en Belgique et d'autres.  Leur plateforme d'analyse des données est basée sur des clusters EMR et Databricks dans le cloud AWS.  Dans cet épisode, découvrez comment ils ont migré certains de leurs clusters sur une architecture Arm avec AWS Graviton 2 et comment ils ont profité jusqu'à 32% d'amélioration de performance pour un coût moindre."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000552902216
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

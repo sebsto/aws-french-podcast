@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120017
 title:  "Le sport dans le cloud"
 subtitle: "Comment RMC ingère les résultats sportifs"
 description: "RMC TV, radio et web font parties du groupe Altice Media. Pour pouvoir distribuer les résultats sportifs en externe sur le web et les applications mobiles et en interne vers les différentes rédactions. L'infrastructure pour recevoir, analyser et distribuer les données doit être capable de monter en charge en fonction des évennements sportifs et doit être hautement disponible pour vous fournir les résultats que vous attendez en quasi temps réel. Dans cet épisode, on parle de l'architecture de l'ingestion et distribution des données sportives."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-appleEpisodeId: 1000634373362
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 

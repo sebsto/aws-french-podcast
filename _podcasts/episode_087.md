@@ -1,5 +1,6 @@
 ---
 layout: podcast
+appleEpisodeId: 1000663120153
 title:  "IPv6"
 subtitle: "Comment utiliser IPv6 dans le cloud ?"
 description: "IPv6 se généralise, principalement pour simplifier les plans d'adressage et bénéficier de 2^128 addresses IP. En écoutant ce podcast, vous découvrirez les challenges pour migrer de IPv4 à IPv6. Nous expliquons aussi comment déployer des réseaux IPv6 uniquement ou hybrides IPv4-IPv6 dans le cloud AWS."
@@ -13,7 +14,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-appleEpisodeId: 1000546007080
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
