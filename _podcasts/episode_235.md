@@ -19,7 +19,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/235.png
-# appleEpisodeId: 1000662702955
+appleEpisodeId: 1000663392110
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
