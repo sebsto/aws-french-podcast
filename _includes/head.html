@@ -7,34 +7,34 @@
   <!-- http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/ -->
 <meta content="{{ site.title }}" property="og:site_name">
 {% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
+<meta content="{{ page.title }}" property="og:title">
 {% else %}
-  <meta content="{{ site.title }}" property="og:title">
+<meta content="{{ site.title }}" property="og:title">
 {% endif %}
 {% if page.title %}
-  <meta content="article" property="og:type">
+<meta content="article" property="og:type">
 {% else %}
-  <meta content="website" property="og:type">
+<meta content="website" property="og:type">
 {% endif %}
 {% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
+<meta content="{{ page.description }}" property="og:description">
 {% else %}
-  <meta content="{{ site.description }}" property="og:description">
+<meta content="{{ site.description }}" property="og:description">
 {% endif %}
 {% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+<meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.date %}
-  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
+<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+<meta content="site.author" property="article:author">
 {% endif %}
 {% if page.social-background %}
-<meta content="{{ site.podcast.artworklink | xml_escape }}{{ page.social-background }}" property="og:image">
+<meta name="image" content="{{ site.podcast.artworklink | xml_escape }}{{ page.social-background }}" property="og:image">
 {% else %}
   {% if page.background %}
-    <meta content="{{ site.url }}{{ page.background }}" property="og:image">
+    <meta name="image" content="{{ site.url }}{{ page.background }}" property="og:image">
   {% else %}
-    <meta content="/img/bg-post.png" property="og:image">
+    <meta name="image" content="/img/bg-post.png" property="og:image">
   {% endif %}
 {% endif %}  
 {% if page.categories %}
@@ -54,11 +54,6 @@
   </title>
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-<!--
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> 
--->
 
   <link href='{{ "/fonts/webfontkit-20181018-085525/stylesheet.css" | absolute_url }}' rel='stylesheet' type='text/css'>
 
