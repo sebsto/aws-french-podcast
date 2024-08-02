@@ -7,7 +7,7 @@ description: "Dans cet épisode, nous plongeons dans l'univers fascinant de Mome
 Nous abordons l'importance de cette technologie pour diverses audiences : les sponsors, les journalistes et agences de presse, et bien d'autres. Au programme, une discussion approfondie sur le fonctionnement de cette solution innovante : des algorithmes d'apprentissage machine utilisés, aux orchestrateurs, en passant par les bases de données.
 
 Rejoignez-nous pour découvrir comment Moments Lab transforme la façon dont nous accédons et utilisons les archives audiovisuelles!"
-guest: "<a href='https://www.linkedin.com/in/frederic-petitpont-95704a4/'>Frédéric Petitpon</a>, CTO et cofondateur de Moments Lab"
+guest: "<a href='https://www.linkedin.com/in/frederic-petitpont-95704a4/'>Frédéric Petitpont</a>, CTO et cofondateur de Moments Lab"
 episode: 237
 duration: "00:47:26" 
 size: 91072390
