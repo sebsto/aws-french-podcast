@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Broadpeak.io"
 subtitle: "La publicité personalisée pendant les retransmissions sportives"
-description: "Dans ce nouvel épisode, nous accueillons l'équipe de Broadpeak pour décrypter leur solution SaaS d'insertion de publicité dans les flux vidéo d'évennements sportifs. Comment parviennent-ils à insérer des pubs personnalisées dans vos flux de streaming préférés ? Quels sont les enjeux techniques et les défis rencontrés ? On y parle de HTTP Live Stream, de CDN, de AnyCast et autres technologies."
+description: "Dans ce nouvel épisode, nous accueillons l'équipe de Broadpeak pour décrypter leur solution SaaS d'insertion de publicité dans les flux vidéo d'évennements sportifs. Comment parviennent-ils à insérer des pubs personnalisées dans vos flux de streaming préférés ? Quels sont les enjeux techniques et les défis rencontrés ? On y parle de HTTP Live Stream, de CDN, de multicast et autres technologies."
 guest: "<a href='https://www.linkedin.com/in/mathiasguille/'>Mathias Guille</a>, VP Cloud Platform Broadpeak"
 episode: 241
 duration: "00:45:25" 
@@ -27,5 +27,5 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - [Le format HLS (HTTP Live Streaming)](https://en.wikipedia.org/wiki/HTTP_Live_Streaming)
 - [Digital Video Ad Serving Template (VAST)](https://www.iab.com/guidelines/vast/)
 - [AWS SaaS Factory](https://aws.amazon.com/partners/programs/saas-factory)
-- Le protocole réseaux [Anycast](https://en.wikipedia.org/wiki/Anycast)
+- Le protocole réseaux [MultiCast](https://fr.wikipedia.org/wiki/Multicast)
 - [Broadpeek NanoCDN](https://broadpeak.tv/our-solutions/multicast-abr/)
