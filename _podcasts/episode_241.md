@@ -28,4 +28,4 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - [Digital Video Ad Serving Template (VAST)](https://www.iab.com/guidelines/vast/)
 - [AWS SaaS Factory](https://aws.amazon.com/partners/programs/saas-factory)
 - Le protocole réseaux [MultiCast](https://fr.wikipedia.org/wiki/Multicast)
-- [Broadpeek NanoCDN](https://broadpeak.tv/our-solutions/multicast-abr/)
+- [Broadpeak NanoCDN](https://broadpeak.tv/our-solutions/multicast-abr/)
