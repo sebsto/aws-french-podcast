@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title:  "Braodpeak.io"
+title:  "Broadpeak.io"
 subtitle: "La publicité personalisée pendant les retransmissions sportives"
 description: "Dans ce nouvel épisode, nous accueillons l'équipe de Broadpeak pour décrypter leur solution SaaS d'insertion de publicité dans les flux vidéo d'évennements sportifs. Comment parviennent-ils à insérer des pubs personnalisées dans vos flux de streaming préférés ? Quels sont les enjeux techniques et les défis rencontrés ? On y parle de HTTP Live Stream, de CDN, de AnyCast et autres technologies."
 guest: "<a href='https://www.linkedin.com/in/mathiasguille/'>Mathias Guille</a>, VP Cloud Platform Broadpeak"
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/241.png
-# appleEpisodeId: 1000664094094
+appleEpisodeId: 1000666311156
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
