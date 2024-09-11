@@ -23,7 +23,7 @@ Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastie
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
 - Vidéo de formation à AWS en arabe : [AWS SAA-C02 2021 Course Intro - مقدمة عن الكورس](https://www.youtube.com/watch?v=E3nLSHQtLes&list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf)
-- Vidéo Cloud Career Path en arabe : [Cloud Career Path المسارات الوظيفية في مجال الكلاود](https://www.youtube.com/watch?v=P3W7SRYuVow
+- Vidéo Cloud Career Path en arabe : [Cloud Career Path المسارات الوظيفية في مجال الكلاود](https://www.youtube.com/watch?v=P3W7SRYuVow)
 - [2ème édition du Marathon International de Carthage 2016](https://www.youtube.com/watch?v=smV7JVajkOc)
 - Papier de l'IEEE : [Analytical formulation of the vertical refractivity profiles associated to evaporation ducts](https://2020apsursi.org/Papers/ViewPaper.asp?PaperNum=2270)
 https://ieeexplore.ieee.org/author/37088636833 (et [la bibliographie de Dorra](https://ieeexplore.ieee.org/author/37088636833))
