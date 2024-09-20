@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Les nouveautés AWS au 20 septembre"
 subtitle: "Quoi de neuf ?"
-description: "Après deux mois d'été où vous avez découvert des cas d'utilisation de nos clients, retour des épisodes 'Quoi de Neuf'.  Cette semaine, j'essaye de faire un rapide compre-rendu des nouveautés de juillet, août et septembre ... en 20 minutes."
+description: "Après deux mois d'été où vous avez découvert des cas d'utilisation de nos clients, retour des épisodes 'Quoi de Neuf'.  Cette semaine, j'essaye de faire un rapide compte-rendu des nouveautés de juillet, août et septembre ... en 20 minutes."
 guest: 
 episode: 247
 duration: "00:21:57" 
