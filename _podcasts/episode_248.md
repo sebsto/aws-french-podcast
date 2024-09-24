@@ -7,8 +7,8 @@ description: "Dans cette conversation, Seb et Catherine Gestin, Vice-Présidente
 Catherine partage son parcours, passant d'un background en affaires à un rôle de leadership dans une entreprise technologique, soulignant la nécessité de perspectives diverses pour favoriser l'innovation. Ils explorent les différentes initiatives mises en place par Airbus pour améliorer la diversité de genre, l'inclusion culturelle et le soutien aux personnes en situation de handicap. Catherine souligne l'impact positif de ces efforts sur la créativité des équipes, les performances de l'entreprise et la rétention des employés, tout en reconnaissant les défis persistants et les différences culturelles dans la promotion de la diversité dans différentes régions."
 guest: "<a href='https://www.linkedin.com/in/catherinejestin/'>Catherine Jestin</a>, Vice-Présidente Exécutive Numérique, Airbus"
 episode: 248
-duration: "00:42:51" 
-size: 82275185
+duration: "00:40:37" 
+size: 77995283
 file: 248.mp3
 date: 2024-09-25 04:00:00 +0000
 author: Sébastien Stormacq
