@@ -24,4 +24,5 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 
 - [L'épisode 197 où Tiffany explique comment coder des données sur un brin d'ADN](https://francais.podcast.go-aws.com/web/podcasts/episode_197/index.html)
 - [La référence de Tiffany: there is no spoon](https://www.imdb.com/title/tt0133093/)
+- [L'épisode 227 où Ségolène explique pourquoi elle a commencé à coder](https://francais.podcast.go-aws.com/web/podcasts/episode_227/index.html)
 - [Les videos AWS Developers pour retrouver Tiffany](https://www.youtube.com/@awsdevelopers/featured)
