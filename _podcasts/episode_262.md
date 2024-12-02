@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title:  "Les nouveautés AWS au 15 novembre"
+title:  "Les nouveautés AWS au 29 novembre"
 subtitle: "Quoi de neuf ?"
 description: "J'ai compté plus de 200 nouveautés ces deux dernières semaines, une situtaion typique juste avant re:invent.  J'ai essayé de regrouper les principales par catégorie. On parle de CloudFront, de S3, de DynamoDB et un paquet d'autres services. Accrochez vos ceintures, c'est parti."
 guest: 
