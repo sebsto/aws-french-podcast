@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title:  ""re:Invent re:Cap 2"
+title:  "re:Invent re:Cap 2"
 subtitle: "Avec Bruno Guglielminetti"
 description: "Dans les couloirs de AWS re:Invent à Las Vegas, j'ai croisé Bruno Guglielminetti, homme de radio et producteur du podcast Mon Carnet. Bruno est un fin observateur du monde de la technologie depuis plusieurs années et il partage avec nous sa réaction à chaud après la keynote de Matt Garman du mardi 3 décembre 2024"
 guest: "<a href='https://www.linkedin.com/in/brunoguglielminetti/'>Bruno Guglielminetti</a>, producteur moncarnet.com"
