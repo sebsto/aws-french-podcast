@@ -22,4 +22,5 @@ Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastie
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- [Rudy parle de responsabiliser les devs dans IFTTD>(https://www.youtube.com/watch?v=06pGr8EvPi0)
+- [CapCar](https://www.capcar.fr/)
+- [Rudy parle de responsabiliser les devs dans IFTTD](https://www.youtube.com/watch?v=06pGr8EvPi0)
