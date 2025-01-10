@@ -30,8 +30,3 @@ Sources:
 
 - [AWS News Blog](https://aws.amazon.com/blogs/aws/)
 - [What's new feed](https://aws.amazon.com/about-aws/whats-new/2023/)
-- [CloudFormation console lance une vue basée sur le temps de déployement](https://aws.amazon.com/blogs/devops/peek-inside-your-aws-cloudformation-deployments-with-timeline-view/)
-- [Des métriques complémentaires pour Amazon EBS](https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-ebs-performance-statistics-ebs-volume-health/)
-- [Des nouvelles API pour Amazon Location Service](https://aws.amazon.com/blogs/aws/announcing-new-apis-for-amazon-location-service-routes-places-and-maps/)
-- [Des brokers express pour Amazon MSK et Kafka](https://aws.amazon.com/blogs/aws/introducing-express-brokers-for-amazon-msk-to-deliver-high-throughput-and-faster-scaling-for-your-kafka-clusters/)
-- IAM lance [les resource based policies](https://aws.amazon.com/blogs/aws/introducing-resource-control-policies-rcps-a-new-authorization-policy/)

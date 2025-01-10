@@ -27,5 +27,5 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - [Le meetup Langchain à Paris](https://www.meetup.com/paris-langchain-llm-meetup-innovating-language-technology/)
 - [La chaîne YouTube du meetup](https://www.youtube.com/@MultimodalAICommunity)
 - [Langchain on luma](https://lu.ma/langchain)
--
+
 
