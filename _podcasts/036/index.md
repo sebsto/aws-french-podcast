@@ -1,3 +1,4 @@
+---
 title: "RGPD"
 description: "Réglement Général sur la Protection des Données: Dans cet épisode, nous parlons du RGPD. Quelle est l'origine de ce règlement européen? A qui s'applique-t-il et pour protéger quel type de données? Quelles sont les obligations qui m'incombent si je suis éditeur ou hébergeur d'une application ou d'un site web ? Nous répondons à ces questions et d'autres encore."
 episode: 36

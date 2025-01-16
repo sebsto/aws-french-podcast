@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 15 novembre"
 description: "Quoi de neuf ?: J'ai compté 86 nouveautés ces deux dernières semaines, en ligne avec le rythme d'octobre. C'est une semaine d'anniversaire puisque nous fetons les 20 ans du blogs AWS News et les 10 ans de AWS Lambda. J'ai aussi accroché pour vous des nouveautés sympas pour EBS et CloudFormation, de nouvelles APIs pour Amazon Location Service, des brokers express pour Kafka et un nouveau type de policy IAM - si vous travaillez dans des équipes sécurité, vous allez adorer : les resource control policy ou RCP."
 episode: 259

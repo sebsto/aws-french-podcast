@@ -1,3 +1,4 @@
+---
 title: "Sportall"
 description: "Diffusion d'événements sportifs: Révolutionner la diffusion des compétitions sportives. Dans cet épisode, nous vous présentons comment Sportall aide les fédérations et clubs de sport à diffuser leur contenu auprès des fans. En installant une application, vous pouvez accéder à des compétitions sportives rarement diffusées à la télévision. Découvrez la plateforme technique derrière la diffusion de plus de 1300 compétitions sportives par an : de l'encodage vidéo à la distribution avec les solutions AWS Elemental, en passant par la création automatique de chaînes de diffusion grâce à CloudFormation et CodeBuild."
 episode: 234

@@ -1,3 +1,4 @@
+---
 title: "AWS Outposts"
 description: "Un petit peu de cloud dans vos centres de données: Dans cet épisode, nous découvrons AWS Outposts, ces racks d'équipement qui permettent d'étendre le cloud dans vos centres de données. Nous détaillons les cas d'utilisation, les procédures de contrôle et de gestion, les APIs que vous pouvez utiliser pour utiliser l'infrastructure AWS au sein de vos équippements actuels."
 episode: 19

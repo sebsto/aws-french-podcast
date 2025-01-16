@@ -1,3 +1,4 @@
+---
 title: "Intelligence et AIML"
 description: "L'apprentissage machine pour les données de renseignements: Preligens développe des solutions d'apprentissage machine pour identifer des données suceptibles d'intéresser des agences de renseignements, militaires ou civiles. Dans cet épisode, nous parlons de l'acquisition et le stockage de données, d'apprentissage machine et de confidentialité des données, avec un approche pragmatique quant aux aspects de souverainté et sécurité."
 episode: 63

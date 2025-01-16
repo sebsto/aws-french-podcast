@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 5 avril"
 description: "Quoi de neuf ?: C'était le Summit AWS Paris cette semaine, plus de 9000 personnes ce sont croisées au Palais des congrès de Paris. AWS a annoncé la disponibilité de Bedrock sur la région eu-west-3 et du modèle Mistral Large. Dans cet épisode, je parlerai aussi de CloudFormation qui est 40% plus rapide pour déployer vos infrastructures - je vous explique comment. Il y a de l'info aussi sur AWS Batch, CodeBuild et sur InfluxDB."
 episode: 212

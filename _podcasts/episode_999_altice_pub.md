@@ -1,3 +1,4 @@
+---
 title: "La pub personalisée"
 description: "Avec Altice Media: Altice Media est le groupe audiovisuel qui gère les chaînes de TV de BFM et de RMC entre-autres. Découvrez comment les encarts publicitaires proposés sur vos box, vos téléphones, tablettes ou ordinateurs sont personalisés. Envoyer des publicités ciblées en fonction des programmes que vous regardez nécessite une infrastructure informatique hautement disponible et scalable pour pouvoir servir les demandes de publicités en très peu de temps. Dans cet épisode du podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7, on parle de serverless avec AWS Lambda, SQS et DynamoDB. On parle aussi d'économie de coûts et d'agilité en matière de développement."
 episode: 187

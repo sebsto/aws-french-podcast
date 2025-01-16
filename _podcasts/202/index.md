@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 26 janvier: J'ai compté 54 nouveautés depuis le 12 janvier. Cette semaine, nous parlons de ECS et EBS, de DNS avec Route53, de notification mobiles avec Firebase, de EventBridge et GraphQL, d'un service qui est maintenant disponible sur la région de Paris. On terminera avec un tour des activités de la communauté des clients et partenaires AWS, avec deux projets personnels en open-source, un marathon de workshop organisés par le groupe d'utilisateurs AWS de Yaounde au Cameroun et d'un nouveau livre sur les architecture serverless."
 episode: 202

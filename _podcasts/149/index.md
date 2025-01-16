@@ -1,3 +1,4 @@
+---
 title: "MyTF1 et la coupe du monde"
 description: "Comment diffuser un flux vidéo vers 3 millions d'appareils: Tout le monde a regardé au moins un match pendant la coupe du monde de football en 2022. MyTF1 utilise AWS pour déployer ses services. Dans cet épisode, nous parlons de l'architecture technique derrière MyTF1, des 6 mois de préparation de l'ensemble des systèmes et des équipes, des procédures mises en place pendant la diffusion pour assurer la meilleure expérience pour les téléspectateurs. Comment assurer une bonne expérience à 3.2 millions d'appareils en même temps, gérer 5000 nouvelles connections par seconde et comment délivrer un flux vidéo de 3.6 Tbs. A terme, l'objectif du streaming c'est de suppléer la diffusion hertzienne."
 episode: 149

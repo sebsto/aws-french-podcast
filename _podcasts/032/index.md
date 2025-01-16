@@ -1,3 +1,4 @@
+---
 title: "Construire des applications qui resistent aux pannes"
 description: "Design patterns pour des applications resilientes: Nous parlons de disponibilité de vos applications, de pannes dans des systèmes distribués. Après avoir décrit comment nous mesurons la disponibilité des applications, nous évoquons plusieurs techniques que vous pouvez utiliser pour que vos applications soient plus résilientes aux pannes et erreurs en tout genre."
 episode: 32

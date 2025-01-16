@@ -1,3 +1,4 @@
+---
 title: "Le développement d'API avec Smithy"
 description: "Le développement par contrat: Développez des API avec Smithy, le langage open source qui facilite la définition d'API et la génération de code client et serveur.\nJulien et Vivan vous plongent dans l'univers de la programmation par contrat dans cet épisode du Podcast AWS en Français.\nAu menu :\n- Les avantages de la génération de code et de SDK - Intégration transparente dans les chaînes CI/CD - Exploitation dans le CDK des SDK générés - Création d'environnements de développement, de test et de production optimisés\nUn épisode riche en informations et en exemples concrets pour les développeurs chevronnés comme les débutants.\nNe manquez pas cette occasion de booster vos compétences en matière de développement d'API !\nDisponible dès maintenant sur toutes les plateformes de podcast.\n#AWS #Podcast #ProgrammationParContrat #Smithy #API #Développement #Cloud"
 episode: 228

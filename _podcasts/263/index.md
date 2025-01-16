@@ -1,3 +1,4 @@
+---
 title: "re:Invent re:Cap 1"
 description: "Dimanche 1er décembre: C'est une tradition le dimanche soir à re:Invent, il y a une première salve d'annonces et de de nouveautés.  Cette année c'est 32 billets de blogs que nous venons de publier. J'ai retenu des nouveautés qui concernent EKS, Amazon S3, AWS Verfied Access, Data Migration Service Schema Converter, les policies IAM, et une nouvelle solution physique pour transférer de gros volumes de données."
 episode: 263

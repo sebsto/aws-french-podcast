@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2021 - 29 novembre 2021"
 description: "Les nouveautés annoncées à re:Invent - partie 1: Un premier épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons d'Amplify, de EBS Snapshots, de Feature Flags et A/B testing et d'un nouveau service pour vous aider à refactoriser vos applications existantes en micro-services."
 episode: 81

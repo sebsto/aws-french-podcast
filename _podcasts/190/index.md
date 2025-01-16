@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent re:Cap - Lundi"
 description: ": Un petit résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas."
 episode: 190

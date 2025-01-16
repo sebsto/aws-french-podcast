@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 20 octobre: Parmis les 80 nouveautés des deux dernières semaines, j'ai retenu pour vous 9 annonces, dont 5 qui concernent EC2 dont je parlerai en fin d'épisode. Le reste concerne Lambda et IPv6, Redshift et VSCode, Managed Service for Kafka, et CodeWhisperer que vous pouvez maintenant customiser avec votre base de code privée."
 episode: 184

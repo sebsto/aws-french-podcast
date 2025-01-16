@@ -1,3 +1,4 @@
+---
 title: "Mainframe & Legacy"
 description: "Migrez-les dans le cloud: Les mainframes sont très utilisés pour des fonctions critiques. Malgré tout, beaucoup de clients les migrent vers le cloud.  Dans cet épisode nous expliquons pourquoi nos clients choisissent de migrer leurs applications mainframe vers le cloud et nous passons en revue les différentes techniques de migrations, selon les technologies utilisées. Vous allez entendre parler de z/OS, de fichiers VSAM et de Cobol dans cet épisode."
 episode: 75

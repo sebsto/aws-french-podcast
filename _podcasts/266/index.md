@@ -1,3 +1,4 @@
+---
 title: "re:Invent re:Cap 4"
 description: "Debrief et ambiance à Las Vegas: Nous terminons cette mini-série de re:Caps quotidiens avec deux habitués du podcast: Chrys et Jules qui nous parlent de ce qu'ils ont particulièrement apprécié pendant la conférence et des nouveautés qui pourraient être utiles pour eux.  Sans divulgaché, nous parlons d'injection de pub automatiquement au bon endroit dans des vidéos, de nouveautés EKS et de SageMaker Studio."
 episode: 266

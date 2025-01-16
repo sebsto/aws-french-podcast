@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 31 octobre"
 description: "Quoi de neuf ?: J'ai compté 86 nouveautés ces deux dernières semaines, le rythme accélère, on sent que la conférence re:Invent à Las Vegas approche. Dans cet épisode vous découvrirez des nouveautés concernant le DNS (Amazon Route53), AWS AppSync et les web sockets, l'hébergement de sites web statistiques sur Amazon S3 avec AWS Amplify. On parlera aussi de macOS sur Amazon EC2 et d'un chapelet de nouveautés AWS Lambda. On passe en revue tout cela et plus encore dans le Le podcast \U0001F399️ AWS ☁️ en \U0001F1EB\U0001F1F7."
 episode: 256

@@ -1,3 +1,4 @@
+---
 title: "L'apprentissage par renforcement."
 description: "Comment AWS met l'apprentissage machine à la portée de tous les développeurs ?: En novembre 2018, AWS annoncait le service AWS Deep Racer, des voitures miniatures autonomes, qui apprenent à évoluer sur un circuit à l'aide d'un algorithme d'apprentissage par renforcement. Mais l'apprentissage par reenforcement, c'est quoi dont ?"
 episode: 6

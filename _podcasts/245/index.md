@@ -1,3 +1,4 @@
+---
 title: "WIT : Dorra Elboukari"
 description: "De l'armée aux cloud: Dorra Elboukari, architecte DevOps chez AWS, partage son parcours qui l'a menée d'une carrière militaire à une carrière dans le cloud. Depuis son jeune âge, elle développe une passion pour la technologie et poursuit des études en ingénierie et en cybersécurité. L'intérêt de Dora pour le cloud a été suscité par un collègue qui lui a présenté des vidéos AWS, ce qui l'a incitée à plonger plus profondément dans cette technologie. Elle s'est impliquée dans la communauté AWS en créant des groupes d'utilisateurs et en organisant des événements. La persévérance et le dévouement de Dora ont porté leurs fruits, lui permettant d'obtenir un poste chez AWS et de continuer à contribuer à la communauté."
 episode: 245

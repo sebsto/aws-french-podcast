@@ -1,3 +1,4 @@
+---
 title: "La gestion des documents à grande échelle"
 description: "Comment Canon Business Service a migré vers le cloud: Canon Business Service propose à ses clients de traiter leurs documents : les recevoir, les analyser, en extraire les données et retourner les données structurées et les documents numérisés à leurs clients. Dans cet épisode, nous découvrons ce métier de traitements des documents papiers et des contraintes qu'il impose aux infrastructures informatiques. Nous parlons de la migration vers le cloud de la plate-forme on-premises, basée sur VMWare de Canon, tout en renforcant leur posture de sécurité et de conformité."
 episode: 76

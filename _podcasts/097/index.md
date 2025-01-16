@@ -1,3 +1,4 @@
+---
 title: "De l'analytique sur Arm"
 description: "32% plus rapide et moins cher: Bedrock Streaming fournit les plate-formes de streaming video pour 6 Play, Salto, RTLPlay en Belgique et d'autres.  Leur plateforme d'analyse des données est basée sur des clusters EMR et Databricks dans le cloud AWS.  Dans cet épisode, découvrez comment ils ont migré certains de leurs clusters sur une architecture Arm avec AWS Graviton 2 et comment ils ont profité jusqu'à 32% d'amélioration de performance pour un coût moindre."
 episode: 97

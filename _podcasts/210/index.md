@@ -1,3 +1,4 @@
+---
 title: "Women in Tech"
 description: "Inclusion, diversité et équité: Aujourd'hui, nous inaugurons une nouveauté dans le podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7. Après 5 ans d'existence, une fois par mois, nous parlerons d'inclusion, de diversité et d'équité. Ce sera le dernier mercredi de chaque mois, en plus des épisodes tech du vendredi qui eux ne changent pas (sauf aujourd'hui \U0001F607). Nous discuterons avec une femme qui travaille dans la tech et mettrons en avant son parcours, ses défis et son expérience, dans l'espoir d'en inspirer de nombreuses autres."
 episode: 210

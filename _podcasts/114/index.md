@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 1 juillet 2022: Cette semaine, j'ai plein d'acronymes pour vous puisque on parle de TLS 1.2, de captcha et de WAF, on verra comment stocker de gros objets dans DynamoDB, on parlera d'appels sortants avec Amazon Connect et nous terminerons par de la génération automatique de données pour entrainer vos modèles AIML."
 episode: 114

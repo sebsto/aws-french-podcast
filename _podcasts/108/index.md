@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 20 mai 2022: Des nouveautés côté infrastructure puisqu'on parle de Trusted Platform Module (TPM), de EC2 auto-scaling et de Backup, mais aussi dans le monde du serverless avec Step Functions et dans le monde du mobile avec Amplify."
 episode: 108

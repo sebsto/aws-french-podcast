@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 6 mai 2022: Entre deux conférence AWS Summit, les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour des bases de données RDS, de Kafka, et encore une nouvelle famille d'instances EC2"
 episode: 106

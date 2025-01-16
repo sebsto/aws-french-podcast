@@ -1,3 +1,4 @@
+---
 title: "L'architecture data de Allianz Trade"
 description: "EDA, data lake et Snowflake: Découvrez l'architecture orientée événements d'Allianz Trade et les systèmes d'ingestion, de stockage, de transformation et d'analyse de données mis en place avec Snowflake. Nous faisons une exploration approfondie de la gestion de données à grande échelle chez Allianz Trade, leader mondial de l'assurance-crédit. Un podcast informatif pour les data scientists, analystes de données et tous ceux qui s'intéressent à la gestion de données."
 episode: 225

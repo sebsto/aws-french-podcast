@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 7 octobre: Cette semaine, j'ai noté pour vous deux nouvelles local zone, ca sera l'occasion de rappeller ce que c'est et pourquoi ca peut vous être utile. On parlera de Virtual Desktop avec Ubuntu, d'un nouveau service pour cacher vos fichiers dans le cloud. On parlera de AWS Budget et de contrôle des coûts et enfin, d'un nouveau cours en ligne pour apprendre comment utiliser l'IA, sans code, comme outil d'aide à la décision."
 episode: 128

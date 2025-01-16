@@ -1,3 +1,4 @@
+---
 title: "WebHelp met votre centre d'appel dans le cloud"
 description: "Retour d'expérience avec Amazon Connect: <a href='https://www.webhelp.com/en-fr/'>WebHelp</a> met en place vos centres d'appel. Pourquoi utiliser des solutions cloud ? Quels sont les retours d'expériences ? Comment Amazon Connect a permis de mettre en place une plate-forme d'appels de crise pour les <a href='https://www.aphp.fr/'>Hopitaux de Paris</a> (AP-HP)"
 episode: 31

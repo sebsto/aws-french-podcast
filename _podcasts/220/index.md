@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 17 mai"
 description: "Quoi de neuf ?: Il y a eu 64 nouveautés ces deux dernières semaines, j'en ai retenu trois qui me semblent importantes pour les builders, les développeurs/euses. Dans cet épisode je parle d'une nouvelle façon vraiment cool d'accèder à Amazon Bedrock, des instances EC2 Flex, d'un changement important de la facturation de Amazon S3 et d'un article de blog au sujet de l'envoi d'email en masse avec le service SES"
 episode: 220

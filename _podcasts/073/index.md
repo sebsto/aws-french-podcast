@@ -1,3 +1,4 @@
+---
 title: "Cosmian"
 description: "Collaboration sans partage: Cosmian vous permet de mettre en place une solution de collaboration sur les données, sans partager celles-ci.  Ils créent des environnements logiciels - CipherCompute - pour que les artisants de la data puissent lancer des calculs collaboratifs sur différents silos de données, sans jamais dévoiler les données en clair aux participants du calcul. On parle de techniques de cryptographie, de zero trust et de collaboration sur les données"
 episode: 73

@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2019 re:Cap 1"
 description: "Quelques nouveautés (partie 1).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors des deux premières journées à re:Invent."
 episode: 11

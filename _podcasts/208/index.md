@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 8 mars"
 description: "Quoi de neuf ?: Cette semaine il y a du lourd. J'ai compté 61 nouveautés depuis le 23 février, on parlera de CloudFront, de Location Service, de Bedrock, de Lambda pour .Net et d'un changement de prix important. Mais ça, je le garde pour la fin de cet épisode."
 episode: 208

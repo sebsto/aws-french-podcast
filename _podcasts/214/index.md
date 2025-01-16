@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 19 avril"
 description: "Quoi de neuf ?: J'ai compté 63 nouveautés ces derniers quinze jours, mais j'enregistre cet épisode tard jeudi soir, la journée n'est pas encore finie aux US, le compteur peut encore augmenter. J'ai sélectionné pour vous des changements du coté de Lambda avec CloudFront, de la rotation de clés de chiffrement sur KMS et de Bedrock."
 episode: 214

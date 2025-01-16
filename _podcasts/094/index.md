@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 11 février 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de RGPD, du CISPE et de la CNIL, de nouvelles possibilités offertes par Secrets Manager, S3 et AppRunner, mais au fait c'est quoi App Runner dèjà ? Un nouveau look pour la page de facturation. Et deux services qui étaient disponibles en preview deviennent disponibles pour toutes et tous. "
 episode: 94

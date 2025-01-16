@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 5 mai: J'ai compté 82 nouveautés ces deux dernières semaines (-12 WoW). Java 17 est disponible sur AWS Lambda, Verified Access est disponible. Vous pouvez maintenant provisioner de la capacité sur Athena ou développer des applications web et desktop avec Amplify pour Flutter. On parle aussi de sécurité et du système Nitro. On détaille tout cela dans le podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7."
 episode: 160

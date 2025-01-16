@@ -1,3 +1,4 @@
+---
 title: "Alexandre Pinhel"
 description: "Amazon Future Engineers: Comment motiver et inciter les jeunes à embrasser des carrières scientifiques et techniques ? Dans cet épisode, nous explorons le programme Amazon Future Engineer, un projet ambitieux destiné à sensibiliser collégiens, lycéens et leurs enseignants aux métiers de la technologie. Depuis son lancement, ce programme a touché un demi-million de jeunes en France, un pays où 80% des filles abandonnent les filières scientifiques entre la seconde et la terminale. Rejoignez-nous pour découvrir comment nous faisons la différence et inspirons la prochaine génération de talents technologiques."
 episode: 233

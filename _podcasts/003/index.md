@@ -1,3 +1,4 @@
+---
 title: "Réduisez votre facture Amazon EC2, passez aux Spots."
 description: "Découvrez comment réduire votre facture Amazon EC2 grâce aux instances Spot.: Dans ce troisième épisode, découvrez comment re!commerce économise jusqu'à 80% sur leur facture Amazon EC2 en utilisant des instances Spot plutôt que on-demand."
 episode: 3

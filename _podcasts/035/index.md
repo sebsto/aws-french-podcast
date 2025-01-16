@@ -1,3 +1,4 @@
+---
 title: "Cloud Act"
 description: "Clarifying Overseas Use of Data: Dans cet épisode, nous parlons du CLOUD Act, ce cadre légal qui permet aux cours de justice des Etats-Unis d'Amérique, sous certaines conditions, de demander l'accès aux données stockées ou traitées sur les infrastrutures cloud. Nous clarifions la portée de ce texte, levons certains mythes à ce sujet et parlons du chiffrement de vos données dans le cloud AWS."
 episode: 35

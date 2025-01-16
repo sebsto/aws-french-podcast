@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2019 re:Cap 3"
 description: "Quelques nouveautés (partie 3).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors de la troisième journée de re:Invent. Nous parlons de HTTP API, Amplify DataStore et Amazon Builders' Library."
 episode: 13

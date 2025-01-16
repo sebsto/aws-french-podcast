@@ -1,3 +1,4 @@
+---
 title: "Protégez vos données"
 description: "Vos backups avec Veeam: Cette semaine, nous parlons de protection de vos données, avec les solutions de sauvegarde de Veeam qui s'intègrent avec les solutions AWS, telles que Amazon EC2, Amazon S3 ou Amazon EBS. Sauvegarde, redémarrage d'activité, récupération instantanée, migration de vos données sont au menu."
 episode: 77

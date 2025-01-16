@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 11 mars 2022: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de nouvelles instances EC2, de TypeScript qui débarque dans SAM, d'une nouvelle option de déploiement pour vos bases de données Amazon RDS, de la mesure de votre impact carbon dans le cloud et de nouvelles possibilités pour vos réseaux et applications qui tournent sous IPv6."
 episode: 98

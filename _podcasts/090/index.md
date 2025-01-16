@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 14 janvier 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons encore une fois de IPv6, mais cette fois au sujet de Kubernetes. Il y a aussi une nouvelle région en indonésie, une nouvelle page d'acceuil sur la console et un nouveau type d'instance pour le calcul haute performance. "
 episode: 90

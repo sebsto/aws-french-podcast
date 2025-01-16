@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 18 novembre: Cette semaine j'ai sélectionné 4 brèves et 4 nouveautés plus longues à expliquer. Dans cet épisode, on parle des gardiens du temps, de Amplify, de macOS, de la découpe de monolithes en microservices. On parle aussi d'authentification multi facteurs, de Terraform pour le serverless et de non pas une, mais deux nouvelles régions. Efin nous terminerons avec une nouveauté qui va nous simplifier la vie à toutes et tous : le resource explorer - une recherche de resources a travers plusieurs régions."
 episode: 134

@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 31 décembre 2021: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous concluons l'année 2021 en célébrant 3 ans de podcast et près de 200000 téléchargements. Nous revenons sur une ou deux nouveautés annoncées les derniers jours concernant EC2 Image Builder et Lambda qui peut être appelé en IPv6"
 episode: 88

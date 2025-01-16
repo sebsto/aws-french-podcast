@@ -1,3 +1,4 @@
+---
 title: "WIT : Elizabeth den Dulk"
 description: "Reconversion internationale et diversité dans la tech: De l'Afrique du Sud à la France, en passant par l'Australie, Elizabeth den Dulk a un parcours aussi riche que varié. Après des études en marketing, elle a décidé de se réinventer dans le monde passionnant de la data. Au cours de son parcours, elle a eu l'opportunité de travailler dans des environnements culturels et professionnels très différents. ‍ Aujourd'hui, en tant que Sales Engineer chez Snowflake, elle partage avec nous son expérience unique et nous livre ses réflexions sur la diversité et l'inclusion dans le secteur technologique.   'Considérez les personnes pour l'expérience qu'elles apportent et non leur genre ou identité sexuelle.'  Écoutez ce nouvel épisode inspirant et découvrez comment Elizabeth a su s'adapter et réussir dans un secteur en constante évolution."
 episode: 242

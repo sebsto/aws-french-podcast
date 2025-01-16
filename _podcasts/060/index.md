@@ -1,3 +1,4 @@
+---
 title: "Sécurité et souveraineté du cloud"
 description: "Clarifier et démysifier les bases de la sécurité: La sécurité de vos données et de vos applications est la première priorité d'AWS. Dans cet épisode nous rappelons les bases : à qui appartiennent vos données ? Où sont-elles stockées ? Est-ce que AWS les utilise ? Est-ce que mes données sont protégées par un plan de reprise d'activités (PRA) ? Comment je peux chiffrer mes données ?  Qu'est ce qui me garantit que AWS fait ce qu'il dit en matière de protection des données ? Qu'est ce que la souveraineté des entreprises, des clouds ? Et quel est le lien entre souveraineté et sécurité ?"
 episode: 60

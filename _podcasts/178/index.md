@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 8 septembre: J'ai compté 83 nouveautés   ces deux dernières semaines. J'en ai retenu 7 qui j'espère sont pertinentes pour vous, les builders. Dans cet épisode, on parle de l'arrêt de EC2 Classique, de Flink managé pour vos applications data. On parle de nouvelles possibilités des Network Load Balancer et de Cloudwatch Log. Il y a une nouvelle famille d'instances EC2, les R7iz et je termine avec AWS Amplify qui vous permet maintenant de développer des flux d'authentication multi-facteurs avec les TOTP. "
 episode: 178

@@ -1,3 +1,4 @@
+---
 title: "Le contrôle des coûts chez Dalkia"
 description: "D'une erreur de configuration à une stratégie de monitoring des coûts: Découvrez comment Dalkia a mis en place une stratégie de contrôle des coûts AWS suite à une erreur de configuration qui a généré une surfacturation accidentelle. Outre les aspects techniques, la responsabilisation et l'éducation des équipes sont les deux éléments clés de la réussite."
 episode: 222

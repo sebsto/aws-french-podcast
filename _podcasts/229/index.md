@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 28 juin"
 description: "Quoi de neuf ?: Cette semaine, le podcast \U0001F399️ AWS ☁️ en français \U0001F1EB\U0001F1F7 met l'accent sur la sécurité et le développement applicatif avec un florilège de nouveautés. Au programme : renforcement de la sécurité des données avec AWS KMS et le SDK de chiffrement, gestion simplifiée des dépendances et des workflows de développement avec CodeCatalyst, nouveaux environnements de développement avec AWS Codebuild, et bien plus encore. Ne manquez pas cet épisode pour découvrir toutes les dernières innovations AWS qui vous permettront de booster votre productivité et votre posture de sécurité."
 episode: 229

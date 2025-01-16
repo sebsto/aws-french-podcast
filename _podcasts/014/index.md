@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2019 re:Cap 4"
 description: "Quelques nouveautés AI/ML (partie 4).: Dans cet épisode hors série, je passe en revue quelques annonces faites en matière d'intelligence artificielle et d'apprentissage machine."
 episode: 14

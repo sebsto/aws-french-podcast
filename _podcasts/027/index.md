@@ -1,3 +1,4 @@
+---
 title: "Smash transfère vos fichiers, en serverless"
 description: "Stockage et distribution à grande échelle: Smash est un service de transfer de fichiers pour professionnels et particuliers. 100% serverless, 100% service managés, découvrez l'infrastructure qui leur permet de stocker 340 Tb et distribuer 1Pb de contenu par mois."
 episode: 27

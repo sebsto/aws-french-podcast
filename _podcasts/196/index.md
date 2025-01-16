@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 15 décembre: J'ai compté 74 nouveautés depuis la fin de re:Invent, c'est moins de la moitié du rythme des semaines avant la conférence. Dans cet épisode, je vais parler d'une nouvelle possibilité offerte par Amplify, je vais aussi parler de Lambda, de Fault Injection Simulator, ce service qui permet de simuler des pannes dans vos applications, et puis deux nouveautés côté CloudShell et Rekognition Face Liveness detection."
 episode: 196

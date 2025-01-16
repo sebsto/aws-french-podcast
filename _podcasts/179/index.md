@@ -1,3 +1,4 @@
+---
 title: "Foyer Global Health"
 description: "L'assurance santé dans le cloud: Foyer Global Health est une division de la société luxembourgeoise d'assurance Foyer. Leurs équipes ont créé un système IT dans le cloud pour satisfaire leurs exigences métier. Dans cet épisode, découvrez comment Foyer Global Health est parti des besoins et exigences du métier pour construire une architecture dans le cloud. Depuis les besoins de bureautique, les systèmes backend et les environnements de dévelopmenet et CI/CD. On y parle aussi de stratégie d'utilisation de plusieurs comptes AWS, de stratégie de repository de code, de configuration réseau de type 'Hub and Spoke' et de 'Security as Code'."
 episode: 179

@@ -1,3 +1,4 @@
+---
 title: "Serverless framework"
 description: "Le framework pour créer des applis serverless: Dans cet épisode, nous plongeons dans l'univers du Serverless Framework, l'un des premiers frameworks et lignes de commande qui a révolutionné et continue de simplifier la création de fonctions Lambda. Dans cet épisode, nous epxliquons pourquoi utiliser Serverless framework et comment bien débuter dans le monde sans serveurs. Pour aller plus loin, découvrez les plugins de la ligne de commande qui permettent de réaliser des actions complémentaires lors du développement, test, ou déploiements de vos vos fonctions. On y parle aussi de Lift, ce plugin qui permet de marrier du code CDK et le projet serverless."
 episode: 181

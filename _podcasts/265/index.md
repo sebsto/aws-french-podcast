@@ -1,3 +1,4 @@
+---
 title: "re:Invent re:Cap 3"
 description: "Debrief des 2 premières keynotes: Au deuxième jour de AWS re:Invent, je reçois Virginie et Jérémie pour débriefer les keynotes de Peter de Santis et Matt Garman"
 episode: 265

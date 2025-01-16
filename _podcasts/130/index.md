@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 21 octobre: Cette semaine est assez calme, j'ai tout de même noté des changements dans le programme AWS Activate pour les startups, Aurora Serverless qui est supporté par CloudFormation, un nouveau type d'instance EC2 pour l'entrainement de gros (très gros) modèles AIML, et surtout, les S3 Object Lambda qui s'enrichissent des requêtes HEAD et LIST. Je vous explique à quoi ca peut servir à la fin de cet épisode."
 episode: 130

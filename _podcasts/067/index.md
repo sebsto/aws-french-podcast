@@ -1,3 +1,4 @@
+---
 title: "Calldesk"
 description: "Des bots intelligents dans vos centres d'appels: Calldesk développe des chat bots conversationnels pour automatiser la prise en charge d'appels répétitifs dans vos centres de contact. Dans cet épisode, nous parlons de SIP, de terminaison d'appels téléphoniques dans le cloud, mais surtout nous parlons de robots conversationnels, de l'intelligence que nous pouvons leur apporter. Calldesk réduit le besoin de mise en contact avec des opérateurs humains et permet de répondre aux demandes les plus fréquentes de vos clients quand ils vous appellent. Si vous voulez savoir comment le cloud AWS permet à Calldesk de prendre en charge 50000 appels en même temps, cet épisode est pour vous !"
 episode: 67

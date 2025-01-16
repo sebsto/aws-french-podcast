@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 17 décembre 2021: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, je reviens sur re:Post, les nouveaux forums d'échange de la communauté AWS, de FreeRTOS, d'annonces faites autour des Local Zones et de AWS Wavelength en europe et de nouveaux types d'instances EC2 disponibles dans la région de Paris."
 episode: 86

@@ -1,3 +1,4 @@
+---
 title: "IPv6"
 description: "Comment utiliser IPv6 dans le cloud ?: IPv6 se généralise, principalement pour simplifier les plans d'adressage et bénéficier de 2^128 addresses IP. En écoutant ce podcast, vous découvrirez les challenges pour migrer de IPv4 à IPv6. Nous expliquons aussi comment déployer des réseaux IPv6 uniquement ou hybrides IPv4-IPv6 dans le cloud AWS."
 episode: 87

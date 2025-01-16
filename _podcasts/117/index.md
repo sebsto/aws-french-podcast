@@ -1,3 +1,4 @@
+---
 title: "Ekonoo"
 description: "L'épargne salariale dans le cloud : Cette semaine, on parle avec Ekonoo, une société Luxembourgeoise qui propose de l'épargne salariale. L'application est cloud native dans un secteur regulé, celui de l'investissement, et c'est une première à Luxembourg. Dans cet épisode, nous parlons de conformité de services financiers, d’architecture serverless, de performance et de sécurité. Je découvre le concept de monolithe en serverless et comment ré-architecturer ce monolithe en microservices, en ré-organisant les équipes et en mettant à disposition des équipes des couches d'abstraction pour que les développeurs puisse être productifs rapidements (avec leur propre compte AWS)."
 episode: 117

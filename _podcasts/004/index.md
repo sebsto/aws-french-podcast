@@ -1,3 +1,4 @@
+---
 title: "Le serverless chez 20 Minutes"
 description: "Comment et pourquoi passer sur une architecture serverless: La dernière génération des applications de 20 Minutes est entièrement basée sur du serverless (AWS Lambda, Amazon API Gateway, Amazon S3,...).  Découvrez pourquoi et comment ils ont adopté ce type d'architecture, leurs challenges et les bénéfices qu'ils en tirent."
 episode: 4

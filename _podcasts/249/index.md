@@ -1,3 +1,4 @@
+---
 title: "WorldSkills cloud"
 description: "Une compétition internationale: Cette conversation explore le concours WorldSkills, en se concentrant particulièrement sur le secteur du cloud. Seb, l'animateur, présente Jonathan Bruneau et Brandon Ancelin, qui partagent leurs expériences et leurs connaissances sur le concours. Ils discutent de l'histoire de WorldSkills, du rôle d'AWS, de la structure du concours et des compétences nécessaires pour réussir. Jonathan partage son parcours personnel, sa préparation et les défis techniques qu'il a rencontrés lors du concours. La conversation met en évidence les opportunités que WorldSkills offre aux jeunes professionnels de l'industrie du cloud et se conclut par un encouragement pour les futurs participants."
 episode: 249

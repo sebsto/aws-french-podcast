@@ -1,3 +1,4 @@
+---
 title: "Stocker des données sur de l'ADN"
 description: "Le future de l'archivage de données?: Découvrez un épisode captivant où nous explorons l'avenir du stockage de données sur de l'ADN. Plongez dans le futur de la technologie, où chaque brin d'ADN devient une bibliothèque de connaissances infinie. \U0001F9EC\U0001F4BD"
 episode: 197

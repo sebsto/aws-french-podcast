@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent re:Cap - Vendredi"
 description: ": Le dernier résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas le Vendredi 1er décembre 2023."
 episode: 194

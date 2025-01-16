@@ -1,3 +1,4 @@
+---
 title: "Amazon Location Service"
 description: "Ajoutez de la géolocalisation dans vos apps: En écoutant cet épisode, vous découvrez Amazon Location Service, un service qui vous permet d'ajouter des fonctionalités de gélolocations dans vos applications, en toute sécurité et confidentialité puisque les données restent dans votre compte AWS. Nous parlons de cartographie, geo-coding (adresses et points d'intérêts), itinéraire, suivi et geo-fencing (alerte quand un objet quitte ou entre dans une zone)."
 episode: 69

@@ -1,3 +1,4 @@
+---
 title: "WIT : Tiffany Souterre"
 description: "Les petits gestes qui font la différence: Dans cet épisode, Tiffany partage son parcours inspirant, d'une thèse en génétique à un poste de Développeur Advocate chez AWS. Elle évoque les défis qu'elle a rencontrés lors de sa transition vers le secteur technologique, l'importance des compétences en codage dans la recherche, et ses expériences en tant que femme dans un domaine dominé par les hommes. Tiffany souligne la nécessité d'inclusivité et de diversité dans le secteur technologique, en s'appuyant sur ses propres expériences de biais sexiste et sur l'importance du mentorat pour les générations futures. Elle offre des conseils précieux aux femmes qui entrent dans le secteur technologique, ainsi qu'aux hommes sur la manière de favoriser un environnement plus inclusif."
 episode: 257

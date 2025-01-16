@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 23 juillet 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons d'un nouveau service pour gèrer les données médicales, d'améliorations apportées à AWS Amplify, Amazon CodeGuru, et au Amazon VPC Security Group. Nous fêtons un anniversaire aussi, préparez-vous à souffler des bougies. Enfin, nous revenons sur quelques statistiques de consommations des services AWS, collectées lors du dernier Amazon Prime Day, pour vous démontrer, si besoin en est encore, la capacité élastique du cloud."
 episode: 62

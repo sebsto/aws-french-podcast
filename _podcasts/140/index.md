@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 16 décembre: Deux semaines après la conférence AWS re:Invent, on a tendance à penser que le rythme des nouveautés AWS va ralentir quelques semaines, mais ce n'est pas le cas. Parmis les 97 annonces des 15 derniers jours, j'ai retenu pour vous des nouveautés sur Amplify, un nouveau service pour aider les développeurs à gérer l'emsemble des services connexes à leur code. Il va y avoir des changements sur Amazon S3, on vous previent 3 mois avant pour vous permettre d'ajuster vos applications si necessaire, et puis on parlera cartographie avec des nouveautés côté Amazon Location Service et des cartes en open-source."
 episode: 140

@@ -1,3 +1,4 @@
+---
 title: "Replibyte"
 description: "Vos bases de données répliquées et anonymisées: Replibyte est un outil open-source de réplication de vos bases de données à des fins de tests et de développement. Il exporte un sous-ensemble anonymisé de vos données à la volée pour que vos bases de tests et de devs ne contiennent pas de données personnelles qui viennent de la production. Replibyte fonctionne avec les bases PostgreSQL, MySQL et MongoDB. Dans cet épisode on explique pourquoi et comment utiliser cet outil et comment ca marche sous le capot. Spoiler alert : il est écrit en Rust par les équipes de Qovery."
 episode: 153

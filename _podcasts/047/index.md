@@ -1,3 +1,4 @@
+---
 title: "Le drift d'infrastructure"
 description: "Ce qui empêche tout le monde de dormir: Toute votre infra est déployée selon les règles de l'infrastructure as code. Vous pouvez dormir tranquille. Etes-vous sûr ? Comment s'assurer que ce qui est déployé reste aligné avec ce qui est décrit dans votre code ? Avez-vous déjà fait un petit changement rapide dans la console pour corriger un problème un samedi soir ? Avez-vous reporté ce changement dans votre code ? driftctl est un outil open-source qui vérifie la réalité de ce qui est déployé par rapport à la définition faite par Terraform."
 episode: 47

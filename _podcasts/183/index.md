@@ -1,3 +1,4 @@
+---
 title: "On-Hertz"
 description: "Des studios de radio dans le cloud: On-Hertz conçoit des studios radio logiciels, ce qui permet facilement de délocaliser les infrastructures, de donner accès à des studios à des personnes non-techniques, comme des journalistes par exemple. Du studio radio traditionel au studios cloud, ou meme des studio TV pour de la news automatisée, les cas d'usage sont assez larges. Il est aussi possible de déployer ces studios dans le cloud. Dans cet épisode, on parle des cas d'usage, des solutions techniques, du choix on-prem vs cloud, des challenges rencontrés pour déployer des studios radios dans le cloud et des solutions apportées. On parle aussi technologies cloud : serverless, API Gateway, Cognito, et automatisation des déploiements avec Cloudformation."
 episode: 183

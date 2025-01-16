@@ -1,3 +1,4 @@
+---
 title: "Les formations et certifications AWS"
 description: "Apprendre, se perfectioner et se certifier: L'offre de formation et de certifications AWS.  Dans cet épisode, nous passons en revue les différents moyens mis à votre disposition pour vous former sur les technologies du cloud AWS. Nous parlons aussi des examens de certifications : quels sont-ils ? Pourquoi se certifier AWS ? Comment se préparer pour réussir son examen ?"
 episode: 25

@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 14 juin"
 description: "Quoi de neuf ?: Parmis les 64 nouveautés des 15 derniers jours, j'en ai séléctionnées 11 qui me semblent pertinentes pour les builders, les développeurs-euses que vous êtes. Il y a une septième région en construction, pour un total de 40 d'ici 2026. Bedrock ajoute une API unifiée pour accèder à des grands modèles de languages. Il y a eu beaucoup d'annonces liées à la sécurité et conformité cette semaine pendant la conférence re:Inforce à Philadelphie et pour finir j'ai repéré 3 annonces qui vont toutes vous intéresser si vous développez ou déployez des solutions serverless sur AWS."
 episode: 226

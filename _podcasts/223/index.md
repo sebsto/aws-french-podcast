@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 31 mai"
 description: "Quoi de neuf ?: Avec une soixantaine de news à digérer ces deux dernières semaines, ca ne m'étonne pas que vous écoutiez cet épisode du podcast \U0001F399️ AWS ☁️ en français \U0001F1EB\U0001F1F7. J'ai accroché pour vous quelques nouveautés au sujet de RDS DB2, de OpenSearch zero ETL, de Verified Permissions et Cedar, de Event Bridge ainsi qu'une nouvelle famille d'instances EC2 pour ceux qui ont besoin de beaucoup de CPU et beaucoup de mémoire. "
 episode: 223

@@ -1,3 +1,4 @@
+---
 title: "UFO Drive"
 description: "Bien plus que de la location de voiture: Dans cet épisode nous parlons de l'architecture cloud de UFO Drive. UFO Drive loue des véhicules électriques à partir d'une app uniquement, sans bureaux pour réserver, prendre en charge ou restituer le véhicule. Quelle infrastructure cloud est nécessaire pour supporter ce business ? Quelles technologies sont utilisées pour enregistrer les utilisateurs et leur livrer le contrat et la clé du véhicule? Quelles technologies sont utilisées lors du retour du véhicule sur son emplacement de parking ? Spoiler alert, on parle de GraphQL, d'apprentissage machine et de IoT."
 episode: 163

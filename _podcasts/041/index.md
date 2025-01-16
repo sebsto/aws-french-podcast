@@ -1,3 +1,4 @@
+---
 title: "Les centres de données AWS"
 description: "Le dessous de la vie dans nos centres de données: Dans cet épisode, nous discutons avec les personnes qui travaillent dans les data centres d'AWS en région parisienne. Nous parlons de leurs rôles et responsabilités, des procédures de sécurité, de la gestion des périphériques de stockage et comment leur travail contribue à la disponibilité et la sécurité des services AWS. Ces équipes recrutent, il y a 28 postes à pourvoir aujourd'hui, le lien se trouve dans les notes du podcast ci-dessous."
 episode: 41

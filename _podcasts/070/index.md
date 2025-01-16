@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 17 septembre 2021: Un épisode sur deux du podcast est consacré à  une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Kubernetes, du nouveau nom de Elastic Search - Open Search -, d'une nouvelle famille d'instances EC2, d'une place de marché pour les compétences AWS qui arrive en France, et enfin de connecteurs managés pour vos clusters Kafka."
 episode: 70

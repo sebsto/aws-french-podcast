@@ -1,3 +1,4 @@
+---
 title: "WIT : Sasha Rubel"
 description: "L'intelligence artificielle pour la diversité et l'inclusion: Cette conversation explore l’intersection entre l’intelligence artificielle (IA), la diversité et l’inclusion, avec un accent particulier sur le rôle des femmes dans la technologie. La discussion met en lumière l’état actuel des femmes dans le secteur technologique, les obstacles qu’elles rencontrent et comment l’IA peut être utilisée pour promouvoir la diversité et l’inclusion. Elle aborde également les implications des politiques publiques et les applications concrètes de l’IA qui améliorent l’accès et l’équité. La conversation se termine par une vision d’un avenir où l’IA et la diversité sont étroitement liées, favorisant l’innovation et l’inclusivité."
 episode: 260

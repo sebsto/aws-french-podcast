@@ -1,3 +1,4 @@
+---
 title: "WIT : Eva Faict"
 description: "Empower them : Dans cet épisode du le podcast \U0001F399️ AWS ☁️☁️ en \U0001F1EB\U0001F1F7\U0001F1EB Women in Tech, Seb recoit Eva Faict, directrice d'Amazon Belgique. Ils discutent du parcours d'Eva dans le lancement d'Amazon en Belgique, des défis qu'elle a rencontrés en tant que femme leader, et de l'importance du mentorat et des réseaux de soutien pour les femmes dans la technologie. Eva souligne la nécessité d'espaces sécurisés où les femmes peuvent s'exprimer de manière authentique et le rôle de la diversité dans la stimulation de l'innovation. La conversation se conclut par un appel à l'action pour que les femmes reconnaissent leur pouvoir et se soutiennent mutuellement dans leurs parcours professionnels."
 episode: 254

@@ -1,3 +1,4 @@
+---
 title: "Le programme AWS TechU"
 description: "Un CDI pour vous former comme Solution Architect: Le programme AWS TechU recrute des étudiants fraichement diplomés pour les engager en tant que Solution Architect. Pendant les 6 premiers mois, vous êtes en formation pour apprendre les ficelles du métier de Solution Architect. La formation concerne la technique du cloud, mais aussi des softs skills : comment gèrer des réunions avec des clients, comment écrire des blogs ou faire des présentations en public. Ce n'est pas un stage, vous êtes employés en CDI dès le premier jour. Nous engageons maintenant pour le prochain groupe, postulez aujourd'hui!"
 episode: 133

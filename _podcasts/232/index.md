@@ -1,3 +1,4 @@
+---
 title: "Agissez pour un numérique durable ☘️"
 description: "Cinq façons de se mettre au vert: Nous explorons cinq stratégies pour rendre vos opérations IT plus écologiques et efficientes. Que vous soyez un développeur, un architecte de solutions, ou simplement passionné par la tech durable, cet épisode est fait pour vous ! N'oubliez pas de vous abonner pour ne manquer aucun de nos futurs épisodes où nous décryptons les dernières tendances et technologies du cloud AWS !\n#PodcastAWS #TechDurable #GreenIT #CloudComputing #Serverless #ARM64 #CodeOptimisation #DataResponsibility #AWSenFrançais"
 episode: 232

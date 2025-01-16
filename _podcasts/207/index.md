@@ -1,3 +1,4 @@
+---
 title: "10 leçons sur Kubernetes"
 description: "EKS chez HK-Tech: Dans cet épisode nous listons dix leçons apprises pendant plus de trois années à gérer des clusters kubernetes à grande échelle."
 episode: 207

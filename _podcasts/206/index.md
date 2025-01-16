@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 23 février: J'ai compté 60 nouveautés pile poil depuis le 9 février. Dans cet épisode, nous parlons des clients légers  pour Amazon Workspaces, on parle de certificats TLS et de TLS 1.3. Il y a aussi des nouvelles APIs pour gérer vos comptes AWS avec Control Tower. Les services de transfert de fichiers communiquent avec Event Bridge et le WAF s'intègre aux ALB en un seul click. Trop d'acronymes ? Ecoutez cet épisode, je vous explique tout."
 episode: 206

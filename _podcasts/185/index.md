@@ -1,3 +1,4 @@
+---
 title: "OSO AI"
 description: "Aider les personnes fragiles: OSO AI développe des boîtiers qui aident les personnes fragiles et ceux qui s'en occupent grâce à une technologie unique basée sur le son. Cette analyse intelligente de l'environnement sonore permet d'extraire les informations utiles pour comprendre la situation et mieux sécuriser les personnes fragiles, sans réglage ni stigmatisation. Dans cet épisode, on parle d'intelligence artificielle, d'Internet des objets (IoT) et de l'informatique sans serveur. On parle aussi d'entraînement de système d'apprentissage automatique, de labelisation des données, de tests de régression de modèles et de MLOPS."
 episode: 185

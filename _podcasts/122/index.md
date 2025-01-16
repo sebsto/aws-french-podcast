@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 26 août 2022: Cette semaine, nous parlons de HTTP/3 et de QUIC, mais pas que. Nous parlerons de S3 et DynamoDB, nous jeterons un regard rétrospectif sur 10 années d'évolution de EBS. Enfin, je vous indiquerai un nouveau moyen de bloquer les attaques sur la page d'authentification de vos apps. On parlera DevOps aussi - ou de ChatOps plus précisement."
 episode: 122

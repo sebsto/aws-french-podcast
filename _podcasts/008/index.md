@@ -1,3 +1,4 @@
+---
 title: "Technique Avancée IAM."
 description: "Limitez les droits des admins sur vos comptes d'Organisation.: Dans cet épisode, nous parlons d'une technique qui permet de donner un compte AWS à un département, un consultant, avec plein accès Administrateur, mais sans qu'il ne puisse détacher le compte de l'organisation ni altérer les autorisations du compte Maître sur ce compte.\nNous allons parler de Amazon Identity & Access Management, politiques de sécurité et Service Control Policies (SCP)"
 episode: 8

@@ -1,3 +1,4 @@
+---
 title: "L'apprentissage machine et les jeux mobiles"
 description: "La personalisation as a service, en temps-réel.: Pourquoi les concepteurs de jeux cherchent-ils à personaliser, en temps réel, votre expérience ? Comment l'apprentissage automatique peut-il aider à personaliser vos jeux ? Les réponses sont dans cette discussion avec Dominique et Jonathan de askblu.ai, un service de personalisation en temps réel pour les concepteurs de jeux mobiles."
 episode: 45

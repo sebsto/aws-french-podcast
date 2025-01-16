@@ -1,3 +1,4 @@
+---
 title: "Les tests d'intrusion"
 description: "Testez votre sécurité, proactivement: Tester la sécurité de vos applications pendant leur dévelopement, les déploiements et une fois en production fait partie des meilleures pratiques que vous avez peut-être déjà adoptées. Dans cet épisode, nous parlons tests d'intrusion, audit de code, audit d'infrastructure. Quel est l'impact des architectures serverless sur les techniques utilisées ? Quels changements de méthode rendent possible l'automatisation du testing via les API du  cloud ? Nous en parlons "
 episode: 46

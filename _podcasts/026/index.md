@@ -1,3 +1,4 @@
+---
 title: "Des canaris pour tester vos sites web"
 description: "Amazon CloudWatch Synthetics: Amazon CloudWatch Synthetics est un nouveau service qui permet de tester vos sites web ou API, en exécutant des scripts de tests qui simulent une activité sur vos endpoints."
 episode: 26

@@ -1,3 +1,4 @@
+---
 title: "Firecracker"
 description: "La microVM qui fait tourner AWS Lambda et Fargate: Intrigué par les microVMs et le serverless ? Découvrez Firecracker, une solution ultra-rapide et simple pour vos applications serverless et bien plus encore ! Au cœur des fonctions Lambda et des conteneurs Fargate, Firecracker est une technologie incontournable pour les développeurs et les passionnés d'infrastructure. Mais ce n'est pas tout ! Que vous soyez bricoleur du dimanche ou féru d'informatique, Firecracker vous ouvre les portes d'un monde de possibilités. Rejoignez Quentin dans son labo et apprenez à installer une microVM de A à Z, à lui monter un disque dur, à la connecter au réseau et bien plus encore ! Abonnez-vous au podcast pour ne rien manquer et rejoignez la communauté des passionnés de technologie et de cloud ! #Firecracker #microVM #serverless #DIY #RaspberryPI #kubernetes"
 episode: 222

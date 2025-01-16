@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 29 juillet 2022: Cette semaine, beaucoup de security avec des nouveautés coté Guarduty et Detective, mais aussi des nouvelles possibilités avec EMR et Lambda. On parle open source avec Lambda Power Tools pour Typescript et Cloudscape, une librairie pour construire des interfaces web. Le bord du cloud s'étend à l'espace, une partie du cloud AWS est dans la station spaciale internationale et on terminera avec les chiffres AWS du dernier Amazon Prime Day, vous savez ? Cette journée de soldes au niveau mondial qui met beaucoup de charge sur nos infrastructures."
 episode: 118

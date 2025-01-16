@@ -1,3 +1,4 @@
+---
 title: "QuestDB"
 description: "Une DB open-source pour analyser les données temporelles: QuestDB est une base de données conçue pour ingérer, stocker et analyser des données temporelles. Utilisée dans de nombreux domaines métiers différents, elle scale de façon linéaire en exploitant au mieux les caractéristiques des plateformes modernes. On vous explique comment ca marche, mais aussi l'historique du produit et le business model open-source."
 episode: 173

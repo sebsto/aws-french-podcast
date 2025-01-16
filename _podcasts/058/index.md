@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 25 juin 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons d'une baisse de prix sur les instances Windows et SQL Serveur, de partage de vos extensions AWS CloudFormation, d'un concours autour de Graviton et d'un nouvel outil de programmation visuelle pour orchestrer vos fonctions AWS Lambda."
 episode: 58

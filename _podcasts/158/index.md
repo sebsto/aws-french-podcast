@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 21 avril: J'ai compté 95 nouveautés ces deux dernières semaines (-12 WoW), dont des grosses annonces au sujet des IA génératives et des Large Language Model (LLM). Il y a eu aussi deux nouveautés importantes pour AWS Lambda. AWS CodeCatalyst, dont nous parlions la semaine passée est maintenant disponible. Et puis pour vous, les développeurs, j'ai noté quelques nouveautés côté Amplify."
 episode: 158

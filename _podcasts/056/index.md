@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 11 juin 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons des examens de certifications qui seront bientôt en français, mais pas que, d'un nouveau cours en ligne sur CodeGuru, d'une nouvelle région annoncée et de deux services qui passent de preview en GA : Amazon Location Service et ECS Anywhere."
 episode: 56

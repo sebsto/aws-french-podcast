@@ -1,3 +1,4 @@
+---
 title: "France Télévisions"
 description: "Ajout de publicités côté serveur: France Télévisions utilise le cloud AWS pour distribuer les flux vidéos à destinations des plateformes numériques (Box fournisseurs, ordinateurs, tablettes et téléphones). Découvrez le parcours du flux vidéo depuis sa sortie de régie jusqu'à votre écran. On parle d'encodage et de traitement de vidéos, d'inclusion de publicités personnalisées côté serveur et de synchronisation de pistes audios. Entrez dans le monde de la diffusion vidéo en numérique et découvrez comment le cloud permet de manipuler des flux vidéos en temps réels."
 episode: 195

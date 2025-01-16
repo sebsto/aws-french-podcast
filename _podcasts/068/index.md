@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 3 septembre 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous fêtons un anniversaire, nous parlons de stockage avec S3 et d'une nouvelle base de données, Grafana managé est maintenant disponible pour toutes et tous, nous parlons d'une réduction de prix et de nouvelles possibilités offertes par Amazon VPC et AWS CloudFormation."
 episode: 68

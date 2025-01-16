@@ -1,3 +1,4 @@
+---
 title: "Se passer de SSH"
 description: "Se connecter sur vos instances Amazon EC2 sans utiliser SSH: Dans cet épisode, je montre comment se connecter à une instance Amazon EC2 sans utiliser SSH, sans gérer de clés et sans ouvrir un groupe de sécurité. Découvrez AWS Systems Manager Session Manager."
 episode: 20

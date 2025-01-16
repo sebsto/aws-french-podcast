@@ -1,3 +1,4 @@
+---
 title: "Radio France"
 description: "L'infrastructure de diffusion radio: Nous parlons de l'infrastructure de diffusion numérique des radios de Radio France : les sites web, les serveurs de flux, les assistants personels comme Google Home ou Alexa,... Tous ces services sont hébergés dans le cloud. On parle aussi de CDN (et pas que celui de AWS), de Kubernetes, de scaling et d'autres sujets."
 episode: 91

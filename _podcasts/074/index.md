@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 15 octobre 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, c'est le calme avant la tempête, la conférence AWS re:Invent qui se tiendra à Las Vegas en présenciel. Cette semaine nou sparlons de VMWare Cloud et Outposts, de Elastic BeansTalk et ses bases de données, du Cloud Development Kit (CDK), d'une réduction de prix (encore) et de la disponibilité des instances Amazon EC2 pour macOS"
 episode: 74

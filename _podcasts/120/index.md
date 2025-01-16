@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 12 août 2022: Cette semaine, nous parlons de stockage avec la pré-annonce d'un nouveau service et de nouvelles fonctionalités sur EBS. On parle d'une baisse de prix des fonctions Lambda et de nouvelles possibilités de formation et de préparation aux examens de certifications."
 episode: 120

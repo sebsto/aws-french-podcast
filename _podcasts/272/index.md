@@ -1,3 +1,4 @@
+---
 title: "L'orchestrateur multi-agents"
 description: "Un orchestrateur open source pour vos agents IA: Dans cet épisode de podcast, Seb, Corneliu et Anthony discutent du Multi-Agent Orchestrator, un framework open source conçu pour faciliter l’orchestration de plusieurs agents dans diverses applications. Ils abordent les défis techniques qu’il permet de résoudre, la définition et les rôles des agents, ainsi que l’expérience développeur lors de l’intégration de ce framework. La conversation inclut également une comparaison entre le Multi-Agent Orchestrator et LangChain, en mettant en avant ses fonctionnalités uniques et ses applications pratiques dans des scénarios concrets."
 episode: 272
@@ -8,6 +9,7 @@ category: "podcasts"
 guests:
   - name: "Corneliu Croitoru"
     link: "https://www.linkedin.com/in/corneliucroitoru/"
+    title: "Prototyping Architects, AWS"
   - name: "Anthony Bernabeu"
     link: "https://www.linkedin.com/in/anthonybernabeu/"
     title: "Prototyping Architects, AWS"

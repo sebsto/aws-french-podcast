@@ -1,3 +1,4 @@
+---
 title: "Les Meetups AWS"
 description: "Les groupes d'utilisateurs: Dans ce deuxième épisode, nous avons été à la rencontre de quelques organisateurs des Meetups AWS. Nous avons parlé de contenu, d'organisation et d'animation de la communauté, pour vous donner envie de rejoindre ou de créer un meetup AWS."
 episode: 2

@@ -1,3 +1,4 @@
+---
 title: "AWS Graduate Program"
 description: "Quand AWS recrute des jeunes diplômés: Le AWS Graduate Program est un programme de formation chez AWS à destination des jeunes diplômés. Nous vous engageons en CDI et vous formons sur les technologies du cloud. Après un an de formation, vous vous retrouvez à travailler sur des projets pour nos client. Dans cet épisode, nous parlons de ce programme avec Nada qui vient de le terminer. Comment se faire engager ? Quel est le parcours de formation ? Quelles sont les missions ou projets sur lesquels vous travaillez après ? Quelles sont les possibilités d'evolution de carrière ?"
 episode: 143

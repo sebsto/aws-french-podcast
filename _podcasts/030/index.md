@@ -1,3 +1,4 @@
+---
 title: "Game Day : Cassez votre infra pour le fun"
 description: "Chaos, Team Building ... à quoi sert un game day ?: Un GameDay est un jeu où chaque équipe recoit un compte AWS avec une application. Le game master injecte des pannes dans l'infrastructure. L'équipe qui conserve le plus de services en mode de fonctionnement gagne. A quoi ca sert et comment ca marche ?"
 episode: 30

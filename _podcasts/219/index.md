@@ -1,3 +1,4 @@
+---
 title: "L'excellence opérationnelle pour les DB"
 description: "Prometheus RDS Exporter et Database monitoring framework: Qonto a fait le choix d'utiliser les bases de données managées Amazon RDS. Leur modèle business mutualisé les a conduit à développer des outils de monitoring complémentaires. Dans cet épisode, nous parlons de RDS Exporter pour Prometheus et du Database Monitoring Framework, deux projets open source créés et utilisés par Qonto."
 episode: 219

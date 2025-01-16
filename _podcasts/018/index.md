@@ -1,3 +1,4 @@
+---
 title: "Déployez vos containeurs avec Qovery"
 description: "git push, ils se chargent du reste: Il existe plusieurs solutions pour déployer vos applications sur AWS, soit via les services AWS ou via des outils tiers.  Qovery est une startup qui joue la carte de la simplicité et facilité pour déployer vos applications sur AWS : containeurs, bases de données, pipeline d'intégration continue etc ... Découvrez les services offerts par Qovery et leur retour d'experience après avoir construit leur startup sur AWS."
 episode: 18

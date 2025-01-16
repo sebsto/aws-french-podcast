@@ -1,3 +1,4 @@
+---
 title: "L'excellence opérationelle"
 description: "Culture, outils et mécanismes: Comment assurez vous la qualité de vos opérations IT, la fiabilité de vos déployements, la disponbilité de vos applications pour vos clients ? Le chemin qui mène à l'excellence opérationnel est long et fait de culture, outils et de mécanismes."
 episode: 24

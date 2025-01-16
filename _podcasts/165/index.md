@@ -1,3 +1,4 @@
+---
 title: "Zadig&Voltaire"
 description: "Migration Kube et Green IT: Dans cet épisode nous parlons de l'architecture mise en place pour les canaux de ventes numériques chez Zadig&Voltaire, une marque que les amateurs de mode et de \"effortless luxury\" connaissent bien. On parle de leur migration d'un cluster Kube vers AWS, de leur experience en matière de autoscaling avec des pics de charge jusqu'à 20x la normale. On y parle aussi de leur utilisation de Graviton et des instances EC2 Spot. Enfin, nous évoquons leur utilisation de CloudFront, de Lambda et de leur évolution vers le serverless."
 episode: 165

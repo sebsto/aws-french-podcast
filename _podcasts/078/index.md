@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 12 novembre 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons écologie et impact énergétique du cloud, nous évoquons une nouvelle région en devenir au Canada, deux nouveaux types d'instances EC2, de RSTudio qui arrive sur Sagemaker et d'un nouveau service pour évaluer la résilience de vos applications."
 episode: 78

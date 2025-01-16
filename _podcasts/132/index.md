@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 04 novembre: Beaucoup de nouveautés cette semaine. J'ai retenu celles qui peuvent influencer notre travail de développeurs, de builders. Je parlerai dans cet épisode de App Runner, de Amplify Libraries pour le language de programmation Swift. Il sera désormais plus facile d'accéder à Parameter Store et Secrets Manager depuis Lambda.  Les locale Zones débarquent en Europe. Je parlerai de EC2 qui permet de remplacer le volume principal sans arrêter complètement votre machine. Et je terminerai avec des nouveautés dans la console AWS et dans la console sur mobile."
 episode: 132

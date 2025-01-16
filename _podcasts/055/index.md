@@ -1,3 +1,4 @@
+---
 title: "PacketAI"
 description: "Observabilité et monitoring à grande échelle: Comment feriez-vous pour analyser 2Tb de logs par heure ? A cette échelle, plus question de regexp et de mots clés, on sort la théorie des graphes, de l'apprentissage machine et même un peu de deep learning.  Découvrez la première solution de monitoring autonome, taillée pour le cloud : PacketAI. Dans cet épisode, nous découvrons comment ca marche pour vous, et nous levons le voile sur l'architecture mise en place pour offrir ce service."
 episode: 55

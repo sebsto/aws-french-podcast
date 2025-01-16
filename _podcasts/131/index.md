@@ -1,3 +1,4 @@
+---
 title: "Renovate"
 description: "Comment Swissquote gère les dépendances: La gestion des dépendances dans un projet peut rapidement devenir une tâche à plein temps. Garder ses packages à jours est important pour sécuriser vos usines de production de logiciels. Il existe des outils qui automatisent ces tâches et vous propose automatiquement des pull request sur vos repos.  Un de ces outils s'appelle Renovate de Mend. Renovate est disponible en version open-source comme une app GitHub que vous pouvez intégrer en quelques clicks dans vos applications. Dans cet épisode, j'ai eu une conversation avec Swissquote, une sociéte Suisse qui utilise Renovate depuis trois sans sur plusieurs centaines d'entrepôts de code."
 episode: 131

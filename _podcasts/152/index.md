@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 10 mars: AWS a annoncé 77 nouveautés depuis le 24 février dernier, y compris l'auto complétion des recherches dans la console de AWS Marketplace \U0001F9D0\U0001F605. Dans cette liste, j'en ai choisi six: j'ai choisi de vous parler de services pertinents pour les développeurs : AWS App Composer est maintenant disponible, des nouvelles fonctions de SAM, Lambda PowerTools qui arrive sur .Net et je terminerai avec le blog de la semaine sur le choix d'un language de programmation pour contrôler son efficacité énergétique"
 episode: 152

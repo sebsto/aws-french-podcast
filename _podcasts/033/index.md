@@ -1,3 +1,4 @@
+---
 title: "Terega revisite son référentiel d'entreprise"
 description: "Transformer une DB en service REST, serverless: Dans cet épisode, nous parlons d'un projet de réarchitecture d'une base de donnée centralisée, vers une infrastructure moderne, basée sur des APIs, et déployée par du code, en mode blue/green. Découvrez les avantages techniques et métiers, ainsi que les outils et frameworks utilisés."
 episode: 33

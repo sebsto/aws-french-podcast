@@ -1,3 +1,4 @@
+---
 title: "Les architectures multi-cloud"
 description: "Optimiser et déployer sur plusieurs clouds: Dans cet épisode, nous parlons des complexités et des stratégies liées au déploiement d'applications sur plusieurs fournisseurs de cloud. Nous expliquons les choix techniques effectués pour les bases de données, les réseaux, les permssions. Nous parlons aussi des défis d'intégration avec les API cloud et l'optimisation des performances requise pour des services comme S3. La conversation aborde ensuite l'évaluation de nouveaux fournisseurs de cloud, les considérations de coûts et les leçons tirées des expériences multi-cloud. Enfin, nous évoquons l'avenir des architectures cloud, l'importance des architectures durables \U0001F340 et les défis du développement de bas niveau sur différentes architectures de processeurs."
 episode: 255

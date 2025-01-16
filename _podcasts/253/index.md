@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 18 octobre"
 description: "Quoi de neuf ?: J'ai compté 79 nouveautés ces deux dernières semaines, un poil plus que le rhythme habituel, on sent que la conférence re:Invent à Las Vegas approche. Dans cet épisode vous découvrirez des nouveautés concernant MemoryDB où le remplacant de Redis arrive, des nouvelles API qui vont vous aider à automatiser vos postures de sécurité ou vos inventaires, des nouvelles concernant le zero ETL, Lambda, CodePipeline et Amazon Workspaces "
 episode: 253

@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 3 juin 2022: Des nouveautés côté infrastructure puisqu'on parle de Graviton3 qui débarque dans certaines régions après avoir éte annoncé en preview à re:Invent. Une nouvelle option de AWS Data Sync pour vous aider à transfèrer des data vers d'autres cloud (Google et Microsoft) et un nouveau venu dans le monde du serverless et Big Data : EMR. Je vous explique ce que c'est pourquoi l'option serverless pourrait vous intéresser."
 episode: 110

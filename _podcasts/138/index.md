@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 3/3"
 description: "re:Cap - jour 3: La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur les principales annonces faites pendant les trois premières journées de conférence. On y parle d'apprentissage machine, de préparation et de découverte de la donnée. On termine en parlant de Amazon CodeWhisperer qui génère du code pour simplifier la vie des développeurs."
 episode: 138

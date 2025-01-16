@@ -1,3 +1,4 @@
+---
 title: "Jaji"
 description: "Une mutuelle as a service: Jaji est une complémentaire santé construite à partir de zéro. Comment construit-on une architecture IT pour une mutuelle au 21ème siècle, en partant d'une feuille blanche ? Pourquoi le cloud AWS s'est imposé comme choix technique pour déployer une architecture de micro services ?  Et surtout, comment la visibilité des coûts IT permet de calculer le coût par transaction, par client etc et révolutionner les modèles métier dans ce domaine. Comme à mon habitude, on y parle de méthodologie et des aspects humains liés a ce type de développement."
 episode: 141

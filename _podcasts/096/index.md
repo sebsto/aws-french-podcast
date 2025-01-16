@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 25 février 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de nouvelles instances EC2, de Elastic File System qui reduit la latence en lecture, de CodeGuru Reviewer qui enrichit ses librairies. Il sera question d'un anniversaire et de deux nouveautés attendues par les développeurs de fonctions Lambda ou d'API GraphQL avec AppSync."
 episode: 96

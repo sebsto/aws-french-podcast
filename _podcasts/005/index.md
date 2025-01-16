@@ -1,3 +1,4 @@
+---
 title: "Vos postes de travail dans le cloud"
 description: "Découvrez comment comment Véolia distribue, au travers du cloud, 210 applications à 850 collaborateurs.: En 2017, Veolia à décidé de rendre ses applications disponibles depuis n'importe où et n'importe quel appareil, via une simple connection Internet.  Dans ce cinquième épisode, nous revenons sur les détails de ce projet, depuis le prototype initial, jusqu'aux techniques d'optimisations financières pour minimiser les coûts."
 episode: 5

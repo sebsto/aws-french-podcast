@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 17 juin 2022: Cette semaine, on parle de mainframe et de modernization de ces applications dans le cloud. On aborde aussi brièvement une nouvelle instance EC2, une fonctionalité qui facilite la vie des data scientists dans Sagemaker et d'automatisation post migration apres avoir migré des VMs."
 episode: 112

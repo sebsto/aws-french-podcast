@@ -1,3 +1,4 @@
+---
 title: "Développement Fullstack sur AWS Amplify"
 description: "Le retour d'experience de clap-time.com: Découvrez pourquoi clap-time.com a choisi le framework AWS Amplify pour développer une application full stack"
 episode: 17

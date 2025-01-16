@@ -1,3 +1,4 @@
+---
 title: "Les certifications AWS"
 description: "Comment s'y préparer ?: Dans cet épisode nous parlons des certifications AWS. Découvrez quelles sont les certifications, quels avantages elles vous apportent et surtout comment s'y préparer: apprendre à gérer son temps, à lire les questions et choisir la bonne réponse parmis les solutions proposées."
 episode: 161

@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 17 novembre: J'ai compté 182 nouveautés en deux semaines. Vous avez bien entendu et je ne me suis pas trompé. J'ai meme compté deux fois, c'est deux fois plus que d'habitude, on sent que la conférence AWS re:Invent approche. Dans cet épisode, je vais parler de EC2, de trois nouveautés coté EBS, et deux en analyse de données. Je vais parler d'IA générative et d'un tout nouveau service lancé aujourd'hui"
 episode: 188

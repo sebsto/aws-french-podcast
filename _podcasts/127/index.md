@@ -1,3 +1,4 @@
+---
 title: "Audit de sécurité de comptes AWS"
 description: "Comment leboncoin audite ses comptes AWS à l'échelle: On ne présente plus leboncoin en France, nous y sommes tous passés pour y déposer ou regarder des petites annonces. Avec 2000 serveurs, 10000 pods et 2Gbs de bande passante sortante, l'infrastructure cloud se décline sur plusieurs comptes AWS. Comment auditer ces comptes et s'assurer qu'ils ne dévient pas de la configuration initiale ? Leboncoin a développé AWS Tower, un outil open source pour auditer la posture de sécurité de comptes AWS."
 episode: 127

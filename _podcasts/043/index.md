@@ -1,3 +1,4 @@
+---
 title: "Vault de Hashicorp"
 description: "La gestion de vos secrets: Dans cet épisode, nous parlons de la gestion de vos secrets, tels que les mots de passe et les clés d'API. Comment les stocker, les renouveller, contrôler leur accès, que ca soit sur votre laptop, on-prem ou dans le cloud ? Nous parlons de la solution Vault de HashiCorp"
 episode: 43

@@ -1,3 +1,4 @@
+---
 title: "Amazon Cloudfront"
 description: "Comment utiliser votre CDN ?: Une conversation sur le pourquoi et le comment utiliser un CDN. On commence en douceur et au fur et à mesure de la conversation, on rentre dans les détails : les stratégies de caching, des clés de caching, l'utilisation d'un CDN pour se protéger des attaques DDOS ou pour diminuer vos coûts. Ensuite nous parlons de Lambda on Edge et CloudFront functions pour exécuter du code en périmetre de votre infrastructure. Que vous soyez débutant ou expert en matière de CDN, vous apprendrez quelques chose en écoutant cet épisode."
 episode: 172

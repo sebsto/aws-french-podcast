@@ -1,3 +1,4 @@
+---
 title: "Utiliser un système de fichier partagé dans vos applications modernes"
 description: "Quand NFS va à la rencontre de vos conteneurs et fonctions AWS Lambda: Une application moderne est une application souvent serverless, conteneurisée ou utilisant des fonctions AWS Lambda. Ce sont des applications agiles qui traitent souvent de gros volumes de données.  Comment ces applications peuvent utiliser des systèmes de fichier partagés pour stocker, ou échanger de la donnée? Comment Network File System (NFS), un protocole conçu dans les années 1980, est toujours d'actualité pour ces cas d'utilisation ?  Découvrez Amazon EFS, comment l'intégrer à vos applications modernes, quelles sont les bonnes pratiques, les considérations de performance, de sécurité et les coûts ?"
 episode: 59

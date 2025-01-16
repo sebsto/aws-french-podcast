@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent re:Cap - Jeudi"
 description: ": Un résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas le jeudi 30 novembre 2023."
 episode: 193

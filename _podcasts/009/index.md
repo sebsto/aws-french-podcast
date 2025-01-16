@@ -1,3 +1,4 @@
+---
 title: "Interview du fondateur de Oto"
 description: "La nouvelle génération de reconnaissance vocale.: La startup suisse Oto analyse en temps réel des conversations et en déduit les sentiments dominants de la conversation.  Impatience, satisfaction, colère, lassitude.  Ces données permettent d'améliorer les performances des call centers ou des plates-formes de télémarekting.  Dans cette épisode, nous parlons d'apprentissage machine et de l'infrastrcture cloud qui permet de mettre au point une nouvelle génération d'outils qui analysent la manière dont nous communiquons."
 episode: 9

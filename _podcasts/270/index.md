@@ -1,3 +1,4 @@
+---
 title: "Démarrer avec Langchain"
 description: "Le framework pour les apps d'IA générative: Dans cet épisode, Seb échange avec Julia Wabant au sujet de LangChain, un framework open source conçu pour faciliter le développement d’applications s’appuyant sur des modèles de langage étendus (LLMs) et l’IA générative. Ils explorent les composants de LangChain, le rôle des agents dans l’orchestration des tâches complexes, et les défis techniques rencontrés par les développeurs. Julia partage des exemples concrets d’utilisation et explique comment intégrer cette technologie dans des processus métiers existants. L’épisode aborde également le soutien de la communauté LangChain, du meetup français que Julia à co-créé et les perspectives d’avenir pour l’IA générative."
 episode: 270

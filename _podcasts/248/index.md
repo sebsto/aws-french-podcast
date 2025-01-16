@@ -1,3 +1,4 @@
+---
 title: "WIT : Catherine Jestin"
 description: "La diversité chez Airbus: Dans cette conversation, Seb et Catherine Gestin, Vice-Présidente chez Airbus, discutent de l'importance de la diversité et de l'inclusion dans l'industrie technologique, en particulier au sein d'Airbus.\nCatherine partage son parcours, passant d'un background en affaires à un rôle de leadership dans une entreprise technologique, soulignant la nécessité de perspectives diverses pour favoriser l'innovation. Ils explorent les différentes initiatives mises en place par Airbus pour améliorer la diversité de genre, l'inclusion culturelle et le soutien aux personnes en situation de handicap. Catherine souligne l'impact positif de ces efforts sur la créativité des équipes, les performances de l'entreprise et la rétention des employés, tout en reconnaissant les défis persistants et les différences culturelles dans la promotion de la diversité dans différentes régions."
 episode: 248

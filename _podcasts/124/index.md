@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 9 septembre: Cette semaine, il y a une nouvelle région AWS. Nous parlons open-source au sujet d'une technologie core de Event Bridge. Il y a aussi des nouveautés côté Step Functions et deux blog posts qui ont retenu mon attention, le premier sur Teradici pour Mac et le second sur l'authentification multifacteur pour vos API, avec Cognito"
 episode: 124

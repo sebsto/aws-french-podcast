@@ -1,3 +1,4 @@
+---
 title: "Julien Groues, un allié"
 description: "La diversité et l'inclusion au sein des entreprises: Nous recevons un VP d'AWS inspirant pour discuter des actions concrètes que les leaders peuvent mettre en place pour créer un environnement de travail plus inclusif. Nous parlons stratégies concrètes pour favoriser la diversité et l'inclusion au sein des équipes, du rôle crucial des leaders dans la promotion d'une culture d'entreprise inclusive et expliquons comment briser les barrières et faire tomber les stéréotypes"
 episode: 215

@@ -1,3 +1,4 @@
+---
 title: "Ateme - Cloud DVR"
 description: "Enregistrez vos programmes TV dans le cloud: Ateme est une société française qui construit des solutions vidéos pour les chaînes de télé et les opérateurs telco. Une de leurs solutions est un enregistreur de flux vidéos dans le cloud. La fameuse fonction 'Enregistrer' de vos boxes - quand votre opérateur utilise les solutions d'Ateme - enregistre les programmes télé sur S3. Dans cet épisode, nous parlons de l'architecture de cette solution, comment ca marche sous le capot. Spoiler alerte : nous parlons de Kubernetes (un peu), de Amazon S3 (beaucoup) et d'infrastructure as code."
 episode: 155

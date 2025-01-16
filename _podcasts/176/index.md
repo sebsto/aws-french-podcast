@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 25 août: L'épisode de rentrée du podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7. Que s'est-il passé dans le monde d'AWS ces deux derniers mois ? Dans cet épisode on parle d'une nouvelle région, d'un nouveau service, du chargement d'images de container dans Lambda, des adresses IPv4 qui vont devenir payantes, de S3 qui se dote d'un mountpoint pour les applications qui ont besoin d'un accès à travers un file system, et finallement de Generative AI et Bedrock !"
 episode: 176

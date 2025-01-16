@@ -1,3 +1,4 @@
+---
 title: "Diarra Fall"
 description: "La responsabilité des managers: Dans cet épisode de Woman in Tech, nous parlons des rôles et responsabilités des managers, et en particulier des femmes managers, dans l'impact organisationel sur la diversité, l'équité et l'inclusion. Diarra partage avec nous des actions concrètes qu'elle et son équipe mettent en place pour assurer la diversité lors du recrutement et des développements de carrière."
 episode: 236

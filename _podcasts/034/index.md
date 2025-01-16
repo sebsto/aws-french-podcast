@@ -1,3 +1,4 @@
+---
 title: "Migrer vers le cloud"
 description: "Découvrez les techniques pour migrer vos infras sur AWS: Dans cet épisode, nous parlons de migration de vos applications vers le cloud. Nous commencons par les trois techniques de migrations : lift & shift, replatforming et ré-architecture. Nous parlons ensuite des cas d'utilisations : bases de données et Active Directory, de migration de license, de contrôle de coûts. Et évidement, nous parlons des équipes : de vous et nous. Comment inclure les lignes métiers dans les projets et prendre en comptes les équipes techniques."
 episode: 34

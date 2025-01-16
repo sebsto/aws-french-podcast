@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 1/3"
 description: "re:Cap - jour 1: La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur le sprincipales annonces faites pendant les deux premières journées de conférence. On y parle du cold start des fonctions Lambda, de déployement blue/green pour des bases de données, de ENA express pour donner 25Gbs de bande passante réseau et d'autres choses encore."
 episode: 136

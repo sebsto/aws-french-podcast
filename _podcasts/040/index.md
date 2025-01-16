@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2020 #3"
 description: "Les annonces infrastructure et développeurs: Dans cet épisode, nous résumons les annonces faites par Peter DeSantis, VP Infrastructure de AWS et Werner Vogels, CTO Amazon.com. Nous parlons énergie renouvelable, chaos engineering, un coquillage dans la console, de Prometheus et Grafana et d'un nouveau service Amazon Location Service pour ne pas perdre le nord."
 episode: 40

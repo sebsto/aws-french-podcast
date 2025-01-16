@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 24 février: AWS a annoncé 83 nouveautés ces derniers 15 jours. J'en ai retenu 7 pour partager avec vous. Dans ma revue biaisée de ces news, j'ai retenu un nouveau service pour les telco, des nouvelles instances EC2 basées sur Graviton3 — le silicon AWS Arm —, une nouvelle option pour gérer vos instances avec Systems Manager. Il y a aussi une nouvelle possibilité pour déployer vos pod kubernetes. Et puis nous parlerons d'améliorations apportées aux APIs de DynamoDB et de Eventbridge qui vous donnent un bénéfice immédiat, sans que vous n'ayez rien à changer de votre côté."
 episode: 150

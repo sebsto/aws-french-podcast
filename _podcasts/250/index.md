@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 4 octobre"
 description: "Quoi de neuf ?: Dans cet épisode du podcast AWS, Seb discute des dernières nouvelles et mises à jour d'AWS au cours des deux dernières semaines. Il met en avant les événements à venir, notamment la Journée des développeurs de nouvelle génération, et présente de nouvelles fonctionnalités dans les services AWS tels que CodeBuild, Corretto et Amplify. L'épisode couvre également l'introduction de l'AWS SDK pour Swift et les améliorations de performance des nouvelles instances EC2 Graviton 4. Enfin, Seb partage des mises à jour sur les modèles d'IA générative disponibles dans Amazon Bedrock."
 episode: 250

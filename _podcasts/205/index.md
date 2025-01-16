@@ -1,3 +1,4 @@
+---
 title: "AZmed"
 description: "L'IA au service de l'imagerie médicale: Dans cet épisode, nous découvrons l'architecture et les défis techniques de RayVolve, une solution qui assiste les radiologues dans leurs diagnostics, leur permettant ainsi d'analyser jusqu'à trois fois plus d'images par jour. Nous parlons de flux de données, de leur anonymisation, et de l'entraînement de modèles d'apprentissage machine (ML). Que vous soyez intéressés par l'apprentissage machine, le traitement d'images ou les technologies médicales (MedTech), écoutez ce nouvel épisode."
 episode: 205

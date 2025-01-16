@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 29 décembre: J'ai compté 96 nouveautés depuis le 15 décembre. J'en ai retenu 8 pour cette dernière semaine de l'année. Huit qui sont d'intérêts pour les développeurs, les builders que vous êtes. Dans cet épisode, nous parlons de Clouwatch et Lambda, de Cognito, de Code Catalyst, de replication de système de fichiers ZFS, de la console mobile sur iPhone. Nous terminerons avec du DNS sur HTTPS et d'une nouvelle région au Canada."
 episode: 198

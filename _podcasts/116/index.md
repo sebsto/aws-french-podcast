@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 15 juillet 2022: Cette semaine, on parle de Mac M1, de réseaux, de serverless pour les jobs d'analytique et d'une nouvelle façon d'utiliser IAM on-premises."
 episode: 116

@@ -1,3 +1,4 @@
+---
 title: "AIML et Sécurité"
 description: "Comment protéger vos projets AIML: AIML et Sécurité : l'association n'est pas toujours évidente. Pourtant les projets AIML sont également susceptibles d'attaques.  Quels sont les risques ? Qu'est ce qu'une personne malveillante va chercher à faire avec vos données, vos entraînements et vos points d'inférences ? Comment les protéger ? Quelles sont les implications du RGPD sur l'AIML ? Ce sont ces sujets et bien d'autres dont nous parlons cette semaine."
 episode: 109

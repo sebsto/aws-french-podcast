@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2021 - 1 decembre 2021"
 description: "Les nouveautés annoncées à re:Invent - partie 3: Un troisième épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de gestion d'accès à S3, de nouveau tier de stockage pour DynamoDB et d'une série de nouveaux services pour vous aider à gèrer vos réseaux dans le cloud."
 episode: 83

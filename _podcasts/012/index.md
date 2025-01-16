@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2019 re:Cap 2"
 description: "Quelques nouveautés (partie 2).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors de la deuxième journée de re:Invent. Nous parlons de AWS Transit Gateway, de serverless avec AWS Lambda et de CodeGuru"
 episode: 12

@@ -1,3 +1,4 @@
+---
 title: "Infrastructure as Code"
 description: "Automatisez tout, vraiment tout: \"En automatisant, nous déployons en heures plutôt que en semaines, nos environnements sont tous identiques et nous pouvons donner des outils à ceux qui en ont besoin.\" Découvrez les bénéfices de l'Infrastructure as Code. Nous parlons automatisation, outils et méthode."
 episode: 22

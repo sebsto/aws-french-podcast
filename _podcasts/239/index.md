@@ -1,3 +1,4 @@
+---
 title: "Julien Lépine"
 description: "Au delà du plafond de verre: Comment créer un environnement de travail plus inclusif et équitable ? Julien Lepine, Directeur des Architects de Solution France chez AWS, nous livre ses clés pour favoriser la diversité et l'inclusion au sein de l'entreprise. Au programme : recrutement, développement des talents, et témoignages inspirants."
 episode: 239

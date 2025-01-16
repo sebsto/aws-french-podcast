@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 7 avril: J'ai compté 107 nouveautés ces deux dernières semaines, soit 40% plus que d'habitude. J'ai retenu pour vous deux services pré-annoncés en décembre et maintenant disponibles. Côté IA, on va parler de classification de texte et d'image et d'analyse de sentiment pour des conversations. GuardDuty supporte maintenant EKS et puis il y a un nouveau canal de blog pour les développeurs .Net et des nouveautés côté Amplify Swift."
 episode: 156

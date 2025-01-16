@@ -1,3 +1,4 @@
+---
 title: "Réduisez votre facture cloud"
 description: "Discussion avec Mr FinOps de Veolia: Dans cet épisode, nous parlons de ce nouveau métier qu'est le FinOps et comment un grande organisation, comme Veolia, insufle des bonnes pratiques et des règles pour économiser sur leur facture cloud, au travers de leurs collaborateurs, leurs processus et leurs outils. Une discussion ouverte ..."
 episode: 37

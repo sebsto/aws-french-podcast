@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 6 octobre: Il y a deux grandes nouveautés dans le cloud AWS ces deux dernières semaines, toutes les deux dans le monde de l'IA et de la data. La première est la mise à disposition à toutes et tous de Amazon Bedrock, après plusieurs mois de preview. La seconde est le lancement d'un service entièrement managé pour transférer vos données depuis Kafka vers S3. Je vous explique tout ca. En fin d'épisode je parlerai aussi de Lambda, d'IPv6, et de Amazon CodeWhisperer."
 episode: 182

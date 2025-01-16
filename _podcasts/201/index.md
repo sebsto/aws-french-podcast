@@ -1,3 +1,4 @@
+---
 title: "Le cloud en 2024, ou en est-on ?"
 description: "L'adoption du cloud et de l'IA en 2024: Dans cet épisode du début d'année, nous faisons le point sur l'état de l'adoption du cloud en France en 2024, tant par les entreprises que par le secteur public. Nous parlons des infrastructures, des applications, des données et de la souveraineté du cloud. Nous terminons par évoquer les changements que vont induire l'intelligence artificielle générative. Quels impacts pouvons-nous attendre sur les emplois et la manière dont nous allons travailler dans le futur ?"
 episode: 201

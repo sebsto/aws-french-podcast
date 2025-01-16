@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 3 mai"
 description: "Quoi de neuf ?: Je n'ai pas compté les nouveautés des deux dernières semaines car il y a eu essentieelement deux grosses séries d'annonces, l'une liée à Amazon Bedrock et l'autre à Amazon Q. Je vais évidement passé l'essentiel de cet épisode à expliquer cela. Mais on ne parlera pas que d'IA générative, il y aussi eu des nouveautés coté CodeArtifact et Route53, le service de DNS entièrement managé."
 episode: 217

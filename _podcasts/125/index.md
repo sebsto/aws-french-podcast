@@ -1,3 +1,4 @@
+---
 title: "Migration d'un SaaS médical"
 description: "Comment Juxta migre son infrastructure vers le cloud: Juxta est un éditeur de logiciel médical. Dans cet épisode, ils expliquent pourquoi et comment ils ont migré leur infrastructure vers le cloud AWS. On y parle de la certification HDS, de base de données Oracle, de FinOps. Une migration lift & refactoring pour éviter les mauvaises surprises à la première facture. L'histoire d'une migration pendant les heures de bureaux. On parle d'un nouveau rôle aussi, celui de BDOps."
 episode: 125

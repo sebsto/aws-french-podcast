@@ -1,3 +1,4 @@
+---
 title: "Les stratégies de travail avec Git"
 description: "Le trunk-based development: Cette semaine, on parle de Git, l'outil de contrôle et de gestion de votre code source. Après un rapide historique, découvrez les cinq patterns d'utilisation de git : <a href='https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow'>GitFlow</a>, des branches par environnement, GitHub flow avec des pull requests, les feature branches et le trunk-based development. Laquelle de ces stratégies de branches pouvez-vous utiliser ? Comment votre stratégie de release ou le type de produit que vous distribuez influence la stratégie de branching ? Et comment les feature flags viennent se brancher sur votre stratégie Git ? On en discute dans l'épisode de cette semaine."
 episode: 189

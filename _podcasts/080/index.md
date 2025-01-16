@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 26 novembre 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons d'IPv6, de reprise d'activités et d'une baisse de prix significative du traffic réseau stortant, de vos containeurs qui peuvent maintenant tirer parti de Graviton2 et nous terminons en parlant de la conférence AWS re:Invent qui se tient la semaine prochaine."
 episode: 80

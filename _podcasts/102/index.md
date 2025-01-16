@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 8 avril 2022: Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de la durabilité, de la gestion de comptes et de AWS Lambda.  Vous voulez en savoir plus ? Voici le podcast AWS en français."
 episode: 102

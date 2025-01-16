@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 2 juin: J'ai compté 73 nouveautés ces deux dernières semaines. Comme chaque semaine, ma sélection est biaisée et je retiens les nouveautés qui vont parler aux builders: les architectes et les développeur-peuses. Si vous manipulez des gros volumes de données, j'ai quelque chose pour vous cette semaine. De même si travaillez avec des architectures orientées évenements ou si vous déployez des conteneurs sur K8s. Restez aussi si vous développez des applications mobiles sur iOS ou Android. Et je terminerai par un nouveau service : Security Data Lake. On détaille tout cela dans le podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7."
 episode: 164

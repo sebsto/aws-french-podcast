@@ -1,3 +1,4 @@
+---
 title: "Apprendre le cloud quand on est étudiant"
 description: "Les bons tuyaux pour démarrer: Savoir utiliser les services cloud est un atout indispensable aujourd'hui sur le marché du travail. Comment peux-t-on apprendre sans se ruiner quand on est étudiant?  Paul était étudiant en stage chez AWS France quand je lui ai demandé quels sont les trucs et astuces qu'il peut partager. Depuis, il travaille avec nous, dans les équipes de Professional Services :-)"
 episode: 79

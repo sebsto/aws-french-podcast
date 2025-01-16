@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2021 - 30 novembre 2021"
 description: "Les nouveautés annoncées à re:Invent - partie 2: Un deuxième épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de serverless avec des nouvelles options pour vous débarraser de vos serveurs, nous parlons de SageMaker Canvas, l'apprentissage machine no-code. Nous évoquerons la migration de mainframe et parlerons un petit peu de matériel avec Outposts et Nitro SSD."
 episode: 82

@@ -1,3 +1,4 @@
+---
 title: "Un portal interne comme Console AWS"
 description: "Encadrer l'accès à la console AWS: Comment donner accès à la console AWS à vos développeurs, mais en gardant le contrôle sur les coûts et éviter les erreurs? Vous êtes souvent déchirés entre deux contraintes : donner la liberté aux développeurs pour expériementer et donc innover, tout en mettant des gardes-fous pour s'assurer le contrôle des coûts. Souvent la solution passe par la mise en place de règles d'accès (comme des CSP). Dans cet épisode, découvrez comment Wiisdom a mis en place une application web qui permet aux développeurs de démarrer des environnements parmi un liste de template pré-approuvés. La solution est open-source est disponible pour vos environnements."
 episode: 175

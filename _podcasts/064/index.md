@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 6 août 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de deux services important maintenant disponibles sur la région de Paris, de création automatique de pipeline de déploiements avec le CDK ou avec SAM, de EC2 classique qui prend sa retraite, de Lambda pour autoriser les appels d'API GraphQL avec AppSync et de Amplify qui s'intégère désormais avec Amazon Location Service."
 episode: 64

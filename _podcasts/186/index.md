@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 3 novembre: Il y a eu 96 nouveautés ces deux dernières semaines, j'ai retenu pour vous 7 annonces. Dans cet épisode, nous parlons du cloud souverain européen et de nouveautés autour des containers sur macOS. Tant qu'on parle de Mac, il y a un nouveau type d'instance EC2 Mac et des nouveautés de la console AWS sur iPhone. On parle aussi d'une réduction de prix sur Athena, de nouvelles possibilités offertes par VPC et EC2 et je terminerai par une recommendation d'article de blog sur la détection des attaques DDOS."
 episode: 186

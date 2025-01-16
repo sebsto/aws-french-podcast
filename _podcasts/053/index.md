@@ -1,3 +1,4 @@
+---
 title: "Des APIs qui respectent la confidentialité des données"
 description: "via l'analyse de votre code source: Il est primordial d'assurer que vos APIs respectent la confidentialité des données qu'elles exposent et de pouvoir assurer que votre solution est conforme aux règles en vigeur, le RGPD par exemple. Bearer propose une solution qui vérifie ces aspects via une analyse statique de votre code source et vous fournit les rapports de conformité.  A quoi ca sert ? Comment ca marche ? Et quelle infrastructure AWS utilisent-ils pour implémenter ce service ? ce sont les questions que j'ai posé au fondateur de Bearer."
 episode: 53

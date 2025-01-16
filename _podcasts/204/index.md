@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 9 février: J'ai compté 58 nouveautés depuis le 26 janvier. Cette semaine nous parlons du magic quadrant de Gartner, de deux nouveautés qui me semblent essentielles dans le monde de l'infrastructure as code et des adresses IPv4."
 episode: 204

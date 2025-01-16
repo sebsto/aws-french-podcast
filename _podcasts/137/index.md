@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2/3"
 description: "re:Cap - jour 2: La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur les principales annonces faites pendant les trois premières journées de conférence. On y parle de eXternal Key Store (XKS), de OpenSearch en serverless et d'une solution no-code pour de l'ETL."
 episode: 137

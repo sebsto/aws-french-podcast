@@ -1,3 +1,4 @@
+---
 title: "La ville de Drancy"
 description: "Le cloud permet d'innover à l'échelle d'une ville: La ville de Drancy a fait le choix du cloud, du serverless, de l'IoT. L'equipe informatique peut se consacrer à 100% au développement d'applications qui aident les agents municipaux et les citoyens au quotidien.  Dans cet épisode, nous parlons de déploiement d'applications IoT sur LoraWAN, d'applications pour collecter les résultats des votes dans les bureaux de vote, et d'apprentissage machine pour analyser les images de video surveillance de la ville et tracker les dépots d'ordure sauvages, ou cartographier les places de parking libres par exemple."
 episode: 99

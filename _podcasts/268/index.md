@@ -1,3 +1,4 @@
+---
 title: "Transformation agile & culture DevOps chez Capcar \U0001F699"
 description: "Remote, agile, heureux : le cocktail gagnant ?: Dans cet épisode, Seb et Rudy explorent les liens entre le bonheur des développeurs et leur productivité, en s'appuyant sur l'exemple de Capcar. De la transformation culturelle aux pratiques agiles, en passant par l'importance des tests, des données utilisateurs et du télétravail, découvrez des idées concrètes pour améliorer les équipes tech et relever les défis du recrutement et du déploiement le vendredi soir. Une conversation inspirante pour tous les passionnés de développement et de management !"
 episode: 268

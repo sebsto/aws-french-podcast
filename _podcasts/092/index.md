@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 28 janvier 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de replication de file systems EFS, de Panorama pour les applications de vision assistée, d'un nouveau service qui rejoint le free tier et d'exfiltration de credentials EC2."
 episode: 92

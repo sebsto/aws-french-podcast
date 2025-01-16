@@ -1,3 +1,4 @@
+---
 title: "Sovereign Keys"
 description: "Sécurité et confidentialité de vos données: La souveraineté des données est au coeur de toutes les discussions. Notre partenaire Devoteam Revolve propose une solution souveraine de gestion des clés de chiffrement. Chiffrez vos données dans le cloud AWS et conservez la clé en toute sécurité chez un tier de confiance. Quels sont les besoins des métiers qui mettent en oeuvre cette solution ? Comment ca marche d'un point de vue technique ? Ce sont les sujets de cette semaine."
 episode: 71

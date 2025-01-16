@@ -1,3 +1,4 @@
+---
 title: "Et si nous migrions le monolithe?"
 description: "MYM, la plateforme pour les créateurs de contenu: Dans cet épisode, nous parlons de la migration d'une architecture monolithique vers des microservices, dans le cloud AWS. Nous abordons également les patterns de communication synchrones et asynchrones. Découvrez comment MYM, une plateforme où les créateurs de contenus peuvent partager leurs contenus avec leurs fans, distribue 18 petabytes de contenu par an à 14 millions d'utilisateurs."
 episode: 199

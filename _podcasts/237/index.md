@@ -1,3 +1,4 @@
+---
 title: "Moments Lab"
 description: "Retrouver des moments forts: Dans cet épisode, nous plongeons dans l'univers fascinant de Moments Lab, une entreprise spécialisée dans la redécouverte de moments forts à partir d'archives d'images ou de sons. Que ce soit pour des événements sportifs ou des actualités, Moments Lab permet d'accéder rapidement à ce contenu précieux pour une utilisation interne ou externe, sur les réseaux sociaux par exemple.\nNous abordons l'importance de cette technologie pour diverses audiences : les sponsors, les journalistes et agences de presse, et bien d'autres. Au programme, une discussion approfondie sur le fonctionnement de cette solution innovante : des algorithmes d'apprentissage machine utilisés, aux orchestrateurs, en passant par les bases de données.\nRejoignez-nous pour découvrir comment Moments Lab transforme la façon dont nous accédons et utilisons les archives audiovisuelles!"
 episode: 237

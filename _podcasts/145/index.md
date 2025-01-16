@@ -1,3 +1,4 @@
+---
 title: "Pernod Ricard"
 description: "Le portail de données: Tout le monde connait Pernod Ricard et ses marques emblématiques. Ce que nous connaissons moins c'est l'architecture cloud mise en place en interne pour le traitement et l'accès à la donnée au sein des différentes filliales du groupe.  Comme à mon habitude, on parle architecture, sécurité, FinOps, mais aussi du partenariat signé en novembre 2022 avec JC Decaux."
 episode: 145

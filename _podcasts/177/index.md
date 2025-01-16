@@ -1,3 +1,4 @@
+---
 title: "Cloud public ou on-prem ?"
 description: "Les architectures hybrides des telcos et chaînes de TV: Pourquoi certains telcos et chaînes de TV choisissent des architectures hybrides : cloud publics et on-prem ? Quels sont les challenges lors de la construction d'une telle architecture ? Dans cet épisode, on parle de cas d'usage d'infrastructures hybrides : l'evenementiel et les sports, le débordement dans le cloud pour le transcodage de fichiers par exemple, et les plans de reprise d'activités."
 episode: 177

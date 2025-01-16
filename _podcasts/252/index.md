@@ -1,3 +1,4 @@
+---
 title: "Treezor"
 description: "Une banque sans serveur: Dans cette conversation, Julien et Nicolas de Treezor discutent de leur expérience de migration vers AWS et de l'adoption d'une architecture sans serveur dans le monde bancaire. Ils discutent des avantages du sans serveur, des défis des microservices et des stratégies d'optimisation qu'ils ont mises en place. La conversation aborde également la réduction des coûts, la visibilité grâce à FinOps et la stabilité accrue de leur plateforme. Ils abordent égallement la stabilité et de l'évolutivité de leur architecture sur AWS, des améliorations dans la gestion des incidents et le respect des SLA, ainsi que de leur certification réussie pour PCI DSS. Ils discutent finallement de leurs projets futurs, notamment la mise en place d'une récupération après sinistre et l'exploration de nouvelles fonctionnalités et technologies telles l'IA."
 episode: 252

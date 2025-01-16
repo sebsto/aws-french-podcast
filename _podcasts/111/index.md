@@ -1,3 +1,4 @@
+---
 title: "Se préparer pour une nouvelle région"
 description: "Nouvelle régions AWS en Espagne et en Suisse: AWS va lancer deux nouvelles régions en europe en 2022. Dans cet épisode, nous expiquons ce qu'est une région, une zone de disponibilité et pourquoi choisir de déployer sur telle ou telle région.  Nous parlons aussi des principaux outils qui permettent de gérer votre infrastructure comme du code (Cloud Development Kit) et les points auxquels vous devrez porter votre attention avant de déployer votre infrastructure sur une nouvelle région."
 episode: 111

@@ -1,3 +1,4 @@
+---
 title: "Les Step Functions"
 description: "Vos workflows en serverless: Quand il s'agit d'orchestrer des services AWS ou des tâches en serverless, considerez l'utilisation de Step Functions. Dans cet épisode, nous partageons des exemples concrets de cas d'utilisation et nous vous montrons comment Step Functions peut simplifier votre code et vos applications. On explique pourquoi utiliser un orchestrateur externe plutôt que de coder des règles dans votre code. Réduisez les dépendances entre vos composants et sortez les logiques de gestion des erreurs et de synchronization pour ne garder que des micro tâches très simples. On y parle aussi d'usages avancés, de patterns, de meilleures pratiques et du nouveau composant 'Distributed Map'. Enfin, on parle d'un atelier que vous pouvez suivre à votre rythme pour apprendre à utiliser Step Functions."
 episode: 174

@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 20 septembre"
 description: "Quoi de neuf ?: Après deux mois d'été où vous avez découvert des cas d'utilisation de nos clients, retour des épisodes 'Quoi de Neuf'.  Cette semaine, j'essaye de faire un rapide compte-rendu des nouveautés de juillet, août et septembre ... en 20 minutes."
 episode: 247

@@ -1,3 +1,4 @@
+---
 title: "AWS Graviton"
 description: "Migrez vos applications vers Arm: Dans cet épisode, Seb et Arthur discutent de la technologie Graviton d'AWS, en explorant son évolution, ses avantages et les défis liés à la migration. Ils se penchent sur les atouts de l'architecture ARM, les stratégies d'optimisation des performances et des cas d'usage concrets, en soulignant l'importance de comprendre la technologie sous-jacente pour une mise en œuvre efficace."
 episode: 267

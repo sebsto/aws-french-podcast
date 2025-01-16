@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 23 septembre: Cette semaine, nous parlons de Outposts, vous savez, ces serveurs AWS que vous pouvez installer chez vous. On parle de Lex qui s'enrichit d'un éditeur visuel. Le blog mobile a sorti un article ou tuto intéressant sur la construction d'applications avec de la géo localisation. Enfin je vous parlerai d'une conférence AWS Innovate - en ligne - à venir en octobre."
 episode: 126

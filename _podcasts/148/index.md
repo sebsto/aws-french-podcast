@@ -1,3 +1,4 @@
+---
 title: "Quoi de neuf ?"
 description: "Les nouveautés AWS au 10 février: AWS a annoncé 83 nouveautés depuis le 27 janvier. J'en ai épinglé 7 qui pourraient être intéressantes pour vous, les builders . On parle de visualisation de vos VPC dans la console et d'un changement sur les NAT Gateways. Pour les développeurs, on parle de SAM, de EC2 Mac, et du AWS SDK pour Java. On parle aussi d'une implémentation de référence pour vos pipelines de déployement d'application - c'est du costaud vous verrez. Je termine en parlant de l'espace, la nouvelle frontière pour le edge computing, vraiment edge puisque dans les satellites."
 episode: 148

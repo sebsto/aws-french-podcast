@@ -1,3 +1,4 @@
+---
 title: "Amplitude Studios, HumanKind, le cloud"
 description: "Comment des devs gèrent la prod: Amplitude Studios est le studio français qui développe, entre autres, HumanKind, le jeu édité par Sega. Dans cette épisode, nous découvrons comment une équipe de devs gère aussi la prod avec des services managés dans le cloud. On parle containeurs et scalabilité, alarmes et usine logicielle pour leurs déploiements continus."
 episode: 93

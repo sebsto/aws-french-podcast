@@ -1,3 +1,4 @@
+---
 title: "Databricks"
 description: "La donnée et l'IA dans le cloud: Databrick puise son orgine dans Spark et offre des solutions open sources, déployables dans le cloud pour traiter vos données à grande échelle.  Dans cet épisode, nous parlons de Spark et des différentes méthodes de programmation (Scala, Python, SQL). Quels sont les cas de figure où ca peut vous être utile? Quels sont les outils ? Si vous êtes Data SCientist ou Data Engineer ou aspirez à le devenir, cet épisode est pour vous."
 episode: 101

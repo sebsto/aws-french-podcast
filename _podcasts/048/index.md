@@ -1,3 +1,4 @@
+---
 title: "JSII, plongée au coeur du CDK"
 description: "La librairie polyglotte: JSII est une librairie qui permet d'interagir avec des classes Javascript depuis n'importe quel language. C'est la technologie qui permet au Cloud Development Kit (CDK) de proposer des librairies pour plusieurs languages, à partir d'un seul code. Par exemple le support de GO vient d'être annoncé le 7 avril. Une plongée dans le JSII et la gouvernance de projets open-source chez AWS."
 episode: 48

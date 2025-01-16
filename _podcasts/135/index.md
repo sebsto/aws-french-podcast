@@ -1,3 +1,4 @@
+---
 title: "Quickwit"
 description: "Un moteur de recherche cloud-native pour le big data: Quickwit est un moteur de recherche pensé pour le cloud et le big data. Le premier cas d'utilisation est l'ingestion et l'indexation de logs. Certains clients l'utilisent pour indexer leur centaines de terabyte de logs quotidien. On parle de l'architecture sous-jacente, des architectures shared-nothing vs la séparation du compute et du stockage. On parle de la complexité de scaler des moteurs d'indexation et de recherche. On parle aussi de Amazon S3 comme systeme de stockage objet. Une conversation passionante qui dévoile les techniques et architectures de traitement de la donnée à grande échelle"
 episode: 135

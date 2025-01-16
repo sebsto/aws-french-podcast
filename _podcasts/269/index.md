@@ -1,3 +1,4 @@
+---
 title: "Les nouveautés AWS au 27 décembre"
 description: "Quoi de neuf ?: Dans cet épisode, Seb récapitule les principales annonces faites après la conférence AWS re:Invent 2024.  Il met en avant la keynote de Werner Vogel sur la gestion de la complexité dans l'architecture des systèmes. Il aborde également les nouvelles instances EC2 et les réductions de prix sur certains services. Enfin, il rend hommage à Jeff Barr, une figure emblématique d'AWS, qui a annoncé qu'il ne publierait plus de blogs pour AWS."
 episode: 269

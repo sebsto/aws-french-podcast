@@ -1,3 +1,4 @@
+---
 title: "Migrez avant de partir en vacances"
 description: "Comment l'UCPA a réussi sa transformation digitale: Des dizaines d'applications en silos, une saisonalité importante et un besoin d'innovation ont poussé l'UCPA à adopter le cloud. Dans cet épisode, nous parlons de migration du run, de refactoring du build, de gains de coûts de 1 à 10, et de nouveaux services basés sur l'apprentissage machine."
 episode: 51

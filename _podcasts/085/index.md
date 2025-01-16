@@ -1,3 +1,4 @@
+---
 title: "Datadome"
 description: "Se protéger contre les bots: La moitié du traffic internet aujourd'hui est générée par des scripts. Comment identifier ces bots et s'en protéger ?  Datadome inspecte 1000 milliard de signaux par jour, pour identifier et bloquer les traffics malicieux sur vos sites web. Dans cet épisode, nous parlons de techniques de détection de bots et de l'infrastructure cloud qui permet de mettre en oeuvre cette détection."
 episode: 85

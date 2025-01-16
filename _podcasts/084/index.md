@@ -1,3 +1,4 @@
+---
 title: "AWS re:Invent 2021 - 2 décembre 2021"
 description: "Les nouveautés annoncées à re:Invent - partie 4: Un dernier épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de la keynote de Werner. On parlera de Amplify, de CDK et SDK et de sustainabilité"
 episode: 84
