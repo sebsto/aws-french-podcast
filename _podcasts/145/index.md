@@ -16,7 +16,7 @@ guests:
     title: "Data Platform Manager, tous deux chez Pernod Ricard"
 publication: "2023-01-20 06:00:00 +0000"
 author: "Sébastien Stormacq"
-social-background: "/img/podcast-banner.jpg"
+social-background: "podcast-banner.jpg"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

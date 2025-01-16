@@ -16,7 +16,7 @@ guests:
     title: "Cloud & DevOps Solution Architect, tous deux chez AWS France"
 publication: "2023-04-14 07:00:00 +0200"
 author: "Sébastien Stormacq"
-social-background: "/img/podcast-artwork.png"
+social-background: "podcast-artwork.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

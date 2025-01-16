@@ -14,7 +14,7 @@ guests:
   - name: "Edge</a>"
 publication: "2022-09-01 07:00:00 +0200"
 author: "Sébastien Stormacq"
-social-background: "/img/podcast-banner.jpg"
+social-background: "podcast-banner.jpg"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

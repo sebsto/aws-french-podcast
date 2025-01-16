@@ -10,7 +10,7 @@ appleEpisodeId: 1000663120194
 guests: []
 publication: "2023-12-15 05:00:00 +0000"
 author: "Sébastien Stormacq"
-social-background: "/img/podcast-artwork.png"
+social-background: "podcast-artwork.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

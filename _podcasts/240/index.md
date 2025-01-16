@@ -13,7 +13,7 @@ guests:
     title: "Co-founder er CTO, Immersiv"
 publication: "2024-08-16 04:00:00 +0000"
 author: "Sébastien Stormacq"
-social-background: "/img/240.png"
+social-background: "240.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

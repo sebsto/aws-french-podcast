@@ -10,7 +10,7 @@ appleEpisodeId: 1000663120194
 guests: []
 publication: "2022-03-11 07:00:00 +0100"
 author: "Sébastien Stormacq"
-social-background: "/img/podcast-banner.jpg"
+social-background: "podcast-banner.jpg"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
