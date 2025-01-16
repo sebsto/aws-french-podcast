@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120013
-title:  "Les nouveautés AWS au 19 avril"
-subtitle: "Quoi de neuf ?"
-description: "J'ai compté 63 nouveautés ces derniers quinze jours, mais j'enregistre cet épisode tard jeudi soir, la journée n'est pas encore finie aux US, le compteur peut encore augmenter. J'ai sélectionné pour vous des changements du coté de Lambda avec CloudFront, de la rotation de clés de chiffrement sur KMS et de Bedrock."
-guest:
+title: "Les nouveautés AWS au 19 avril"
+description: "Quoi de neuf ?: J'ai compté 63 nouveautés ces derniers quinze jours, mais j'enregistre cet épisode tard jeudi soir, la journée n'est pas encore finie aux US, le compteur peut encore augmenter. J'ai sélectionné pour vous des changements du coté de Lambda avec CloudFront, de la rotation de clés de chiffrement sur KMS et de Bedrock."
 episode: 214
-duration: "00:16:02" 
+duration: "00:16:02"
 size: 30773417
-file: 214.mp3
-date: 2024-04-19 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/214.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "214.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120013
+guests: []
+publication: "2024-04-19 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/214.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

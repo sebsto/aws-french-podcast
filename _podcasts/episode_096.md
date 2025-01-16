@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 25 février 20222"
-description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de nouvelles instances EC2, de Elastic File System qui reduit la latence en lecture, de CodeGuru Reviewer qui enrichit ses librairies. Il sera question d'un anniversaire et de deux nouveautés attendues par les développeurs de fonctions Lambda ou d'API GraphQL avec AppSync."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 25 février 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de nouvelles instances EC2, de Elastic File System qui reduit la latence en lecture, de CodeGuru Reviewer qui enrichit ses librairies. Il sera question d'un anniversaire et de deux nouveautés attendues par les développeurs de fonctions Lambda ou d'API GraphQL avec AppSync."
 episode: 96
 duration: "00:13:36"
 size: 26113172
-file: 096.mp3
-date: 2022-02-25 07:00:00 +0100   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "096.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-02-25 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

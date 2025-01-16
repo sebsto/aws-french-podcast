@@ -1,18 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120304
-title:  "Développement Fullstack sur AWS Amplify"
-subtitle: "Le retour d'experience de clap-time.com"
-description: "Découvrez pourquoi clap-time.com a choisi le framework AWS Amplify pour développer une application full stack"
-guest: "<a href='https://www.linkedin.com/in/christophebougere/'>Christophe Bougère</a>, co-fondateur, Clap Time"
+title: "Développement Fullstack sur AWS Amplify"
+description: "Le retour d'experience de clap-time.com: Découvrez pourquoi clap-time.com a choisi le framework AWS Amplify pour développer une application full stack"
 episode: 17
 duration: "00:24:19"
 size: 46704349
-file: 017.mp3  
-date: 2020-02-13 08:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+file: "017.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120304
+guests:
+  - name: "Christophe Bougère"
+    link: "https://www.linkedin.com/in/christophebougere/"
+    title: "co-fondateur, Clap Time"
+publication: "2020-02-13 08:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

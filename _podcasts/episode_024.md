@@ -1,18 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120222
-title:  "L'excellence opérationelle"
-subtitle: "Culture, outils et mécanismes"
-description: "Comment assurez vous la qualité de vos opérations IT, la fiabilité de vos déployements, la disponbilité de vos applications pour vos clients ? Le chemin qui mène à l'excellence opérationnel est long et fait de culture, outils et de mécanismes."
-guest: "<a href='https://www.linkedin.com/in/hornsby/'>Adrian Hornsby</a>, Principal Developer Advocate, AWS"
+title: "L'excellence opérationelle"
+description: "Culture, outils et mécanismes: Comment assurez vous la qualité de vos opérations IT, la fiabilité de vos déployements, la disponbilité de vos applications pour vos clients ? Le chemin qui mène à l'excellence opérationnel est long et fait de culture, outils et de mécanismes."
 episode: 24
 duration: "00:35:28"
-size: 68103860 
-file: 024.mp3  
-date: 2020-04-16 09:10:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+size: 68103860
+file: "024.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120222
+guests:
+  - name: "Adrian Hornsby"
+    link: "https://www.linkedin.com/in/hornsby/"
+    title: "Principal Developer Advocate, AWS"
+publication: "2020-04-16 09:10:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

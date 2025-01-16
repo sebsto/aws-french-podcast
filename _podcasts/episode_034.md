@@ -1,18 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120221
-title:  "Migrer vers le cloud"
-subtitle: "Découvrez les techniques pour migrer vos infras sur AWS"
-description: "Dans cet épisode, nous parlons de migration de vos applications vers le cloud. Nous commencons par les trois techniques de migrations : lift & shift, replatforming et ré-architecture. Nous parlons ensuite des cas d'utilisations : bases de données et Active Directory, de migration de license, de contrôle de coûts. Et évidement, nous parlons des équipes : de vous et nous. Comment inclure les lignes métiers dans les projets et prendre en comptes les équipes techniques."
-guest: "<a href='https://www.linkedin.com/in/romainfremiot/'>Romain Fremiot</a>, Business Development Manager Migration & Sécurité, <a href='https://revolve.team/'>Devoteam Revolve</a>."
+title: "Migrer vers le cloud"
+description: "Découvrez les techniques pour migrer vos infras sur AWS: Dans cet épisode, nous parlons de migration de vos applications vers le cloud. Nous commencons par les trois techniques de migrations : lift & shift, replatforming et ré-architecture. Nous parlons ensuite des cas d'utilisations : bases de données et Active Directory, de migration de license, de contrôle de coûts. Et évidement, nous parlons des équipes : de vous et nous. Comment inclure les lignes métiers dans les projets et prendre en comptes les équipes techniques."
 episode: 34
 duration: "00:35:51"
-size: 68864546 
-file: 034.mp3  
-date: 2020-10-23 07:30:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+size: 68864546
+file: "034.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120221
+guests:
+  - name: "Romain Fremiot"
+    link: "https://www.linkedin.com/in/romainfremiot/"
+    title: "Business Development Manager Migration & Sécurité, <a href='https://revolve"
+publication: "2020-10-23 07:30:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

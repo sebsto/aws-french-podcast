@@ -1,19 +1,15 @@
----
-layout: podcast
-title:  "AWS re:Invent 2021 - 30 novembre 2021"
-subtitle: "Les nouveautés annoncées à re:Invent - partie 2"
-description: "Un deuxième épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de serverless avec des nouvelles options pour vous débarraser de vos serveurs, nous parlons de SageMaker Canvas, l'apprentissage machine no-code. Nous évoquerons la migration de mainframe et parlerons un petit peu de matériel avec Outposts et Nitro SSD."
-guest:
+title: "AWS re:Invent 2021 - 30 novembre 2021"
+description: "Les nouveautés annoncées à re:Invent - partie 2: Un deuxième épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de serverless avec des nouvelles options pour vous débarraser de vos serveurs, nous parlons de SageMaker Canvas, l'apprentissage machine no-code. Nous évoquerons la migration de mainframe et parlerons un petit peu de matériel avec Outposts et Nitro SSD."
 episode: 82
 duration: "00:14:58"
 size: 28728760
-file: 082.mp3
-date: 2021-11-30 16:00:00 -0700  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "082.mp3"
+category: "podcasts"
+guests: []
+publication: "2021-11-30 16:00:00 -0700"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

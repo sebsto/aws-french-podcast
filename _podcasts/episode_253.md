@@ -1,19 +1,16 @@
----
-layout: podcast
-title:  "Les nouveautés AWS au 18 octobre"
-subtitle: "Quoi de neuf ?"
-description: "J'ai compté 79 nouveautés ces deux dernières semaines, un poil plus que le rhythme habituel, on sent que la conférence re:Invent à Las Vegas approche. Dans cet épisode vous découvrirez des nouveautés concernant MemoryDB où le remplacant de Redis arrive, des nouvelles API qui vont vous aider à automatiser vos postures de sécurité ou vos inventaires, des nouvelles concernant le zero ETL, Lambda, CodePipeline et Amazon Workspaces "
-guest: 
+title: "Les nouveautés AWS au 18 octobre"
+description: "Quoi de neuf ?: J'ai compté 79 nouveautés ces deux dernières semaines, un poil plus que le rhythme habituel, on sent que la conférence re:Invent à Las Vegas approche. Dans cet épisode vous découvrirez des nouveautés concernant MemoryDB où le remplacant de Redis arrive, des nouvelles API qui vont vous aider à automatiser vos postures de sécurité ou vos inventaires, des nouvelles concernant le zero ETL, Lambda, CodePipeline et Amazon Workspaces "
 episode: 253
-duration: "00:15:10" 
+duration: "00:15:10"
 size: 7355472
-file: 253.mp3
-date: 2024-10-18 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/253.png
+file: "253.mp3"
+category: "podcasts"
 appleEpisodeId: 1000673539154
+guests: []
+publication: "2024-10-18 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/253.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

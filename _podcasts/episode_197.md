@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119984
-title:  "Stocker des données sur de l'ADN"
-subtitle: "Le future de l'archivage de données?"
-description: "Découvrez un épisode captivant où nous explorons l'avenir du stockage de données sur de l'ADN. Plongez dans le futur de la technologie, où chaque brin d'ADN devient une bibliothèque de connaissances infinie. 🧬💽"
-guest: "<a href='https://www.linkedin.com/in/tiffanysouterre/'>Tiffany Souterre</a>, Developer Advocate, AWS"
+title: "Stocker des données sur de l'ADN"
+description: "Le future de l'archivage de données?: Découvrez un épisode captivant où nous explorons l'avenir du stockage de données sur de l'ADN. Plongez dans le futur de la technologie, où chaque brin d'ADN devient une bibliothèque de connaissances infinie. \U0001F9EC\U0001F4BD"
 episode: 197
-duration: "00:39:10" 
+duration: "00:39:10"
 size: 75189105
-file: 197.mp3
-date: 2023-12-22 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "197.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119984
+guests:
+  - name: "Tiffany Souterre"
+    link: "https://www.linkedin.com/in/tiffanysouterre/"
+    title: "Developer Advocate, AWS"
+publication: "2023-12-22 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

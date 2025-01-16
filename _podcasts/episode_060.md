@@ -1,19 +1,21 @@
----
-layout: podcast
-appleEpisodeId: 1000663120096
-title:  "Sécurité et souveraineté du cloud"
-subtitle: "Clarifier et démysifier les bases de la sécurité"
-description: "La sécurité de vos données et de vos applications est la première priorité d'AWS. Dans cet épisode nous rappelons les bases : à qui appartiennent vos données ? Où sont-elles stockées ? Est-ce que AWS les utilise ? Est-ce que mes données sont protégées par un plan de reprise d'activités (PRA) ? Comment je peux chiffrer mes données ?  Qu'est ce qui me garantit que AWS fait ce qu'il dit en matière de protection des données ? Qu'est ce que la souveraineté des entreprises, des clouds ? Et quel est le lien entre souveraineté et sécurité ?"
-guest: "<a href='https://www.linkedin.com/in/amélie-véron-4947074/'>Amélie Veron</a>, Senior Manager, responsable de l'équipe startups en France et <a href='https://www.linkedin.com/in/shadinger/'>Stephan Hadinger</a>, directeur technique, AWS France"
+title: "Sécurité et souveraineté du cloud"
+description: "Clarifier et démysifier les bases de la sécurité: La sécurité de vos données et de vos applications est la première priorité d'AWS. Dans cet épisode nous rappelons les bases : à qui appartiennent vos données ? Où sont-elles stockées ? Est-ce que AWS les utilise ? Est-ce que mes données sont protégées par un plan de reprise d'activités (PRA) ? Comment je peux chiffrer mes données ?  Qu'est ce qui me garantit que AWS fait ce qu'il dit en matière de protection des données ? Qu'est ce que la souveraineté des entreprises, des clouds ? Et quel est le lien entre souveraineté et sécurité ?"
 episode: 60
 duration: "00:28:11"
 size: 54123125
-file: 060.mp3
-date: 2021-07-09 08:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "060.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120096
+guests:
+  - name: "Amélie Veron"
+    link: "https://www.linkedin.com/in/amélie-véron-4947074/"
+    title: "Senior Manager, responsable de l'équipe startups en France"
+  - name: "Stephan Hadinger"
+    link: "https://www.linkedin.com/in/shadinger/"
+    title: "directeur technique, AWS France"
+publication: "2021-07-09 08:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

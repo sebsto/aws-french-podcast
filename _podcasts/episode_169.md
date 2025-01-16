@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120023
-title:  "Time series"
-subtitle: "Stocker et analyser des données temporelles"
-description: "C'est quoi une donnée temporelle ?  A partir de cette innocente question de départ, Michael m'a emmené dans un voyage passionnant dans le monde des données temporelles. Qu'est ce qui génère ce type de données ? Comment on les ingère à grande échelle ? Comment les stocker, les analyser ? Et puis comment visualiser ces données.  On parle de Amazon Timestream, Grafana, apprentissage machine et des tas de librairies Python qui vous aident à être plus efficace pour traiter des données temporelles."
-guest: "<a href='https://www.linkedin.com/in/michaelhoarau/'>Michael Hoarau</a>, Solution Architect attaché aux services liés à l’industrie."
+title: "Time series"
+description: "Stocker et analyser des données temporelles: C'est quoi une donnée temporelle ?  A partir de cette innocente question de départ, Michael m'a emmené dans un voyage passionnant dans le monde des données temporelles. Qu'est ce qui génère ce type de données ? Comment on les ingère à grande échelle ? Comment les stocker, les analyser ? Et puis comment visualiser ces données.  On parle de Amazon Timestream, Grafana, apprentissage machine et des tas de librairies Python qui vous aident à être plus efficace pour traiter des données temporelles."
 episode: 169
 duration: "00:47:50"
 size: 91833076
-file: 169.mp3
-date: 2023-07-07 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "169.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120023
+guests:
+  - name: "Michael Hoarau"
+    link: "https://www.linkedin.com/in/michaelhoarau/"
+    title: "Solution Architect attaché aux services liés à l’industrie"
+publication: "2023-07-07 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

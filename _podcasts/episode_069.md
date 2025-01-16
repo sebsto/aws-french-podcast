@@ -1,19 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120217
-title:  "Amazon Location Service"
-subtitle: "Ajoutez de la géolocalisation dans vos apps"
-description: "En écoutant cet épisode, vous découvrez Amazon Location Service, un service qui vous permet d'ajouter des fonctionalités de gélolocations dans vos applications, en toute sécurité et confidentialité puisque les données restent dans votre compte AWS. Nous parlons de cartographie, geo-coding (adresses et points d'intérêts), itinéraire, suivi et geo-fencing (alerte quand un objet quitte ou entre dans une zone)."
-guest: "<a href='https://www.linkedin.com/in/adufour/'>Andre Dufour</a>, General Manager, Amazon Location Service"
+title: "Amazon Location Service"
+description: "Ajoutez de la géolocalisation dans vos apps: En écoutant cet épisode, vous découvrez Amazon Location Service, un service qui vous permet d'ajouter des fonctionalités de gélolocations dans vos applications, en toute sécurité et confidentialité puisque les données restent dans votre compte AWS. Nous parlons de cartographie, geo-coding (adresses et points d'intérêts), itinéraire, suivi et geo-fencing (alerte quand un objet quitte ou entre dans une zone)."
 episode: 69
 duration: "00:27:30"
 size: 52790671
-file: 069.mp3
-date: 2021-09-10 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "069.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120217
+guests:
+  - name: "Andre Dufour"
+    link: "https://www.linkedin.com/in/adufour/"
+    title: "General Manager, Amazon Location Service"
+publication: "2021-09-10 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

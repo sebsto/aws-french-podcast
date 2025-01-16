@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119776
-title:  "Women in Tech"
-subtitle: "Inclusion, diversité et équité"
-description: "Aujourd'hui, nous inaugurons une nouveauté dans le podcast 🎙 AWS ☁️ en 🇫🇷. Après 5 ans d'existence, une fois par mois, nous parlerons d'inclusion, de diversité et d'équité. Ce sera le dernier mercredi de chaque mois, en plus des épisodes tech du vendredi qui eux ne changent pas (sauf aujourd'hui 😇). Nous discuterons avec une femme qui travaille dans la tech et mettrons en avant son parcours, ses défis et son expérience, dans l'espoir d'en inspirer de nombreuses autres."
-guest: "<a href='https://www.linkedin.com/in/agnesgerbaudseuret/'>Agnes Seuret</a>, France Specialist Sales Leader, AWS"
+title: "Women in Tech"
+description: "Inclusion, diversité et équité: Aujourd'hui, nous inaugurons une nouveauté dans le podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7. Après 5 ans d'existence, une fois par mois, nous parlerons d'inclusion, de diversité et d'équité. Ce sera le dernier mercredi de chaque mois, en plus des épisodes tech du vendredi qui eux ne changent pas (sauf aujourd'hui \U0001F607). Nous discuterons avec une femme qui travaille dans la tech et mettrons en avant son parcours, ses défis et son expérience, dans l'espoir d'en inspirer de nombreuses autres."
 episode: 210
-duration: "00:42:55" 
+duration: "00:42:55"
 size: 82418127
-file: 210.mp3
-date: 2024-03-22 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/210.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "210.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119776
+guests:
+  - name: "Agnes Seuret"
+    link: "https://www.linkedin.com/in/agnesgerbaudseuret/"
+    title: "France Specialist Sales Leader, AWS"
+publication: "2024-03-22 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/210.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

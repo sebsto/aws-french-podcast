@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 04 novembre"
-description: "Beaucoup de nouveautés cette semaine. J'ai retenu celles qui peuvent influencer notre travail de développeurs, de builders. Je parlerai dans cet épisode de App Runner, de Amplify Libraries pour le language de programmation Swift. Il sera désormais plus facile d'accéder à Parameter Store et Secrets Manager depuis Lambda.  Les locale Zones débarquent en Europe. Je parlerai de EC2 qui permet de remplacer le volume principal sans arrêter complètement votre machine. Et je terminerai avec des nouveautés dans la console AWS et dans la console sur mobile."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 04 novembre: Beaucoup de nouveautés cette semaine. J'ai retenu celles qui peuvent influencer notre travail de développeurs, de builders. Je parlerai dans cet épisode de App Runner, de Amplify Libraries pour le language de programmation Swift. Il sera désormais plus facile d'accéder à Parameter Store et Secrets Manager depuis Lambda.  Les locale Zones débarquent en Europe. Je parlerai de EC2 qui permet de remplacer le volume principal sans arrêter complètement votre machine. Et je terminerai avec des nouveautés dans la console AWS et dans la console sur mobile."
 episode: 132
 duration: "00:13:18"
 size: 25543075
-file: 132.mp3
-date: 2022-11-04 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "132.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-11-04 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

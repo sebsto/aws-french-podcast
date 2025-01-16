@@ -1,19 +1,16 @@
----
-layout: podcast
-title:  "Les nouveautés AWS au 4 octobre"
-subtitle: "Quoi de neuf ?"
-description: "Dans cet épisode du podcast AWS, Seb discute des dernières nouvelles et mises à jour d'AWS au cours des deux dernières semaines. Il met en avant les événements à venir, notamment la Journée des développeurs de nouvelle génération, et présente de nouvelles fonctionnalités dans les services AWS tels que CodeBuild, Corretto et Amplify. L'épisode couvre également l'introduction de l'AWS SDK pour Swift et les améliorations de performance des nouvelles instances EC2 Graviton 4. Enfin, Seb partage des mises à jour sur les modèles d'IA générative disponibles dans Amazon Bedrock."
-guest: 
+title: "Les nouveautés AWS au 4 octobre"
+description: "Quoi de neuf ?: Dans cet épisode du podcast AWS, Seb discute des dernières nouvelles et mises à jour d'AWS au cours des deux dernières semaines. Il met en avant les événements à venir, notamment la Journée des développeurs de nouvelle génération, et présente de nouvelles fonctionnalités dans les services AWS tels que CodeBuild, Corretto et Amplify. L'épisode couvre également l'introduction de l'AWS SDK pour Swift et les améliorations de performance des nouvelles instances EC2 Graviton 4. Enfin, Seb partage des mises à jour sur les modèles d'IA générative disponibles dans Amazon Bedrock."
 episode: 250
-duration: "00:13:55" 
+duration: "00:13:55"
 size: 6678796
-file: 250.mp3
-date: 2024-10-04 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/250.png
+file: "250.mp3"
+category: "podcasts"
 appleEpisodeId: 1000671738323
+guests: []
+publication: "2024-10-04 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/250.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

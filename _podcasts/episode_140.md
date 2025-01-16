@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 16 décembre"
-description: "Deux semaines après la conférence AWS re:Invent, on a tendance à penser que le rythme des nouveautés AWS va ralentir quelques semaines, mais ce n'est pas le cas. Parmis les 97 annonces des 15 derniers jours, j'ai retenu pour vous des nouveautés sur Amplify, un nouveau service pour aider les développeurs à gérer l'emsemble des services connexes à leur code. Il va y avoir des changements sur Amazon S3, on vous previent 3 mois avant pour vous permettre d'ajuster vos applications si necessaire, et puis on parlera cartographie avec des nouveautés côté Amazon Location Service et des cartes en open-source."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 16 décembre: Deux semaines après la conférence AWS re:Invent, on a tendance à penser que le rythme des nouveautés AWS va ralentir quelques semaines, mais ce n'est pas le cas. Parmis les 97 annonces des 15 derniers jours, j'ai retenu pour vous des nouveautés sur Amplify, un nouveau service pour aider les développeurs à gérer l'emsemble des services connexes à leur code. Il va y avoir des changements sur Amazon S3, on vous previent 3 mois avant pour vous permettre d'ajuster vos applications si necessaire, et puis on parlera cartographie avec des nouveautés côté Amazon Location Service et des cartes en open-source."
 episode: 140
 duration: "00:13:52"
 size: 19978366
-file: 140.mp3
-date: 2022-12-16 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "140.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-12-16 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

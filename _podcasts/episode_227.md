@@ -1,36 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119877
-title:  "Ségolène Dessertine-Panhard"
-subtitle: "Rencontres, opportunités et empathie."
-description: "IA, apprentissage automatique et inclusion dans la tech : un parcours inspirant
-
-Rejoignez-nous pour une discussion passionnante avec Ségolène, experte en intelligence artificielle (IA) et IA générative chez AWS.
-
-De son parcours de professeur à la faculté polytechnique de l'université de New York (NYU) à son arrivée chez Amazon Web Services, Ségolène nous raconte son histoire inspirante.
-
-Au programme de cet épisode :
-
-- Comment apprendre à programmer quand on est dans une école de commerce ?
-- De l'analyse de modèles stochastiques en finance à l'apprentissage machine : un changement de cap réussi
-- Inclusion, diversité et équité dans le monde de la tech : l'engagement de Ségolène
-
-Un épisode plein de bonne humeur et d'optimisme à ne pas manquer !
-
-Disponible sur toutes les plateformes de podcast.
-
-#AWS #Podcast #IA #ApprentissageMachine #Inclusion #Diversité #Tech"
-guest: "<a href='https://www.linkedin.com/in/dr-s%C3%A9gol%C3%A8ne-dessertine-panhard-41416010/'>Ségolène Dessertine-Panhard</a>, Research Science Manager chez AWS."
+title: "Ségolène Dessertine-Panhard"
+description: "Rencontres, opportunités et empathie.: IA, apprentissage automatique et inclusion dans la tech : un parcours inspirant\nRejoignez-nous pour une discussion passionnante avec Ségolène, experte en intelligence artificielle (IA) et IA générative chez AWS.\nDe son parcours de professeur à la faculté polytechnique de l'université de New York (NYU) à son arrivée chez Amazon Web Services, Ségolène nous raconte son histoire inspirante.\nAu programme de cet épisode :\n- Comment apprendre à programmer quand on est dans une école de commerce ? - De l'analyse de modèles stochastiques en finance à l'apprentissage machine : un changement de cap réussi - Inclusion, diversité et équité dans le monde de la tech : l'engagement de Ségolène\nUn épisode plein de bonne humeur et d'optimisme à ne pas manquer !\nDisponible sur toutes les plateformes de podcast.\n#AWS #Podcast #IA #ApprentissageMachine #Inclusion #Diversité #Tech"
 episode: 227
-duration: "00:31:14" 
+duration: "00:31:14"
 size: 59972046
-file: 227.mp3
-date: 2024-06-19 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/227.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "227.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119877
+guests:
+  - name: "Ségolène Dessertine-Panhard"
+    link: "https://www.linkedin.com/in/dr-s%C3%A9gol%C3%A8ne-dessertine-panhard-41416010/"
+    title: "Research Science Manager chez AWS"
+publication: "2024-06-19 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/227.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

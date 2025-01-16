@@ -1,19 +1,18 @@
----
-layout: podcast
-title:  "AWS re:Invent re:Cap - Jeudi"
-subtitle: ""
-description: "Un résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas le jeudi 30 novembre 2023."
-guest:  "<a href='https://www.linkedin.com/in/garcialaurent/'>Laurent Garcia</a>, Responsable des ventes Europe Sud chez Cohesity"
+title: "AWS re:Invent re:Cap - Jeudi"
+description: ": Un résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas le jeudi 30 novembre 2023."
 episode: 193
-duration: "00:18:02" 
+duration: "00:18:02"
 size: 8655788
-file: 193.mp3
-date: 2023-11-30 23:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "193.mp3"
+category: "podcasts"
+guests:
+  - name: "Laurent Garcia"
+    link: "https://www.linkedin.com/in/garcialaurent/"
+    title: "Responsable des ventes Europe Sud chez Cohesity"
+publication: "2023-11-30 23:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

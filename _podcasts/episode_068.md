@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 3 septembre 2021"
-description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous fêtons un anniversaire, nous parlons de stockage avec S3 et d'une nouvelle base de données, Grafana managé est maintenant disponible pour toutes et tous, nous parlons d'une réduction de prix et de nouvelles possibilités offertes par Amazon VPC et AWS CloudFormation."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 3 septembre 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous fêtons un anniversaire, nous parlons de stockage avec S3 et d'une nouvelle base de données, Grafana managé est maintenant disponible pour toutes et tous, nous parlons d'une réduction de prix et de nouvelles possibilités offertes par Amazon VPC et AWS CloudFormation."
 episode: 68
 duration: "00:15:30"
 size: 29774494
-file: 068.mp3
-date: 2021-09-03 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "068.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-09-03 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

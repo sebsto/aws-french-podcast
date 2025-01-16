@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119997
-title:  "Amplitude Studios, HumanKind, le cloud"
-subtitle: "Comment des devs gèrent la prod"
-description: "Amplitude Studios est le studio français qui développe, entre autres, HumanKind, le jeu édité par Sega. Dans cette épisode, nous découvrons comment une équipe de devs gère aussi la prod avec des services managés dans le cloud. On parle containeurs et scalabilité, alarmes et usine logicielle pour leurs déploiements continus."
-guest: "<a href='https://www.linkedin.com/in/sylvain-h-petit/'>Sylvain Petit</a>, Head of online services, Amplitude Studios."
+title: "Amplitude Studios, HumanKind, le cloud"
+description: "Comment des devs gèrent la prod: Amplitude Studios est le studio français qui développe, entre autres, HumanKind, le jeu édité par Sega. Dans cette épisode, nous découvrons comment une équipe de devs gère aussi la prod avec des services managés dans le cloud. On parle containeurs et scalabilité, alarmes et usine logicielle pour leurs déploiements continus."
 episode: 93
 duration: "00:34:09"
 size: 65583566
-file: 093.mp3
-date: 2022-02-04 08:00:01 +0100   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "093.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119997
+guests:
+  - name: "Sylvain Petit"
+    link: "https://www.linkedin.com/in/sylvain-h-petit/"
+    title: "Head of online services, Amplitude Studios"
+publication: "2022-02-04 08:00:01 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

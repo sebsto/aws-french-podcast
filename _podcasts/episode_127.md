@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119993
-title:  "Audit de sécurité de comptes AWS"
-subtitle: "Comment leboncoin audite ses comptes AWS à l'échelle"
-description: "On ne présente plus leboncoin en France, nous y sommes tous passés pour y déposer ou regarder des petites annonces. Avec 2000 serveurs, 10000 pods et 2Gbs de bande passante sortante, l'infrastructure cloud se décline sur plusieurs comptes AWS. Comment auditer ces comptes et s'assurer qu'ils ne dévient pas de la configuration initiale ? Leboncoin a développé AWS Tower, un outil open source pour auditer la posture de sécurité de comptes AWS."
-guest: "<a href='https://www.linkedin.com/in/nicolasbeguier/'>Nicolas Beguier</a>, Architecte Sécurité, leboncoin.fr"
+title: "Audit de sécurité de comptes AWS"
+description: "Comment leboncoin audite ses comptes AWS à l'échelle: On ne présente plus leboncoin en France, nous y sommes tous passés pour y déposer ou regarder des petites annonces. Avec 2000 serveurs, 10000 pods et 2Gbs de bande passante sortante, l'infrastructure cloud se décline sur plusieurs comptes AWS. Comment auditer ces comptes et s'assurer qu'ils ne dévient pas de la configuration initiale ? Leboncoin a développé AWS Tower, un outil open source pour auditer la posture de sécurité de comptes AWS."
 episode: 127
 duration: "00:35:16"
 size: 67723518
-file: 127.mp3
-date: 2022-09-30 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "127.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119993
+guests:
+  - name: "Nicolas Beguier"
+    link: "https://www.linkedin.com/in/nicolasbeguier/"
+    title: "Architecte Sécurité, leboncoin"
+publication: "2022-09-30 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

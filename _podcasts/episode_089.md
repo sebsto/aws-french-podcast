@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120187
-title:  "Hugging Face"
-subtitle: "L'apprentissage machine facile pour les développeurs"
-description: "Les modèles d'apprentissage automatique basés sur les transformeurs et l'apprentissage par transfert (transfert learning) ont le vent en poupe pour deux raisons : leur grande précision et la facilité d'apprentissage sur des jeux de données relativement restreints.  Hugging Face, une startup française, vous propose des librairies open sources faciles à intégrer dans vos applications et plus de 20000 modèles prêts à être utilisés ou personalisés."
-guest: "<a href='https://www.linkedin.com/in/juliensimon/'>Julien Simon</a>, Chief Evangelist, HuggingFace."
+title: "Hugging Face"
+description: "L'apprentissage machine facile pour les développeurs: Les modèles d'apprentissage automatique basés sur les transformeurs et l'apprentissage par transfert (transfert learning) ont le vent en poupe pour deux raisons : leur grande précision et la facilité d'apprentissage sur des jeux de données relativement restreints.  Hugging Face, une startup française, vous propose des librairies open sources faciles à intégrer dans vos applications et plus de 20000 modèles prêts à être utilisés ou personalisés."
 episode: 89
 duration: "00:37:40"
 size: 72336115
-file: 089.mp3
-date: 2022-01-07 07:00:00 +0100  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "089.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120187
+guests:
+  - name: "Julien Simon"
+    link: "https://www.linkedin.com/in/juliensimon/"
+    title: "Chief Evangelist, HuggingFace"
+publication: "2022-01-07 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

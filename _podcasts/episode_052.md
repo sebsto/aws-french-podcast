@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 14 mai 2021"
-description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Amazon FinSpace, un service pour faciliter la vie des analystes financiers, d'un nouveau volet ajouté à AWS Systems Manager, de la possibilité de déployer des minis fonctions sur les edges de Amazon CloudFront, d'un nouveau SDK en version Alpha pour les développeurs Rust et d'un cours en ligne et gratuit sur Amazon DynamoDB."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 14 mai 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Amazon FinSpace, un service pour faciliter la vie des analystes financiers, d'un nouveau volet ajouté à AWS Systems Manager, de la possibilité de déployer des minis fonctions sur les edges de Amazon CloudFront, d'un nouveau SDK en version Alpha pour les développeurs Rust et d'un cours en ligne et gratuit sur Amazon DynamoDB."
 episode: 52
 duration: "00:15:48"
 size: 30345426
-file: 052.mp3
-date: 2021-05-14 09:30:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "052.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-05-14 09:30:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

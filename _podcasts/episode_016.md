@@ -1,18 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120244
-title:  "Développer une Skill Amazon Alexa (partie 2/2)"
-subtitle: "Seconde partie : la programmation"
-description: "Dans cette seconde partie, nous parlons de la programmation elle-même."
-guest: "<a href='https://www.linkedin.com/in/bnachawati/'>Benoit Nachawati</a>, Developer Evangelist, Amazon Alexa"
+title: "Développer une Skill Amazon Alexa (partie 2/2)"
+description: "Seconde partie : la programmation: Dans cette seconde partie, nous parlons de la programmation elle-même."
 episode: 16
 duration: "00:23:21"
 size: 45562485
-file: 016.mp3  
-date: 2019-12-20 08:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+file: "016.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120244
+guests:
+  - name: "Benoit Nachawati"
+    link: "https://www.linkedin.com/in/bnachawati/"
+    title: "Developer Evangelist, Amazon Alexa"
+publication: "2019-12-20 08:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

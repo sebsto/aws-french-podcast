@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120153
-title:  "IPv6"
-subtitle: "Comment utiliser IPv6 dans le cloud ?"
-description: "IPv6 se généralise, principalement pour simplifier les plans d'adressage et bénéficier de 2^128 addresses IP. En écoutant ce podcast, vous découvrirez les challenges pour migrer de IPv4 à IPv6. Nous expliquons aussi comment déployer des réseaux IPv6 uniquement ou hybrides IPv4-IPv6 dans le cloud AWS."
-guest: "<a href='https://www.linkedin.com/in/rvaneeck/'>Renaud Vaneeckhoutte</a>, Solution Architect, AWS."
+title: "IPv6"
+description: "Comment utiliser IPv6 dans le cloud ?: IPv6 se généralise, principalement pour simplifier les plans d'adressage et bénéficier de 2^128 addresses IP. En écoutant ce podcast, vous découvrirez les challenges pour migrer de IPv4 à IPv6. Nous expliquons aussi comment déployer des réseaux IPv6 uniquement ou hybrides IPv4-IPv6 dans le cloud AWS."
 episode: 87
 duration: "00:31:18"
-size: 60114988 
-file: 087.mp3
-date: 2021-12-24 07:00:00 +0100  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 60114988
+file: "087.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120153
+guests:
+  - name: "Renaud Vaneeckhoutte"
+    link: "https://www.linkedin.com/in/rvaneeck/"
+    title: "Solution Architect, AWS"
+publication: "2021-12-24 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

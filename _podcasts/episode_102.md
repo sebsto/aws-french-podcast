@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 8 avril 2022"
-description: "Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de la durabilité, de la gestion de comptes et de AWS Lambda.  Vous voulez en savoir plus ? Voici le podcast AWS en français."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 8 avril 2022: Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de la durabilité, de la gestion de comptes et de AWS Lambda.  Vous voulez en savoir plus ? Voici le podcast AWS en français."
 episode: 102
 duration: "00:15:14"
 size: 29252045
-file: 102.mp3
-date: 2022-04-08 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "102.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-04-08 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

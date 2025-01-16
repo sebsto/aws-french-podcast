@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 7 avril"
-description: "J'ai compté 107 nouveautés ces deux dernières semaines, soit 40% plus que d'habitude. J'ai retenu pour vous deux services pré-annoncés en décembre et maintenant disponibles. Côté IA, on va parler de classification de texte et d'image et d'analyse de sentiment pour des conversations. GuardDuty supporte maintenant EKS et puis il y a un nouveau canal de blog pour les développeurs .Net et des nouveautés côté Amplify Swift."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 7 avril: J'ai compté 107 nouveautés ces deux dernières semaines, soit 40% plus que d'habitude. J'ai retenu pour vous deux services pré-annoncés en décembre et maintenant disponibles. Côté IA, on va parler de classification de texte et d'image et d'analyse de sentiment pour des conversations. GuardDuty supporte maintenant EKS et puis il y a un nouveau canal de blog pour les développeurs .Net et des nouveautés côté Amplify Swift."
 episode: 156
 duration: "00:16:58"
 size: 32580672
-file: 156.mp3
-date: 2023-04-07 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "156.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-04-07 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120014
-title:  "Les nouveautés AWS au 3 mai"
-subtitle: "Quoi de neuf ?"
-description: "Je n'ai pas compté les nouveautés des deux dernières semaines car il y a eu essentieelement deux grosses séries d'annonces, l'une liée à Amazon Bedrock et l'autre à Amazon Q. Je vais évidement passé l'essentiel de cet épisode à expliquer cela. Mais on ne parlera pas que d'IA générative, il y aussi eu des nouveautés coté CodeArtifact et Route53, le service de DNS entièrement managé."
-guest:
+title: "Les nouveautés AWS au 3 mai"
+description: "Quoi de neuf ?: Je n'ai pas compté les nouveautés des deux dernières semaines car il y a eu essentieelement deux grosses séries d'annonces, l'une liée à Amazon Bedrock et l'autre à Amazon Q. Je vais évidement passé l'essentiel de cet épisode à expliquer cela. Mais on ne parlera pas que d'IA générative, il y aussi eu des nouveautés coté CodeArtifact et Route53, le service de DNS entièrement managé."
 episode: 217
-duration: "00:18:23" 
+duration: "00:18:23"
 size: 35289644
-file: 217.mp3
-date: 2024-05-03 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/217.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "217.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120014
+guests: []
+publication: "2024-05-03 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/217.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

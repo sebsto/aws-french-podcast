@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 10 mars"
-description: "AWS a annoncé 77 nouveautés depuis le 24 février dernier, y compris l'auto complétion des recherches dans la console de AWS Marketplace 🧐😅. Dans cette liste, j'en ai choisi six: j'ai choisi de vous parler de services pertinents pour les développeurs : AWS App Composer est maintenant disponible, des nouvelles fonctions de SAM, Lambda PowerTools qui arrive sur .Net et je terminerai avec le blog de la semaine sur le choix d'un language de programmation pour contrôler son efficacité énergétique"
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 10 mars: AWS a annoncé 77 nouveautés depuis le 24 février dernier, y compris l'auto complétion des recherches dans la console de AWS Marketplace \U0001F9D0\U0001F605. Dans cette liste, j'en ai choisi six: j'ai choisi de vous parler de services pertinents pour les développeurs : AWS App Composer est maintenant disponible, des nouvelles fonctions de SAM, Lambda PowerTools qui arrive sur .Net et je terminerai avec le blog de la semaine sur le choix d'un language de programmation pour contrôler son efficacité énergétique"
 episode: 152
 duration: "00:17:07"
 size: 32865720
-file: 152.mp3
-date: 2023-03-10 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "152.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-03-10 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

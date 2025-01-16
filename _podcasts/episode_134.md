@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 18 novembre"
-description: "Cette semaine j'ai sélectionné 4 brèves et 4 nouveautés plus longues à expliquer. Dans cet épisode, on parle des gardiens du temps, de Amplify, de macOS, de la découpe de monolithes en microservices. On parle aussi d'authentification multi facteurs, de Terraform pour le serverless et de non pas une, mais deux nouvelles régions. Efin nous terminerons avec une nouveauté qui va nous simplifier la vie à toutes et tous : le resource explorer - une recherche de resources a travers plusieurs régions."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 18 novembre: Cette semaine j'ai sélectionné 4 brèves et 4 nouveautés plus longues à expliquer. Dans cet épisode, on parle des gardiens du temps, de Amplify, de macOS, de la découpe de monolithes en microservices. On parle aussi d'authentification multi facteurs, de Terraform pour le serverless et de non pas une, mais deux nouvelles régions. Efin nous terminerons avec une nouveauté qui va nous simplifier la vie à toutes et tous : le resource explorer - une recherche de resources a travers plusieurs régions."
 episode: 134
 duration: "00:16:38"
 size: 31915281
-file: 134.mp3
-date: 2022-11-18 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "134.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-11-18 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

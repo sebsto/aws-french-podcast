@@ -1,18 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120102
-title:  "Les Meetups AWS"
-subtitle: "Les groupes d'utilisateurs"
-description: "Dans ce deuxième épisode, nous avons été à la rencontre de quelques organisateurs des Meetups AWS. Nous avons parlé de contenu, d'organisation et d'animation de la communauté, pour vous donner envie de rejoindre ou de créer un meetup AWS."
-guest: "Olivier Lemaitre (Lille), Christophe Lejeune (Nantes) et Mohamed Aït El Kamel (Lyon)"
+title: "Les Meetups AWS"
+description: "Les groupes d'utilisateurs: Dans ce deuxième épisode, nous avons été à la rencontre de quelques organisateurs des Meetups AWS. Nous avons parlé de contenu, d'organisation et d'animation de la communauté, pour vous donner envie de rejoindre ou de créer un meetup AWS."
 episode: 2
 duration: "00:16:43"
 size: 32105035
-file: 002.mp3  
-date:   2019-03-04 23:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+file: "002.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120102
+guests:
+  - name: "Olivier Lemaitre"
+    title: "Lille"
+  - name: "Mohamed Aït El Kamel"
+    title: "Lyon"
+publication: "2019-03-04 23:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Vous souhaitez créer un groupe d'utilisateur dans votre ville ?  [Contactez-moi](https://twitter.com/sebsto).

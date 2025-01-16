@@ -1,19 +1,21 @@
----
-layout: podcast
-appleEpisodeId: 1000663120130
-title:  "Les centres de données AWS"
-subtitle: "Le dessous de la vie dans nos centres de données"
-description: "Dans cet épisode, nous discutons avec les personnes qui travaillent dans les data centres d'AWS en région parisienne. Nous parlons de leurs rôles et responsabilités, des procédures de sécurité, de la gestion des périphériques de stockage et comment leur travail contribue à la disponibilité et la sécurité des services AWS. Ces équipes recrutent, il y a 28 postes à pourvoir aujourd'hui, le lien se trouve dans les notes du podcast ci-dessous."
-guest: "<a href='https://www.linkedin.com/in/thierry-gougeot-b0875424/'>Thierry Gougeot</a>, Senior Chief Engineer et <a href='https://www.linkedin.com/in/franck-muscat-50a00a15/'>Franck Muscat</a>, Data Center Operations Cluster Manager."
+title: "Les centres de données AWS"
+description: "Le dessous de la vie dans nos centres de données: Dans cet épisode, nous discutons avec les personnes qui travaillent dans les data centres d'AWS en région parisienne. Nous parlons de leurs rôles et responsabilités, des procédures de sécurité, de la gestion des périphériques de stockage et comment leur travail contribue à la disponibilité et la sécurité des services AWS. Ces équipes recrutent, il y a 28 postes à pourvoir aujourd'hui, le lien se trouve dans les notes du podcast ci-dessous."
 episode: 41
 duration: "00:27:22"
-size: 52553270  
-file: 041.mp3  
-date: 2021-01-08 8:30:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 52553270
+file: "041.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120130
+guests:
+  - name: "Thierry Gougeot"
+    link: "https://www.linkedin.com/in/thierry-gougeot-b0875424/"
+    title: "Senior Chief Engineer"
+  - name: "Franck Muscat"
+    link: "https://www.linkedin.com/in/franck-muscat-50a00a15/"
+    title: "Data Center Operations Cluster Manager"
+publication: "2021-01-08 8:30:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

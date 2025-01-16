@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 3 novembre"
-description: "Il y a eu 96 nouveautés ces deux dernières semaines, j'ai retenu pour vous 7 annonces. Dans cet épisode, nous parlons du cloud souverain européen et de nouveautés autour des containers sur macOS. Tant qu'on parle de Mac, il y a un nouveau type d'instance EC2 Mac et des nouveautés de la console AWS sur iPhone. On parle aussi d'une réduction de prix sur Athena, de nouvelles possibilités offertes par VPC et EC2 et je terminerai par une recommendation d'article de blog sur la détection des attaques DDOS."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 3 novembre: Il y a eu 96 nouveautés ces deux dernières semaines, j'ai retenu pour vous 7 annonces. Dans cet épisode, nous parlons du cloud souverain européen et de nouveautés autour des containers sur macOS. Tant qu'on parle de Mac, il y a un nouveau type d'instance EC2 Mac et des nouveautés de la console AWS sur iPhone. On parle aussi d'une réduction de prix sur Athena, de nouvelles possibilités offertes par VPC et EC2 et je terminerai par une recommendation d'article de blog sur la détection des attaques DDOS."
 episode: 186
-duration: "00:17:26" 
+duration: "00:17:26"
 size: 33484300
-file: 186.mp3
-date: 2023-11-03 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "186.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-11-03 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

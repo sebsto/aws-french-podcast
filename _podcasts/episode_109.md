@@ -1,20 +1,20 @@
----
-layout: podcast
-appleEpisodeId: 1000663119995
-title:  "AIML et Sécurité"
-subtitle: "Comment protéger vos projets AIML"
-description: "AIML et Sécurité : l'association n'est pas toujours évidente. Pourtant les projets AIML sont également susceptibles d'attaques.  Quels sont les risques ? Qu'est ce qu'une personne malveillante va chercher à faire avec vos données, vos entraînements et vos points d'inférences ? Comment les protéger ? Quelles sont les implications du RGPD sur l'AIML ? Ce sont ces sujets et bien d'autres dont nous parlons cette semaine."
-guest: "<a href='https://www.linkedin.com/in/menai/'>Alexandre Menai</a>, Manager Solution Architect, Sécurité et Conformité, AWS."
+title: "AIML et Sécurité"
+description: "Comment protéger vos projets AIML: AIML et Sécurité : l'association n'est pas toujours évidente. Pourtant les projets AIML sont également susceptibles d'attaques.  Quels sont les risques ? Qu'est ce qu'une personne malveillante va chercher à faire avec vos données, vos entraînements et vos points d'inférences ? Comment les protéger ? Quelles sont les implications du RGPD sur l'AIML ? Ce sont ces sujets et bien d'autres dont nous parlons cette semaine."
 episode: 109
 duration: "00:58:48"
-size: 112899891 
-file: 109.mp3
-date: 2022-05-27 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 112899891
+file: "109.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119995
+guests:
+  - name: "Alexandre Menai"
+    link: "https://www.linkedin.com/in/menai/"
+    title: "Manager Solution Architect, Sécurité"
+  - name: "Conformité, AWS."
+publication: "2022-05-27 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

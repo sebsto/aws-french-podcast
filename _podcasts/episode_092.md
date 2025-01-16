@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 28 janvier 20222"
-description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de replication de file systems EFS, de Panorama pour les applications de vision assistée, d'un nouveau service qui rejoint le free tier et d'exfiltration de credentials EC2."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 28 janvier 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de replication de file systems EFS, de Panorama pour les applications de vision assistée, d'un nouveau service qui rejoint le free tier et d'exfiltration de credentials EC2."
 episode: 92
 duration: "00:17:07"
 size: 32865720
-file: 092.mp3
-date: 2022-01-28 07:00:00 +0100   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "092.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-01-28 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

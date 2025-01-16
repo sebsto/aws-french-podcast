@@ -1,19 +1,18 @@
----
-layout: podcast
-title:  "AWS re:Invent re:Cap - Mardi"
-subtitle: ""
-description: "Un résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas le mardi 28 novembre 2023."
-guest:  "<a href='https://www.linkedin.com/in/sebastien-napoleon/'>Sébastien Napoleon</a>, AWS Community Builder, Cloud & DevOps enthusiast."
+title: "AWS re:Invent re:Cap - Mardi"
+description: ": Un résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas le mardi 28 novembre 2023."
 episode: 191
-duration: "00:17:35" 
-size: 33769 48
-file: 191.mp3
-date: 2023-11-29 01:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+duration: "00:17:35"
+size: "33769 48"
+file: "191.mp3"
+category: "podcasts"
+guests:
+  - name: "Sébastien Napoleon"
+    link: "https://www.linkedin.com/in/sebastien-napoleon/"
+    title: "AWS Community Builder, Cloud & DevOps enthusiast"
+publication: "2023-11-29 01:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

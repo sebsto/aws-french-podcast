@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119934
-title:  "Louise Frion"
-subtitle: "Le manque de candidates en IT"
-description: "Dans cet épisode \"Women in Tech\", nous découvrons le parcours inspirant de Louise Frion. Nous parlons aussi de la pénurie de talents dans les métiers du numérique, des ses causes probables, de ses conséquences pour l'économie et des actions qui sont prises pour y remédier. Si les femmes étaient mieux représentées dans la tech, une grosse partie de cette pénurie pourrait être résorbée. Est-ce que les femmes souffrent plus du syndrôme de l'imposteur que les hommes ? Comment les hommes qui nous écoutent peuvent contribuer à plus de diversité dans les métiers techniques ?" 
-guest: "<a href='https://www.linkedin.com/in/louise-frion-110713a2/'>Louise Frion</a>, Responsable du pôle Nouvelles Technologies, Institut Montaigne"
+title: "Louise Frion"
+description: "Le manque de candidates en IT: Dans cet épisode \"Women in Tech\", nous découvrons le parcours inspirant de Louise Frion. Nous parlons aussi de la pénurie de talents dans les métiers du numérique, des ses causes probables, de ses conséquences pour l'économie et des actions qui sont prises pour y remédier. Si les femmes étaient mieux représentées dans la tech, une grosse partie de cette pénurie pourrait être résorbée. Est-ce que les femmes souffrent plus du syndrôme de l'imposteur que les hommes ? Comment les hommes qui nous écoutent peuvent contribuer à plus de diversité dans les métiers techniques ?"
 episode: 218
-duration: "00:38:26" 
+duration: "00:38:26"
 size: 73810675
-file: 218.mp3
-date: 2024-05-08 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/218.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "218.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119934
+guests:
+  - name: "Louise Frion"
+    link: "https://www.linkedin.com/in/louise-frion-110713a2/"
+    title: "Responsable du pôle Nouvelles Technologies, Institut Montaigne"
+publication: "2024-05-08 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/218.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

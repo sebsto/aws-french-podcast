@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 7 octobre"
-description: "Cette semaine, j'ai noté pour vous deux nouvelles local zone, ca sera l'occasion de rappeller ce que c'est et pourquoi ca peut vous être utile. On parlera de Virtual Desktop avec Ubuntu, d'un nouveau service pour cacher vos fichiers dans le cloud. On parlera de AWS Budget et de contrôle des coûts et enfin, d'un nouveau cours en ligne pour apprendre comment utiliser l'IA, sans code, comme outil d'aide à la décision."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 7 octobre: Cette semaine, j'ai noté pour vous deux nouvelles local zone, ca sera l'occasion de rappeller ce que c'est et pourquoi ca peut vous être utile. On parlera de Virtual Desktop avec Ubuntu, d'un nouveau service pour cacher vos fichiers dans le cloud. On parlera de AWS Budget et de contrôle des coûts et enfin, d'un nouveau cours en ligne pour apprendre comment utiliser l'IA, sans code, comme outil d'aide à la décision."
 episode: 128
 duration: "00:14:09"
 size: 27159741
-file: 128.mp3
-date: 2022-10-07 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "128.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-10-07 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,20 @@
----
-layout: podcast
-appleEpisodeId: 1000663119779
-title:  "Le cloud en 2024, ou en est-on ?"
-subtitle: "L'adoption du cloud et de l'IA en 2024"
-description: "Dans cet épisode du début d'année, nous faisons le point sur l'état de l'adoption du cloud en France en 2024, tant par les entreprises que par le secteur public. Nous parlons des infrastructures, des applications, des données et de la souveraineté du cloud. Nous terminons par évoquer les changements que vont induire l'intelligence artificielle générative. Quels impacts pouvons-nous attendre sur les emplois et la manière dont nous allons travailler dans le futur ?"
-guest: "<a href='https://www.linkedin.com/in/louisnauges/'>Louis Naugès</a>, Co-fondateur et Chief Strategy Officer, Wizy.io"
+title: "Le cloud en 2024, ou en est-on ?"
+description: "L'adoption du cloud et de l'IA en 2024: Dans cet épisode du début d'année, nous faisons le point sur l'état de l'adoption du cloud en France en 2024, tant par les entreprises que par le secteur public. Nous parlons des infrastructures, des applications, des données et de la souveraineté du cloud. Nous terminons par évoquer les changements que vont induire l'intelligence artificielle générative. Quels impacts pouvons-nous attendre sur les emplois et la manière dont nous allons travailler dans le futur ?"
 episode: 201
-duration: "01:01:49" 
+duration: "01:01:49"
 size: 118702001
-file: 201.mp3
-date: 2024-01-19 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/201.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "201.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119779
+guests:
+  - name: "Louis Naugès"
+    link: "https://www.linkedin.com/in/louisnauges/"
+    title: "Co-fondateur"
+  - name: "Chief Strategy Officer, Wizy.io"
+publication: "2024-01-19 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/201.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663119757
-title:  "Les nouveautés AWS au 8 mars"
-subtitle: "Quoi de neuf ?"
-description: "Cette semaine il y a du lourd. J'ai compté 61 nouveautés depuis le 23 février, on parlera de CloudFront, de Location Service, de Bedrock, de Lambda pour .Net et d'un changement de prix important. Mais ça, je le garde pour la fin de cet épisode."
-guest:
+title: "Les nouveautés AWS au 8 mars"
+description: "Quoi de neuf ?: Cette semaine il y a du lourd. J'ai compté 61 nouveautés depuis le 23 février, on parlera de CloudFront, de Location Service, de Bedrock, de Lambda pour .Net et d'un changement de prix important. Mais ça, je le garde pour la fin de cet épisode."
 episode: 208
-duration: "00:14:46" 
+duration: "00:14:46"
 size: 2834841
-file: 208.mp3
-date: 2024-03-08 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/208.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "208.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119757
+guests: []
+publication: "2024-03-08 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/208.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

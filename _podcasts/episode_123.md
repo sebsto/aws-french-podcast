@@ -1,21 +1,20 @@
----
-layout: podcast
-appleEpisodeId: 1000663120053
-title:  "Smart Territory Framework"
-subtitle: "La gestion des données IoT simplifiée"
-description: "Cette semaine, nous parlons du Smart Territory Framework, un ensemble d'outils et de modules open source qui permet de démarrer rapidement les projets IoT à l'échelle d'un territoire, une ville, une collectivité. Vous pouvez ainsi construire et maintenir des solutions basées sur les standards de l'industries, compatible avec les solutions open source de l'écosystème FIWARE. Comme à notre habitude, nous expliquons très concrètement comment démarrer et nous illustrons nos propos avec des cas pratiques déjà mis en oeuvre par nos clients : du contrôle de building, à la surveillance des troupeaux dans les alpages, en passant par l'amélioration de la circulation et du parking en ville."
-guest: "<a href='https://www.linkedin.com/in/alibenfattoum/'>Ali Benfattoum</a>, Evangelist Industrial IoT and Edge</a>"
+title: "Smart Territory Framework"
+description: "La gestion des données IoT simplifiée: Cette semaine, nous parlons du Smart Territory Framework, un ensemble d'outils et de modules open source qui permet de démarrer rapidement les projets IoT à l'échelle d'un territoire, une ville, une collectivité. Vous pouvez ainsi construire et maintenir des solutions basées sur les standards de l'industries, compatible avec les solutions open source de l'écosystème FIWARE. Comme à notre habitude, nous expliquons très concrètement comment démarrer et nous illustrons nos propos avec des cas pratiques déjà mis en oeuvre par nos clients : du contrôle de building, à la surveillance des troupeaux dans les alpages, en passant par l'amélioration de la circulation et du parking en ville."
 episode: 123
 duration: "00:37:15"
-size: 71527782 
-file: 123.mp3
-date: 2022-09-01 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000576564703
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 71527782
+file: "123.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120053
+guests:
+  - name: "Ali Benfattoum"
+    link: "https://www.linkedin.com/in/alibenfattoum/"
+    title: "Evangelist Industrial IoT"
+  - name: "Edge</a>"
+publication: "2022-09-01 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 9 septembre"
-description: "Cette semaine, il y a une nouvelle région AWS. Nous parlons open-source au sujet d'une technologie core de Event Bridge. Il y a aussi des nouveautés côté Step Functions et deux blog posts qui ont retenu mon attention, le premier sur Teradici pour Mac et le second sur l'authentification multifacteur pour vos API, avec Cognito"
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 9 septembre: Cette semaine, il y a une nouvelle région AWS. Nous parlons open-source au sujet d'une technologie core de Event Bridge. Il y a aussi des nouveautés côté Step Functions et deux blog posts qui ont retenu mon attention, le premier sur Teradici pour Mac et le second sur l'authentification multifacteur pour vos API, avec Cognito"
 episode: 124
 duration: "00:12:25"
 size: 23831114
-file: 124.mp3
-date: 2022-09-09 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "124.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-09-09 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

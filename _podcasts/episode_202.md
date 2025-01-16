@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 26 janvier"
-description: "J'ai compté 54 nouveautés depuis le 12 janvier. Cette semaine, nous parlons de ECS et EBS, de DNS avec Route53, de notification mobiles avec Firebase, de EventBridge et GraphQL, d'un service qui est maintenant disponible sur la région de Paris. On terminera avec un tour des activités de la communauté des clients et partenaires AWS, avec deux projets personnels en open-source, un marathon de workshop organisés par le groupe d'utilisateurs AWS de Yaounde au Cameroun et d'un nouveau livre sur les architecture serverless."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 26 janvier: J'ai compté 54 nouveautés depuis le 12 janvier. Cette semaine, nous parlons de ECS et EBS, de DNS avec Route53, de notification mobiles avec Firebase, de EventBridge et GraphQL, d'un service qui est maintenant disponible sur la région de Paris. On terminera avec un tour des activités de la communauté des clients et partenaires AWS, avec deux projets personnels en open-source, un marathon de workshop organisés par le groupe d'utilisateurs AWS de Yaounde au Cameroun et d'un nouveau livre sur les architecture serverless."
 episode: 202
-duration: "00:15:10" 
+duration: "00:15:10"
 size: 29109103
-file: 202.mp3
-date: 2024-01-26 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/202.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "202.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2024-01-26 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/202.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

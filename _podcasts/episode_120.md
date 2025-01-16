@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 12 août 2022"
-description: "Cette semaine, nous parlons de stockage avec la pré-annonce d'un nouveau service et de nouvelles fonctionalités sur EBS. On parle d'une baisse de prix des fonctions Lambda et de nouvelles possibilités de formation et de préparation aux examens de certifications."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 12 août 2022: Cette semaine, nous parlons de stockage avec la pré-annonce d'un nouveau service et de nouvelles fonctionalités sur EBS. On parle d'une baisse de prix des fonctions Lambda et de nouvelles possibilités de formation et de préparation aux examens de certifications."
 episode: 120
 duration: "00:16:10"
 size: 31059301
-file: 120.mp3
-date: 2022-08-12 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "120.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-08-12 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

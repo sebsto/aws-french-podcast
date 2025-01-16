@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 17 juin 2022"
-description: "Cette semaine, on parle de mainframe et de modernization de ces applications dans le cloud. On aborde aussi brièvement une nouvelle instance EC2, une fonctionalité qui facilite la vie des data scientists dans Sagemaker et d'automatisation post migration apres avoir migré des VMs."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 17 juin 2022: Cette semaine, on parle de mainframe et de modernization de ces applications dans le cloud. On aborde aussi brièvement une nouvelle instance EC2, une fonctionalité qui facilite la vie des data scientists dans Sagemaker et d'automatisation post migration apres avoir migré des VMs."
 episode: 112
 duration: "00:12:35"
-size: 24163810 
-file: 112.mp3
-date: 2022-06-17 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 24163810
+file: "112.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-06-17 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

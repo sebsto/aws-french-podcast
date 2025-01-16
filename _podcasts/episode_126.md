@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 23 septembre"
-description: "Cette semaine, nous parlons de Outposts, vous savez, ces serveurs AWS que vous pouvez installer chez vous. On parle de Lex qui s'enrichit d'un éditeur visuel. Le blog mobile a sorti un article ou tuto intéressant sur la construction d'applications avec de la géo localisation. Enfin je vous parlerai d'une conférence AWS Innovate - en ligne - à venir en octobre."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 23 septembre: Cette semaine, nous parlons de Outposts, vous savez, ces serveurs AWS que vous pouvez installer chez vous. On parle de Lex qui s'enrichit d'un éditeur visuel. Le blog mobile a sorti un article ou tuto intéressant sur la construction d'applications avec de la géo localisation. Enfin je vous parlerai d'une conférence AWS Innovate - en ligne - à venir en octobre."
 episode: 126
 duration: "00:13:36"
 size: 26113172
-file: 126.mp3
-date: 2022-09-23 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "126.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-09-23 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

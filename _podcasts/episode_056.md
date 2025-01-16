@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 11 juin 2021"
-description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons des examens de certifications qui seront bientôt en français, mais pas que, d'un nouveau cours en ligne sur CodeGuru, d'une nouvelle région annoncée et de deux services qui passent de preview en GA : Amazon Location Service et ECS Anywhere."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 11 juin 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons des examens de certifications qui seront bientôt en français, mais pas que, d'un nouveau cours en ligne sur CodeGuru, d'une nouvelle région annoncée et de deux services qui passent de preview en GA : Amazon Location Service et ECS Anywhere."
 episode: 56
 duration: "00:11:13"
 size: 21548221
-file: 056.mp3
-date: 2021-06-11 09:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "056.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-06-11 09:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

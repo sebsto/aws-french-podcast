@@ -1,18 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120098
-title:  "Terega revisite son référentiel d'entreprise"
-subtitle: "Transformer une DB en service REST, serverless"
-description: "Dans cet épisode, nous parlons d'un projet de réarchitecture d'une base de donnée centralisée, vers une infrastructure moderne, basée sur des APIs, et déployée par du code, en mode blue/green. Découvrez les avantages techniques et métiers, ainsi que les outils et frameworks utilisés."
-guest: "<a href='https://www.linkedin.com/in/guillaume-precheur-5512739/'>Guillaume Precheur</a>, Consultant Cloud DevOps, <a href='https://www.gekko.fr/en/16014-2/'>Gekko, part of Accenture</a>."
+title: "Terega revisite son référentiel d'entreprise"
+description: "Transformer une DB en service REST, serverless: Dans cet épisode, nous parlons d'un projet de réarchitecture d'une base de donnée centralisée, vers une infrastructure moderne, basée sur des APIs, et déployée par du code, en mode blue/green. Découvrez les avantages techniques et métiers, ainsi que les outils et frameworks utilisés."
 episode: 33
 duration: "00:23:50"
 size: 45753074
-file: 033.mp3  
-date: 2020-09-30 17:30:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+file: "033.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120098
+guests:
+  - name: "Guillaume Precheur"
+    link: "https://www.linkedin.com/in/guillaume-precheur-5512739/"
+    title: "Consultant Cloud DevOps, <a href='https://www"
+publication: "2020-09-30 17:30:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

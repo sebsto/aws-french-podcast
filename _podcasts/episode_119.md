@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120210
-title:  "Skello"
-subtitle: "La gestion des plannings dans le cloud"
-description: "Cette semaine, j'ai rencontré Skello, un SaaS pour gèrer vos plannings et optimiser la gestion de vos équipes. On parle de leur migration d'une plate-forme PaaS vers AWS. Mais ca consiste en quoi exactement de construire une solution de type Software-as-a-Service sur AWS ? On aborde le sujet d'optimisation de coûts : une mauvaise surprise le premier mois (x2) pour comprendre quoi optimiser, pour finalement divisier la deuxième facture par deux, puis encore réduire de 37% par la suite. On parle aussi de migration de certaines applications vers du serverless avec AWS Lambda et DynamoDB."
-guest: "<a href='https://www.linkedin.com/in/oliviercauvin/'>Olivier Cauvin</a>, CTO <a href='https://www.skello.io'>Skello</a>"
+title: "Skello"
+description: "La gestion des plannings dans le cloud: Cette semaine, j'ai rencontré Skello, un SaaS pour gèrer vos plannings et optimiser la gestion de vos équipes. On parle de leur migration d'une plate-forme PaaS vers AWS. Mais ca consiste en quoi exactement de construire une solution de type Software-as-a-Service sur AWS ? On aborde le sujet d'optimisation de coûts : une mauvaise surprise le premier mois (x2) pour comprendre quoi optimiser, pour finalement divisier la deuxième facture par deux, puis encore réduire de 37% par la suite. On parle aussi de migration de certaines applications vers du serverless avec AWS Lambda et DynamoDB."
 episode: 119
 duration: "00:36:54"
 size: 70862391
-file: 119.mp3
-date: 2022-08-05 06:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "119.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120210
+guests:
+  - name: "Olivier Cauvin"
+    link: "https://www.linkedin.com/in/oliviercauvin/"
+    title: "CTO <a href='https://www"
+publication: "2022-08-05 06:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

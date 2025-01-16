@@ -1,19 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663119968
-title:  "Apprendre le cloud quand on est étudiant"
-subtitle: "Les bons tuyaux pour démarrer"
-description: "Savoir utiliser les services cloud est un atout indispensable aujourd'hui sur le marché du travail. Comment peux-t-on apprendre sans se ruiner quand on est étudiant?  Paul était étudiant en stage chez AWS France quand je lui ai demandé quels sont les trucs et astuces qu'il peut partager. Depuis, il travaille avec nous, dans les équipes de Professional Services :-)"
-guest: "<a href='https://www.linkedin.com/in/paul-devillers-361abb175/'>Paul Villers</a>, Cloud Consultant, AWS."
+title: "Apprendre le cloud quand on est étudiant"
+description: "Les bons tuyaux pour démarrer: Savoir utiliser les services cloud est un atout indispensable aujourd'hui sur le marché du travail. Comment peux-t-on apprendre sans se ruiner quand on est étudiant?  Paul était étudiant en stage chez AWS France quand je lui ai demandé quels sont les trucs et astuces qu'il peut partager. Depuis, il travaille avec nous, dans les équipes de Professional Services :-)"
 episode: 79
 duration: "00:28:05"
 size: 53932536
-file: 079.mp3
-date: 2021-11-19 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "079.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119968
+guests:
+  - name: "Paul Villers"
+    link: "https://www.linkedin.com/in/paul-devillers-361abb175/"
+    title: "Cloud Consultant, AWS"
+publication: "2021-11-19 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

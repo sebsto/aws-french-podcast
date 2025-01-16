@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120066
-title:  "Les certifications AWS"
-subtitle: "Comment s'y préparer ?"
-description: "Dans cet épisode nous parlons des certifications AWS. Découvrez quelles sont les certifications, quels avantages elles vous apportent et surtout comment s'y préparer: apprendre à gérer son temps, à lire les questions et choisir la bonne réponse parmis les solutions proposées."
-guest: "<a href='https://www.linkedin.com/in/nchergui/'>Nabila Chergui</a>, formatrice certifiée AWS chez Global Knowledge France"
+title: "Les certifications AWS"
+description: "Comment s'y préparer ?: Dans cet épisode nous parlons des certifications AWS. Découvrez quelles sont les certifications, quels avantages elles vous apportent et surtout comment s'y préparer: apprendre à gérer son temps, à lire les questions et choisir la bonne réponse parmis les solutions proposées."
 episode: 161
 duration: "00:51:58"
 size: 99775137
-file: 161.mp3
-date: 2023-05-12 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "161.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120066
+guests:
+  - name: "Nabila Chergui"
+    link: "https://www.linkedin.com/in/nchergui/"
+    title: "formatrice certifiée AWS chez Global Knowledge France"
+publication: "2023-05-12 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

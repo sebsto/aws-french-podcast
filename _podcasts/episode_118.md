@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 29 juillet 2022"
-description: "Cette semaine, beaucoup de security avec des nouveautés coté Guarduty et Detective, mais aussi des nouvelles possibilités avec EMR et Lambda. On parle open source avec Lambda Power Tools pour Typescript et Cloudscape, une librairie pour construire des interfaces web. Le bord du cloud s'étend à l'espace, une partie du cloud AWS est dans la station spaciale internationale et on terminera avec les chiffres AWS du dernier Amazon Prime Day, vous savez ? Cette journée de soldes au niveau mondial qui met beaucoup de charge sur nos infrastructures."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 29 juillet 2022: Cette semaine, beaucoup de security avec des nouveautés coté Guarduty et Detective, mais aussi des nouvelles possibilités avec EMR et Lambda. On parle open source avec Lambda Power Tools pour Typescript et Cloudscape, une librairie pour construire des interfaces web. Le bord du cloud s'étend à l'espace, une partie du cloud AWS est dans la station spaciale internationale et on terminera avec les chiffres AWS du dernier Amazon Prime Day, vous savez ? Cette journée de soldes au niveau mondial qui met beaucoup de charge sur nos infrastructures."
 episode: 118
 duration: "00:22:12"
 size: 42615037
-file: 118.mp3
-date: 2022-07-28 22:30:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "118.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-07-28 22:30:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

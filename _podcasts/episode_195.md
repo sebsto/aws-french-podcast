@@ -1,20 +1,22 @@
----
-layout: podcast
-appleEpisodeId: 1000663120061
-title:  "France Télévisions"
-subtitle: "Ajout de publicités côté serveur"
-description: "France Télévisions utilise le cloud AWS pour distribuer les flux vidéos à destinations des plateformes numériques (Box fournisseurs, ordinateurs, tablettes et téléphones). Découvrez le parcours du flux vidéo depuis sa sortie de régie jusqu'à votre écran. On parle d'encodage et de traitement de vidéos, d'inclusion de publicités personnalisées côté serveur et de synchronisation de pistes audios. Entrez dans le monde de la diffusion vidéo en numérique et découvrez comment le cloud permet de manipuler des flux vidéos en temps réels."
-guest:  "<a href='https://www.linkedin.com/in/gpostaire/'>Guillaume Postaire</a>, directeur Media Factory et <a href='https://www.linkedin.com/in/yoann-guennegues-022a1a8/'>Yoann Guennegues</a>, Lead Expert Video/ Video streaming architect, tous deux chez France Télévisions"
+title: "France Télévisions"
+description: "Ajout de publicités côté serveur: France Télévisions utilise le cloud AWS pour distribuer les flux vidéos à destinations des plateformes numériques (Box fournisseurs, ordinateurs, tablettes et téléphones). Découvrez le parcours du flux vidéo depuis sa sortie de régie jusqu'à votre écran. On parle d'encodage et de traitement de vidéos, d'inclusion de publicités personnalisées côté serveur et de synchronisation de pistes audios. Entrez dans le monde de la diffusion vidéo en numérique et découvrez comment le cloud permet de manipuler des flux vidéos en temps réels."
 episode: 195
-duration: "00:46:12" 
+duration: "00:46:12"
 size: 88710085
-file: 195.mp3
-date: 2023-12-08 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "195.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120061
+guests:
+  - name: "Guillaume Postaire"
+    link: "https://www.linkedin.com/in/gpostaire/"
+    title: "directeur Media Factory"
+  - name: "Yoann Guennegues"
+    link: "https://www.linkedin.com/in/yoann-guennegues-022a1a8/"
+    title: "Lead Expert Video/ Video streaming architect, tous deux chez France Télévisions"
+publication: "2023-12-08 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

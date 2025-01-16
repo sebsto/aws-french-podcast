@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 9 février"
-description: "J'ai compté 58 nouveautés depuis le 26 janvier. Cette semaine nous parlons du magic quadrant de Gartner, de deux nouveautés qui me semblent essentielles dans le monde de l'infrastructure as code et des adresses IPv4."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 9 février: J'ai compté 58 nouveautés depuis le 26 janvier. Cette semaine nous parlons du magic quadrant de Gartner, de deux nouveautés qui me semblent essentielles dans le monde de l'infrastructure as code et des adresses IPv4."
 episode: 204
-duration: "00:13:52" 
+duration: "00:13:52"
 size: 26636457
-file: 204.mp3
-date: 2024-02-09 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/204.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "204.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2024-02-09 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/204.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

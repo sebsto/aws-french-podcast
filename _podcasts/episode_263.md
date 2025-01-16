@@ -1,19 +1,16 @@
----
-layout: podcast
-title:  "re:Invent re:Cap 1"
-subtitle: "Dimanche 1er décembre"
-description: "C'est une tradition le dimanche soir à re:Invent, il y a une première salve d'annonces et de de nouveautés.  Cette année c'est 32 billets de blogs que nous venons de publier. J'ai retenu des nouveautés qui concernent EKS, Amazon S3, AWS Verfied Access, Data Migration Service Schema Converter, les policies IAM, et une nouvelle solution physique pour transférer de gros volumes de données."
-guest: 
+title: "re:Invent re:Cap 1"
+description: "Dimanche 1er décembre: C'est une tradition le dimanche soir à re:Invent, il y a une première salve d'annonces et de de nouveautés.  Cette année c'est 32 billets de blogs que nous venons de publier. J'ai retenu des nouveautés qui concernent EKS, Amazon S3, AWS Verfied Access, Data Migration Service Schema Converter, les policies IAM, et une nouvelle solution physique pour transférer de gros volumes de données."
 episode: 263
-duration: "00:14:31" 
+duration: "00:14:31"
 size: 27872780
-file: 263.mp3
-date: 2024-12-01 22:00:00 +0800
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/263.png
+file: "263.mp3"
+category: "podcasts"
 appleEpisodeId: 1000678867264
+guests: []
+publication: "2024-12-01 22:00:00 +0800"
+author: "Sébastien Stormacq"
+social-background: "/img/263.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 17 septembre 2021"
-description: "Un épisode sur deux du podcast est consacré à  une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Kubernetes, du nouveau nom de Elastic Search - Open Search -, d'une nouvelle famille d'instances EC2, d'une place de marché pour les compétences AWS qui arrive en France, et enfin de connecteurs managés pour vos clusters Kafka."
-guest:
-episode: 70 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 17 septembre 2021: Un épisode sur deux du podcast est consacré à  une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Kubernetes, du nouveau nom de Elastic Search - Open Search -, d'une nouvelle famille d'instances EC2, d'une place de marché pour les compétences AWS qui arrive en France, et enfin de connecteurs managés pour vos clusters Kafka."
+episode: 70
 duration: "00:11:46"
 size: 22593955
-file: 070.mp3
-date: 2021-09-17 07:00:00 +0200  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "070.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-09-17 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

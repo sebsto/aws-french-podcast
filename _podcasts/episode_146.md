@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 27 janvier"
-description: "AWS a annoncé 64 nouveautés depuis le 13 janvier. J'en ai épinglé 4 qui pourraient être intéressantes pour les builders que vous êtes. On parle d'une nouvelle région et de nouvelles local zones. J'ai aussi trouvé un livre sur les fondamentaux d'AWS, une nouvelle page de doc pour vous aider à choisir une solution pour déployer vos conteneurs et un blog post qui explique comment AWS Lambda teste sa résilience et comment vous pouvez en faire de même."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 27 janvier: AWS a annoncé 64 nouveautés depuis le 13 janvier. J'en ai épinglé 4 qui pourraient être intéressantes pour les builders que vous êtes. On parle d'une nouvelle région et de nouvelles local zones. J'ai aussi trouvé un livre sur les fondamentaux d'AWS, une nouvelle page de doc pour vous aider à choisir une solution pour déployer vos conteneurs et un blog post qui explique comment AWS Lambda teste sa résilience et comment vous pouvez en faire de même."
 episode: 146
 duration: "00:21:18"
 size: 40903076
-file: 146.mp3
-date: 2023-01-27 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "146.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-01-27 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

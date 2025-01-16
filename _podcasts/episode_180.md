@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 22 septembre"
-description: "Parmis les 72 nouveautés de ces deux dernières semaines, j'en ai retenu pour vous 7 plus un livre et un article de blog. Dans cet épisode on parle de Bedrock, des ses agents et de ses bases de connaissance vectorielles. On parle de Java et de chaos - il n'y a aucun rapport entre ces deux news - IAM Roles Anywhere support maintenant PKCS#11, c'est quoi ca ? Et puis j'ai repéré cette semaine un nouveau livre sur AWS qui semble intéressant et un article de blog en français qui explique comment déployer des web apps sur AWS Lambda, sans changer votre code."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 22 septembre: Parmis les 72 nouveautés de ces deux dernières semaines, j'en ai retenu pour vous 7 plus un livre et un article de blog. Dans cet épisode on parle de Bedrock, des ses agents et de ses bases de connaissance vectorielles. On parle de Java et de chaos - il n'y a aucun rapport entre ces deux news - IAM Roles Anywhere support maintenant PKCS#11, c'est quoi ca ? Et puis j'ai repéré cette semaine un nouveau livre sur AWS qui semble intéressant et un article de blog en français qui explique comment déployer des web apps sur AWS Lambda, sans changer votre code."
 episode: 180
-duration: "00:17:44" 
+duration: "00:17:44"
 size: 34054396
-file: 180.mp3
-date: 2023-09-22 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "180.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-09-22 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

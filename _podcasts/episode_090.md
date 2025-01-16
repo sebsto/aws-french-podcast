@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 14 janvier 20222"
-description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons encore une fois de IPv6, mais cette fois au sujet de Kubernetes. Il y a aussi une nouvelle région en indonésie, une nouvelle page d'acceuil sur la console et un nouveau type d'instance pour le calcul haute performance. "
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 14 janvier 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons encore une fois de IPv6, mais cette fois au sujet de Kubernetes. Il y a aussi une nouvelle région en indonésie, une nouvelle page d'acceuil sur la console et un nouveau type d'instance pour le calcul haute performance. "
 episode: 90
 duration: "00:11:34"
 size: 22213612
-file: 090.mp3
-date: 2022-01-13 07:00:00 +0100   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "090.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-01-13 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

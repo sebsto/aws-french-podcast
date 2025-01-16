@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120040
-title:  "L'excellence opérationnelle pour les DB"
-subtitle: "Prometheus RDS Exporter et Database monitoring framework"
-description: "Qonto a fait le choix d'utiliser les bases de données managées Amazon RDS. Leur modèle business mutualisé les a conduit à développer des outils de monitoring complémentaires. Dans cet épisode, nous parlons de RDS Exporter pour Prometheus et du Database Monitoring Framework, deux projets open source créés et utilisés par Qonto."
-guest: "<a href='https://www.linkedin.com/in/vincemercier/'>Vincent Mercier</a>, Site Reliability Engineer, Qonto"
+title: "L'excellence opérationnelle pour les DB"
+description: "Prometheus RDS Exporter et Database monitoring framework: Qonto a fait le choix d'utiliser les bases de données managées Amazon RDS. Leur modèle business mutualisé les a conduit à développer des outils de monitoring complémentaires. Dans cet épisode, nous parlons de RDS Exporter pour Prometheus et du Database Monitoring Framework, deux projets open source créés et utilisés par Qonto."
 episode: 219
-duration: "00:44:51" 
+duration: "00:44:51"
 size: 86127097
-file: 219.mp3
-date: 2024-05-10 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/219.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "219.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120040
+guests:
+  - name: "Vincent Mercier"
+    link: "https://www.linkedin.com/in/vincemercier/"
+    title: "Site Reliability Engineer, Qonto"
+publication: "2024-05-10 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/219.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

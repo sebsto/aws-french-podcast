@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663119811
-title:  "Les nouveautés AWS au 31 mai"
-subtitle: "Quoi de neuf ?"
-description: "Avec une soixantaine de news à digérer ces deux dernières semaines, ca ne m'étonne pas que vous écoutiez cet épisode du podcast 🎙️ AWS ☁️ en français 🇫🇷. J'ai accroché pour vous quelques nouveautés au sujet de RDS DB2, de OpenSearch zero ETL, de Verified Permissions et Cedar, de Event Bridge ainsi qu'une nouvelle famille d'instances EC2 pour ceux qui ont besoin de beaucoup de CPU et beaucoup de mémoire. "
-guest:
+title: "Les nouveautés AWS au 31 mai"
+description: "Quoi de neuf ?: Avec une soixantaine de news à digérer ces deux dernières semaines, ca ne m'étonne pas que vous écoutiez cet épisode du podcast \U0001F399️ AWS ☁️ en français \U0001F1EB\U0001F1F7. J'ai accroché pour vous quelques nouveautés au sujet de RDS DB2, de OpenSearch zero ETL, de Verified Permissions et Cedar, de Event Bridge ainsi qu'une nouvelle famille d'instances EC2 pour ceux qui ont besoin de beaucoup de CPU et beaucoup de mémoire. "
 episode: 223
-duration: "00:14:37" 
+duration: "00:14:37"
 size: 28242742
-file: 223.mp3
-date: 2024-05-31 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/223.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "223.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119811
+guests: []
+publication: "2024-05-31 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/223.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

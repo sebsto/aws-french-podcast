@@ -1,19 +1,19 @@
----
-layout: podcast
-title:  "WIT : Dorra Elboukari"
-subtitle: "De l'armée aux cloud"
-description: "Dorra Elboukari, architecte DevOps chez AWS, partage son parcours qui l'a menée d'une carrière militaire à une carrière dans le cloud. Depuis son jeune âge, elle développe une passion pour la technologie et poursuit des études en ingénierie et en cybersécurité. L'intérêt de Dora pour le cloud a été suscité par un collègue qui lui a présenté des vidéos AWS, ce qui l'a incitée à plonger plus profondément dans cette technologie. Elle s'est impliquée dans la communauté AWS en créant des groupes d'utilisateurs et en organisant des événements. La persévérance et le dévouement de Dora ont porté leurs fruits, lui permettant d'obtenir un poste chez AWS et de continuer à contribuer à la communauté."
-guest: "<a href='https://www.linkedin.com/in/dorra-elboukari-667004216/'>Dorra Elboukari</a>, DevOps Architect, AWS"
+title: "WIT : Dorra Elboukari"
+description: "De l'armée aux cloud: Dorra Elboukari, architecte DevOps chez AWS, partage son parcours qui l'a menée d'une carrière militaire à une carrière dans le cloud. Depuis son jeune âge, elle développe une passion pour la technologie et poursuit des études en ingénierie et en cybersécurité. L'intérêt de Dora pour le cloud a été suscité par un collègue qui lui a présenté des vidéos AWS, ce qui l'a incitée à plonger plus profondément dans cette technologie. Elle s'est impliquée dans la communauté AWS en créant des groupes d'utilisateurs et en organisant des événements. La persévérance et le dévouement de Dora ont porté leurs fruits, lui permettant d'obtenir un poste chez AWS et de continuer à contribuer à la communauté."
 episode: 245
-duration: "00:42:03" 
+duration: "00:42:03"
 size: 80752978
-file: 245.mp3
-date: 2024-09-11 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/245.png
+file: "245.mp3"
+category: "podcasts"
 appleEpisodeId: 1000669100023
+guests:
+  - name: "Dorra Elboukari"
+    link: "https://www.linkedin.com/in/dorra-elboukari-667004216/"
+    title: "DevOps Architect, AWS"
+publication: "2024-09-11 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/245.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

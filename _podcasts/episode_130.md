@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 21 octobre"
-description: "Cette semaine est assez calme, j'ai tout de même noté des changements dans le programme AWS Activate pour les startups, Aurora Serverless qui est supporté par CloudFormation, un nouveau type d'instance EC2 pour l'entrainement de gros (très gros) modèles AIML, et surtout, les S3 Object Lambda qui s'enrichissent des requêtes HEAD et LIST. Je vous explique à quoi ca peut servir à la fin de cet épisode."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 21 octobre: Cette semaine est assez calme, j'ai tout de même noté des changements dans le programme AWS Activate pour les startups, Aurora Serverless qui est supporté par CloudFormation, un nouveau type d'instance EC2 pour l'entrainement de gros (très gros) modèles AIML, et surtout, les S3 Object Lambda qui s'enrichissent des requêtes HEAD et LIST. Je vous explique à quoi ca peut servir à la fin de cet épisode."
 episode: 130
 duration: "00:14:26"
 size: 27729838
-file: 130.mp3
-date: 2022-10-21 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "130.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-10-21 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

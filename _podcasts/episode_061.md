@@ -1,19 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120192
-title:  "Un dashboard pour les mesures de température"
-subtitle: "Quand l'IoT s'invite autour de votre piscine"
-description: "Découvrez une solution de bout en bout, entièrement managée et serverless, pour prendre des mesures de température, les envoyer dans le cloud dans une base de donnée de type Time Serie et construire un tableau de bord de visualisation.  Spoiler alert : nous parlons de AWS IoT Core, de capteurs, de télémétrie, de Graphana, dans cet épisode geek de l'été. Si ce sujet vous intéresse, <a href='https://aws.amazon.com/fr/blogs/france/construisez-votre-solution-de-surveillance-de-la-temperature-de-leau-de-votre-piscine-avec-aws/'>cet article du blog AWS donne plus de détails</a>."
-guest: "<a href='https://www.linkedin.com/in/jérôme-gras-90397915b/'>Jérôme Gras</a>, Solution Architect, AWS France"
+title: "Un dashboard pour les mesures de température"
+description: "Quand l'IoT s'invite autour de votre piscine: Découvrez une solution de bout en bout, entièrement managée et serverless, pour prendre des mesures de température, les envoyer dans le cloud dans une base de donnée de type Time Serie et construire un tableau de bord de visualisation.  Spoiler alert : nous parlons de AWS IoT Core, de capteurs, de télémétrie, de Graphana, dans cet épisode geek de l'été. Si ce sujet vous intéresse, <a href='https://aws.amazon.com/fr/blogs/france/construisez-votre-solution-de-surveillance-de-la-temperature-de-leau-de-votre-piscine-avec-aws/'>cet article du blog AWS donne plus de détails</a>."
 episode: 61
 duration: "00:37:21"
 size: 71718372
-file: 061.mp3
-date: 2021-07-16 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "061.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120192
+guests:
+  - name: "Jérôme Gras"
+    link: "https://www.linkedin.com/in/jérôme-gras-90397915b/"
+    title: "Solution Architect, AWS France"
+publication: "2021-07-16 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,16 @@
----
-layout: podcast
-title:  "Les nouveautés AWS au 20 septembre"
-subtitle: "Quoi de neuf ?"
-description: "Après deux mois d'été où vous avez découvert des cas d'utilisation de nos clients, retour des épisodes 'Quoi de Neuf'.  Cette semaine, j'essaye de faire un rapide compte-rendu des nouveautés de juillet, août et septembre ... en 20 minutes."
-guest: 
+title: "Les nouveautés AWS au 20 septembre"
+description: "Quoi de neuf ?: Après deux mois d'été où vous avez découvert des cas d'utilisation de nos clients, retour des épisodes 'Quoi de Neuf'.  Cette semaine, j'essaye de faire un rapide compte-rendu des nouveautés de juillet, août et septembre ... en 20 minutes."
 episode: 247
-duration: "00:21:57" 
+duration: "00:21:57"
 size: 42139399
-file: 247.mp3
-date: 2024-09-20 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/247.png
+file: "247.mp3"
+category: "podcasts"
 appleEpisodeId: 1000670139774
+guests: []
+publication: "2024-09-20 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/247.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

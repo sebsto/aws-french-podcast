@@ -1,18 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120246
-title:  "Réduisez votre facture Amazon EC2, passez aux Spots."
-subtitle: "Découvrez comment réduire votre facture Amazon EC2 grâce aux instances Spot."
-description: "Dans ce troisième épisode, découvrez comment re!commerce économise jusqu'à 80% sur leur facture Amazon EC2 en utilisant des instances Spot plutôt que on-demand."
-guest: "Gaël Donat, responsable de la sécurité des SIs chez re!commerce"
+title: "Réduisez votre facture Amazon EC2, passez aux Spots."
+description: "Découvrez comment réduire votre facture Amazon EC2 grâce aux instances Spot.: Dans ce troisième épisode, découvrez comment re!commerce économise jusqu'à 80% sur leur facture Amazon EC2 en utilisant des instances Spot plutôt que on-demand."
 episode: 3
 duration: "00:27:28"
 size: 52696213
-file: 003.mp3  
-date:   2019-04-08 23:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+file: "003.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120246
+guests:
+  - name: "Gaël Donat, responsable de la sécurité des SIs chez re!commerce"
+publication: "2019-04-08 23:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).

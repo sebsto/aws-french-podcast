@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119784
-title:  "Un portal interne comme Console AWS"
-subtitle: "Encadrer l'accès à la console AWS"
-description: "Comment donner accès à la console AWS à vos développeurs, mais en gardant le contrôle sur les coûts et éviter les erreurs? Vous êtes souvent déchirés entre deux contraintes : donner la liberté aux développeurs pour expériementer et donc innover, tout en mettant des gardes-fous pour s'assurer le contrôle des coûts. Souvent la solution passe par la mise en place de règles d'accès (comme des CSP). Dans cet épisode, découvrez comment Wiisdom a mis en place une application web qui permet aux développeurs de démarrer des environnements parmi un liste de template pré-approuvés. La solution est open-source est disponible pour vos environnements."
-guest: "<a href='https://www.linkedin.com/in/julienbras/'>Julien Bras</a>, Senior Software Engineer, Wiiisdom"
+title: "Un portal interne comme Console AWS"
+description: "Encadrer l'accès à la console AWS: Comment donner accès à la console AWS à vos développeurs, mais en gardant le contrôle sur les coûts et éviter les erreurs? Vous êtes souvent déchirés entre deux contraintes : donner la liberté aux développeurs pour expériementer et donc innover, tout en mettant des gardes-fous pour s'assurer le contrôle des coûts. Souvent la solution passe par la mise en place de règles d'accès (comme des CSP). Dans cet épisode, découvrez comment Wiisdom a mis en place une application web qui permet aux développeurs de démarrer des environnements parmi un liste de template pré-approuvés. La solution est open-source est disponible pour vos environnements."
 episode: 175
 duration: "00:26:34"
 size: 51031899
-file: 175.mp3
-date: 2023-08-18 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "175.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119784
+guests:
+  - name: "Julien Bras"
+    link: "https://www.linkedin.com/in/julienbras/"
+    title: "Senior Software Engineer, Wiiisdom"
+publication: "2023-08-18 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

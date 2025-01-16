@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 17 novembre"
-description: "J'ai compté 182 nouveautés en deux semaines. Vous avez bien entendu et je ne me suis pas trompé. J'ai meme compté deux fois, c'est deux fois plus que d'habitude, on sent que la conférence AWS re:Invent approche. Dans cet épisode, je vais parler de EC2, de trois nouveautés coté EBS, et deux en analyse de données. Je vais parler d'IA générative et d'un tout nouveau service lancé aujourd'hui"
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 17 novembre: J'ai compté 182 nouveautés en deux semaines. Vous avez bien entendu et je ne me suis pas trompé. J'ai meme compté deux fois, c'est deux fois plus que d'habitude, on sent que la conférence AWS re:Invent approche. Dans cet épisode, je vais parler de EC2, de trois nouveautés coté EBS, et deux en analyse de données. Je vais parler d'IA générative et d'un tout nouveau service lancé aujourd'hui"
 episode: 188
-duration: "00:17:50" 
+duration: "00:17:50"
 size: 34244986
-file: 188.mp3
-date: 2023-11-17 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "188.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-11-17 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

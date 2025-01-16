@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 12 novembre 2021"
-description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons écologie et impact énergétique du cloud, nous évoquons une nouvelle région en devenir au Canada, deux nouveaux types d'instances EC2, de RSTudio qui arrive sur Sagemaker et d'un nouveau service pour évaluer la résilience de vos applications."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 12 novembre 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons écologie et impact énergétique du cloud, nous évoquons une nouvelle région en devenir au Canada, deux nouveaux types d'instances EC2, de RSTudio qui arrive sur Sagemaker et d'un nouveau service pour évaluer la résilience de vos applications."
 episode: 78
 duration: "00:13:03"
-size: 25066602 
-file: 078.mp3
-date: 2021-11-12 07:00:00 +0200  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 25066602
+file: "078.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-11-12 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

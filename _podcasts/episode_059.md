@@ -1,19 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120157
-title:  "Utiliser un système de fichier partagé dans vos applications modernes"
-subtitle: "Quand NFS va à la rencontre de vos conteneurs et fonctions AWS Lambda"
-description: "Une application moderne est une application souvent serverless, conteneurisée ou utilisant des fonctions AWS Lambda. Ce sont des applications agiles qui traitent souvent de gros volumes de données.  Comment ces applications peuvent utiliser des systèmes de fichier partagés pour stocker, ou échanger de la donnée? Comment Network File System (NFS), un protocole conçu dans les années 1980, est toujours d'actualité pour ces cas d'utilisation ?  Découvrez Amazon EFS, comment l'intégrer à vos applications modernes, quelles sont les bonnes pratiques, les considérations de performance, de sécurité et les coûts ?"
-guest: "<a href='https://www.linkedin.com/in/meriem-belhadj-6158965b/'>Meriem Belhadj</a>, Solution Architect Storage, AWS EMEA."
+title: "Utiliser un système de fichier partagé dans vos applications modernes"
+description: "Quand NFS va à la rencontre de vos conteneurs et fonctions AWS Lambda: Une application moderne est une application souvent serverless, conteneurisée ou utilisant des fonctions AWS Lambda. Ce sont des applications agiles qui traitent souvent de gros volumes de données.  Comment ces applications peuvent utiliser des systèmes de fichier partagés pour stocker, ou échanger de la donnée? Comment Network File System (NFS), un protocole conçu dans les années 1980, est toujours d'actualité pour ces cas d'utilisation ?  Découvrez Amazon EFS, comment l'intégrer à vos applications modernes, quelles sont les bonnes pratiques, les considérations de performance, de sécurité et les coûts ?"
 episode: 59
 duration: "00:34:05"
 size: 65440624
-file: 059.mp3
-date: 2021-07-02 08:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "059.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120157
+guests:
+  - name: "Meriem Belhadj"
+    link: "https://www.linkedin.com/in/meriem-belhadj-6158965b/"
+    title: "Solution Architect Storage, AWS EMEA"
+publication: "2021-07-02 08:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

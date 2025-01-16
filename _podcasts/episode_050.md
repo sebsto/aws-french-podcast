@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 30 avril 2021"
-description: "A partir de cette semaine, un épisode sur deux du podcast sera consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de stockage et analyse de données avec AQUA pour Amazon Redshift, de Amazon Fsx Gateway, du changement de vos volumes EBS root sans arrêter vos instances, du contrôle du traffic en provenance des Bots et d'un nouveau service pour les studio de vidéo : Amazon Nimble Studio"
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 30 avril 2021: A partir de cette semaine, un épisode sur deux du podcast sera consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de stockage et analyse de données avec AQUA pour Amazon Redshift, de Amazon Fsx Gateway, du changement de vos volumes EBS root sans arrêter vos instances, du contrôle du traffic en provenance des Bots et d'un nouveau service pour les studio de vidéo : Amazon Nimble Studio"
 episode: 50
 duration: "00:15:38"
 size: 30012731
-file: 050.mp3
-date: 2021-04-30 10:30:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "050.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-04-30 10:30:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,18 +1,14 @@
----
-layout: podcast
-title:  "AWS re:Invent 2020 #1"
-subtitle: "Les annonces faites pendant re:Invent"
-description: "Dans cet épisode, nous résumons les annonces faites pendant la première keynote, présentée par Andy Jassy, le mardi 1/12 5pm CET. Cette année, re:Invent est en ligne et gratuit. Inscrivez-vous sur https://reinvent.awsevents.com/"
-guest:
+title: "AWS re:Invent 2020 #1"
+description: "Les annonces faites pendant re:Invent: Dans cet épisode, nous résumons les annonces faites pendant la première keynote, présentée par Andy Jassy, le mardi 1/12 5pm CET. Cette année, re:Invent est en ligne et gratuit. Inscrivez-vous sur https://reinvent.awsevents.com/"
 episode: 38
 duration: "00:27:25"
-size: 52648565 
-file: 038.mp3  
-date: 2020-12-03 19:30:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 52648565
+file: "038.mp3"
+category: "podcasts"
+guests: []
+publication: "2020-12-03 19:30:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 22 avril 2022"
-description: "Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de bourses pour apprendre la programmation des intelligences artificielles, d'automatisation des workflows de migrations, de jumeaux digitaux, mais que se cache-t-il donc sous ce terme ? Et puis Amplify Studio débarque après avoir été annoncé en novembre dernier. Il y a eu un AWS Summit aussi, je vous dit ou trouver les vidéos."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 22 avril 2022: Les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour de bourses pour apprendre la programmation des intelligences artificielles, d'automatisation des workflows de migrations, de jumeaux digitaux, mais que se cache-t-il donc sous ce terme ? Et puis Amplify Studio débarque après avoir été annoncé en novembre dernier. Il y a eu un AWS Summit aussi, je vous dit ou trouver les vidéos."
 episode: 104
 duration: "00:19:36"
-size: 37621260 
-file: 104.mp3
-date: 2022-04-22 06:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 37621260
+file: "104.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-04-22 06:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

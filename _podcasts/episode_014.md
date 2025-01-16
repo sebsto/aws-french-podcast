@@ -1,19 +1,18 @@
----
-layout: podcast
-title:  "AWS re:Invent 2019 re:Cap 4"
-subtitle: "Quelques nouveautés AI/ML (partie 4)."
-description: "Dans cet épisode hors série, je passe en revue quelques annonces faites en matière d'intelligence artificielle et d'apprentissage machine."
-guest: "<a href='https://www.linkedin.com/in/juliensimon/'>Julien Simon</a>, Principal Evangelist, AI/ML"
+title: "AWS re:Invent 2019 re:Cap 4"
+description: "Quelques nouveautés AI/ML (partie 4).: Dans cet épisode hors série, je passe en revue quelques annonces faites en matière d'intelligence artificielle et d'apprentissage machine."
 episode: 14
 duration: "00:39:41"
 size: 76235675
-file: 014.mp3  
-date: 2019-12-06 13:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+file: "014.mp3"
+category: "podcasts"
 appleEpisodeId: 1000663120086
-
+guests:
+  - name: "Julien Simon"
+    link: "https://www.linkedin.com/in/juliensimon/"
+    title: "Principal Evangelist, AI/ML"
+publication: "2019-12-06 13:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

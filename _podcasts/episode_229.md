@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120012
-title:  "Les nouveautés AWS au 28 juin"
-subtitle: "Quoi de neuf ?"
-description: "Cette semaine, le podcast 🎙️ AWS ☁️ en français 🇫🇷 met l'accent sur la sécurité et le développement applicatif avec un florilège de nouveautés. Au programme : renforcement de la sécurité des données avec AWS KMS et le SDK de chiffrement, gestion simplifiée des dépendances et des workflows de développement avec CodeCatalyst, nouveaux environnements de développement avec AWS Codebuild, et bien plus encore. Ne manquez pas cet épisode pour découvrir toutes les dernières innovations AWS qui vous permettront de booster votre productivité et votre posture de sécurité."
-guest: 
+title: "Les nouveautés AWS au 28 juin"
+description: "Quoi de neuf ?: Cette semaine, le podcast \U0001F399️ AWS ☁️ en français \U0001F1EB\U0001F1F7 met l'accent sur la sécurité et le développement applicatif avec un florilège de nouveautés. Au programme : renforcement de la sécurité des données avec AWS KMS et le SDK de chiffrement, gestion simplifiée des dépendances et des workflows de développement avec CodeCatalyst, nouveaux environnements de développement avec AWS Codebuild, et bien plus encore. Ne manquez pas cet épisode pour découvrir toutes les dernières innovations AWS qui vous permettront de booster votre productivité et votre posture de sécurité."
 episode: 229
-duration: "00:15:50" 
+duration: "00:15:50"
 size: 30393074
-file: 229.mp3
-date: 2024-06-28 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/229.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "229.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120012
+guests: []
+publication: "2024-06-28 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/229.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

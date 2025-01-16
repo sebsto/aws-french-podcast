@@ -1,19 +1,22 @@
----
-layout: podcast
-title:  "re:Invent re:Cap 4"
-subtitle: "Debrief et ambiance à Las Vegas"
-description: "Nous terminons cette mini-série de re:Caps quotidiens avec deux habitués du podcast: Chrys et Jules qui nous parlent de ce qu'ils ont particulièrement apprécié pendant la conférence et des nouveautés qui pourraient être utiles pour eux.  Sans divulgaché, nous parlons d'injection de pub automatiquement au bon endroit dans des vidéos, de nouveautés EKS et de SageMaker Studio."
-guest: "<a href='https://www.linkedin.com/in/chrystellel/'>Chrys Le Gall</a>, Architecte cloud et <a href='https://www.linkedin.com/in/julesmermethusson/'>Jules Mermet-Husson</a>, Architect cloud tous deux chez Ateme"
+title: "re:Invent re:Cap 4"
+description: "Debrief et ambiance à Las Vegas: Nous terminons cette mini-série de re:Caps quotidiens avec deux habitués du podcast: Chrys et Jules qui nous parlent de ce qu'ils ont particulièrement apprécié pendant la conférence et des nouveautés qui pourraient être utiles pour eux.  Sans divulgaché, nous parlons d'injection de pub automatiquement au bon endroit dans des vidéos, de nouveautés EKS et de SageMaker Studio."
 episode: 266
-duration: "00:17:59" 
+duration: "00:17:59"
 size: 34530034
-file: 266.mp3
-date: 2024-12-06 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/266.png
+file: "266.mp3"
+category: "podcasts"
 appleEpisodeId: 1000679432402
+guests:
+  - name: "Chrys Le Gall"
+    link: "https://www.linkedin.com/in/chrystellel/"
+    title: "Architecte cloud"
+  - name: "Jules Mermet-Husson"
+    link: "https://www.linkedin.com/in/julesmermethusson/"
+    title: "Architect cloud tous deux chez Ateme"
+publication: "2024-12-06 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/266.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

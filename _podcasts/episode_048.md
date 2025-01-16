@@ -1,19 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120097
-title:  "JSII, plongée au coeur du CDK"
-subtitle: "La librairie polyglotte"
-description: "JSII est une librairie qui permet d'interagir avec des classes Javascript depuis n'importe quel language. C'est la technologie qui permet au Cloud Development Kit (CDK) de proposer des librairies pour plusieurs languages, à partir d'un seul code. Par exemple le support de GO vient d'être annoncé le 7 avril. Une plongée dans le JSII et la gouvernance de projets open-source chez AWS."
-guest: "<a href='https://www.linkedin.com/in/romainmuller/'>Romain Marcadier</a>, Senior Software Development Engineer, AWS"
+title: "JSII, plongée au coeur du CDK"
+description: "La librairie polyglotte: JSII est une librairie qui permet d'interagir avec des classes Javascript depuis n'importe quel language. C'est la technologie qui permet au Cloud Development Kit (CDK) de proposer des librairies pour plusieurs languages, à partir d'un seul code. Par exemple le support de GO vient d'être annoncé le 7 avril. Une plongée dans le JSII et la gouvernance de projets open-source chez AWS."
 episode: 48
 duration: "00:33:49"
 size: 64917339
-file: 048.mp3
-date: 2021-04-09 22:30:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "048.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120097
+guests:
+  - name: "Romain Marcadier"
+    link: "https://www.linkedin.com/in/romainmuller/"
+    title: "Senior Software Development Engineer, AWS"
+publication: "2021-04-09 22:30:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

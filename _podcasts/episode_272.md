@@ -1,19 +1,20 @@
----
-layout: podcast
-title:  "L'orchestrateur multi-agents"
-subtitle: "Un orchestrateur open source pour vos agents IA"
-description: "Dans cet épisode de podcast, Seb, Corneliu et Anthony discutent du Multi-Agent Orchestrator, un framework open source conçu pour faciliter l’orchestration de plusieurs agents dans diverses applications. Ils abordent les défis techniques qu’il permet de résoudre, la définition et les rôles des agents, ainsi que l’expérience développeur lors de l’intégration de ce framework. La conversation inclut également une comparaison entre le Multi-Agent Orchestrator et LangChain, en mettant en avant ses fonctionnalités uniques et ses applications pratiques dans des scénarios concrets."
-guest: "<a href='https://www.linkedin.com/in/corneliucroitoru/'>Corneliu Croitoru</a> et <a href='https://www.linkedin.com/in/anthonybernabeu/'>Anthony Bernabeu</a>, Prototyping Architects, AWS"
+title: "L'orchestrateur multi-agents"
+description: "Un orchestrateur open source pour vos agents IA: Dans cet épisode de podcast, Seb, Corneliu et Anthony discutent du Multi-Agent Orchestrator, un framework open source conçu pour faciliter l’orchestration de plusieurs agents dans diverses applications. Ils abordent les défis techniques qu’il permet de résoudre, la définition et les rôles des agents, ainsi que l’expérience développeur lors de l’intégration de ce framework. La conversation inclut également une comparaison entre le Multi-Agent Orchestrator et LangChain, en mettant en avant ses fonctionnalités uniques et ses applications pratiques dans des scénarios concrets."
 episode: 272
-duration: "00:46:54" 
+duration: "00:46:54"
 size: 22515897
-file: 272.mp3
-date: 2025-01-17 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/272.png
-# appleEpisodeId: 1000683428328
+file: "272.mp3"
+category: "podcasts"
+guests:
+  - name: "Corneliu Croitoru"
+    link: "https://www.linkedin.com/in/corneliucroitoru/"
+  - name: "Anthony Bernabeu"
+    link: "https://www.linkedin.com/in/anthonybernabeu/"
+    title: "Prototyping Architects, AWS"
+publication: "2025-01-17 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/272.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

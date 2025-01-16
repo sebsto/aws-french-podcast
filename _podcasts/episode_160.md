@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 5 mai"
-description: "J'ai compté 82 nouveautés ces deux dernières semaines (-12 WoW). Java 17 est disponible sur AWS Lambda, Verified Access est disponible. Vous pouvez maintenant provisioner de la capacité sur Athena ou développer des applications web et desktop avec Amplify pour Flutter. On parle aussi de sécurité et du système Nitro. On détaille tout cela dans le podcast 🎙 AWS ☁️ en 🇫🇷."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 5 mai: J'ai compté 82 nouveautés ces deux dernières semaines (-12 WoW). Java 17 est disponible sur AWS Lambda, Verified Access est disponible. Vous pouvez maintenant provisioner de la capacité sur Athena ou développer des applications web et desktop avec Amplify pour Flutter. On parle aussi de sécurité et du système Nitro. On détaille tout cela dans le podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7."
 episode: 160
 duration: "00:18:02"
 size: 34625329
-file: 160.mp3
-date: 2023-05-05 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "160.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-05-05 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,20 @@
----
-layout: podcast
-appleEpisodeId: 1000663119981
-title:  "Thomas Barandon"
-subtitle: "Passer de 9% à 25% de femmes dans une équipe"
-description: "Dans cet épisode, nous discutons avec Thomas, un manager expérimenté, de l'importance de la diversité, de l'équité et de l'inclusion (DE&I) en milieu de travail. S'appuyant sur sa propre expérience, Thomas explore le rôle crucial des managers dans la promotion d'un environnement de travail inclusif, du recrutement et de l'étiquette en réunion aux interactions quotidiennes. Avec une augmentation de la représentation féminine de son équipe de 9% à 25%, Thomas partage les stratégies concrètes qu'il a mises en place pour cultiver un environnement de travail qui embrasse la DE&I"
-guest: "<a href='https://www.linkedin.com/in/tbarandon/'>Thomas Barandon</a>, Senior Manager Enterpise Support, AWS France et Europe du sud"
+title: "Thomas Barandon"
+description: "Passer de 9% à 25% de femmes dans une équipe: Dans cet épisode, nous discutons avec Thomas, un manager expérimenté, de l'importance de la diversité, de l'équité et de l'inclusion (DE&I) en milieu de travail. S'appuyant sur sa propre expérience, Thomas explore le rôle crucial des managers dans la promotion d'un environnement de travail inclusif, du recrutement et de l'étiquette en réunion aux interactions quotidiennes. Avec une augmentation de la représentation féminine de son équipe de 9% à 25%, Thomas partage les stratégies concrètes qu'il a mises en place pour cultiver un environnement de travail qui embrasse la DE&I"
 episode: 224
-duration: "00:29:02" 
+duration: "00:29:02"
 size: 55739791
-file: 224.mp3
-date: 2024-06-05 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/224.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "224.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119981
+guests:
+  - name: "Thomas Barandon"
+    link: "https://www.linkedin.com/in/tbarandon/"
+    title: "Senior Manager Enterpise Support, AWS France"
+  - name: "Europe du sud"
+publication: "2024-06-05 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/224.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,16 @@
----
-layout: podcast
-title:  "AWS re:Invent 2019 re:Cap 2"
-subtitle: "Quelques nouveautés (partie 2)."
-description: "Dans cet épisode hors série, je passe en revue quelques annonces faites lors de la deuxième journée de re:Invent. Nous parlons de AWS Transit Gateway, de serverless avec AWS Lambda et de CodeGuru"
-guest: "Il n'y a pas d'invité pour cet épisode"
+title: "AWS re:Invent 2019 re:Cap 2"
+description: "Quelques nouveautés (partie 2).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors de la deuxième journée de re:Invent. Nous parlons de AWS Transit Gateway, de serverless avec AWS Lambda et de CodeGuru"
 episode: 12
 duration: "00:18:45"
-size: 36004594 
-file: 012.mp3  
-date: 2019-12-04 18:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+size: 36004594
+file: "012.mp3"
+category: "podcasts"
 appleEpisodeId: 1000663120276
-
+guests:
+  - name: "Il n'y a pas d'invité pour cet épisode"
+publication: "2019-12-04 18:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 20 mai 2022"
-description: "Des nouveautés côté infrastructure puisqu'on parle de Trusted Platform Module (TPM), de EC2 auto-scaling et de Backup, mais aussi dans le monde du serverless avec Step Functions et dans le monde du mobile avec Amplify."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 20 mai 2022: Des nouveautés côté infrastructure puisqu'on parle de Trusted Platform Module (TPM), de EC2 auto-scaling et de Backup, mais aussi dans le monde du serverless avec Step Functions et dans le monde du mobile avec Amplify."
 episode: 108
 duration: "00:12:08"
-size: 23307829 
-file: 108.mp3
-date: 2022-05-20 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 23307829
+file: "108.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-05-20 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

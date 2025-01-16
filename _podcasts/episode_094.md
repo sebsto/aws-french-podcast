@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 11 février 20222"
-description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de RGPD, du CISPE et de la CNIL, de nouvelles possibilités offertes par Secrets Manager, S3 et AppRunner, mais au fait c'est quoi App Runner dèjà ? Un nouveau look pour la page de facturation. Et deux services qui étaient disponibles en preview deviennent disponibles pour toutes et tous. "
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 11 février 20222: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, nous parlons de RGPD, du CISPE et de la CNIL, de nouvelles possibilités offertes par Secrets Manager, S3 et AppRunner, mais au fait c'est quoi App Runner dèjà ? Un nouveau look pour la page de facturation. Et deux services qui étaient disponibles en preview deviennent disponibles pour toutes et tous. "
 episode: 94
 duration: "00:18:06"
 size: 34768271
-file: 094.mp3
-date: 2022-02-11 07:00:00 +0100   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "094.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-02-11 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

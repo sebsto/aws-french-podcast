@@ -1,20 +1,20 @@
----
-layout: podcast
-appleEpisodeId: 1000663119986
-title:  "Music Work"
-subtitle: "L'identité musicale pour les marques"
-description: "60 millions de personnes écoutent chaque année la musique sélectionnée par Music Work dans des magasins, des hotels, des restaurants. Quels sont les choix techniques qui ont été faits pour construire un système global de création d'ambiance et de diffusion de musique ? Comment gérer les données collectées à grande échelle et au juste coût ? Comment l'IA pourrait assister les concepteurs d'ambiances musicales à concevoir les playlistes qui satisferont les demandes des clients. On parle aussi des players qui capitalisent sur les services AWS tels que IoT Core, de IoT Greengrass et de edge computing en général."
-guest: "<a href='https://www.linkedin.com/in/damienviel/'>Damien Viel</a>, partenaire et CTO chez Music Work."
+title: "Music Work"
+description: "L'identité musicale pour les marques: 60 millions de personnes écoutent chaque année la musique sélectionnée par Music Work dans des magasins, des hotels, des restaurants. Quels sont les choix techniques qui ont été faits pour construire un système global de création d'ambiance et de diffusion de musique ? Comment gérer les données collectées à grande échelle et au juste coût ? Comment l'IA pourrait assister les concepteurs d'ambiances musicales à concevoir les playlistes qui satisferont les demandes des clients. On parle aussi des players qui capitalisent sur les services AWS tels que IoT Core, de IoT Greengrass et de edge computing en général."
 episode: 168
 duration: "00:46:42"
 size: 89693961
-file: 168.mp3
-date: 2023-06-30 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "168.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119986
+guests:
+  - name: "Damien Viel"
+    link: "https://www.linkedin.com/in/damienviel/"
+    title: "partenaire"
+  - name: "CTO chez Music Work."
+publication: "2023-06-30 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,15 @@
----
-layout: podcast
-title:  "AWS re:Invent 2021 - 2 décembre 2021"
-subtitle: "Les nouveautés annoncées à re:Invent - partie 4"
-description: "Un dernier épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de la keynote de Werner. On parlera de Amplify, de CDK et SDK et de sustainabilité"
-guest:
+title: "AWS re:Invent 2021 - 2 décembre 2021"
+description: "Les nouveautés annoncées à re:Invent - partie 4: Un dernier épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de la keynote de Werner. On parlera de Amplify, de CDK et SDK et de sustainabilité"
 episode: 84
 duration: "00:18:26"
-size: 35386014 
-file: 084.mp3
-date: 2021-12-02 18:00:00 -0700  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 35386014
+file: "084.mp3"
+category: "podcasts"
+guests: []
+publication: "2021-12-02 18:00:00 -0700"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

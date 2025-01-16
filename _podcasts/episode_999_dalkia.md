@@ -1,20 +1,16 @@
----
-layout: podcast
-title:  "Le contrôle des coûts chez Dalkia"
-subtitle: "D'une erreur de configuration à une stratégie de monitoring des coûts"
-description: "Découvrez comment Dalkia a mis en place une stratégie de contrôle des coûts AWS suite à une erreur de configuration qui a généré une surfacturation accidentelle. Outre les aspects techniques, la responsabilisation et l'éducation des équipes sont les deux éléments clés de la réussite."
-guest: "<a href='https://www.linkedin.com/in/karim-hadoui/>Karim Hadoui</a>, Cloud Team Leader, Dalkia"
+title: "Le contrôle des coûts chez Dalkia"
+description: "D'une erreur de configuration à une stratégie de monitoring des coûts: Découvrez comment Dalkia a mis en place une stratégie de contrôle des coûts AWS suite à une erreur de configuration qui a généré une surfacturation accidentelle. Outre les aspects techniques, la responsabilisation et l'éducation des équipes sont les deux éléments clés de la réussite."
 episode: 222
-duration: "00:39:05" 
+duration: "00:39:05"
 size: 75046999
-file: 222.mp3
-date: 9999-11-05 05:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/222.png
-# appleEpisodeId: 1000655129750
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "222.mp3"
+category: "podcasts"
+guests:
+  - name: "<a href='https://www.linkedin.com/in/karim-hadoui/>Karim Hadoui</a>, Cloud Team Leader, Dalkia"
+publication: "9999-11-05 05:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/222.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

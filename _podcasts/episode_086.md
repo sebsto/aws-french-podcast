@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 17 décembre 2021"
-description: "Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, je reviens sur re:Post, les nouveaux forums d'échange de la communauté AWS, de FreeRTOS, d'annonces faites autour des Local Zones et de AWS Wavelength en europe et de nouveaux types d'instances EC2 disponibles dans la région de Paris."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 17 décembre 2021: Quelles sont les nouveautés AWS des deux dernières semaines ? Dans cet épisode, je reviens sur re:Post, les nouveaux forums d'échange de la communauté AWS, de FreeRTOS, d'annonces faites autour des Local Zones et de AWS Wavelength en europe et de nouveaux types d'instances EC2 disponibles dans la région de Paris."
 episode: 86
 duration: "00:14:22"
-size: 27587732 
-file: 086.mp3
-date: 2021-12-17 07:00:00 +0100  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 27587732
+file: "086.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-12-17 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

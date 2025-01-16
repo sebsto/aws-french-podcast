@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 8 septembre"
-description: "J'ai compté 83 nouveautés   ces deux dernières semaines. J'en ai retenu 7 qui j'espère sont pertinentes pour vous, les builders. Dans cet épisode, on parle de l'arrêt de EC2 Classique, de Flink managé pour vos applications data. On parle de nouvelles possibilités des Network Load Balancer et de Cloudwatch Log. Il y a une nouvelle famille d'instances EC2, les R7iz et je termine avec AWS Amplify qui vous permet maintenant de développer des flux d'authentication multi-facteurs avec les TOTP. "
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 8 septembre: J'ai compté 83 nouveautés   ces deux dernières semaines. J'en ai retenu 7 qui j'espère sont pertinentes pour vous, les builders. Dans cet épisode, on parle de l'arrêt de EC2 Classique, de Flink managé pour vos applications data. On parle de nouvelles possibilités des Network Load Balancer et de Cloudwatch Log. Il y a une nouvelle famille d'instances EC2, les R7iz et je termine avec AWS Amplify qui vous permet maintenant de développer des flux d'authentication multi-facteurs avec les TOTP. "
 episode: 178
-duration: "00:14:41" 
+duration: "00:14:41"
 size: 28205475
-file: 178.mp3
-date: 2023-09-08 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "178.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-09-08 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

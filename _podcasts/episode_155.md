@@ -1,20 +1,22 @@
----
-layout: podcast
-appleEpisodeId: 1000663120027
-title:  Ateme - Cloud DVR
-subtitle: Enregistrez vos programmes TV dans le cloud
-description: "Ateme est une société française qui construit des solutions vidéos pour les chaînes de télé et les opérateurs telco. Une de leurs solutions est un enregistreur de flux vidéos dans le cloud. La fameuse fonction 'Enregistrer' de vos boxes - quand votre opérateur utilise les solutions d'Ateme - enregistre les programmes télé sur S3. Dans cet épisode, nous parlons de l'architecture de cette solution, comment ca marche sous le capot. Spoiler alerte : nous parlons de Kubernetes (un peu), de Amazon S3 (beaucoup) et d'infrastructure as code."
-guest: "<a href='https://www.linkedin.com/in/chrystellel/'>Chrys Le Gall</a>, Lead Cloud Solution Architect et <a href='https://www.linkedin.com/in/julesmermethusson/'>Jules Mermet-Husson</a>, Cloud Solution Architect, tous deux chez Ateme."
+title: "Ateme - Cloud DVR"
+description: "Enregistrez vos programmes TV dans le cloud: Ateme est une société française qui construit des solutions vidéos pour les chaînes de télé et les opérateurs telco. Une de leurs solutions est un enregistreur de flux vidéos dans le cloud. La fameuse fonction 'Enregistrer' de vos boxes - quand votre opérateur utilise les solutions d'Ateme - enregistre les programmes télé sur S3. Dans cet épisode, nous parlons de l'architecture de cette solution, comment ca marche sous le capot. Spoiler alerte : nous parlons de Kubernetes (un peu), de Amazon S3 (beaucoup) et d'infrastructure as code."
 episode: 155
-duration: “00:40:00"
+duration: "“00:40:00\""
 size: 76806607
-file: 155.mp3
-date: 2023-03-31 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "155.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120027
+guests:
+  - name: "Chrys Le Gall"
+    link: "https://www.linkedin.com/in/chrystellel/"
+    title: "Lead Cloud Solution Architect"
+  - name: "Jules Mermet-Husson"
+    link: "https://www.linkedin.com/in/julesmermethusson/"
+    title: "Cloud Solution Architect, tous deux chez Ateme"
+publication: "2023-03-31 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,21 @@
----
-layout: podcast
-title:  "re:Invent re:Cap 3"
-subtitle: "Debrief des 2 premières keynotes"
-description: "Au deuxième jour de AWS re:Invent, je reçois Virginie et Jérémie pour débriefer les keynotes de Peter de Santis et Matt Garman"
-guest: "<a href='https://www.linkedin.com/in/virginie-mathivet/'>Virginie Mathivet</a> et <a href='https://www.linkedin.com/in/jérémie-rodon-b6656290/'>Jérémie Rodon</a>, AWS Heroes"
+title: "re:Invent re:Cap 3"
+description: "Debrief des 2 premières keynotes: Au deuxième jour de AWS re:Invent, je reçois Virginie et Jérémie pour débriefer les keynotes de Peter de Santis et Matt Garman"
 episode: 265
-duration: "00:20:54" 
+duration: "00:20:54"
 size: 40141554
-file: 265.mp3
-date: 2024-12-05 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/265.png
+file: "265.mp3"
+category: "podcasts"
 appleEpisodeId: 1000679346381
+guests:
+  - name: "Virginie Mathivet"
+    link: "https://www.linkedin.com/in/virginie-mathivet/"
+  - name: "Jérémie Rodon"
+    link: "https://www.linkedin.com/in/jérémie-rodon-b6656290/"
+    title: "AWS Heroes"
+publication: "2024-12-05 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/265.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

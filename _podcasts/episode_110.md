@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 3 juin 2022"
-description: "Des nouveautés côté infrastructure puisqu'on parle de Graviton3 qui débarque dans certaines régions après avoir éte annoncé en preview à re:Invent. Une nouvelle option de AWS Data Sync pour vous aider à transfèrer des data vers d'autres cloud (Google et Microsoft) et un nouveau venu dans le monde du serverless et Big Data : EMR. Je vous explique ce que c'est pourquoi l'option serverless pourrait vous intéresser."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 3 juin 2022: Des nouveautés côté infrastructure puisqu'on parle de Graviton3 qui débarque dans certaines régions après avoir éte annoncé en preview à re:Invent. Une nouvelle option de AWS Data Sync pour vous aider à transfèrer des data vers d'autres cloud (Google et Microsoft) et un nouveau venu dans le monde du serverless et Big Data : EMR. Je vous explique ce que c'est pourquoi l'option serverless pourrait vous intéresser."
 episode: 110
 duration: "00:11:53"
-size: 22832192 
-file: 110.mp3
-date: 2022-06-03 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 22832192
+file: "110.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-06-03 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

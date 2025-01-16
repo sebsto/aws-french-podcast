@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 15 décembre"
-description: "J'ai compté 74 nouveautés depuis la fin de re:Invent, c'est moins de la moitié du rythme des semaines avant la conférence. Dans cet épisode, je vais parler d'une nouvelle possibilité offerte par Amplify, je vais aussi parler de Lambda, de Fault Injection Simulator, ce service qui permet de simuler des pannes dans vos applications, et puis deux nouveautés côté CloudShell et Rekognition Face Liveness detection."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 15 décembre: J'ai compté 74 nouveautés depuis la fin de re:Invent, c'est moins de la moitié du rythme des semaines avant la conférence. Dans cet épisode, je vais parler d'une nouvelle possibilité offerte par Amplify, je vais aussi parler de Lambda, de Fault Injection Simulator, ce service qui permet de simuler des pannes dans vos applications, et puis deux nouveautés côté CloudShell et Rekognition Face Liveness detection."
 episode: 196
-duration: "00:14:43" 
+duration: "00:14:43"
 size: 28253123
-file: 196.mp3
-date: 2023-12-15 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "196.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-12-15 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

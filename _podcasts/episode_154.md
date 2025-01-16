@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 24 mars"
-description: "AWS a annoncé 71 nouveautés ces 15 derniers jours. Je vais en aborder 4 cette semaine avec vous, je parlerai aussi du Summit Paris le 4 avril prochain, puis je vous ferai découvrir une newsletter en français, très complémentaire à ce podcast et une blog post de novembre dernier qui explique comment utiliser de la reconnaissance d'images pour détecter les malwares et autres virus informatiques."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 24 mars: AWS a annoncé 71 nouveautés ces 15 derniers jours. Je vais en aborder 4 cette semaine avec vous, je parlerai aussi du Summit Paris le 4 avril prochain, puis je vous ferai découvrir une newsletter en français, très complémentaire à ce podcast et une blog post de novembre dernier qui explique comment utiliser de la reconnaissance d'images pour détecter les malwares et autres virus informatiques."
 episode: 154
 duration: "00:24:54"
 size: 47798567
-file: 154.mp3
-date: 2023-03-24 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "154.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-03-24 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

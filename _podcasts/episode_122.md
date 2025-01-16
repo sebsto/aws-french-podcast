@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 26 août 2022"
-description: "Cette semaine, nous parlons de HTTP/3 et de QUIC, mais pas que. Nous parlerons de S3 et DynamoDB, nous jeterons un regard rétrospectif sur 10 années d'évolution de EBS. Enfin, je vous indiquerai un nouveau moyen de bloquer les attaques sur la page d'authentification de vos apps. On parlera DevOps aussi - ou de ChatOps plus précisement."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 26 août 2022: Cette semaine, nous parlons de HTTP/3 et de QUIC, mais pas que. Nous parlerons de S3 et DynamoDB, nous jeterons un regard rétrospectif sur 10 années d'évolution de EBS. Enfin, je vous indiquerai un nouveau moyen de bloquer les attaques sur la page d'authentification de vos apps. On parlera DevOps aussi - ou de ChatOps plus précisement."
 episode: 122
 duration: "00:19:40"
 size: 37764202
-file: 122.mp3
-date: 2022-08-26 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "122.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-08-26 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

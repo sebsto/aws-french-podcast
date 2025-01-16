@@ -1,20 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120218
-title:  "La protection de vos données avec Privowny"
-subtitle: "Services managés et automatisation pour vos données personelles"
-description: "Suite au rachat de Privowny par le groupe Assurant, ce podcast n'est plus disponible pour le moment."
-guest: 
+title: "La protection de vos données avec Privowny"
+description: "Services managés et automatisation pour vos données personelles: Suite au rachat de Privowny par le groupe Assurant, ce podcast n'est plus disponible pour le moment."
 episode: 65
 duration: "00:00:00"
 size: 0
-file: 999.mp3
-date: 2021-08-13 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000531897873
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "999.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120218
+guests: []
+publication: "2021-08-13 07:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

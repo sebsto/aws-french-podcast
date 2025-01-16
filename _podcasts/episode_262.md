@@ -1,19 +1,16 @@
----
-layout: podcast
-title:  "Les nouveautés AWS au 29 novembre"
-subtitle: "Quoi de neuf ?"
-description: "J'ai compté plus de 200 nouveautés ces deux dernières semaines, une situtaion typique juste avant re:invent.  J'ai essayé de regrouper les principales par catégorie. On parle de CloudFront, de S3, de DynamoDB et un paquet d'autres services. Accrochez vos ceintures, c'est parti."
-guest: 
+title: "Les nouveautés AWS au 29 novembre"
+description: "Quoi de neuf ?: J'ai compté plus de 200 nouveautés ces deux dernières semaines, une situtaion typique juste avant re:invent.  J'ai essayé de regrouper les principales par catégorie. On parle de CloudFront, de S3, de DynamoDB et un paquet d'autres services. Accrochez vos ceintures, c'est parti."
 episode: 262
-duration: "00:18:48" 
+duration: "00:18:48"
 size: 36099889
-file: 262.mp3
-date: 2024-11-29 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/262.png
+file: "262.mp3"
+category: "podcasts"
 appleEpisodeId: 1000678591897
+guests: []
+publication: "2024-11-29 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/262.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

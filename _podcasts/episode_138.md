@@ -1,19 +1,21 @@
----
-layout: podcast
-title:  "AWS re:Invent 3/3"
-subtitle: "re:Cap - jour 3"
-description: "La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur les principales annonces faites pendant les trois premières journées de conférence. On y parle d'apprentissage machine, de préparation et de découverte de la donnée. On termine en parlant de Amazon CodeWhisperer qui génère du code pour simplifier la vie des développeurs."
-guest: "<a href='https://www.linkedin.com/in/virginie-mathivet/'>Virginie Mathivet</a>, Modern Data Manager, TeamWork et <a href='https://www.linkedin.com/in/francoisbouteruche/'>François Bouteruche</a>, Developer Advocate .Net, AWS"
+title: "AWS re:Invent 3/3"
+description: "re:Cap - jour 3: La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur les principales annonces faites pendant les trois premières journées de conférence. On y parle d'apprentissage machine, de préparation et de découverte de la donnée. On termine en parlant de Amazon CodeWhisperer qui génère du code pour simplifier la vie des développeurs."
 episode: 138
-duration: “00:31:38"
+duration: "“00:31:38\""
 size: 60732732
-file: 138.mp3
-date: 2022-12-01 13:00:00 -0800
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "138.mp3"
+category: "podcasts"
+guests:
+  - name: "Virginie Mathivet"
+    link: "https://www.linkedin.com/in/virginie-mathivet/"
+    title: "Modern Data Manager, TeamWork"
+  - name: "François Bouteruche"
+    link: "https://www.linkedin.com/in/francoisbouteruche/"
+    title: "Developer Advocate"
+publication: "2022-12-01 13:00:00 -0800"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

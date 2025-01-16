@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120015
-title:  "10 leçons sur Kubernetes"
-subtitle: "EKS chez HK-Tech"
-description: "Dans cet épisode nous listons dix leçons apprises pendant plus de trois années à gérer des clusters kubernetes à grande échelle."
-guest: "<a href='https://www.linkedin.com/in/herv%C3%A9-ga%C3%ABl-kouamo-157633197/'>Hervé-Gaël Kouamo</a>, Responsable technique chez HK Tech"
+title: "10 leçons sur Kubernetes"
+description: "EKS chez HK-Tech: Dans cet épisode nous listons dix leçons apprises pendant plus de trois années à gérer des clusters kubernetes à grande échelle."
 episode: 207
-duration: "00:51:24" 
+duration: "00:51:24"
 size: 98681755
-file: 207.mp3
-date: 2024-03-01 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/207.png
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "207.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120015
+guests:
+  - name: "Hervé-Gaël Kouamo"
+    link: "https://www.linkedin.com/in/herv%C3%A9-ga%C3%ABl-kouamo-157633197/"
+    title: "Responsable technique chez HK Tech"
+publication: "2024-03-01 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/207.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,18 +1,16 @@
----
-layout: podcast
-title:  "AWS re:Invent 2019 re:Cap 3"
-subtitle: "Quelques nouveautés (partie 3)."
-description: "Dans cet épisode hors série, je passe en revue quelques annonces faites lors de la troisième journée de re:Invent. Nous parlons de HTTP API, Amplify DataStore et Amazon Builders' Library."
-guest: "Il n'y a pas d'invité pour cet épisode"
+title: "AWS re:Invent 2019 re:Cap 3"
+description: "Quelques nouveautés (partie 3).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors de la troisième journée de re:Invent. Nous parlons de HTTP API, Amplify DataStore et Amazon Builders' Library."
 episode: 13
 duration: "00:12:12"
-size: 23449936 
-file: 013.mp3  
-date: 2019-12-05 18:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+size: 23449936
+file: "013.mp3"
+category: "podcasts"
 appleEpisodeId: 1000663120160
+guests:
+  - name: "Il n'y a pas d'invité pour cet épisode"
+publication: "2019-12-05 18:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

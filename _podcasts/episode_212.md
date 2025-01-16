@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120041
-title:  "Les nouveautés AWS au 5 avril"
-subtitle: "Quoi de neuf ?"
-description: "C'était le Summit AWS Paris cette semaine, plus de 9000 personnes ce sont croisées au Palais des congrès de Paris. AWS a annoncé la disponibilité de Bedrock sur la région eu-west-3 et du modèle Mistral Large. Dans cet épisode, je parlerai aussi de CloudFormation qui est 40% plus rapide pour déployer vos infrastructures - je vous explique comment. Il y a de l'info aussi sur AWS Batch, CodeBuild et sur InfluxDB."
-guest:
+title: "Les nouveautés AWS au 5 avril"
+description: "Quoi de neuf ?: C'était le Summit AWS Paris cette semaine, plus de 9000 personnes ce sont croisées au Palais des congrès de Paris. AWS a annoncé la disponibilité de Bedrock sur la région eu-west-3 et du modèle Mistral Large. Dans cet épisode, je parlerai aussi de CloudFormation qui est 40% plus rapide pour déployer vos infrastructures - je vous explique comment. Il y a de l'info aussi sur AWS Batch, CodeBuild et sur InfluxDB."
 episode: 212
-duration: "00:16:04" 
+duration: "00:16:04"
 size: 30868711
-file: 212.mp3
-date: 2024-04-05 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/212.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "212.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120041
+guests: []
+publication: "2024-04-05 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/212.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,18 @@
----
-layout: podcast
-title:  "AWS re:Invent re:Cap - Lundi"
-subtitle: ""
-description: "Un petit résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas."
-guest:  "<a href='https://www.linkedin.com/in/chrystellel/'>Chrys Le Gall</a>, Lead Cloud Solutions Architect chez Ateme"
+title: "AWS re:Invent re:Cap - Lundi"
+description: ": Un petit résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas."
 episode: 190
-duration: "00:18:41" 
+duration: "00:18:41"
 size: 35861652
-file: 190.mp3
-date: 2023-11-27 22:30:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "190.mp3"
+category: "podcasts"
+guests:
+  - name: "Chrys Le Gall"
+    link: "https://www.linkedin.com/in/chrystellel/"
+    title: "Lead Cloud Solutions Architect chez Ateme"
+publication: "2023-11-27 22:30:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,19 +1,15 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 25 juin 2021"
-description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons d'une baisse de prix sur les instances Windows et SQL Serveur, de partage de vos extensions AWS CloudFormation, d'un concours autour de Graviton et d'un nouvel outil de programmation visuelle pour orchestrer vos fonctions AWS Lambda."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 25 juin 2021: Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons d'une baisse de prix sur les instances Windows et SQL Serveur, de partage de vos extensions AWS CloudFormation, d'un concours autour de Graviton et d'un nouvel outil de programmation visuelle pour orchestrer vos fonctions AWS Lambda."
 episode: 58
 duration: "00:13:21"
 size: 25637534
-file: 058.mp3
-date: 2021-06-25 08:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "058.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2021-06-25 08:00:00 +0200"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 2 juin"
-description: "J'ai compté 73 nouveautés ces deux dernières semaines. Comme chaque semaine, ma sélection est biaisée et je retiens les nouveautés qui vont parler aux builders: les architectes et les développeur-peuses. Si vous manipulez des gros volumes de données, j'ai quelque chose pour vous cette semaine. De même si travaillez avec des architectures orientées évenements ou si vous déployez des conteneurs sur K8s. Restez aussi si vous développez des applications mobiles sur iOS ou Android. Et je terminerai par un nouveau service : Security Data Lake. On détaille tout cela dans le podcast 🎙 AWS ☁️ en 🇫🇷."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 2 juin: J'ai compté 73 nouveautés ces deux dernières semaines. Comme chaque semaine, ma sélection est biaisée et je retiens les nouveautés qui vont parler aux builders: les architectes et les développeur-peuses. Si vous manipulez des gros volumes de données, j'ai quelque chose pour vous cette semaine. De même si travaillez avec des architectures orientées évenements ou si vous déployez des conteneurs sur K8s. Restez aussi si vous développez des applications mobiles sur iOS ou Android. Et je terminerai par un nouveau service : Security Data Lake. On détaille tout cela dans le podcast \U0001F399 AWS ☁️ en \U0001F1EB\U0001F1F7."
 episode: 164
 duration: "00:13:03"
 size: 25067438
-file: 164.mp3
-date: 2023-06-02 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "164.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-06-02 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

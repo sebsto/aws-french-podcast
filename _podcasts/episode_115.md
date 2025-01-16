@@ -1,20 +1,24 @@
----
-layout: podcast
-appleEpisodeId: 1000663120184
-title:  "Scenario3D"
-subtitle: "Creez vos scènes en 3D"
-description: "Scenario est une application qui vous permet de créer et de partager une expérience 3D en quelques minutes. Chacun peut, avec son téléphone, créer un modèle 3D des objets qui nous entourent et puis les injecter dans des scènes, les combiner et les partager avec ses amis. Dans cet épisode, Marie et Hervé nous expliquent comment ca marche, sous le capot, et comment ils utilisent les services AWS pour construire cette application."
-guest: "<a href='https://www.linkedin.com/in/marie-gerard-74707b121/'>Marie Gerard</a>, Head of Growth et <a href='https://www.linkedin.com/in/hervenivon/'>Hervé Nivon</a>, Co-foundateur et CTO, tous les deux chez <a href='https://www.linkedin.com/company/scenario3d/'>Scenario</a>"
+title: "Scenario3D"
+description: "Creez vos scènes en 3D: Scenario est une application qui vous permet de créer et de partager une expérience 3D en quelques minutes. Chacun peut, avec son téléphone, créer un modèle 3D des objets qui nous entourent et puis les injecter dans des scènes, les combiner et les partager avec ses amis. Dans cet épisode, Marie et Hervé nous expliquent comment ca marche, sous le capot, et comment ils utilisent les services AWS pour construire cette application."
 episode: 115
 duration: "00:42:35"
 size: 81751900
-file: 115.mp3
-date: 2022-07-08 06:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "115.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120184
+guests:
+  - name: "Marie Gerard"
+    link: "https://www.linkedin.com/in/marie-gerard-74707b121/"
+    title: "Head of Growth"
+  - name: "Hervé Nivon"
+    link: "https://www.linkedin.com/in/hervenivon/"
+    title: "Co-foundateur"
+  - name: "Scenario"
+    link: "https://www.linkedin.com/company/scenario3d/"
+publication: "2022-07-08 06:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

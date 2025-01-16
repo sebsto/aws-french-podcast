@@ -1,18 +1,16 @@
----
-layout: podcast
-title:  "AWS re:Invent 2019 re:Cap 1"
-subtitle: "Quelques nouveautés (partie 1)."
-description: "Dans cet épisode hors série, je passe en revue quelques annonces faites lors des deux premières journées à re:Invent."
-guest: "Il n'y a pas d'invité pour cet épisode"
+title: "AWS re:Invent 2019 re:Cap 1"
+description: "Quelques nouveautés (partie 1).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors des deux premières journées à re:Invent."
 episode: 11
 duration: "00:21:19"
-size: 40949887 
-file: 011.mp3  
-date: 2019-12-03 20:00:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+size: 40949887
+file: "011.mp3"
+category: "podcasts"
 appleEpisodeId: 1000663120132
+guests:
+  - name: "Il n'y a pas d'invité pour cet épisode"
+publication: "2019-12-03 20:00:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

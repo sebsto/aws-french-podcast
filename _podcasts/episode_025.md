@@ -1,18 +1,18 @@
----
-layout: podcast
-appleEpisodeId: 1000663120196
-title:  "Les formations et certifications AWS"
-subtitle: "Apprendre, se perfectioner et se certifier"
-description: "L'offre de formation et de certifications AWS.  Dans cet épisode, nous passons en revue les différents moyens mis à votre disposition pour vous former sur les technologies du cloud AWS. Nous parlons aussi des examens de certifications : quels sont-ils ? Pourquoi se certifier AWS ? Comment se préparer pour réussir son examen ?"
-guest: "<a href='https://www.linkedin.com/in/xavierdalet/'>Xavier Dalet</a>, Training & Certification Manager, France"
+title: "Les formations et certifications AWS"
+description: "Apprendre, se perfectioner et se certifier: L'offre de formation et de certifications AWS.  Dans cet épisode, nous passons en revue les différents moyens mis à votre disposition pour vous former sur les technologies du cloud AWS. Nous parlons aussi des examens de certifications : quels sont-ils ? Pourquoi se certifier AWS ? Comment se préparer pour réussir son examen ?"
 episode: 25
 duration: "00:27:33"
-size: 52885966 
-file: 025.mp3  
-date: 2020-04-24 09:10:00 +0100
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
+size: 52885966
+file: "025.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120196
+guests:
+  - name: "Xavier Dalet"
+    link: "https://www.linkedin.com/in/xavierdalet/"
+    title: "Training & Certification Manager, France"
+publication: "2020-04-24 09:10:00 +0100"
+author: "Sébastien Stormacq"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

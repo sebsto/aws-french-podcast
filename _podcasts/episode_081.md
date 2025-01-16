@@ -1,19 +1,15 @@
----
-layout: podcast
-title:  "AWS re:Invent 2021 - 29 novembre 2021"
-subtitle: "Les nouveautés annoncées à re:Invent - partie 1"
-description: "Un premier épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons d'Amplify, de EBS Snapshots, de Feature Flags et A/B testing et d'un nouveau service pour vous aider à refactoriser vos applications existantes en micro-services."
-guest:
+title: "AWS re:Invent 2021 - 29 novembre 2021"
+description: "Les nouveautés annoncées à re:Invent - partie 1: Un premier épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons d'Amplify, de EBS Snapshots, de Feature Flags et A/B testing et d'un nouveau service pour vous aider à refactoriser vos applications existantes en micro-services."
 episode: 81
 duration: "00:13:33"
-size: 26017877 
-file: 081.mp3
-date: 2021-11-29 18:00:00 -0700  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 26017877
+file: "081.mp3"
+category: "podcasts"
+guests: []
+publication: "2021-11-29 18:00:00 -0700"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663120077
-title:  "Datadome"
-subtitle: "Se protéger contre les bots"
-description: "La moitié du traffic internet aujourd'hui est générée par des scripts. Comment identifier ces bots et s'en protéger ?  Datadome inspecte 1000 milliard de signaux par jour, pour identifier et bloquer les traffics malicieux sur vos sites web. Dans cet épisode, nous parlons de techniques de détection de bots et de l'infrastructure cloud qui permet de mettre en oeuvre cette détection."
-guest: "<a href='https://www.linkedin.com/in/benjaminfabre/'>Benjamin Fabre</a>, Co-Founder, Datadome."
+title: "Datadome"
+description: "Se protéger contre les bots: La moitié du traffic internet aujourd'hui est générée par des scripts. Comment identifier ces bots et s'en protéger ?  Datadome inspecte 1000 milliard de signaux par jour, pour identifier et bloquer les traffics malicieux sur vos sites web. Dans cet épisode, nous parlons de techniques de détection de bots et de l'infrastructure cloud qui permet de mettre en oeuvre cette détection."
 episode: 85
 duration: "00:45:31"
-size: 87411068 
-file: 085.mp3
-date: 2021-12-10 07:00:00 +0100  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 87411068
+file: "085.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120077
+guests:
+  - name: "Benjamin Fabre"
+    link: "https://www.linkedin.com/in/benjaminfabre/"
+    title: "Co-Founder, Datadome"
+publication: "2021-12-10 07:00:00 +0100"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

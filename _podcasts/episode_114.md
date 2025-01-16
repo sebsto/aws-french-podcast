@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 1 juillet 2022"
-description: "Cette semaine, j'ai plein d'acronymes pour vous puisque on parle de TLS 1.2, de captcha et de WAF, on verra comment stocker de gros objets dans DynamoDB, on parlera d'appels sortants avec Amazon Connect et nous terminerons par de la génération automatique de données pour entrainer vos modèles AIML."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 1 juillet 2022: Cette semaine, j'ai plein d'acronymes pour vous puisque on parle de TLS 1.2, de captcha et de WAF, on verra comment stocker de gros objets dans DynamoDB, on parlera d'appels sortants avec Amazon Connect et nous terminerons par de la génération automatique de données pour entrainer vos modèles AIML."
 episode: 114
 duration: "00:14:40"
 size: 28157828
-file: 114.mp3
-date: 2022-07-01 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "114.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-07-01 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 6 mai 2022"
-description: "Entre deux conférence AWS Summit, les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour des bases de données RDS, de Kafka, et encore une nouvelle famille d'instances EC2"
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 6 mai 2022: Entre deux conférence AWS Summit, les nouveautés AWS des deux dernières semaines qui ont attiré mon attention tournent autour des bases de données RDS, de Kafka, et encore une nouvelle famille d'instances EC2"
 episode: 106
 duration: "00:09:35"
-size: 18409348 
-file: 106.mp3
-date: 2022-05-06 07:00:00 +0200   
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+size: 18409348
+file: "106.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2022-05-06 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

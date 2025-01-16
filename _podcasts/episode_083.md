@@ -1,19 +1,15 @@
----
-layout: podcast
-title:  "AWS re:Invent 2021 - 1 decembre 2021"
-subtitle: "Les nouveautés annoncées à re:Invent - partie 3"
-description: "Un troisième épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de gestion d'accès à S3, de nouveau tier de stockage pour DynamoDB et d'une série de nouveaux services pour vous aider à gèrer vos réseaux dans le cloud."
-guest:
+title: "AWS re:Invent 2021 - 1 decembre 2021"
+description: "Les nouveautés annoncées à re:Invent - partie 3: Un troisième épisode consacré aux annonces faites pendant la conférence AWS re:Invent à Las Vegas. Dans cet épisode, nous parlons de gestion d'accès à S3, de nouveau tier de stockage pour DynamoDB et d'une série de nouveaux services pour vous aider à gèrer vos réseaux dans le cloud."
 episode: 83
 duration: "00:11:49"
 size: 22689250
-file: 083.mp3
-date: 2021-12-01 16:00:00 -0700  
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "083.mp3"
+category: "podcasts"
+guests: []
+publication: "2021-12-01 16:00:00 -0700"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,19 @@
----
-layout: podcast
-title:  "Diarra Fall"
-subtitle: "La responsabilité des managers"
-description: "Dans cet épisode de Woman in Tech, nous parlons des rôles et responsabilités des managers, et en particulier des femmes managers, dans l'impact organisationel sur la diversité, l'équité et l'inclusion. Diarra partage avec nous des actions concrètes qu'elle et son équipe mettent en place pour assurer la diversité lors du recrutement et des développements de carrière."
-guest: "<a href='https://www.linkedin.com/in/diarra-fall/'>Diarra Fall</a>, directrice associée, Gradiant"
+title: "Diarra Fall"
+description: "La responsabilité des managers: Dans cet épisode de Woman in Tech, nous parlons des rôles et responsabilités des managers, et en particulier des femmes managers, dans l'impact organisationel sur la diversité, l'équité et l'inclusion. Diarra partage avec nous des actions concrètes qu'elle et son équipe mettent en place pour assurer la diversité lors du recrutement et des développements de carrière."
 episode: 236
-duration: "00:32:30" 
+duration: "00:32:30"
 size: 62397045
-file: 236.mp3
-date: 2024-07-31 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/236.png
+file: "236.mp3"
+category: "podcasts"
 appleEpisodeId: 1000663907172
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+guests:
+  - name: "Diarra Fall"
+    link: "https://www.linkedin.com/in/diarra-fall/"
+    title: "directrice associée, Gradiant"
+publication: "2024-07-31 04:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/236.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

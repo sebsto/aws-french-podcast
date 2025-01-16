@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 13 janvier"
-description: "AWS a annoncé 50 nouveautés depuis le 1er janvier. J'en ai épinglé 5 qui pourraient être intéressantes pour les builders que vous êtes. Deux d'entres-elles concernent des changements dans des services essentiels et historiques que sont IAM et S3. On parlera d'un nouveau service en preview et je terminerai avec StackOverflow et un blog post sur les architectures serverless."
-guest: 
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 13 janvier: AWS a annoncé 50 nouveautés depuis le 1er janvier. J'en ai épinglé 5 qui pourraient être intéressantes pour les builders que vous êtes. Deux d'entres-elles concernent des changements dans des services essentiels et historiques que sont IAM et S3. On parlera d'un nouveau service en preview et je terminerai avec StackOverflow et un blog post sur les architectures serverless."
 episode: 144
 duration: "00:18:08"
 size: 34815918
-file: 144.mp3
-date: 2023-01-13 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "144.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-01-13 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

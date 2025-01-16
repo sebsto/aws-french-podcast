@@ -1,20 +1,19 @@
----
-layout: podcast
-appleEpisodeId: 1000663119817
-title:  "AWS Graduate Program"
-subtitle: "Quand AWS recrute des jeunes diplômés"
-description: "Le AWS Graduate Program est un programme de formation chez AWS à destination des jeunes diplômés. Nous vous engageons en CDI et vous formons sur les technologies du cloud. Après un an de formation, vous vous retrouvez à travailler sur des projets pour nos client. Dans cet épisode, nous parlons de ce programme avec Nada qui vient de le terminer. Comment se faire engager ? Quel est le parcours de formation ? Quelles sont les missions ou projets sur lesquels vous travaillez après ? Quelles sont les possibilités d'evolution de carrière ?"
-guest: "<a href='https://www.linkedin.com/in/nada-tlohi-5a466317b/'>Nada Tlohi</a>, Cloud Infrastructure Architect, AWS"
+title: "AWS Graduate Program"
+description: "Quand AWS recrute des jeunes diplômés: Le AWS Graduate Program est un programme de formation chez AWS à destination des jeunes diplômés. Nous vous engageons en CDI et vous formons sur les technologies du cloud. Après un an de formation, vous vous retrouvez à travailler sur des projets pour nos client. Dans cet épisode, nous parlons de ce programme avec Nada qui vient de le terminer. Comment se faire engager ? Quel est le parcours de formation ? Quelles sont les missions ou projets sur lesquels vous travaillez après ? Quelles sont les possibilités d'evolution de carrière ?"
 episode: 143
-duration: “00:44:32"
+duration: "“00:44:32\""
 size: 85508517
-file: 143.mp3
-date: 2023-01-06 07:00:00 +0200
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "143.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663119817
+guests:
+  - name: "Nada Tlohi"
+    link: "https://www.linkedin.com/in/nada-tlohi-5a466317b/"
+    title: "Cloud Infrastructure Architect, AWS"
+publication: "2023-01-06 07:00:00 +0200"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-banner.jpg"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

@@ -1,20 +1,16 @@
----
-layout: podcast
-appleEpisodeId: 1000663120194
-title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 29 décembre"
-description: "J'ai compté 96 nouveautés depuis le 15 décembre. J'en ai retenu 8 pour cette dernière semaine de l'année. Huit qui sont d'intérêts pour les développeurs, les builders que vous êtes. Dans cet épisode, nous parlons de Clouwatch et Lambda, de Cognito, de Code Catalyst, de replication de système de fichiers ZFS, de la console mobile sur iPhone. Nous terminerons avec du DNS sur HTTPS et d'une nouvelle région au Canada."
-guest:
+title: "Quoi de neuf ?"
+description: "Les nouveautés AWS au 29 décembre: J'ai compté 96 nouveautés depuis le 15 décembre. J'en ai retenu 8 pour cette dernière semaine de l'année. Huit qui sont d'intérêts pour les développeurs, les builders que vous êtes. Dans cet épisode, nous parlons de Clouwatch et Lambda, de Cognito, de Code Catalyst, de replication de système de fichiers ZFS, de la console mobile sur iPhone. Nous terminerons avec du DNS sur HTTPS et d'une nouvelle région au Canada."
 episode: 198
-duration: "00:15:21" 
+duration: "00:15:21"
 size: 29489446
-file: 198.mp3
-date: 2023-12-29 05:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
+file: "198.mp3"
+category: "podcasts"
+appleEpisodeId: 1000663120194
+guests: []
+publication: "2023-12-29 05:00:00 +0000"
+author: "Sébastien Stormacq"
+social-background: "/img/podcast-artwork.png"
+background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
