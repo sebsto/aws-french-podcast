@@ -13,7 +13,6 @@ guests:
     title: "Developer Evangelist, Amazon Alexa"
 publication: "2019-12-20 08:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

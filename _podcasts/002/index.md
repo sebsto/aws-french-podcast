@@ -14,7 +14,6 @@ guests:
     title: "Lyon"
 publication: "2019-03-04 23:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Vous souhaitez créer un groupe d'utilisateur dans votre ville ?  [Contactez-moi](https://twitter.com/sebsto).

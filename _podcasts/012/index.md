@@ -11,7 +11,6 @@ guests:
   - name: "Il n'y a pas d'invité pour cet épisode"
 publication: "2019-12-04 18:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

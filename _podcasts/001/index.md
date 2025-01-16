@@ -11,7 +11,6 @@ guests:
   - name: "Stéphan Hadinger, Directeur Technique d'AWS France."
 publication: "2019-02-08 23:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 ## Liens

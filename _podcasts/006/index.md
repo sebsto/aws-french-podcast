@@ -13,7 +13,6 @@ guests:
   - name: "Arthur Pace, les deux vainqueurs de la première manche européenne de la Deep Racer league, la première course de voitures autonomes."
 publication: "2019-07-3 07:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

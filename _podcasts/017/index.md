@@ -13,7 +13,6 @@ guests:
     title: "co-fondateur, Clap Time"
 publication: "2020-02-13 08:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

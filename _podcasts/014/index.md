@@ -13,7 +13,6 @@ guests:
     title: "Principal Evangelist, AI/ML"
 publication: "2019-12-06 13:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

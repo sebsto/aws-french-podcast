@@ -11,7 +11,6 @@ guests: []
 publication: "2022-07-28 22:30:00 +0200"
 author: "Sébastien Stormacq"
 social-background: "/img/podcast-banner.jpg"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

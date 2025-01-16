@@ -13,7 +13,6 @@ guests:
     title: "Senior Manager Solution Architecture, AWS"
 publication: "2020-03-16 16:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

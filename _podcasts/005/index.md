@@ -12,7 +12,6 @@ guests:
   - name: "Frédéric Champagne, Cloud Expert chez Veolia."
 publication: "2019-06-07 07:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).

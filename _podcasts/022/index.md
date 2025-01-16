@@ -13,7 +13,6 @@ guests:
     title: "Spécialiste Systèmes Operations, Ubisoft"
 publication: "2020-04-05 18:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).

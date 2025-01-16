@@ -11,7 +11,6 @@ guests:
   - name: "Aurélien Capdecomme, CTO, 20 Minutes."
 publication: "2019-05-14 23:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).

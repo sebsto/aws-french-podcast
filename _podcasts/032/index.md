@@ -15,7 +15,6 @@ guests:
     link: "https://aws.amazon.com/developer/community/heroes/pascal-martin/?did=dh_card&trk=dh_card"
 publication: "2020-07-05 08:11:00 +0200"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)

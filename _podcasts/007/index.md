@@ -16,7 +16,6 @@ guests:
     title: "(<a href='https://twitter"
 publication: "2019-08-29 06:00:00 +0100"
 author: "Sébastien Stormacq"
-background: "/img/podcast-banner-transparent.png"
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).
