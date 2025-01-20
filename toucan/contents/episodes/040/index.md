@@ -7,7 +7,7 @@ size: 48035967
 file: "040.mp3"
 category: "podcasts"
 guests: []
-publication: "2020-12-17 &8:30:00 +0100"
+publication: "2020-12-17 08:30:00 +0100"
 author: "Sébastien Stormacq"
 ---
 
