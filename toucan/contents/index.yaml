@@ -19,14 +19,14 @@ bluesky: "https://bsky.app/profile/sebsto.bsky.social"
 
 # data appearing on the home page (home/text.mustache)
 sources:
-  title: "Ou écouter?"
+  title: "Où écouter ?"
   amazon_music: "https://music.amazon.fr/podcasts/88bea9e6-4b19-40b6-838a-79b9a1697ee4/le-podcast-aws-en-fran%C3%A7ais"
   apple_podcast: "https://podcasts.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442"
   spotify: "https://open.spotify.com/show/3umN5VMtFF433w1pTILetT?nd=1&dlsi=b3516f61da824b1c"
   youtube: "https://www.youtube.com/playlist?list=PLZ_TUMnTqfu9lG7nh_3VHJ1iM2q9grWvd"
 
 podcast_description: 
-   title: "C'est quoi ce podcast?"
+   title: "C'est quoi ?"
    subtitle: "Tout ce qui compte pour les développeurs cloud."
    text: "Le podcast 🎙️ AWS ☁️ en 🇫🇷 est votre source d'information incontournable pour tout ce qui concerne le développement et déploiement sur AWS. Il offre des perscpectives, des conseils et des mises à jour pour les professionels de tous niveaux. Animé par des experts de la communauté AWS, chaque épisode explore en profondeur les derniers outils, les meilleures pratiques et des histoires de réussite pour vous aider à concevoir, innover et évoluer en toute confiance sur le cloud AWS. Que vous vous intéressiez à l’architecture serverless, au machine learning ou aux stratégies DevOps, ce podcast vous tient informé et inspiré grâce à des conseils pratiques et des discussions captivantes. Abonnez-vous et restez à la pointe dans le monde en constante évolution du développement cloud !"
 
