@@ -1,7 +1,7 @@
 ---
-supertitle: "WELCOME BUILDERS"
-title: "The AWS Developers Podcast"
+supertitle: "Pour les builders"
+title: "Le podcast 🎙️ AWS ☁️ en 🇫🇷"
 template: "pages.home"
 ---
 
-Stay updated on the latest AWS news and insights, wherever you are, whenever you want.
+Restez informés sur les dernières tendances et nouveautés du cloud AWS, où que vous soyez, quand vous le voulez.
