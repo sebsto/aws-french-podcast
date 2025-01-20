@@ -74,7 +74,7 @@ export class PipelineStack extends cdk.Stack {
           actionName: 'GitHub_Source',
           owner: 'sebsto', 
           repo: 'aws-french-podcast', 
-          branch: 'new_look', 
+          branch: 'main', 
           connectionArn: getGithubConnectionArn(this), // Use the ARN directly
           codeBuildCloneOutput: true, // clone insteda of copy to get version history during the build
           output: sourceOutput,
