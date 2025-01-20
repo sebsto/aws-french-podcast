@@ -21,7 +21,7 @@ $(DIST_DIR): $(SRC_FILES) $(CONTENT_FILES) $(THEME_FILES)
 
 # Prod build depends on dist directory and adds base URL
 prod: $(DIST_DIR)
-	toucan generate $(TOUCAN_DIR) $(DIST_DIR) --base-url https://developers.podcast.go-aws.com/web
+	toucan generate $(TOUCAN_DIR) $(DIST_DIR) --base-url https://francais.podcast.go-aws.com/web
 
 # Development build depends on dist directory and adds base URL
 dev: $(DIST_DIR)
