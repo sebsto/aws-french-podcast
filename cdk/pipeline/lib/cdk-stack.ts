@@ -124,7 +124,7 @@ export class PipelineStack extends cdk.Stack {
     }));
     
     // Create the schedule
-    const scheduleFriday = new scheduler.CfnSchedule(this, 'PAEFWeeklyPipelineSchedule', {
+    const scheduleFriday = new scheduler.CfnSchedule(this, 'PAEFFridayPipelineSchedule', {
       flexibleTimeWindow: {
         mode: 'OFF'
       },
@@ -135,12 +135,12 @@ export class PipelineStack extends cdk.Stack {
         roleArn: schedulerRole.roleArn,
         input: JSON.stringify({}),
       },
-      name: 'french-podcast-weekly-pipeline',
+      name: 'french-podcast-friday-pipeline',
       description: 'Triggers the French Podcast pipeline every Friday at 4am UTC',
       state: 'ENABLED',
     });
     
-    const scheduleWednesday = new scheduler.CfnSchedule(this, 'PAEFWeeklyPipelineSchedule', {
+    const scheduleWednesday = new scheduler.CfnSchedule(this, 'PAEFWednesdayPipelineSchedule', {
       flexibleTimeWindow: {
         mode: 'OFF'
       },
@@ -151,7 +151,7 @@ export class PipelineStack extends cdk.Stack {
         roleArn: schedulerRole.roleArn,
         input: JSON.stringify({}),
       },
-      name: 'french-podcast-weekly-pipeline',
+      name: 'french-podcast-wednesday-pipeline',
       description: 'Triggers the French Podcast pipeline every Friday at 4am UTC',
       state: 'ENABLED',
     });
