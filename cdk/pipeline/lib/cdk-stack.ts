@@ -168,6 +168,7 @@ export class PipelineStack extends cdk.Stack {
     // Create CloudFront distribution
     // https://aws.amazon.com/blogs/devops/a-new-aws-cdk-l2-construct-for-amazon-cloudfront-origin-access-control-oac/
     const distribution = new cloudfront.Distribution(this, 'Distribution', {
+      webAclId: 'arn:aws:wafv2:us-east-1:533267385481:global/webacl/WebACL-2ijNukbvUyvs/4f9531f2-64dd-49a7-a220-d77130d5f4fa',
       defaultBehavior: {
         origin: origins.S3BucketOrigin.withOriginAccessControl(websiteBucket),
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.HTTPS_ONLY,
