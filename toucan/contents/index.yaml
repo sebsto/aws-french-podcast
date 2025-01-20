@@ -1,0 +1,54 @@
+# global variables, exposed under the `site` namespace
+# this one is replaced by the --base-url parameter at generation time
+# baseUrl: "https://francais.podcast.go-aws.com/web"
+language: "fr"
+title: "Le podcast 🎙️ AWS ☁️ en 🇫🇷"
+dateFormat: "MMM dd, yy"
+description: "Restez informé des dernières actualités et des insights AWS pour les développeurs, où que vous soyez, quand vous le souhaitez."
+dark_mode: "Mode sombre"
+
+# data appearing in the footer
+copyright_year: "2023-2025"
+french_podcast_url: "https://francais.podcast.go-aws.com"
+developer_podcast_url: "https://developers.podcast.go-aws.com"
+youtube: "https://www.youtube.com/playlist?list=PLZ_TUMnTqfu8a3992JRToUOzAhnwONZ7I"
+linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
+instagram: "https://www.instagram.com/awsdevelopers"
+twitter: "https://x.com/sebsto"
+bluesky: "https://bsky.app/profile/sebsto.bsky.social"
+
+# data appearing on the home page (home/text.mustache)
+sources:
+  title: "Où écouter ?"
+  amazon_music: "https://music.amazon.fr/podcasts/88bea9e6-4b19-40b6-838a-79b9a1697ee4/le-podcast-aws-en-fran%C3%A7ais"
+  apple_podcast: "https://podcasts.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442"
+  spotify: "https://open.spotify.com/show/3umN5VMtFF433w1pTILetT?nd=1&dlsi=b3516f61da824b1c"
+  youtube: "https://www.youtube.com/playlist?list=PLZ_TUMnTqfu9lG7nh_3VHJ1iM2q9grWvd"
+
+podcast_description: 
+   title: "C'est quoi ?"
+   subtitle: "Tout ce qui compte pour les développeurs cloud."
+   text: "Le podcast 🎙️ AWS ☁️ en 🇫🇷 est votre source d'information incontournable pour tout ce qui concerne le développement et déploiement sur AWS. Il offre des perscpectives, des conseils et des mises à jour pour les professionels de tous niveaux. Animé par des experts de la communauté AWS, chaque épisode explore en profondeur les derniers outils, les meilleures pratiques et des histoires de réussite pour vous aider à concevoir, innover et évoluer en toute confiance sur le cloud AWS. Que vous vous intéressiez à l’architecture serverless, au machine learning ou aux stratégies DevOps, ce podcast vous tient informé et inspiré grâce à des conseils pratiques et des discussions captivantes. Abonnez-vous et restez à la pointe dans le monde en constante évolution du développement cloud !"
+
+builder_id:
+  url: "https://profile.aws.amazon.com/"
+  title: "Votre Builder ID"
+  text: "Un AWS Builder ID vous permet d'accéder à un profil personnel distinct de vos comptes AWS habituels. Il offre un accès privé gratuit à Amazon Q Developer et Code Catalyst, à plus de 600 cours gratuits sur Skill Builder, à des ressources communautaires, et bien plus encore. Conçu pour vous accompagner dans la réalisation de vos objectifs, votre AWS Builder ID est l'endroit idéal pour développer vos compétences, expérimenter sans risque et enrichir votre connaissance de la suite AWS"
+  signup: "Créez votre Builder ID"
+
+# episodes.mustache
+episodes:
+  title: "Explorez tous les épisodes"
+
+medialink: "https://op3.dev/e/https://dts.podtrac.com/redirect.mp3/francais.podcast.go-aws.com/media/"
+imagelink: "https://francais.podcast.go-aws.com/img/"
+rss:
+  artwork: podcast-artwork.png
+  owner:
+    name: "Sébastien Stormacq"
+    email: "stormacq@amazon.com"
+
+# op3.dev dashboard page 
+#
+# https://op3.dev/show/d8347e02-cf46-566b-924b-468b4d848aee
+#

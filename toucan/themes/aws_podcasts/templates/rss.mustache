@@ -1,0 +1,60 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:aws="http://developers.podcast.go-aws.com/" 
+     version="2.0">
+<channel>
+    <title>{{title}}</title>
+    <description>{{description}}</description>
+    <copyright>All rights reserved</copyright>
+    <language>{{language}}</language>
+    <link>{{baseUrl}}</link>
+    <atom:link href="{{baseUrl}}/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{{lastBuildDate}}</lastBuildDate>
+    <pubDate>{{publicationDate}}</pubDate>
+    <itunes:subtitle>Chaque semaine, Seb et ses invité•es explorent le cloud AWS.</itunes:subtitle>
+    <itunes:summary>Les sujets qui comptent pour les développeurs cloud.</itunes:summary>
+    <itunes:author>Amazon Web Services</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="{{ imagelink }}{{rss.artwork}}"/>
+    <itunes:owner>
+        <itunes:name>{{rss.owner.name}}</itunes:name>
+        <itunes:email>{{rss.owner.email}}</itunes:email>
+    </itunes:owner>
+{{#items}}
+<item>
+    <title>{{ title }}</title>
+    <description>{{ description }}</description>
+    <content:encoded><![CDATA[{{ description }} {{#guests}}avec <a href='{{link}}'>{{name}}</a>, {{title}}{{^last()}} ; {{/last()}}{{/guests}}<p/>{{& contents }}]]></content:encoded>
+    <aws:host>{{ author }}</aws:host>
+    <pubDate>{{ publicationDate}}</pubDate>
+    <link>{{ permalink }}index.html</link>
+    <enclosure url="{{ medialink }}{{ file }}" length="{{ size }}" type="audio/mpeg"/>
+    <guid isPermaLink="false">{{ file }}</guid>
+    {{#empty(guests)}}
+    <aws:guest>Sébastien Stormacq, Developer Advocate, AWS</aws:guest>
+    {{/empty(guests)}}
+    {{#guests}}
+    <aws:guest>
+    <![CDATA[ <a href='{{link}}'>{{name}}</a>, {{title}}{{^last()}} ; {{/last()}}]]>
+    </aws:guest>
+    {{/guests}}
+    <itunes:title>{{ title }}</itunes:title>
+    <itunes:subtitle/>
+    <itunes:summary>{{description}}</itunes:summary>
+    <itunes:author>{{ author }}</itunes:author>
+    <itunes:image href="{{ imagelink }}{{social-background}}"/>
+    <itunes:duration>{{ duration }}</itunes:duration>
+    <itunes:episode>{{ episode }}</itunes:episode>
+    {{#empty(aws-categorie)}}<aws:categories/>{{/empty(aws-categorie)}}
+    {{^empty(aws-categorie)}}
+    <aws:categories>{{# aws-categories }}{{.}}{{^last()}}, {{/last()}}{{/ aws-categories }}</aws:categories>
+    {{/empty(aws-categorie)}}
+    <itunes:explicit>no</itunes:explicit>
+</item>
+{{/items}}
+
+  </channel>
+</rss>

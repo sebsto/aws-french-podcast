@@ -64,14 +64,32 @@ fi
 echo Uploading $1.mp3
 aws --profile podcast s3 cp "$FILE" s3://$PODCAST_BUCKET/$MEDIA_PREFIX/$1.mp3
 
-# check if image file exists 
-FILE=$(find "$LOCAL_PODCAST" -name $1.png)
+upload_episode_image() {
+    local file_name="$1".png
+    
+    if [ -z "$file_name" ]; then
+        echo "Error: Episode ID is required"
+        return 1
+    fi
 
-if [ -z "$FILE" ];
-then
-	echo "Image file $1.png does not exist in $LOCAL_PODCAST."
-	exit -1
-fi
+    FILE=$(find "$LOCAL_PODCAST" -name "$file_name")
 
-aws --profile podcast s3 cp "$FILE" s3://$PODCAST_BUCKET/$IMG_PREFIX/$1.png
+    if [ -z "$FILE" ]; then
+        echo "Image file $file_name does not exist in $LOCAL_PODCAST."
+        return 1
+    fi
+
+    echo "Uploading $file_name"
+    aws --profile podcast s3 cp "$FILE" "s3://$PODCAST_BUCKET/$IMG_PREFIX/"
+    return $?
+}
+
+# upload square image
+upload_episode_image "$1"
+
+# upload vertical banner
+upload_episode_image "$1-bannerv"
+
+# upload horizontal banner
+upload_episode_image "$1-bannerh"
 
