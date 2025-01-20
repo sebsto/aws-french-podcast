@@ -4,15 +4,6 @@ description: "Un orchestrateur open source pour vos agents IA: Dans cet épisode
 episode: 272
 duration: "00:46:54"
 size: 22515897
-<<<<<<< HEAD:_podcasts/episode_272.md
-file: 272.mp3
-date: 2025-01-17 04:00:00 +0000
-author: Sébastien Stormacq
-category: podcasts
-background: /img/podcast-banner-transparent.png
-social-background: /img/272.png
-appleEpisodeId: 1000684332612
-=======
 file: "272.mp3"
 category: "podcasts"
 guests:
@@ -25,7 +16,6 @@ guests:
 publication: "2025-01-17 04:00:00 +0000"
 author: "Sébastien Stormacq"
 social-background: "272.png"
->>>>>>> new_look:toucan/contents/episodes/272/index.md
 ---
 
 Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
