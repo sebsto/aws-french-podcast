@@ -9,7 +9,7 @@ social-background: "273.png"
 category: "podcasts"
 guests:
   - name: "Alice Berton"
-    link: "https://www.linkedin.com/in/sasha-rubel-2517936/"
+    link: "https://www.linkedin.com/in/alice-berton-165a9b151/"
     title: "Program Manager, AFE"
 publication: "2025-01-22 04:00:00 +0100"
 author: "Sébastien Stormacq"
