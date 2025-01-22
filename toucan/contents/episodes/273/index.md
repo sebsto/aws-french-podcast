@@ -1,6 +1,6 @@
 ---
 title: "WIT : Amazon Future Engineer"
-description: "Dans cet épisode, Alice & Seb explorent le programme Amazon Future Engineers, conçu pour promouvoir la diversité et l'inclusion dans le secteur technologique. Ils discutent de la manière dont ce programme gratuit offre des opportunités éducatives en code à des jeunes, notamment des filles et des étudiants issus de milieux défavorisés. Découvrez comment des ateliers, des bourses et des mentors contribuent à inspirer la prochaine génération, tout en soulignant l’importance des modèles et de l’implication communautaire dans la réussite de cette initiative"
+description: "Dans cet épisode, Alice & Seb explorent le programme Amazon Future Engineer, conçu pour promouvoir la diversité et l'inclusion dans le secteur technologique. Ils discutent de la manière dont ce programme gratuit offre des opportunités éducatives en code à des jeunes, notamment des filles et des étudiants issus de milieux défavorisés. Découvrez comment des ateliers, des bourses et des mentors contribuent à inspirer la prochaine génération, tout en soulignant l’importance des modèles et de l’implication communautaire dans la réussite de cette initiative"
 episode: 273
 duration: "00:35:18"
 size: 16945128
