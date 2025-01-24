@@ -7,7 +7,7 @@ size: 20358709
 file: "274.mp3"
 social-background: "274.png"
 category: "podcasts"
-guests:[]]
+guests:[]
 publication: "2025-01-24 04:00:00 +0100"
 author: "Sébastien Stormacq"
 ---
