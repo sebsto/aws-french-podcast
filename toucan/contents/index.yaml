@@ -43,7 +43,7 @@ episodes:
 medialink: "https://op3.dev/e/https://dts.podtrac.com/redirect.mp3/francais.podcast.go-aws.com/media/"
 imagelink: "https://francais.podcast.go-aws.com/img/"
 rss:
-  artwork: podcast-artwork.png
+  artwork: podcast-artwork-white.png
   owner:
     name: "Sébastien Stormacq"
     email: "stormacq@amazon.com"
