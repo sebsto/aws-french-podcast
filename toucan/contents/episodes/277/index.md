@@ -1,6 +1,6 @@
 ---
 title: "Les nouveautés AWS au 7 février"
-description: "J'ai compté 84 nouveauté depuis le dernier Quoi de Neuf il y a deux semaines.  Cette semaine, je vous parle de Amplify, Event Bridge, CodeBuild, Step Functions et Deep Seek R1 qui est maintenant disponible sur BedRock."
+description: "J'ai compté 84 nouveautés depuis le dernier Quoi de Neuf il y a deux semaines.  Cette semaine, je vous parle de Amplify, Event Bridge, CodeBuild, Step Functions et Deep Seek R1 qui est maintenant disponible sur Bedrock."
 episode: 277
 duration: "00:12:44"
 size: 24448858
