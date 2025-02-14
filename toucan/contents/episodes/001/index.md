@@ -17,18 +17,18 @@ author: "Sébastien Stormacq"
 
 Voici les liens vers les pages des services dont nous avons parlés.
 
-- 02'15" - [Nouveaux type d’instances](https://aws.amazon.com/ec2/instance-types/)
-- 02'51" - Processeurs ARM [AWS Graviton](https://aws.amazon.com/blogs/aws/new-ec2-instances-a1-powered-by-arm-based-aws-graviton-processors/
+- [Nouveaux type d’instances](https://aws.amazon.com/ec2/instance-types/)
+- Processeurs ARM [AWS Graviton](https://aws.amazon.com/blogs/aws/new-ec2-instances-a1-powered-by-arm-based-aws-graviton-processors/
 )
-- 03'30" - [Firecracker](https://firecracker-microvm.github.io/)
-- 05'10" - AWS Lambda [Custom Runtime](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
-- 07'47" - Amazon API Gateway [Web Socket](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
-- 08'30" - [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
-- 09'15" - Amazon DynamoDB [on demand pricing](https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/)
-- 09'52" - [Amazon DocumentDB](https://aws.amazon.com/blogs/aws/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)
-- 10'30" - [Amazon TimeStream](https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/)
-- 11'15" - [Amazon Quantum Ledger Database](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/)
-- 12'50" - [Amazon Managed BlockChain](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-blockchain/)
-- 13'20" - [Reinforcement Learning](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-sagemaker-announces-support-for-reinforcement-learning/)
-- 15'30" - [AWS Deep Racer](https://aws.amazon.com/blogs/aws/aws-deepracer-go-hands-on-with-reinforcement-learning-at-reinvent/)
-- 16'30" - [Conformité HDS](https://aws.amazon.com/blogs/security/aws-achieves-hds-certification/) 
+- [Firecracker](https://firecracker-microvm.github.io/)
+- AWS Lambda [Custom Runtime](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
+- Amazon API Gateway [Web Socket](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
+- [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
+- Amazon DynamoDB [on demand pricing](https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/)
+- [Amazon DocumentDB](https://aws.amazon.com/blogs/aws/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)
+- [Amazon TimeStream](https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/)
+- [Amazon Quantum Ledger Database](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/)
+- [Amazon Managed BlockChain](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-blockchain/)
+- [Reinforcement Learning](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-sagemaker-announces-support-for-reinforcement-learning/)
+- [AWS Deep Racer](https://aws.amazon.com/blogs/aws/aws-deepracer-go-hands-on-with-reinforcement-learning-at-reinvent/)
+- [Conformité HDS](https://aws.amazon.com/blogs/security/aws-achieves-hds-certification/) 
