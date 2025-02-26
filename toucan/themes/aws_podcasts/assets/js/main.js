@@ -98,33 +98,52 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     return element;
   }
+  const featuredEpisode = document.querySelector('.featured-episode');
+  if (!!featuredEpisode) {
+    // click listener for the featured section (loaded at page load)
+    document.querySelector('.featured-episode').addEventListener('click', function (e) {
+      console.log('CLICKED', e.target);
 
-  // click listener for the featured section (loaded at page load)
-  document.querySelector('.featured-episode').addEventListener('click', function (e) {
-    console.log('CLICKED', e.target);
+      // Find the closest ancestor with the 'btn-play' class
+      const btnPlayElement = findAncestorWithClass(e.target, 'btn-play');
+      if (btnPlayElement && btnPlayElement.closest('.featured-episode')) {
+        console.log('Featured Episode button clicked : ', btnPlayElement);
+        handlePlayEvent(btnPlayElement);
+      }
+      e.stopImmediatePropagation();
+    });
+  }
+  const episodeHero = document.querySelector('.episode-hero');
+  if (!!episodeHero) {
+    // click listener for the episode hero (loaded at page load)
+    document.querySelector('.episode-hero').addEventListener('click', function (e) {
+      console.log('CLICKED', e.target);
 
-    // Find the closest ancestor with the 'btn-play' class
-    const btnPlayElement = findAncestorWithClass(e.target, 'btn-play');
-    if (btnPlayElement && btnPlayElement.closest('.featured-episode')) {
-      console.log('Featured Episode button clicked : ', btnPlayElement);
-      handlePlayEvent(btnPlayElement);
-    }
-    e.stopImmediatePropagation();
-  });
+      // Find the closest ancestor with the 'btn-play' class
+      const btnPlayElement = findAncestorWithClass(e.target, 'btn-play');
+      if (btnPlayElement && btnPlayElement.closest('.episode-hero')) {
+        console.log('Episode hero button clicked : ', btnPlayElement);
+        handlePlayEvent(btnPlayElement);
+      }
+      e.stopImmediatePropagation();
+    });
+  }
+  const episodesCards = document.getElementById('episodes_cards');
+  if (!!episodesCards) {
+    // click listener for sections that are loaded dynamically
+    // move the click listner to the container, not to individual epiosde card to avoid multiple event listeners
+    document.getElementById('episodes_cards').addEventListener('click', function (e) {
+      console.log('CLICKED', e.target);
 
-  // click listener for sections that are loaded dynamically
-  // move the click listner to the container, not to individual epiosde card to avoid multiple event listeners
-  document.getElementById('episodes_cards').addEventListener('click', function (e) {
-    console.log('CLICKED', e.target);
-
-    // Find the closest ancestor with the 'btn-play' class
-    const btnPlayElement = findAncestorWithClass(e.target, 'btn-play');
-    if (btnPlayElement) {
-      console.log('Dynamic Button clicked : ', btnPlayElement);
-      handlePlayEvent(btnPlayElement);
-    }
-    e.stopImmediatePropagation();
-  });
+      // Find the closest ancestor with the 'btn-play' class
+      const btnPlayElement = findAncestorWithClass(e.target, 'btn-play');
+      if (btnPlayElement) {
+        console.log('Dynamic Button clicked : ', btnPlayElement);
+        handlePlayEvent(btnPlayElement);
+      }
+      e.stopImmediatePropagation();
+    });
+  }
 });
 
 /***/ }),
