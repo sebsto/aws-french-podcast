@@ -1,30 +1,25 @@
 ---
-title: "Réduisez votre facture Amazon EC2, passez aux Spots."
-description: "Découvrez comment réduire votre facture Amazon EC2 grâce aux instances Spot.: Dans ce troisième épisode, découvrez comment re!commerce économise jusqu'à 80% sur leur facture Amazon EC2 en utilisant des instances Spot plutôt que on-demand."
-episode: 3
-duration: "00:27:28"
-size: 52696213
-file: "003.mp3"
-category: "podcasts"
-appleEpisodeId: 1000663120246
-guests:
-  - name: "Gaël Donat, responsable de la sécurité des SIs chez re!commerce"
-publication: "2019-04-08 23:00:00 +0100"
-author: "Sébastien Stormacq"
+"title": "Réduisez votre facture Amazon EC2, passez aux Spots."
+"description": "Découvrez comment réduire votre facture Amazon EC2 grâce aux instances\
+  \ Spot.: Dans ce troisième épisode, découvrez comment re!commerce économise jusqu'à\
+  \ 80% sur leur facture Amazon EC2 en utilisant des instances Spot plutôt que on-demand."
+"episode": !!int "3"
+"duration": "00:27:28"
+"size": !!int "52696213"
+"file": "003.mp3"
+"category": "podcasts"
+"appleEpisodeId": !!int "1000663120246"
+"guests":
+- "name": "Gaël Donat, responsable de la sécurité des SIs chez re!commerce"
+"publication": "2019-04-08 23:00:00 +0100"
+"author": "Sébastien Stormacq"
+"links":
+- "text": "AWS Auto Scaling"
+  "link": "https://aws.amazon.com/autoscaling/"
+- "text": "AWS Elastic Beanstalk"
+  "link": "https://aws.amazon.com/elasticbeanstalk/"
+- "text": "AWS Elastic Beanstalk avec Docker"
+  "link": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker.html"
+- "text": "Amazon Elastic Container Services"
+  "link": "https://aws.amazon.com/ecs/"
 ---
-
-Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).
-
-Découvrez re!commerce sur [https://www.recommerce.com/fr/](https://www.recommerce.com/)
-
-## Liens
-
-Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
-
-- [AWS Auto Scaling](https://aws.amazon.com/autoscaling/)
-- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
-- [AWS Elastic Beanstalk avec Docker](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker.html)
-- [Amazon Elastic Container Services](https://aws.amazon.com/ecs/) (ECS) / [Amazon Elastic Container Services for Kubernetes](https://aws.amazon.com/eks/) (EKS)
-- Amazon EC2 [Spot Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html)
-- Nouveauté re:Invent : [Flottes mixes](https://aws.amazon.com/blogs/aws/new-ec2-auto-scaling-groups-with-multiple-instance-types-purchase-options/) pour l'auto-scaling 
-- Nouveauté re:invent : [Hibernation](https://aws.amazon.com/blogs/aws/new-hibernate-your-ec2-instances/) des instances EC2

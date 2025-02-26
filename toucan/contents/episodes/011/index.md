@@ -1,34 +1,30 @@
 ---
-title: "AWS re:Invent 2019 re:Cap 1"
-description: "Quelques nouveautés (partie 1).: Dans cet épisode hors série, je passe en revue quelques annonces faites lors des deux premières journées à re:Invent."
-episode: 11
-duration: "00:21:19"
-size: 40949887
-file: "011.mp3"
-category: "podcasts"
-appleEpisodeId: 1000663120132
-guests:
-  - name: "Il n'y a pas d'invité pour cet épisode"
-publication: "2019-12-03 20:00:00 +0100"
-author: "Sébastien Stormacq"
+"title": "AWS re:Invent 2019 re:Cap 1"
+"description": "Quelques nouveautés (partie 1).: Dans cet épisode hors série, je passe\
+  \ en revue quelques annonces faites lors des deux premières journées à re:Invent."
+"episode": !!int "11"
+"duration": "00:21:19"
+"size": !!int "40949887"
+"file": "011.mp3"
+"category": "podcasts"
+"appleEpisodeId": !!int "1000663120132"
+"guests":
+- "name": "Il n'y a pas d'invité pour cet épisode"
+"publication": "2019-12-03 20:00:00 +0100"
+"author": "Sébastien Stormacq"
+"links":
+- "text": "Keynote"
+  "link": "https://www.youtube.com/watch?v=GPUWATKe15E"
+- "text": "Amazon Braket"
+  "link": "https://aws.amazon.com/blogs/aws/amazon-braket-get-started-with-quantum-computing/"
+- "text": "EC2 Image Builder"
+  "link": "https://aws.amazon.com/blogs/aws/automate-os-image-build-pipelines-with-ec2-image-builder/"
+- "text": "Nouvelles instances"
+  "link": "https://aws.amazon.com/blogs/aws/amazon-eks-on-aws-fargate-now-generally-available/"
+- "text": "Amazon Managed Apache Cassandra Service"
+  "link": "https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/"
+- "text": "AWS Outpost"
+  "link": "https://aws.amazon.com/outposts/"
+- "text": "AWS Local Zones"
+  "link": "https://aws.amazon.com/blogs/aws/aws-now-available-from-a-local-zone-in-los-angeles/"
 ---
-
-Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).
-
-## Liens
-
-Voici les liens vers les pages des services dont j'ai parlé dans l'épisode.
-
-- [Keynote](https://www.youtube.com/watch?v=GPUWATKe15E) (Monday Night Live) de Peter deSantis, VP Global Infrastructure
-- [Amazon Braket](https://aws.amazon.com/blogs/aws/amazon-braket-get-started-with-quantum-computing/), pour découvrir Quantum Computing
-- [EC2 Image Builder](https://aws.amazon.com/blogs/aws/automate-os-image-build-pipelines-with-ec2-image-builder/)
-- Application Load Balancer [weigthed target groups](https://aws.amazon.com/blogs/aws/new-application-load-balancer-simplifies-deployment-with-weighted-target-groups/)
-- DynamoDB [global tables](https://aws.amazon.com/blogs/aws/new-convert-your-single-region-amazon-dynamodb-tables-to-global-tables/)
-- ARM CPU Graviton 2 : [M6g, C6g et R6g instances](https://aws.amazon.com/blogs/aws/coming-soon-graviton2-powered-general-purpose-compute-optimized-memory-optimized-ec2-instances/)
-- EKS sur [Fargate](https://aws.amazon.com/blogs/aws/amazon-eks-on-aws-fargate-now-generally-available/)
-- S3 [Access Points](https://aws.amazon.com/blogs/aws/amazon-eks-on-aws-fargate-now-generally-available/)
-- [Nouvelles instances](https://aws.amazon.com/blogs/aws/amazon-eks-on-aws-fargate-now-generally-available/) Redshift
-- Redshift [fédération de données](https://aws.amazon.com/blogs/aws/new-for-amazon-redshift-data-lake-export-and-federated-queries/)
-- [Amazon Managed Apache Cassandra Service](https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/) (MCS)
-- [AWS Outpost](https://aws.amazon.com/outposts/)
-- [AWS Local Zones](https://aws.amazon.com/blogs/aws/aws-now-available-from-a-local-zone-in-los-angeles/)

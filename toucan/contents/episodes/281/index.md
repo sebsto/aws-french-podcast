@@ -17,7 +17,7 @@ guests:
   title: "Solution Architect Manager, AWS"
 - name: "Florian Blond"
   link: https://www.linkedin.com/in/florianblond/
-  title: "Solution Architect, AWS""
+  title: "Solution Architect, AWS"
 publication: "2025-02-28 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
