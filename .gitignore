@@ -97,3 +97,6 @@ Thumbs.db
 
 # Ignore all zip files
 *.zip
+
+# CDK files
+cdk.out/
