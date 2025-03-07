@@ -22,7 +22,7 @@ publication: "2025-02-28 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Le teaser de l'episode en video (merci Tiffany!)"
-  link: https://bit.ly/aws-podcast-281
+  link: https://francais.podcast.go-aws.com/media/short-aws-podcast-fr-281-v3.mp4
 - text: "Amazon Bedrock"
   link: https://aws.amazon.com/bedrock
 - text: "Amazon Bedrock Prompt Management"
