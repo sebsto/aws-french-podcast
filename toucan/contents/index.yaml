@@ -40,7 +40,7 @@ builder_id:
 episodes:
   title: "Explorez tous les épisodes"
 
-medialink: "https://op3.dev/e/https://dts.podtrac.com/redirect.mp3/francais.podcast.go-aws.com/media/"
+medialink: "https://op3.dev/e/dts.podtrac.com/redirect.mp3/francais.podcast.go-aws.com/media/"
 imagelink: "https://francais.podcast.go-aws.com/img/"
 rss:
   artwork: podcast-artwork-white.png
