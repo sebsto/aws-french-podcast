@@ -5,7 +5,7 @@ Nos invitées partagent leurs perspectives uniques sur les défis auxquels les f
 L'épisode explore également les opportunités économiques considérables qu'offre la data science et l'urgence de former les professionnels à l'utilisation de l'IA. Le mentorat et les modèles inspirants sont présentés comme des leviers essentiels pour encourager les jeunes femmes à s'engager dans ce domaine et à dépasser l'autocensure.
 Découvrez comment l'événement Women in Data Science et la compétition Datathon créent des espaces d'échange, de formation et d'inspiration pour les femmes technologistes. Une discussion riche et nécessaire sur l'avenir de la tech, où diversité rime avec créativité et performance."
 episode: 283
-duration: "00:14:44"
+duration: "00:36:04"
 size: 69248233
 file: "283.mp3"
 social-background: "283.png"
