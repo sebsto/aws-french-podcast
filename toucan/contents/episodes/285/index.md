@@ -18,23 +18,23 @@ publication: "2025-03-21 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Amazon Q Developer en ligne de commande, l'article de blog"
-  link: https://aws.amazon.com/blogs/devops/introducing-the-enhanced-command-line-interface-in-amazon-q-developer/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/devops/introducing-the-enhanced-command-line-interface-in-amazon-q-developer/
 - text: "DeepSeek R1 en serverless sur Amazon Bedrock"
-  link: https://aws.amazon.com/blogs/aws/deepseek-r1-now-available-as-a-fully-managed-serverless-model-in-amazon-bedrock/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/aws/deepseek-r1-now-available-as-a-fully-managed-serverless-model-in-amazon-bedrock/
 - text: "La collaboration multi-agents sur Amazon Bedrock"
-  link: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-announces-general-availability-of-multi-agent-collaboration/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-announces-general-availability-of-multi-agent-collaboration/
 - text: "Les patterns Serverless Land sont dispnibles sur VS Studio Code"
-  link: https://aws.amazon.com/about-aws/whats-new/2025/03/ready-to-use-serverless-land-patterns-vs-code-ide/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/about-aws/whats-new/2025/03/ready-to-use-serverless-land-patterns-vs-code-ide/
 - text: "Serverless Land, les patterns"
-  link: https://serverlessland.com/patterns?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://serverlessland.com/patterns
 - text: "L'intégration de Steps Functions dans VS Code Studio"
-  link: https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions
 - text: "AWS Lambda adds support for Amazon CloudWatch Logs Live Tail in VS Code IDE"
-  link: https://aws.amazon.com/about-aws/whats-new/2025/03/aws-lambda-cloudwatch-logs-live-tail-vs-code-ide/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/about-aws/whats-new/2025/03/aws-lambda-cloudwatch-logs-live-tail-vs-code-ide/
 - text: "Toutes les annonces de Pi Day 2025"
-  link: https://aws.amazon.com/blogs/aws/aws-pi-day-data-foundation-for-analytics-and-ai/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/aws/aws-pi-day-data-foundation-for-analytics-and-ai/
 - text: "Amazon SageMaker Studio"
-  link: https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/
 - text: "Amazon S3 Tables intégrées à SageMaker Lakehouse"
-  link: https://aws.amazon.com/blogs/aws/amazon-s3-tables-integration-with-amazon-sagemaker-lakehouse-is-now-generally-available/?trk=4b29643c-e00f-4ab6-ab9c-b1fb47aa1708&sc_channel=podcast
+  link: https://aws.amazon.com/blogs/aws/amazon-s3-tables-integration-with-amazon-sagemaker-lakehouse-is-now-generally-available/
 ---
