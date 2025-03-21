@@ -7,11 +7,11 @@ Nous parlerons aussi de DeepSeek R1, un modèle IA désormais disponible en serv
 Enfin, retour sur les annonces du Pi Day 2025, avec des nouveautés autour des données, de l’IA et d’Amazon SageMaker.
 
 Un épisode à ne pas manquer ! 🎧🚀"
-episode: 286
+episode: 285
 duration: "00:16:42"
 size: 19627207
-file: "286.mp3"
-social-background: "286.png"
+file: "285.mp3"
+social-background: "285.png"
 category: "podcasts"
 guests: []
 publication: "2025-03-21 04:00:00 +0100"
