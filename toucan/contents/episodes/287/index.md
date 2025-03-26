@@ -5,7 +5,7 @@ Kevin partage l'expérience détaillée d'Accor dans sa migration massive vers l
 Un récit concret qui démontre comment l'optimisation cloud peut servir à la fois les objectifs financiers et environnementaux d'une entreprise."
 episode: 287
 duration: "00:33:14"
-size: 63823958
+size: 44773698
 file: "287.mp3"
 social-background: "287.png"
 category: "podcasts"
