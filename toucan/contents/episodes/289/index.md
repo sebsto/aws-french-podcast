@@ -20,11 +20,15 @@ guests:
 - name: "Marion Cauchy"
   link: "https://www.linkedin.com/in/marion-cauchy/"
   title: "Human Resources Lead & Diversity Inclusion"
-publication: "2025-04-14 04:00:00 +0100"
+publication: "2025-04-09 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
-- text: "CapGemini"
+- text: "Capgemini"
   link: https://www.capgemini.com/
+- text: "Les stages de seconde"
+  link: https://1eleve1stage.education.gouv.fr/
+- text: "Diversité et inclusion chez Capgemini"
+  link:  https://www.capgemini.com/fr-fr/notre-groupe/responsabilite-sociale-et-environnementale/diversite-inclusion
 - text: "Association Rura" 
   link: https://rura.fr/
 - text: "Lego 4 Scrum"
