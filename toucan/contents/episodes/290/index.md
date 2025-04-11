@@ -13,13 +13,13 @@ category: "podcasts"
 guests:
 - name: "Fabrice Delhoste"
   link: https://www.linkedin.com/in/fabricedelhoste/
-  title: "CTO & Co-fondateur, MondFlow"
+  title: "CTO & Co-fondateur, MindFlow"
 publication: "2025-04-11 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Mindflow"
   link: https://mindflow.io/
-- text: "Blog; What is agentic AI"
+- text: "Blog: What is agentic AI"
   link: https://mindflow.io/blog/what-is-agentic-ai-why-is-it-a-gamechanger
 - text: "Web Services Discovery & UDDI"
   link: https://en.wikipedia.org/wiki/Web_Services_Discovery
