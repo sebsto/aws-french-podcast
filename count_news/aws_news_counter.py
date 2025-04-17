@@ -54,6 +54,7 @@ def count_recent_entries():
             
             # Check if the entry is within the last two weeks
             if pub_date >= two_weeks_ago:
+                # print(f"Processing entry: pub_date={pub_date}, title={entry.title}")
                 total_entries += 1
                 
                 # Check if it's a regional expansion
