@@ -14,8 +14,8 @@ Vous découvrirez aussi :
 
 Un épisode riche en retours d’expérience concrets, destiné à tous ceux qui veulent faire rimer cloud avec résilience, efficacité et économies."
 episode: 293
-duration: "00:45:21"
-size: 55839269
+duration: "00:45:11"
+size: 55672588
 file: "293.mp3"
 social-background: "293.png"
 category: "podcasts"
