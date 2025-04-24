@@ -23,7 +23,7 @@ guests:
 - "name": "Pascal Martin"
   "link": https://pascal-martin.fr/
   "title": "Principal Engineer, AWS Container Hero, Bedrock Streaming"
-publication: "2025-04-11 04:00:00 +0100"
+publication: "2025-04-25 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Le livre de Pascal : Le Plan Copenhague"
