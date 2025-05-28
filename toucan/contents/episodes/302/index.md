@@ -18,7 +18,7 @@ guests:
 - "name": "Michel-Ange Camhi"
   "link": https://www.linkedin.com/in/michel-ange-camhi/
   "title": "Group Data & AI Governance Program Director, Bureau Veritas"
-publication: "2025-06-13 04:00:00 +0100"
+publication: "2025-06-06 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Bureau veritas"
