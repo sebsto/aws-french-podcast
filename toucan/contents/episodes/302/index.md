@@ -6,6 +6,7 @@ De la gestion des documents complexes à l’automatisation des processus, en pa
 
 Un échange riche en enseignements techniques et en retours d’expérience, qui illustre comment l’IA peut devenir un levier de productivité, de qualité et d’innovation, tout en renforçant la confiance dans les décisions critiques."
 episode: 302
+publication: "2025-06-06 04:00:00 +0100"
 duration: "00:48:20"
 size: 60578354
 file: "302.mp3"
@@ -18,7 +19,6 @@ guests:
 - "name": "Michel-Ange Camhi"
   "link": https://www.linkedin.com/in/michel-ange-camhi/
   "title": "Group Data & AI Governance Program Director, Bureau Veritas"
-publication: "2025-06-06 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Bureau veritas"
