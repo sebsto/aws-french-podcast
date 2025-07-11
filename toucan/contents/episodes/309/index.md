@@ -1,7 +1,7 @@
 ---
 title: "Les nouveautés AWS au 11 juillet"
 description: "Cette semaine, plongez dans les dernières nouveautés AWS avec un épisode riche en annonces! Au programme: le Project Rainier, un supercalculateur dédié à l'IA générative, l'arrivée d'Oracle Database@AWS pour simplifier vos migrations, et la consistance forte multi-région pour DynamoDB Global Tables. Découvrez également les nouvelles fonctionnalités d'Amazon Nova Canvas pour l'essayage virtuel, l'extension de DSQL à la région Paris, et le lancement du AWS Builder Center, le nouveau portail communautaire. Un épisode incontournable pour rester à jour sur l'écosystème AWS!"
-episode: 308
+episode: 309
 duration: "00:16:55"
 size: 18711115
 file: "309.mp3"
