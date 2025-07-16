@@ -2,8 +2,8 @@
 title: "Diversité et Innovation : Comment bâtir une biotech inclusive"
 description: "Dans cet épisode, nous recevons Adèle James, co-fondatrice de Phagos, une startup qui développe des traitements innovants contre les infections bactériennes en combinant microbiologie et intelligence artificielle. Elle nous parle de sa technologie basée sur les bactériophages, ces prédateurs naturels des bactéries, mais aussi de son parcours d'entrepreneure et de la culture d'inclusion qu'elle développe au sein de son entreprise de presque 40 personnes. Une discussion passionnante à la croisée de la biotech, de l'IA et de la diversité."
 episode: 310
-duration: "00:31:42"
-size: 33654322
+duration: "00:31:32"
+size: 33463199
 file: "310.mp3"
 social-background: "310.png"
 category: "podcasts"
