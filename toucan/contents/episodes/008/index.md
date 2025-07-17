@@ -6,7 +6,7 @@
   \ ne puisse détacher le compte de l'organisation ni altérer les autorisations du\
   \ compte Maître sur ce compte.\nNous allons parler de Amazon Identity & Access Management,\
   \ politiques de sécurité et Service Control Policies (SCP)"
-"episode": !!int "8"
+"episode": "008"
 "duration": "00:34:15"
 "size": !!int "65774156"
 "file": "008.mp3"

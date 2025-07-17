@@ -6,9 +6,9 @@
   \ dans le cloud AWS et conservez la clé en toute sécurité chez un tier de confiance.\
   \ Quels sont les besoins des métiers qui mettent en oeuvre cette solution ? Comment\
   \ ca marche d'un point de vue technique ? Ce sont les sujets de cette semaine."
-"episode": !!int "71"
+"episode": "071"
 "duration": "00:31:17"
-"size": !!int "60066505"
+"size": "60066505"
 "file": "071.mp3"
 "category": "podcasts"
 "appleEpisodeId": !!int "1000663120156"

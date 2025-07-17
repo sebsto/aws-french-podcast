@@ -3,9 +3,9 @@
 "description": "Debrief des 2 premières keynotes: Au deuxième jour de AWS re:Invent,\
   \ je reçois Virginie et Jérémie pour débriefer les keynotes de Peter de Santis et\
   \ Matt Garman"
-"episode": !!int "265"
+"episode": "265"
 "duration": "00:20:54"
-"size": !!int "40141554"
+"size": "40141554"
 "file": "265.mp3"
 "category": "podcasts"
 "appleEpisodeId": !!int "1000679346381"
