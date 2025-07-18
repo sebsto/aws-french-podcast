@@ -1,6 +1,6 @@
 ---
 title: "Boostez vos fonctions Lambda avec Rust 🦀"
-description: "Dans cet épisode, nous explorons l'utilisation du langage Rust pour développer des fonctions AWS Lambda avec notre invité Jérémy, AWS Hero. Découvrez pourquoi Rust est un excellent choix pour vos applications serverless : performances exceptionnelles avec des temps d'exécution jusqu'à 70 fois plus rapides que Python, sécurité renforcée grâce au système de typage strict, et facilité de maintenance sur le long terme. Jérémy partage son expérience concrète après 2 ans d'utilisation en production, avec des conseils pratiques pour démarrer et des benchmarks détaillés. Un épisode incontournable pour les développeurs souhaitant optimiser leurs applications serverless !"
+description: "Dans cet épisode, nous explorons l'utilisation du langage Rust pour développer des fonctions AWS Lambda avec notre invité Jérémie, AWS Hero. Découvrez pourquoi Rust est un excellent choix pour vos applications serverless : performances exceptionnelles avec des temps d'exécution jusqu'à 70 fois plus rapides que Python, sécurité renforcée grâce au système de typage strict, et facilité de maintenance sur le long terme. Jérémie partage son expérience concrète après 2 ans d'utilisation en production, avec des conseils pratiques pour démarrer et des benchmarks détaillés. Un épisode incontournable pour les développeurs souhaitant optimiser leurs applications serverless !"
 episode: 311
 duration: "00:45:41"
 size: 52694187
