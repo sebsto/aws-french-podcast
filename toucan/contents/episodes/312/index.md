@@ -13,7 +13,7 @@ author: "Sébastien Stormacq"
 links:
 - text: "Développer un agent IA avec Strands (blog en français)"
   link: https://aws.amazon.com/fr/blogs/france/strands-le-framework-python-qui-facilite-la-creation-dagents-ia/
-- text: Kiro
+- text: "Kiro"
   link: https://kiro.dev/
 - text: "Amazon Bedrock AgentCore"
   link: https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/
