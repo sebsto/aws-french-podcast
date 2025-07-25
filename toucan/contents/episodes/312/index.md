@@ -1,6 +1,6 @@
 ---
 title: "Les nouveautés AWS au 25 juillet"
-description: "Cette semaine, plongez dans les principales annonces du AWS Summit de New York ! Au programme : découvrez Kiro, le nouvel outil de développement 'spécifications d'abord', et Bedrock AgentCore qui transforme le déploiement d'agents IA. Bonne nouvelle pour les nouveaux utilisateurs AWS : un nouveau Free Tier repensé qui évite les mauvaises surprises. Les développeurs serverless ne sont pas en reste avec des améliorations notables pour AWS Lambda, notamment le debugging à distance. Un épisode riche en nouveautés qui vous donnera une longueur d'avance dans votre utilisation d'AWS !""
+description: "Cette semaine, plongez dans les principales annonces du AWS Summit de New York ! Au programme : découvrez Kiro, le nouvel outil de développement 'spécifications d'abord', et Bedrock AgentCore qui transforme le déploiement d'agents IA. Bonne nouvelle pour les nouveaux utilisateurs AWS : un nouveau Free Tier repensé qui évite les mauvaises surprises. Les développeurs serverless ne sont pas en reste avec des améliorations notables pour AWS Lambda, notamment le debugging à distance. Un épisode riche en nouveautés qui vous donnera une longueur d'avance dans votre utilisation d'AWS !"
 episode: 312
 duration: "00:17:24"
 size: 19680424
