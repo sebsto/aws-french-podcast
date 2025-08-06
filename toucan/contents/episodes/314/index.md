@@ -20,7 +20,7 @@ guests:
 publication: "2025-08-06 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
-- text: "Le summit AWS à Paris
+- text: "Le summit AWS à Paris"
   link: https://aws.amazon.com/events/summits/paris/
 - text: "Womain In Tech @ AWS"
   link: https://aws.amazon.com/careers/life-at-aws-how-aws-is-helping-women-and-girls-succeed-in-technology-careers/
