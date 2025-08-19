@@ -23,7 +23,7 @@ guests:
 - name: "Aurélie Jacquot"
   link: https://www.linkedin.com/in/aur%C3%A9lie-jacquot-%E2%99%A0%EF%B8%8F-capgemini-5698a61b/
   title: "Directrice Relations Ecoles & Universités"   
-publication: "2025-08-06 04:00:00 +0100"
+publication: "2025-08-20 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Le summit AWS à Paris"
