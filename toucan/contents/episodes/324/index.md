@@ -1,6 +1,6 @@
 ---
 title: "Les nouveautés AWS au 3 octobre"
-description: "Dans cet épisode, découvrez les dernières nouveautés AWS des deux dernières semaines. Au programme : un nouveau mode de déploiement hybride pour ECS, des améliorations pour S3 avec l'augmentation des limites de scan malware et l'introduction des conditional deletes. Nous parlons également des nouvelles possibilités de connexion storage pour Outpost avec le support de Dell PowerStore et HP Aletra Storage. Côté IA, découvrez les nouveaux modèles disponibles sur Amazon Bedrock, dont le très attendu Claude Sonnet 4.5 d'Anthropic. Enfin, nous explorons les nouvelles fonctionnalités d'Amazon Q Developer, notamment le support des remote MCP servers et la fonction expérimentale "tangent"."
+description: "Dans cet épisode, découvrez les dernières nouveautés AWS des deux dernières semaines. Au programme : un nouveau mode de déploiement hybride pour ECS, des améliorations pour S3 avec l'augmentation des limites de scan malware et l'introduction des conditional deletes. Nous parlons également des nouvelles possibilités de connexion storage pour Outpost avec le support de Dell PowerStore et HP Aletra Storage. Côté IA, découvrez les nouveaux modèles disponibles sur Amazon Bedrock, dont le très attendu Claude Sonnet 4.5 d'Anthropic. Enfin, nous explorons les nouvelles fonctionnalités d'Amazon Q Developer, notamment le support des remote MCP servers et la fonction expérimentale \"tangent\"."
 episode: 324
 duration: "00:15:45"
 size: 18674253
