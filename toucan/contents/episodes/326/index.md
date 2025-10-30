@@ -1,6 +1,6 @@
 ---
 title: "Les nouveautés AWS au 17 octobre"
-description: "94 nouveauté mais 'que' 28 qui ne sont pas des expansiosn regionales. J'en ai choisi 13 pour vous aujourd'hui"
+description: "94 nouveautés mais 'que' 28 qui ne sont pas des expansiosn regionales. J'en ai choisi 13 pour vous aujourd'hui"
 episode: 326
 duration: "00:19:43"
 size: 24536465
