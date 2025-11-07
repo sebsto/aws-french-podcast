@@ -1,6 +1,6 @@
 ---
 title: "Shift Down : Quand la plateforme libère les développeurs"
-description: "Dans cet épisode du podcast AWS en français, nous explorons le concept de Platform Engineering avec Claude Ampigny et Olivier Jacques, consultants AWS ProServe. Nous discutons de l'évolution du "shift left" vers le \"shift down\", et comment les entreprises créent des plateformes internes pour simplifier la vie de leurs développeurs. Nos invités partagent leur expérience sur la création de plateformes qui permettent de réduire drastiquement le "Time to Hello World" tout en respectant les contraintes d'entreprise. Nous abordons également l'importance de l'approche produit, le rôle des équipes plateforme, et comment l'IA générative s'intègre dans cette évolution."
+description: "Dans cet épisode du podcast AWS en français, nous explorons le concept de Platform Engineering avec Claude Ampigny et Olivier Jacques, consultants AWS ProServe. Nous discutons de l'évolution du \"shift left\" vers le \"shift down\", et comment les entreprises créent des plateformes internes pour simplifier la vie de leurs développeurs. Nos invités partagent leur expérience sur la création de plateformes qui permettent de réduire drastiquement le \"Time to Hello World\" tout en respectant les contraintes d'entreprise. Nous abordons également l'importance de l'approche produit, le rôle des équipes plateforme, et comment l'IA générative s'intègre dans cette évolution."
 episode: 329
 duration: "00:42:39"
 size: 56029528
