@@ -36,8 +36,8 @@ export class PipelineStack extends cdk.Stack {
   
     // Create SNS topic for build failure notifications
     const buildFailureTopic = new sns.Topic(this, 'BuildFailureTopic', {
-      topicName: 'aws-developers-podcast-build-failures',
-      displayName: 'AWS Developers Podcast Build Failures'
+      topicName: 'aws-french-podcast-build-failures',
+      displayName: 'AWS French Podcast Build Failures'
     });
 
     // Add email subscription
@@ -137,7 +137,7 @@ export class PipelineStack extends cdk.Stack {
     // Add SNS topic as target for the rule
     pipelineFailureRule.addTarget(new targets.SnsTopic(buildFailureTopic, {
       message: events.RuleTargetInput.fromText(
-        'AWS Developers Podcast pipeline failed!\n\n' +
+        'Podcast en Français pipeline failed!\n\n' +
         'Pipeline: ${detail.pipeline}\n' +
         'Execution ID: ${detail.execution-id}\n' +
         'State: ${detail.state}\n' +
