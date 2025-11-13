@@ -2,8 +2,8 @@
 title: "Les nouveautés AWS au 14 novembre"
 description: "Cette semaine, découvrez les dernières nouveautés AWS avec un status sur l'adoption d'IPv6 à travers plusieurs services majeurs comme CloudFront, S3, ElastiCache et RDS. Amazon Linux 2023 accueille la toolchain Swift, ECS propose de nouveaux types de déploiements, et DCV supporte désormais les instances EC2 Mac. Sans oublier des changements importants pour Cognito et l'introduction d'AWS Capabilities by Region pour faciliter vos déploiements globaux. Un épisode riche en annonces pour rester à jour sur les nouveautés AWS."
 episode: 330
-duration: "00:00:00"
-size: 00
+duration: "00:18:14"
+size: 22386459
 file: "330.mp3"
 social-background: "330.png"
 category: "podcasts"
