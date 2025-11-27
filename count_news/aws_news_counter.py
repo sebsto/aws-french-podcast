@@ -24,7 +24,7 @@ def is_regional_expansion(entry_title, entry_summary):
     
     # Check title and summary for region expansion patterns
     for pattern in region_patterns:
-        if re.search(pattern, entry_title.lower()) or re.search(pattern, entry_summary.lower()):
+        if re.search(pattern, entry_title.lower()): # or re.search(pattern, entry_summary.lower()):
             return True
     
     return False
