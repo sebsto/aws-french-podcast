@@ -10,7 +10,7 @@ Lambda connaît des évolutions majeures avec les Durable Functions, qui permett
 
 La grande annonce économique reste les Database Saving Plans, attendus depuis des années. Cross-service et cross-région, ils couvrent RDS, DynamoDB, ElastiCache et DMS, avec des économies de 15 à 35%. Pascal regrette juste qu'OpenSearch ne soit pas considéré comme un service de base de données.
 
-Nous évoquons aussi les nouveaux forfaits CloudFront pour rassurer les petites entreprises effrayées par la facturation à l'usage, les agents IA "frontière" pour le DevOps et la sécurité, et quelques améliorations bienvenues comme la transparence accrue d'AWS sur la disponibilité des services par région."
+Nous évoquons aussi les nouveaux forfaits CloudFront pour rassurer les petites entreprises effrayées par la facturation à l'usage, les agents IA \"frontière\" pour le DevOps et la sécurité, et quelques améliorations bienvenues comme la transparence accrue d'AWS sur la disponibilité des services par région."
 episode: 335
 duration: "00:51:58"
 size: 70156380
