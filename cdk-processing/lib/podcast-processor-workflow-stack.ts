@@ -58,6 +58,8 @@ const s3Client = new S3Client({ region: process.env.AWS_REGION });
 const bedrockClient = new BedrockRuntimeClient({ region: process.env.AWS_REGION });
 
 exports.handler = async (event) => {
+
+  console.log(JSON.stringify(event))
   console.log('Processing content generation for:', JSON.stringify(event, null, 2));
 
   try {
@@ -91,18 +93,16 @@ exports.handler = async (event) => {
     // Call Bedrock
     console.log('Calling Bedrock...');
     const bedrockRequest = {
-      anthropic_version: 'bedrock-2023-05-31',
-      max_tokens: 2000,
       messages: [
         {
           role: 'user',
-          content: prompt
+          content: [ {"text": prompt}]
         }
       ]
     };
 
     const invokeCommand = new InvokeModelCommand({
-      modelId: 'anthropic.claude-3-5-sonnet-20240620-v1:0',
+      modelId: 'eu.amazon.nova-2-lite-v1:0',
       body: JSON.stringify(bedrockRequest),
       contentType: 'application/json',
       accept: '*/*'
@@ -110,11 +110,12 @@ exports.handler = async (event) => {
 
     const bedrockResponse = await bedrockClient.send(invokeCommand);
     const responseBody = JSON.parse(new TextDecoder().decode(bedrockResponse.body));
+    console.log(JSON.stringify(responseBody))
     
     console.log('Successfully generated content with Bedrock');
 
     return {
-      generatedContent: responseBody.content[0].text,
+      generatedContent: responseBody.output.message.content[0].text,
       transcriptKey: event.key,
       bucket: event.bucket,
       success: true
