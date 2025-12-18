@@ -1,5 +1,5 @@
 ---
-title: "Maturité, confiance et souveraineté : les enjeux en 2026"
+title: "Maturité, confiance et souveraineté : le trio gagnant en 2026"
 description: "Dans cet épisode, j'ai recnontré Clément David, CEO de Théodo Cloud et Théodo Data, pour parler des tendances observées en 2025 et des perspectives pour 2026 dans le domaine de l'IA et du cloud. Nous abordons la maturité croissante des entreprises face à l'IA, les enjeux de disponibilité et de souveraineté, ainsi que l'évolution des modèles économiques. La discussion met en lumière le passage d'une phase d'euphorie à une approche plus rationnelle de l'IA, avec un focus sur l'intégration \"by design\" dans les stratégies d'entreprise. Nous partageons nos réflexions sur les défis à venir, notamment en termes de confiance, de fiabilité et d'adoption responsable des technologies IA."
 episode: 339
 duration: "00:35:06"
