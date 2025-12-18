@@ -15,7 +15,8 @@ PODCAST_BUCKET=aws-french-podcast-media
 MEDIA_PREFIX=media
 IMG_PREFIX=img
 
-LOCAL_PODCAST=~/Documents/amazon/te/2025/10\ -\ podcast\ FR
+# LOCAL_PODCAST=~/Documents/amazon/te/2025/10\ -\ podcast\ FR
+LOCAL_PODCAST=~/Library/CloudStorage/OneDrive-amazon.com/te/2026/10\ -\ podcast
 
 # check dependency on mwinit
 which mwinit > /dev/null
