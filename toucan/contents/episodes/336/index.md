@@ -16,7 +16,7 @@ category: "podcasts"
 publication: "2025-12-19 04:00:00 +0100"
 author: "Sébastien Stormacq"
 guests:
-- name: "Stéphan Hadinger"
+- name: "Stephan Hadinger"
   link: "https://www.linkedin.com/in/shadinger/"
   title: "Directeur Technique, AWS France"
 links:
