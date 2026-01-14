@@ -1,0 +1,15 @@
+[project]
+name = "bulk-transcribe"
+version = "1.0.0"
+description = "One-off script to bulk transcribe podcast episodes"
+requires-python = ">=3.8"
+dependencies = [
+    "boto3>=1.26.0",
+]
+
+[project.scripts]
+bulk-transcribe = "bulk_transcribe:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
