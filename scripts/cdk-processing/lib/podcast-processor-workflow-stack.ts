@@ -88,7 +88,7 @@ exports.handler = async (event) => {
 
 \${transcriptText}
 
-Écris la description de cet épisode qui accompagnera l'épisode dans les applications de podcast et sur le site web. Propose aussi deux ou trois titres qui donnent envie d'écouter cet épisode. Écrit aussi deux descriptions pour partager l'épisode du jour sur les réseaux sociaux. Une version pour LinkedIn et une courte (200 caractères maximum) pour Twitter. Utilise un ton factuel et neutre. La plupart des nouveautés ne sont pas "des innovations qui vont révolutionner" quoi que ce soit. Tu parles à un public tech qui n'aime pas le bullshit ou les emphases non nécessaires. N'utilise pas de bullet point, plutôt un narratif. Fais une utilisation raisonnable des émojis dans les messages pour les réseaux sociaux. IMPORTANT: Réponds UNIQUEMENT avec du JSON valide, sans texte avant ou après. Utilise exactement cette structure : {"titles":["Titre 1","Titre 2","Titre 3"],"description":"Description narrative de l'épisode","social_media":{"linkedin":"Version LinkedIn","twitter":"Version Twitter (max 200 caractères)"}}\`;
+Écris la description de cet épisode qui accompagnera l'épisode dans les applications de podcast et sur le site web. Propose aussi deux ou trois titres qui donnent envie d'écouter cet épisode. Écrit aussi deux descriptions pour partager l'épisode du jour sur les réseaux sociaux. Une version pour LinkedIn et une courte (200 caractères maximum) pour Twitter. Utilise un ton factuel et neutre. La plupart des nouveautés ne sont pas "des innovations qui vont révolutionner" quoi que ce soit. Tu parles à un public tech qui n'aime pas le bullshit ou les emphases non nécessaires. N'utilise pas de bullet point, plutôt un narratif. Fais une utilisation raisonnable des émojis dans les messages pour les réseaux sociaux. IMPORTANT: Réponds UNIQUEMENT avec du JSON valide, sans markdown, sans balises de code, sans texte avant ou après. Utilise exactement cette structure : {"titles":["Titre 1","Titre 2","Titre 3"],"description":"Description narrative de l'épisode","social_media":{"linkedin":"Version LinkedIn","twitter":"Version Twitter (max 200 caractères)"}}\`;
 
     // Call Bedrock
     console.log('Calling Bedrock...');
@@ -112,10 +112,23 @@ exports.handler = async (event) => {
     const responseBody = JSON.parse(new TextDecoder().decode(bedrockResponse.body));
     console.log(JSON.stringify(responseBody))
     
+    // Extract the text content from Bedrock response
+    let generatedText = responseBody.output.message.content[0].text;
+    
+    // Strip markdown code block wrapper if present (triple backticks)
+    if (generatedText.startsWith('\`\`\`')) {
+      const lines = generatedText.split('\\n');
+      // Remove first line (opening backticks) and last line (closing backticks)
+      generatedText = lines.slice(1, -1).join('\\n').trim();
+    }
+    
+    // Validate it's valid JSON before returning
+    JSON.parse(generatedText); // This will throw if invalid
+    
     console.log('Successfully generated content with Bedrock');
 
     return {
-      generatedContent: responseBody.output.message.content[0].text,
+      generatedContent: generatedText,
       transcriptKey: event.key,
       bucket: event.bucket,
       success: true
