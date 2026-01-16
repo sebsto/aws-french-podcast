@@ -77,6 +77,7 @@ export class PodcastProcessorEventStack extends cdk.Stack {
     });
 
     // EventBridge rule to capture transcription completion events (JSON files in text/ folder)
+    // Filter for files ending with -transcribe.json to avoid triggering on temp/test files
     this.transcriptionCompletionRule = new events.Rule(this, 'TranscriptionCompletionRule', {
       description: 'Triggers content generation workflow when transcription JSON files are created or updated in text/ folder',
       eventPattern: {
@@ -88,7 +89,7 @@ export class PodcastProcessorEventStack extends cdk.Stack {
           },
           object: {
             key: [{
-              prefix: 'text/'
+              suffix: '-transcribe.json'
             }]
           }
         }

@@ -68,6 +68,28 @@ exports.handler = async (event) => {
       throw new Error('Missing required parameters: bucket and key must be provided');
     }
 
+    // Validate that the file is a transcription file
+    if (!event.key.endsWith('-transcribe.json')) {
+      console.log('Skipping non-transcription file:', event.key);
+      return {
+        skipped: true,
+        reason: 'Not a transcription file',
+        key: event.key,
+        success: true
+      };
+    }
+
+    // Validate that the file is in the text/ folder
+    if (!event.key.startsWith('text/')) {
+      console.log('Skipping file outside text/ folder:', event.key);
+      return {
+        skipped: true,
+        reason: 'File not in text/ folder',
+        key: event.key,
+        success: true
+      };
+    }
+
     // Fetch transcript content from S3
     console.log('Fetching transcript from S3...');
     const getObjectCommand = new GetObjectCommand({
@@ -77,10 +99,29 @@ exports.handler = async (event) => {
 
     const s3Response = await s3Client.send(getObjectCommand);
     const transcriptContent = await s3Response.Body.transformToString();
-    const transcriptJson = JSON.parse(transcriptContent);
+    
+    // Validate JSON structure
+    let transcriptJson;
+    try {
+      transcriptJson = JSON.parse(transcriptContent);
+    } catch (parseError) {
+      console.error('Invalid JSON in transcript file:', parseError);
+      throw new Error('Transcript file is not valid JSON');
+    }
+    
+    // Validate transcript structure
+    if (!transcriptJson.results || !transcriptJson.results.transcripts || !transcriptJson.results.transcripts[0]) {
+      console.error('Invalid transcript structure:', JSON.stringify(transcriptJson, null, 2));
+      throw new Error('Transcript file does not have expected structure (missing results.transcripts)');
+    }
     
     // Extract the transcript text
     const transcriptText = transcriptJson.results.transcripts[0].transcript;
+    
+    if (!transcriptText || transcriptText.trim().length === 0) {
+      throw new Error('Transcript text is empty');
+    }
+    
     console.log('Successfully fetched transcript, length:', transcriptText.length);
 
     // Prepare the prompt for Bedrock
