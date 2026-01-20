@@ -153,7 +153,7 @@ When working with files, extract the episode number from the filename:
 
 ## Important Notes
 
-- **Episode numbers are always integers** (no leading zeros in filenames)
+- **Episode numbers are always numbers express as strings of three chars** (with leading zeros in filenames)
 - **All files for an episode must use the same episode number**
 - **Transcription files always end with `-transcribe.json`**
 - **Image files always use `.png` format**
