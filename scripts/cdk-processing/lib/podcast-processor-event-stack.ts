@@ -4,11 +4,13 @@ import * as targets from 'aws-cdk-lib/aws-events-targets';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import * as cr from 'aws-cdk-lib/custom-resources';
 import * as stepfunctions from 'aws-cdk-lib/aws-stepfunctions';
+import * as lambda from 'aws-cdk-lib/aws-lambda';
 import { Construct } from 'constructs';
 
 export interface PodcastProcessorEventStackProps extends cdk.StackProps {
   transcriptionStateMachine?: stepfunctions.IStateMachine;
   contentGenerationStateMachine?: stepfunctions.IStateMachine;
+  documentProcessorFunction?: lambda.IFunction;
 }
 
 export class PodcastProcessorEventStack extends cdk.Stack {
@@ -134,6 +136,14 @@ export class PodcastProcessorEventStack extends cdk.Stack {
       this.transcriptionCompletionRule.addTarget(new targets.SfnStateMachine(props.contentGenerationStateMachine, {
         input: events.RuleTargetInput.fromEventPath('$.detail'),
         role: eventBridgeStepFunctionsRole
+      }));
+    }
+
+    // Add Document Processor Lambda target for transcription completion
+    // This Lambda processes transcriptions for the Knowledge Base
+    if (props?.documentProcessorFunction) {
+      this.transcriptionCompletionRule.addTarget(new targets.LambdaFunction(props.documentProcessorFunction, {
+        event: events.RuleTargetInput.fromEventPath('$.detail')
       }));
     }
 

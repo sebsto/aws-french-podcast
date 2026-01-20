@@ -91,7 +91,7 @@ describe('Podcast Processor Infrastructure', () => {
           },
           object: {
             key: [{
-              prefix: 'text/'
+              suffix: '-transcribe.json'
             }]
           }
         }

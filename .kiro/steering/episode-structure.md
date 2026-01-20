@@ -45,7 +45,12 @@ All files for an episode use the episode number in their filename. For example, 
 ### Transcription File (1 per episode)
 - **Location**: `s3://aws-french-podcast-media/text/`
 - **Format**: `{episode_number}-transcribe.json`
-- **Example**: `341-transcribe.json`
+  - Episodes 1-99: Zero-padded (e.g., `001-transcribe.json`, `099-transcribe.json`)
+  - Episodes 100+: No padding (e.g., `100-transcribe.json`, `341-transcribe.json`)
+- **Examples**: 
+  - `001-transcribe.json` (episode 1)
+  - `099-transcribe.json` (episode 99)
+  - `341-transcribe.json` (episode 341)
 - **Content**: JSON output from Amazon Transcribe service
 
 ## Local Episode Metadata
@@ -148,12 +153,15 @@ aws s3 cp 341-bannerv.png s3://aws-french-podcast-media/img/ --profile podcast -
 When working with files, extract the episode number from the filename:
 
 - From MP3: `341.mp3` → `341`
-- From transcription: `341-transcribe.json` → `341`
+- From transcription: 
+  - `001-transcribe.json` → `1` (episodes 1-99 use zero-padding)
+  - `341-transcribe.json` → `341` (episodes 100+ use no padding)
 - From images: `341.png`, `341-bannerh.png`, `341-bannerv.png` → `341`
 
 ## Important Notes
 
-- **Episode numbers are always numbers express as strings of three chars** (with leading zeros in filenames)
+- **Episode numbers are integers, but transcription filenames for episodes 1-99 use zero-padding (001, 002, etc.)**
+- **Episodes 100+ use regular numbers in all filenames (no leading zeros)**
 - **All files for an episode must use the same episode number**
 - **Transcription files always end with `-transcribe.json`**
 - **Image files always use `.png` format**

@@ -1,0 +1,32 @@
+{
+  "name": "bulk-knowledge-base-ingestion",
+  "version": "1.0.0",
+  "description": "One-time migration script for ingesting historical podcast episodes into Bedrock Knowledge Base",
+  "private": true,
+  "scripts": {
+    "migrate": "AWS_PROFILE=podcast npx ts-node migrate-historical-episodes.ts",
+    "migrate:dry-run": "echo 'Dry run mode not implemented. Use migrate script with caution.'",
+    "check-env": "node -e \"console.log('Knowledge Base ID:', process.env.KNOWLEDGE_BASE_ID || 'OT4JU2FZZF (default)'); console.log('Data Source ID:', process.env.DATA_SOURCE_ID || 'CVHXBD68AY (default)'); console.log('AWS Profile:', process.env.AWS_PROFILE || 'not set');\""
+  },
+  "keywords": [
+    "aws",
+    "bedrock",
+    "knowledge-base",
+    "migration",
+    "podcast"
+  ],
+  "author": "AWS French Podcast Team",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

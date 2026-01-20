@@ -3,6 +3,7 @@ import * as cdk from 'aws-cdk-lib';
 import { PodcastProcessorIamStack } from '../lib/podcast-processor-iam-stack';
 import { PodcastProcessorEventStack } from '../lib/podcast-processor-event-stack';
 import { PodcastProcessorWorkflowStack } from '../lib/podcast-processor-workflow-stack';
+import { PodcastKnowledgeBaseStack } from '../lib/podcast-knowledge-base-stack';
 
 const app = new cdk.App();
 
@@ -26,14 +27,29 @@ const workflowStack = new PodcastProcessorWorkflowStack(app, 'PodcastProcessorWo
   transcribeRole: iamStack.transcribeRole
 });
 
+// Knowledge Base Stack - Contains Bedrock Knowledge Base with S3 Vectors storage
+// Created before Event Stack so we can pass the Lambda function to EventBridge
+const knowledgeBaseStack = new PodcastKnowledgeBaseStack(app, 'PodcastKnowledgeBaseStack', {
+  env,
+  description: 'Bedrock Knowledge Base with S3 Vectors for semantic search across podcast transcriptions',
+  alertTopic: workflowStack.alertTopic
+});
+
 // Event Stack - Contains EventBridge rules and S3 event configuration
 const eventStack = new PodcastProcessorEventStack(app, 'PodcastProcessorEventStack', {
   env,
   description: 'EventBridge rules and S3 event configuration for podcast processor',
   transcriptionStateMachine: workflowStack.transcriptionStateMachine,
-  contentGenerationStateMachine: workflowStack.contentGenerationStateMachine
+  contentGenerationStateMachine: workflowStack.contentGenerationStateMachine,
+  documentProcessorFunction: knowledgeBaseStack.documentProcessorFunction
 });
 
-// Add dependencies
+// Add dependencies to ensure correct deployment order:
+// 1. IamStack (base IAM roles)
+// 2. WorkflowStack (Step Functions and SNS topics)
+// 3. KnowledgeBaseStack (Bedrock Knowledge Base and Lambda)
+// 4. EventStack (EventBridge rules connecting everything)
 workflowStack.addDependency(iamStack);
+knowledgeBaseStack.addDependency(workflowStack);
 eventStack.addDependency(workflowStack);
+eventStack.addDependency(knowledgeBaseStack);

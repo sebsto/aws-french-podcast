@@ -1,0 +1,13 @@
+{
+  "vectorBucketName": "french-podcast-kb-vectors-533267385481",
+  "indexName": "podcast-kb-vector-index",
+  "dataType": "float32",
+  "dimension": 1024,
+  "distanceMetric": "cosine",
+  "metadataConfiguration": {
+    "nonFilterableMetadataKeys": [
+      "AMAZON_BEDROCK_TEXT",
+      "AMAZON_BEDROCK_METADATA"
+    ]
+  }
+}
