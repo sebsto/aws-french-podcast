@@ -298,14 +298,16 @@ exports.handler = async (event) => {
     });
 
     // Alarm for content generation workflow failures
+    // Note: Threshold is set to 3 to avoid false alarms from retry attempts
+    // The workflow has 2 retry attempts, so only alert if all retries fail
     const contentGenerationFailureAlarm = new cloudwatch.Alarm(this, 'ContentGenerationWorkflowFailureAlarm', {
       alarmName: 'podcast-content-generation-workflow-failures',
-      alarmDescription: 'Alarm when content generation workflow executions fail',
+      alarmDescription: 'Alarm when content generation workflow executions fail after all retries',
       metric: this.contentGenerationStateMachine.metricFailed({
         period: cdk.Duration.minutes(5),
         statistic: 'Sum'
       }),
-      threshold: 1,
+      threshold: 3,
       evaluationPeriods: 1,
       comparisonOperator: cloudwatch.ComparisonOperator.GREATER_THAN_OR_EQUAL_TO_THRESHOLD,
       treatMissingData: cloudwatch.TreatMissingData.NOT_BREACHING
