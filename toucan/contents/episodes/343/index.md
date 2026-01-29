@@ -15,6 +15,8 @@ links:
   link: https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7e-instances-accelerated-by-nvidia-rtx-pro-6000-blackwell-server-edition-gpus/
 - text: "Announcing general availability of Amazon EC2 M4 Max Mac instances"
   link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m4-max-mac-instances-ga/
+- text: "AWS re:Invent 2025 - Supercharge ML and Inference on Apple Silicon with EC2 Mac (CMP346)"
+  link: https://www.youtube.com/watch?v=-nOYLs77aKc
 - text: "Amazon ECR now supports cross-repository layer sharing to optimize storage and improve push performance"
   link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/
 - text: "Amazon Corretto January 2026 Quarterly Updates"
