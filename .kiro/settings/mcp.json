@@ -1,4 +1,40 @@
 {
   "mcpServers": {
+    "strands-agents": {
+      "command": "uvx",
+      "args": ["strands-agents-mcp-server"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "INFO"
+      },
+      "disabled": true,
+      "autoApprove": ["search_docs", "fetch_doc"]
+    },
+    "podcast-search": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/stormacq/Documents/amazon/code/podcast/aws_french_podcast/podcast-search-mcp-server",
+        "podcast_search_server.py"
+      ],
+      "env": {
+        "AWS_PROFILE": "podcast",
+        "AWS_REGION": "eu-central-1",
+        "RSS_FEED_URL": "https://francais.podcast.go-aws.com/web/feed.xml",
+        "BEDROCK_KB_ID": "OT4JU2FZZF",
+        "CACHE_TTL_SECONDS": "3600",
+        "MAX_SEMANTIC_RESULTS": "10",
+        "MCP_TRANSPORT": "stdio",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "get_episode_by_id",
+        "search_by_date_range",
+        "search_by_guest",
+        "semantic_search",
+        "search_episodes"
+      ]
+    }    
   }
 }
