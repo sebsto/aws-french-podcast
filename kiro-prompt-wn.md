@@ -1,0 +1,1 @@
+based on the list of links here, and the template from previous episodes (such as 343) write the title, the description and format the list of links.  Use your web tools to read each URL
