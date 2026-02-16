@@ -7,7 +7,16 @@ const bedrockClient = new BedrockAgentClient({ region: process.env.AWS_REGION })
 const snsClient = new SNSClient({ region: process.env.AWS_REGION });
 
 interface EventBridgeEvent {
-  detail: {
+  // When invoked via EventBridge with InputPath: $.detail,
+  // the Lambda receives the detail content directly (no wrapper).
+  // Support both shapes for resilience.
+  bucket?: {
+    name: string;
+  };
+  object?: {
+    key: string;
+  };
+  detail?: {
     bucket?: {
       name: string;
     };
@@ -51,9 +60,10 @@ export const handler = async (event: EventBridgeEvent): Promise<any> => {
   let episodeNumber: number | undefined;
 
   try {
-    // Parse S3 event from EventBridge
-    const bucket = event.detail?.bucket?.name || 'aws-french-podcast-media';
-    const key = event.detail?.object?.key;
+    // Parse S3 event - support both direct detail content (InputPath: $.detail)
+    // and full EventBridge event shapes
+    const bucket = event.bucket?.name || event.detail?.bucket?.name || 'aws-french-podcast-media';
+    const key = event.object?.key || event.detail?.object?.key;
 
     if (!key) {
       throw new Error('Missing object key in event');
