@@ -134,16 +134,18 @@ exports.handler = async (event) => {
     // Call Bedrock
     console.log('Calling Bedrock...');
     const bedrockRequest = {
+      max_tokens: 4096,
+      anthropic_version: 'bedrock-2023-05-31',
       messages: [
         {
           role: 'user',
-          content: [ {"text": prompt}]
+          content: [ {"type": "text", "text": prompt}]
         }
       ]
     };
 
     const invokeCommand = new InvokeModelCommand({
-      modelId: 'eu.amazon.nova-2-lite-v1:0',
+      modelId: 'global.anthropic.claude-opus-4-5-20251101-v1:0',
       body: JSON.stringify(bedrockRequest),
       contentType: 'application/json',
       accept: '*/*'
@@ -154,7 +156,7 @@ exports.handler = async (event) => {
     console.log(JSON.stringify(responseBody))
     
     // Extract the text content from Bedrock response
-    let generatedText = responseBody.output.message.content[0].text;
+    let generatedText = responseBody.content[0].text;
     
     // Strip markdown code block wrapper if present (triple backticks)
     if (generatedText.startsWith('\`\`\`')) {
