@@ -1,6 +1,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{site.name}}</title>
+{{#page.title}}
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:description" content="{{page.description}}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{site.url}}{{baseUrl}}/episodes/{{page.episode}}/index.html">
+<meta property="og:image" content="{{site.imagelink}}{{page.social-background}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{page.title}}">
+<meta name="twitter:description" content="{{page.description}}">
+<meta name="twitter:image" content="{{site.imagelink}}{{page.social-background}}">
+{{/page.title}}
 <link rel="shortcut icon" href="{{baseUrl}}/favicon.ico" />
 <script defer src="{{baseUrl}}/js/main.js"></script>
 <script defer src="{{baseUrl}}/js/rendering.js"></script>
