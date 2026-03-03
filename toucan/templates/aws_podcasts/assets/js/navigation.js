@@ -61,18 +61,58 @@ function createObserver() {
 /* 
   maxPages is defined and initialized in templates/partial/home/episodes.mustache
 */
+const MAX_AUTO_LOAD_PAGES = 3; // Stop infinite scroll after 3 pages (30 episodes)
+
 function handleIntersect(entries, observer) {
 	entries.forEach(entry => {
 		if (entry.isIntersecting) {
-			if (currentPage < maxPages) {
+			if (currentPage >= MAX_AUTO_LOAD_PAGES && currentPage < maxPages) {
+				console.log("Pausing infinite scroll - showing Load More button");
+				observer.disconnect();
+				showLoadMoreButton();
+			} else if (currentPage < maxPages) {
 				currentPage++;
 				console.log("loading page: " + currentPage);
 				loadPage(currentPage);
 			} else {
 				console.log("No more pages to load");
+				observer.disconnect();
 			}
 		}
 	});
+}
+
+function showLoadMoreButton() {
+	let scrollAnchor = document.querySelector('#scrollAnchor');
+	if (scrollAnchor) {
+		scrollAnchor.innerHTML = `
+			<div class="col-12 d-flex align-items-center justify-content-center py-5">
+				<button class="btn bg-light text-dark hover-gradient-1 cta-with-icon" id="loadMoreBtn">
+					<span class="cta__text cta__text--left">Load 10 more episodes</span>
+					<span class="cta__icon">
+						<svg>
+							<use xlink:href="episodes/images/arrow-right.svg#arrow-right"></use>
+						</svg>
+					</span>
+				</button>
+			</div>
+		`;
+		
+		document.getElementById('loadMoreBtn').addEventListener('click', function() {
+			if (currentPage < maxPages) {
+				currentPage++;
+				console.log("loading page: " + currentPage);
+				loadPage(currentPage);
+				
+				if (currentPage >= maxPages) {
+					scrollAnchor.innerHTML = '';
+				} else {
+					// Re-create observer for next batch
+					createObserver();
+				}
+			}
+		});
+	}
 }
 
 let currentPage = 1;
