@@ -49,7 +49,7 @@ export class PipelineStack extends cdk.Stack {
       environment: {
         // buildImage: codebuild.LinuxBuildImage.fromEcrRepository(repository, 'latest'),
         buildImage: codebuild.LinuxBuildImage.fromAsset(this, 'PAEFBuildImage', {
-          directory: './scripts/cdk-build/pipeline/docker',
+          directory: './docker',
           platform: Platform.LINUX_ARM64,
         }),
         privileged: false,
