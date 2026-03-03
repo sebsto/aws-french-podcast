@@ -63,25 +63,43 @@ then
 fi
 
 echo Uploading $1.mp3
-aws --profile podcast s3 cp "$FILE" s3://$PODCAST_BUCKET/$MEDIA_PREFIX/$1.mp3
+aws --profile podcast --region eu-central-1 s3 cp "$FILE" s3://$PODCAST_BUCKET/$MEDIA_PREFIX/$1.mp3
 
 upload_episode_image() {
-    local file_name="$1".png
+    local base_name="$1"
+    local png_file_name="${base_name}.png"
+    local webp_file_name="${base_name}.webp"
     
-    if [ -z "$file_name" ]; then
+    if [ -z "$base_name" ]; then
         echo "Error: Episode ID is required"
         return 1
     fi
 
-    FILE=$(find "$LOCAL_PODCAST" -name "$file_name")
+    # Find PNG file
+    PNG_FILE=$(find "$LOCAL_PODCAST" -name "$png_file_name")
 
-    if [ -z "$FILE" ]; then
-        echo "Image file $file_name does not exist in $LOCAL_PODCAST."
+    if [ -z "$PNG_FILE" ]; then
+        echo "Error: PNG file $png_file_name does not exist in $LOCAL_PODCAST."
         return 1
     fi
 
-    echo "Uploading $file_name"
-    aws --profile podcast s3 cp "$FILE" "s3://$PODCAST_BUCKET/$IMG_PREFIX/"
+    # Find WebP file
+    WEBP_FILE=$(find "$LOCAL_PODCAST" -name "$webp_file_name")
+
+    if [ -z "$WEBP_FILE" ]; then
+        echo "Error: WebP file $webp_file_name does not exist in $LOCAL_PODCAST."
+        echo "Please convert PNG to WebP before uploading."
+        return 1
+    fi
+
+    # Upload PNG
+    echo "Uploading $png_file_name"
+    aws --profile podcast --region eu-central-1 s3 cp "$PNG_FILE" "s3://$PODCAST_BUCKET/$IMG_PREFIX/"
+    
+    # Upload WebP with correct content-type
+    echo "Uploading $webp_file_name"
+    aws --profile podcast --region eu-central-1 s3 cp "$WEBP_FILE" "s3://$PODCAST_BUCKET/$IMG_PREFIX/" --content-type "image/webp"
+    
     return $?
 }
 
