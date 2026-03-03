@@ -6,7 +6,7 @@ WORKDIR /toucan
 RUN swift build -c release --static-swift-stdlib
 
 # NodeJS Stage
-FROM public.ecr.aws/amazonlinux/amazonlinux:2023-minimal
+FROM public.ecr.aws/amazonlinux/amazonlinux:2023
 
 # Install toucan
 COPY --from=toucan /toucan/.build/release/toucan-cli /usr/local/bin/toucan
