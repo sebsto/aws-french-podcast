@@ -3,7 +3,7 @@ SHELL=/bin/sh
 # if you need image optimization, you can install optipng and jpegoptim
 # brew install optipng jpegoptim
 
-TOUCAN="./scripts/toucan-docker.sh"
+TOUCAN="/usr/local/bin/toucan"
 
 # directories
 WEB_DIR=./src
