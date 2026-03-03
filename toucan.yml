@@ -9,3 +9,8 @@ targets:
       config: toucan
       input: toucan
       url: "https://francais.podcast.go-aws.com/web/"
+
+    - name: preview
+      config: toucan
+      input: toucan
+      url: "https://preview-fr.podcast.go-aws.com/web/"
