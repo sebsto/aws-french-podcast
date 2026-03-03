@@ -1,0 +1,1324 @@
+diff --git a/README.md b/README.md
+index f4669ab..3f1ecf0 100644
+--- a/README.md
++++ b/README.md
+@@ -29,7 +29,7 @@ Node version used is `23.3.0` as indicated by the .nvmrc file.
+ 
+ > [!IMPORTANT] 
+ > `index.html` was manually split to `mustache` template files.
+-> Any changes to `index.html` must be reported manually to the corresponding `.mustache` files in the `toucan/themes/aws_podcasts` directory
++> Any changes to `index.html` must be reported manually to the corresponding `.mustache` files in the `toucan/templates/aws_podcasts` directory
+ 
+ > [!NOTE]
+ > To install `toucan`: 
+diff --git a/package.json b/package.json
+index cf42afb..ab92f66 100644
+--- a/package.json
++++ b/package.json
+@@ -5,7 +5,7 @@
+   "scripts": {
+     "start": "webpack --watch",
+     "build": "webpack",
+-    "copy": "[[ ! -d build ]] && exit -1; echo 'Copying assets from build to toucan directory' && cp build/css/* toucan/themes/aws_podcasts/assets/css && cp build/fonts/* toucan/themes/aws_podcasts/assets/fonts && cp build/images/* toucan/themes/aws_podcasts/assets/images && cp build/js/* toucan/themes/aws_podcasts/assets/js && cp build/index.html toucan/themes/aws_podcasts/assets/_index.html && echo 'Done'",
++    "copy": "[[ ! -d build ]] && exit -1; echo 'Copying assets from build to toucan directory' && cp build/css/* toucan/templates/aws_podcasts/assets/css && cp build/fonts/* toucan/templates/aws_podcasts/assets/fonts && cp build/images/* toucan/templates/aws_podcasts/assets/images && cp build/js/* toucan/templates/aws_podcasts/assets/js && cp build/index.html toucan/templates/aws_podcasts/assets/_index.html && echo 'Done'",
+     "dist": "/usr/local/bin/toucan generate ./toucan ./dist --base-url https://developers.podcast.go-aws.com/web",
+     "preview": "/usr/local/bin/toucan generate ./toucan ./dist --base-url https://preview-en.podcast.go-aws.com"
+   },
+diff --git a/toucan.yml b/toucan.yml
+new file mode 100644
+index 0000000..094c87b
+--- /dev/null
++++ b/toucan.yml
+@@ -0,0 +1,11 @@
++targets:
++    - name: dev
++      config: toucan
++      input: toucan
++      default: true
++
++    - name: live
++      config: toucan
++      input: toucan
++      #output: /tmp/output
++      url: "https://developers.podcast.go-aws.com/web/"
+\ No newline at end of file
+diff --git a/toucan/config.yaml b/toucan/config.yaml
+deleted file mode 100644
+index f299232..0000000
+--- a/toucan/config.yaml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-themes: 
+-  use: "aws_podcasts"
+-contents:
+-  dateFormat: "yyyy-MM-dd HH:mm:ss Z"
+-  rss:
+-    output: feed.xml
+\ No newline at end of file
+diff --git a/toucan/config.yml b/toucan/config.yml
+new file mode 100644
+index 0000000..6d3aaf6
+--- /dev/null
++++ b/toucan/config.yml
+@@ -0,0 +1,20 @@
++site:
++    settings:
++        path: toucan
++blocks:
++    path: toucan/blocks
++contents:
++    path: toucan/contents
++pipelines:
++    path: toucan/pipelines
++templates:
++    location:
++        path: toucan/templates
++    current:
++        path: aws_podcasts
++types:
++    path: toucan/types
++dataTypes:
++    date:
++        input:
++            format: "yyyy-MM-dd HH:mm:ss Z"
+\ No newline at end of file
+diff --git a/toucan/contents/404/index.md b/toucan/contents/404/index.md
+new file mode 100644
+index 0000000..86d2b21
+--- /dev/null
++++ b/toucan/contents/404/index.md
+@@ -0,0 +1,11 @@
++---
++title: 404
++description: Page not found
++type: not-found
++---
++
++## Not found
++
++This page does not exists.
++
++[Home](/)
+diff --git a/toucan/contents/home/index.md b/toucan/contents/[home]/index.md
+similarity index 84%
+rename from toucan/contents/home/index.md
+rename to toucan/contents/[home]/index.md
+index 37dc0ee..04b4449 100644
+--- a/toucan/contents/home/index.md
++++ b/toucan/contents/[home]/index.md
+@@ -1,7 +1,8 @@
+ ---
+ supertitle: "WELCOME BUILDERS"
+ title: "The AWS Developers Podcast"
+-template: "pages.home"
++views:
++    html: "pages.home"
+ ---
+ 
+ Stay updated on the latest AWS news and insights, wherever you are, whenever you want.
+\ No newline at end of file
+diff --git a/toucan/contents/episodes/143/index.md b/toucan/contents/episodes/143/index.md
+index 4f0ee29..aa98526 100644
+--- a/toucan/contents/episodes/143/index.md
++++ b/toucan/contents/episodes/143/index.md
+@@ -36,18 +36,4 @@ links:
+     link: https://aws.amazon.com/blogs/aws/amazon_simple_q/
+   - text: "Amazon EC2 beta  (21 Apr 2005)"
+     link: https://aws.amazon.com/blogs/aws/amazon_ec2_beta/
+- 
+-links:
+-  - text: "Jeff's post to announce the 20th anniversary of the AWS News blog channel"
+-    link: https://www.linkedin.com/feed/update/urn:li:activity:7261779180458000384/
+-  - text: "The very first post on the AWS News blog channel (09 Nov 2004)"
+-    link: https://aws.amazon.com/blogs/aws/welcome/
+-  - text: "Amazon SQS beta (21 Apr 2005)"
+-    link: https://aws.amazon.com/blogs/aws/simple_queue_se/
+-  - text: "Amazon S3 launch (14 Mar 2006)"
+-    link: https://aws.amazon.com/blogs/aws/amazon_s3/
+-  - text: "Amazon SQS launch (13 Jul 2006)"
+-    link: https://aws.amazon.com/blogs/aws/amazon_simple_q/
+-  - text: "Amazon EC2 beta (25 Aug 2006)"
+-    link: https://aws.amazon.com/blogs/aws/amazon_ec2_beta/
+ ---
+\ No newline at end of file
+diff --git a/toucan/contents/episodes/pagination/index.md b/toucan/contents/episodes/pagination/index.md
+deleted file mode 100644
+index 27d7b25..0000000
+--- a/toucan/contents/episodes/pagination/index.md
++++ /dev/null
+@@ -1,6 +0,0 @@
+----
+-type: pagination
+-home: episodes
+-slug: episodes/pages/{{number}}
+-template: pages.episode_pagination
+----
+\ No newline at end of file
+diff --git a/toucan/contents/episodes/{{podcast.pagination}}/index.md b/toucan/contents/episodes/{{podcast.pagination}}/index.md
+new file mode 100644
+index 0000000..2fff6c3
+--- /dev/null
++++ b/toucan/contents/episodes/{{podcast.pagination}}/index.md
+@@ -0,0 +1,7 @@
++---
++type: page
++home: episodes
++slug: episodes/pages/{{podcast.pagination}}
++views:
++    html: pages.episode_pagination
++---
+\ No newline at end of file
+diff --git a/toucan/contents/rss.xml/index.yml b/toucan/contents/rss.xml/index.yml
+new file mode 100644
+index 0000000..0a94c5c
+--- /dev/null
++++ b/toucan/contents/rss.xml/index.yml
+@@ -0,0 +1 @@
++type: rss
+\ No newline at end of file
+diff --git a/toucan/contents/sitemap.xml/index.yml b/toucan/contents/sitemap.xml/index.yml
+new file mode 100644
+index 0000000..dd1f939
+--- /dev/null
++++ b/toucan/contents/sitemap.xml/index.yml
+@@ -0,0 +1 @@
++type: sitemap
+\ No newline at end of file
+diff --git a/toucan/pipelines/404.yml b/toucan/pipelines/404.yml
+new file mode 100644
+index 0000000..faa18a2
+--- /dev/null
++++ b/toucan/pipelines/404.yml
+@@ -0,0 +1,16 @@
++id: not-found
++contentTypes: 
++    include:
++        - "not-found"
++
++engine: 
++    id: mustache
++    options:
++        contentTypes: 
++            not-found:
++                view: "pages.404"
++
++output:
++    path: ""
++    file: 404
++    ext: html
+\ No newline at end of file
+diff --git a/toucan/pipelines/html.yml b/toucan/pipelines/html.yml
+new file mode 100644
+index 0000000..d66809b
+--- /dev/null
++++ b/toucan/pipelines/html.yml
+@@ -0,0 +1,63 @@
++id: html
++
++assets:
++    behaviors:
++        - id: copy
++    properties:
++        - action: add
++          property: css
++          resolvePath: true
++          input:
++                name: "style" 
++                ext: "css"
++        - action: add
++          property: js
++          resolvePath: true
++          input:
++                name: "main" 
++                ext: "js"
++        - action: set
++          property: image
++          resolvePath: true
++          input:
++                name: "cover" 
++                ext: "jpg"
++
++queries:
++    latest:
++        contentType: podcast
++        scope: detail
++        limit: 1
++        orderBy:
++            - key: publication
++              direction: desc
++    podcasts:
++        contentType: podcast
++        scope: detail
++
++contentTypes: 
++    include:
++        - page
++        - podcast
++
++iterators:
++    podcast.pagination:
++        contentType: podcast
++        scope: detail
++        limit: 10
++        orderBy:
++            - key: publication
++              direction: desc
++
++engine: 
++    id: mustache
++    options:
++        contentTypes: 
++            page:
++                view: "pages.default"
++            podcast:
++                view: "pages.detail"
++output:
++    path: "{{slug}}"
++    file: index
++    ext: html
+\ No newline at end of file
+diff --git a/toucan/pipelines/redirect.yml b/toucan/pipelines/redirect.yml
+new file mode 100644
+index 0000000..12b1771
+--- /dev/null
++++ b/toucan/pipelines/redirect.yml
+@@ -0,0 +1,16 @@
++id: redirect
++contentTypes: 
++    include:
++        - redirect
++
++engine: 
++    id: mustache
++    options:
++        contentTypes: 
++            redirect:
++                view: "redirect"
++
++output:
++    path: "{{slug}}"
++    file: index
++    ext: html
+\ No newline at end of file
+diff --git a/toucan/pipelines/rss.yml b/toucan/pipelines/rss.yml
+new file mode 100644
+index 0000000..f7c83e9
+--- /dev/null
++++ b/toucan/pipelines/rss.yml
+@@ -0,0 +1,18 @@
++id: rss
++definesType: true
++
++contentTypes: 
++    include:
++        - rss
++
++engine: 
++    id: mustache
++    options:
++        contentTypes: 
++            rss:
++                view: "rss"
++
++output:
++    path: ""
++    file: rss
++    ext: xml
+\ No newline at end of file
+diff --git a/toucan/pipelines/sitemap.yml b/toucan/pipelines/sitemap.yml
+new file mode 100644
+index 0000000..b834185
+--- /dev/null
++++ b/toucan/pipelines/sitemap.yml
+@@ -0,0 +1,37 @@
++id: sitemap
++definesType: true
++
++queries:
++    pages:
++        contentType: page
++        scope: list
++        orderBy:
++            - key: lastUpdate
++              direction: desc
++    podcasts:
++        contentType: podcast
++        scope: list
++        orderBy:
++            - key: lastUpdate
++              direction: desc
++
++contentTypes: 
++    include:
++        - sitemap
++
++dataTypes:
++    date: 
++        formats:
++            sitemap:
++                format: "yyyy-MM-dd"
++
++engine: 
++    id: mustache
++    options:
++        contentTypes: 
++            sitemap:
++                view: "sitemap"
++output:
++    path: ""
++    file: sitemap
++    ext: xml
+\ No newline at end of file
+diff --git a/toucan/contents/index.yaml b/toucan/site.yml
+similarity index 97%
+rename from toucan/contents/index.yaml
+rename to toucan/site.yml
+index 1cd502d..c62258c 100644
+--- a/toucan/contents/index.yaml
++++ b/toucan/site.yml
+@@ -1,10 +1,10 @@
+ # global variables, exposed under the `site` namespace
+ # this one is replaced by the --base-url parameter at generation time
+ # baseUrl: "https://developers.podcast.go-aws.com/web"
+-language: "en"
+-title: "The AWS Developers Podcast"
+-dateFormat: "MMM dd, yy"
++
++name: "The AWS Developers Podcast"
+ description: "Stay updated on the latest AWS news and insights for developers, wherever you are, whenever you want."
++language: "en"
+ dark_mode: "Dark mode"
+ 
+ # data appearing in the footer
+diff --git a/toucan/themes/aws_podcasts/assets/_index.html b/toucan/templates/aws_podcasts/assets/_index.html
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/_index.html
+rename to toucan/templates/aws_podcasts/assets/_index.html
+diff --git a/toucan/themes/aws_podcasts/assets/css/main.css b/toucan/templates/aws_podcasts/assets/css/main.css
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/css/main.css
+rename to toucan/templates/aws_podcasts/assets/css/main.css
+diff --git a/toucan/themes/aws_podcasts/assets/favicon.ico b/toucan/templates/aws_podcasts/assets/favicon.ico
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/favicon.ico
+rename to toucan/templates/aws_podcasts/assets/favicon.ico
+diff --git a/toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Bd.ttf b/toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Bd.ttf
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Bd.ttf
+rename to toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Bd.ttf
+diff --git a/toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_He.ttf b/toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_He.ttf
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_He.ttf
+rename to toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_He.ttf
+diff --git a/toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Lt.ttf b/toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Lt.ttf
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Lt.ttf
+rename to toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Lt.ttf
+diff --git a/toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Md.ttf b/toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Md.ttf
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Md.ttf
+rename to toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Md.ttf
+diff --git a/toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Rg.ttf b/toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Rg.ttf
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/fonts/AmazonEmberDisplay_Rg.ttf
+rename to toucan/templates/aws_podcasts/assets/fonts/AmazonEmberDisplay_Rg.ttf
+diff --git a/toucan/themes/aws_podcasts/assets/images/amazon-music.svg b/toucan/templates/aws_podcasts/assets/images/amazon-music.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/amazon-music.svg
+rename to toucan/templates/aws_podcasts/assets/images/amazon-music.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/apple-podcast.svg b/toucan/templates/aws_podcasts/assets/images/apple-podcast.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/apple-podcast.svg
+rename to toucan/templates/aws_podcasts/assets/images/apple-podcast.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/arrow-right.svg b/toucan/templates/aws_podcasts/assets/images/arrow-right.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/arrow-right.svg
+rename to toucan/templates/aws_podcasts/assets/images/arrow-right.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/aws-logo.svg b/toucan/templates/aws_podcasts/assets/images/aws-logo.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/aws-logo.svg
+rename to toucan/templates/aws_podcasts/assets/images/aws-logo.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/bluesky.svg b/toucan/templates/aws_podcasts/assets/images/bluesky.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/bluesky.svg
+rename to toucan/templates/aws_podcasts/assets/images/bluesky.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/close.svg b/toucan/templates/aws_podcasts/assets/images/close.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/close.svg
+rename to toucan/templates/aws_podcasts/assets/images/close.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/detail-hero.png b/toucan/templates/aws_podcasts/assets/images/detail-hero.png
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/detail-hero.png
+rename to toucan/templates/aws_podcasts/assets/images/detail-hero.png
+diff --git a/toucan/themes/aws_podcasts/assets/images/featured-episode-0-bg-mb.png b/toucan/templates/aws_podcasts/assets/images/featured-episode-0-bg-mb.png
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/featured-episode-0-bg-mb.png
+rename to toucan/templates/aws_podcasts/assets/images/featured-episode-0-bg-mb.png
+diff --git a/toucan/themes/aws_podcasts/assets/images/featured-episode-0-bg.png b/toucan/templates/aws_podcasts/assets/images/featured-episode-0-bg.png
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/featured-episode-0-bg.png
+rename to toucan/templates/aws_podcasts/assets/images/featured-episode-0-bg.png
+diff --git a/toucan/themes/aws_podcasts/assets/images/featured-episode-bg-mb.png b/toucan/templates/aws_podcasts/assets/images/featured-episode-bg-mb.png
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/featured-episode-bg-mb.png
+rename to toucan/templates/aws_podcasts/assets/images/featured-episode-bg-mb.png
+diff --git a/toucan/themes/aws_podcasts/assets/images/featured-episode-bg.png b/toucan/templates/aws_podcasts/assets/images/featured-episode-bg.png
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/featured-episode-bg.png
+rename to toucan/templates/aws_podcasts/assets/images/featured-episode-bg.png
+diff --git a/toucan/themes/aws_podcasts/assets/images/hero-image.png b/toucan/templates/aws_podcasts/assets/images/hero-image.png
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/hero-image.png
+rename to toucan/templates/aws_podcasts/assets/images/hero-image.png
+diff --git a/toucan/themes/aws_podcasts/assets/images/instagram.svg b/toucan/templates/aws_podcasts/assets/images/instagram.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/instagram.svg
+rename to toucan/templates/aws_podcasts/assets/images/instagram.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/linkedin.svg b/toucan/templates/aws_podcasts/assets/images/linkedin.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/linkedin.svg
+rename to toucan/templates/aws_podcasts/assets/images/linkedin.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/pause.svg b/toucan/templates/aws_podcasts/assets/images/pause.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/pause.svg
+rename to toucan/templates/aws_podcasts/assets/images/pause.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/play.svg b/toucan/templates/aws_podcasts/assets/images/play.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/play.svg
+rename to toucan/templates/aws_podcasts/assets/images/play.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/spotify-alt.svg b/toucan/templates/aws_podcasts/assets/images/spotify-alt.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/spotify-alt.svg
+rename to toucan/templates/aws_podcasts/assets/images/spotify-alt.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/spotify.svg b/toucan/templates/aws_podcasts/assets/images/spotify.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/spotify.svg
+rename to toucan/templates/aws_podcasts/assets/images/spotify.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/x.svg b/toucan/templates/aws_podcasts/assets/images/x.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/x.svg
+rename to toucan/templates/aws_podcasts/assets/images/x.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/youtube-music.svg b/toucan/templates/aws_podcasts/assets/images/youtube-music.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/youtube-music.svg
+rename to toucan/templates/aws_podcasts/assets/images/youtube-music.svg
+diff --git a/toucan/themes/aws_podcasts/assets/images/youtube.svg b/toucan/templates/aws_podcasts/assets/images/youtube.svg
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/images/youtube.svg
+rename to toucan/templates/aws_podcasts/assets/images/youtube.svg
+diff --git a/toucan/themes/aws_podcasts/assets/js/main.js b/toucan/templates/aws_podcasts/assets/js/main.js
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/js/main.js
+rename to toucan/templates/aws_podcasts/assets/js/main.js
+diff --git a/toucan/themes/aws_podcasts/assets/js/navigation.js b/toucan/templates/aws_podcasts/assets/js/navigation.js
+similarity index 89%
+rename from toucan/themes/aws_podcasts/assets/js/navigation.js
+rename to toucan/templates/aws_podcasts/assets/js/navigation.js
+index e1f2586..c2e8aa8 100644
+--- a/toucan/themes/aws_podcasts/assets/js/navigation.js
++++ b/toucan/templates/aws_podcasts/assets/js/navigation.js
+@@ -1,7 +1,9 @@
+ // load a blog of episodes. 
+ // apply JS-based renderers on the newly loaded elements
+ function loadPage(page) {
+-		fetch(`episodes/pages/${page}/index.html`)
++		let element = document.getElementById('episodes_cards');
++		if (element) {
++			fetch(`episodes/pages/${page}/index.html`)
+ 				.then(response => response.text())
+ 				.then(data => {
+ 					// Parse the fetched HTML string into a DOM
+@@ -19,6 +21,7 @@ function loadPage(page) {
+ 				.catch(error => {
+ 						console.error('Error loading page:', error);
+ 				});
++		}
+ }
+ 
+ // Function to handle new content added to the page
+@@ -36,7 +39,10 @@ function createObserver() {
+ 	};
+ 
+ 	let observer_infinite_scrolling = new IntersectionObserver(handleIntersect, options);
+-	observer_infinite_scrolling.observe(document.querySelector('#scrollAnchor'));
++	const anchor = document.querySelector('#scrollAnchor');
++	if (anchor) {
++		observer_infinite_scrolling.observe(anchor);
++	}
+ 
+ 	/*
+ 	// Create an observer instance linked to the callback function
+diff --git a/toucan/themes/aws_podcasts/assets/js/rendering.js b/toucan/templates/aws_podcasts/assets/js/rendering.js
+similarity index 100%
+rename from toucan/themes/aws_podcasts/assets/js/rendering.js
+rename to toucan/templates/aws_podcasts/assets/js/rendering.js
+diff --git a/toucan/templates/aws_podcasts/template.yml b/toucan/templates/aws_podcasts/template.yml
+new file mode 100644
+index 0000000..4e470ad
+--- /dev/null
++++ b/toucan/templates/aws_podcasts/template.yml
+@@ -0,0 +1,18 @@
++name: "theswiftdev.com website"
++description: "Public website of theswiftdev.com"
++url: "https://github.com/theswiftdev/blog"
++version: "1.0.0-beta.5"
++generatorVersions:
++    - "1.0.0-beta.5"
++    - "1.0.0-beta.6"
++
++demo:
++    url: "https://theswiftdev.com/"
++
++license:
++    name: "MIT license"
++    url: "https://github.com/theswiftdev/blog?tab=MIT-1-ov-file"
++
++tags:
++    - "theswiftdev"
++    - "site"
+\ No newline at end of file
+diff --git a/toucan/themes/aws_podcasts/templates/html.mustache b/toucan/templates/aws_podcasts/views/html.mustache
+similarity index 100%
+rename from toucan/themes/aws_podcasts/templates/html.mustache
+rename to toucan/templates/aws_podcasts/views/html.mustache
+diff --git a/toucan/templates/aws_podcasts/views/pages/404.mustache b/toucan/templates/aws_podcasts/views/pages/404.mustache
+new file mode 100644
+index 0000000..a71bd58
+--- /dev/null
++++ b/toucan/templates/aws_podcasts/views/pages/404.mustache
+@@ -0,0 +1,9 @@
++{{<html}}
++{{$main}}
++
++<div id="not-found" class="wrapper">
++    {{& page.contents.html}}
++</div>
++
++{{/main}}
++{{/html}}
+diff --git a/toucan/templates/aws_podcasts/views/pages/default.mustache b/toucan/templates/aws_podcasts/views/pages/default.mustache
+new file mode 100644
+index 0000000..a41dd7f
+--- /dev/null
++++ b/toucan/templates/aws_podcasts/views/pages/default.mustache
+@@ -0,0 +1,7 @@
++{{<html}}
++{{$main}}
++
++{{& page.contents.html}}
++
++{{/main}}
++{{/html}}
+diff --git a/toucan/themes/aws_podcasts/templates/pages/detail.mustache b/toucan/templates/aws_podcasts/views/pages/detail.mustache
+similarity index 100%
+rename from toucan/themes/aws_podcasts/templates/pages/detail.mustache
+rename to toucan/templates/aws_podcasts/views/pages/detail.mustache
+diff --git a/toucan/themes/aws_podcasts/templates/pages/episode_pagination.mustache b/toucan/templates/aws_podcasts/views/pages/episode_pagination.mustache
+similarity index 74%
+rename from toucan/themes/aws_podcasts/templates/pages/episode_pagination.mustache
+rename to toucan/templates/aws_podcasts/views/pages/episode_pagination.mustache
+index b25fda0..03a6f53 100644
+--- a/toucan/themes/aws_podcasts/templates/pages/episode_pagination.mustache
++++ b/toucan/templates/aws_podcasts/views/pages/episode_pagination.mustache
+@@ -1,9 +1,9 @@
+-          {{#empty(pagination.data.podcast)}}
++          {{#empty(iterator.items)}}
+           No episode
+-          {{/empty(pagination.data.podcast)}}
++          {{/empty(iterator.items)}}
+           
+-          {{^empty(pagination.data.podcast)}}    
+-          {{#pagination.data.podcast}}
++          {{^empty(iterator.items)}}    
++          {{#iterator.items}}
+ 
+           <!-- Episode card start -->
+           <div class="col-12 col-md-6">
+@@ -30,12 +30,12 @@
+ 
+               <div>
+                 <div class="episode__cta pt-9">
+-                  <a href="{{site.baseUrl}}/episodes/{{episode}}/index.html" class="btn btn-link stretched-link cta-with-icon text-light-emphasis text-decoration-none px-0">
++                  <a href="{{baseUrl}}/episodes/{{episode}}/index.html" class="btn btn-link stretched-link cta-with-icon text-light-emphasis text-decoration-none px-0">
+                     <div class="cta-anim-text-left">
+                       <span class="cta__text cta__text--left">Learn more</span>
+                       <span class="cta__icon">
+                         <svg>
+-                          <use xlink:href="{{site.baseUrl}}/images/arrow-right.svg#arrow-right"></use>
++                          <use xlink:href="{{baseUrl}}/images/arrow-right.svg#arrow-right"></use>
+                         </svg>
+                       </span>
+                     </div>
+@@ -44,11 +44,11 @@
+ 
+                 <div class="episode__play position-absolute">
+                   <!-- To allow the button to play audio files, include the data-audio-src with the url to the audio file along with a data-title and data-details for the track information -->
+-                  <button class="btn btn-play position-relative bg-dark-subtle text-dark-emphasis hover-bg-lighter hover-text-darker hover-border-darker icon-only cta-with-icon" data-audio-src="{{medialink}}{{file}}" data-title="Episode {{ episode }} : {{ title }}" data-details="{{#guests}}{{name}}{{^last()}}, {{/last()}}{{/guests}}">
++                  <button class="btn btn-play position-relative bg-dark-subtle text-dark-emphasis hover-bg-lighter hover-text-darker hover-border-darker icon-only cta-with-icon" data-audio-src="{{site.medialink}}{{file}}" data-title="Episode {{ episode }} : {{ title }}" data-details="{{#guests}}{{name}}{{^last()}}, {{/last()}}{{/guests}}">
+                     <div>
+                       <span class="cta__icon">
+                         <svg>
+-                          <use xlink:href="{{site.baseUrl}}/images/play.svg#play"></use>
++                          <use xlink:href="{{baseUrl}}/images/play.svg#play"></use>
+                         </svg>
+                       </span>
+                     </div>
+@@ -60,5 +60,5 @@
+           </div>
+           <!-- Episode card end -->
+ 
+-          {{/pagination.data.podcast}}
+-          {{/empty(pagination.data.podcast)}}
++          {{/iterator.items}}
++          {{/empty(iterator.items)}}
+diff --git a/toucan/themes/aws_podcasts/templates/pages/home.mustache b/toucan/templates/aws_podcasts/views/pages/home.mustache
+similarity index 98%
+rename from toucan/themes/aws_podcasts/templates/pages/home.mustache
+rename to toucan/templates/aws_podcasts/views/pages/home.mustache
+index e609a15..2ea5d62 100644
+--- a/toucan/themes/aws_podcasts/templates/pages/home.mustache
++++ b/toucan/templates/aws_podcasts/views/pages/home.mustache
+@@ -2,7 +2,7 @@
+ {{$main}}
+ 
+ {{> partials.home.hero }}
+-
++ 
+ {{> partials.home.featured }}
+ 
+ {{> partials.home.text }}
+diff --git a/toucan/themes/aws_podcasts/templates/partials/audioplayer.mustache b/toucan/templates/aws_podcasts/views/partials/audioplayer.mustache
+similarity index 86%
+rename from toucan/themes/aws_podcasts/templates/partials/audioplayer.mustache
+rename to toucan/templates/aws_podcasts/views/partials/audioplayer.mustache
+index 9a583f7..7a38cf6 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/audioplayer.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/audioplayer.mustache
+@@ -12,12 +12,12 @@
+               <button id="play-pause" class="btn position-relative bg-dark-subtle text-dark-emphasis hover-bg-lighter hover-text-darker hover-border-darker icon-only cta-with-icon">
+                 <span class="cta__icon cta__icon--play">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/play.svg#play"></use>
++                    <use xlink:href="{{baseUrl}}/images/play.svg#play"></use>
+                   </svg>
+                 </span>
+                 <span class="cta__icon cta__icon--pause d-none">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/pause.svg#pause"></use>
++                    <use xlink:href="{{baseUrl}}/images/pause.svg#pause"></use>
+                   </svg>
+                 </span>
+               </button>
+@@ -30,7 +30,7 @@
+               <button id="close" class="btn position-relative text-light-emphasis hover-text-info hover-text-info-subtle border-0 icon-only cta-with-icon ms-auto">
+                 <span class="cta__icon">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/close.svg#close"></use>
++                    <use xlink:href="{{baseUrl}}/images/close.svg#close"></use>
+                   </svg>
+                 </span>
+               </button>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/detail/about.mustache b/toucan/templates/aws_podcasts/views/partials/detail/about.mustache
+similarity index 92%
+rename from toucan/themes/aws_podcasts/templates/partials/detail/about.mustache
+rename to toucan/templates/aws_podcasts/views/partials/detail/about.mustache
+index 28ca142..172e884 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/detail/about.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/detail/about.mustache
+@@ -32,7 +32,7 @@
+                     <span class="cta__text cta__text--left">Learn more</span>
+                     <span class="cta__icon">
+                       <svg>
+-                        <use xlink:href="{{site.baseUrl}}/images/arrow-right.svg#arrow-right"></use>
++                        <use xlink:href="{{baseUrl}}/images/arrow-right.svg#arrow-right"></use>
+                       </svg>
+                     </span>
+                   </div>
+@@ -51,7 +51,7 @@
+                 <span class="cta__text cta__text--left">View all</span>
+                 <span class="cta__icon">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/arrow-right.svg#arrow-right"></use>
++                    <use xlink:href="{{baseUrl}}/images/arrow-right.svg#arrow-right"></use>
+                   </svg>
+                 </span>
+               </button>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/detail/breadcrump.mustache b/toucan/templates/aws_podcasts/views/partials/detail/breadcrump.mustache
+similarity index 91%
+rename from toucan/themes/aws_podcasts/templates/partials/detail/breadcrump.mustache
+rename to toucan/templates/aws_podcasts/views/partials/detail/breadcrump.mustache
+index a4e90e7..3867d4e 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/detail/breadcrump.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/detail/breadcrump.mustache
+@@ -4,7 +4,7 @@
+       <div class="row">
+         <nav class="col-12" aria-label="breadcrumb">
+           <ol class="breadcrumb mb-0">
+-            <li class="breadcrumb-item"><a href="/" class="text-light-emphasis">{{site.title}}</a></li>
++            <li class="breadcrumb-item"><a href="/" class="text-light-emphasis">{{site.name}}</a></li>
+             <li class="breadcrumb-item active" aria-current="page">Episode {{ page.episode }}</li>
+           </ol>
+         </nav>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/detail/hero.mustache b/toucan/templates/aws_podcasts/views/partials/detail/hero.mustache
+similarity index 77%
+rename from toucan/themes/aws_podcasts/templates/partials/detail/hero.mustache
+rename to toucan/templates/aws_podcasts/views/partials/detail/hero.mustache
+index 686f1ee..60f0dd0 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/detail/hero.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/detail/hero.mustache
+@@ -4,7 +4,7 @@
+         <div class="row justify-content-between py-5 py-md-8">
+           <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center">
+             <div class="ratio ratio-1x1">
+-              <img src="{{ imagelink }}{{ page.episode }}.png" alt="Hero" class="object-fit-cover rounded-3">
++              <img src="{{ site.imagelink }}{{ page.episode }}.png" alt="Hero" class="object-fit-cover rounded-3">
+             </div>
+           </div>
+ 
+@@ -19,11 +19,11 @@
+             <p class="mb-0 lead">With {{#page.guests}}{{name}}, {{title}}{{^last()}}, and {{/last()}}{{/page.guests}}</p>
+ 
+             <div class="episode__play mt-4">
+-							<button class="btn btn-play bg-dark-subtle text-dark-emphasis hover-bg-lighter hover-text-darker hover-border-darker cta-with-icon" data-audio-src="{{medialink}}{{page.episode}}.mp3" data-title="Episode {{ page.episode }} : {{ page.title }}" data-details="{{#page.guests}}{{name}}{{^last()}} • {{/last()}}{{/page.guests}}">
++							<button class="btn btn-play bg-dark-subtle text-dark-emphasis hover-bg-lighter hover-text-darker hover-border-darker cta-with-icon" data-audio-src="{{site.medialink}}{{page.episode}}.mp3" data-title="Episode {{ page.episode }} : {{ page.title }}" data-details="{{#page.guests}}{{name}}{{^last()}} • {{/last()}}{{/page.guests}}">
+                 <div class="cta-anim-text-right">
+                   <span class="cta__icon">
+                     <svg>
+-                      <use xlink:href="{{site.baseUrl}}/images/play.svg#play"></use>
++                      <use xlink:href="{{baseUrl}}/images/play.svg#play"></use>
+                     </svg>
+                   </span>
+                   <span class="cta__text cta__text--right">Play</span>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/footer.mustache b/toucan/templates/aws_podcasts/views/partials/footer.mustache
+similarity index 53%
+rename from toucan/themes/aws_podcasts/templates/partials/footer.mustache
+rename to toucan/templates/aws_podcasts/views/partials/footer.mustache
+index 11336a3..b9a6a4a 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/footer.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/footer.mustache
+@@ -6,12 +6,12 @@
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="pe-4">
+                 <svg class="footer__logo">
+-                  <use xlink:href="{{site.baseUrl}}/images/aws-logo.svg#logo"></use>
++                  <use xlink:href="{{baseUrl}}/images/aws-logo.svg#logo"></use>
+                 </svg>
+               </div>
+ 
+               <div>
+-                <a href="{{french_podcast_url}}" class="btn bg-dark-subtle text-dark-emphasis hover-gradient-1">Listen to the AWS podcast in French</a>
++                <a href="{{site.french_podcast_url}}" class="btn bg-dark-subtle text-dark-emphasis hover-gradient-1">Listen to the AWS podcast in French</a>
+               </div>
+             </div>
+           </div>
+@@ -27,41 +27,41 @@
+           <div class="col-12 col-md-6">
+             <div class="d-flex justify-content-center justify-content-md-start column-gap-3">
+               <div>
+-                <a href="{{youtube}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
++                <a href="{{site.youtube}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/youtube.svg#youtube"></use>
++                    <use xlink:href="{{baseUrl}}/images/youtube.svg#youtube"></use>
+                   </svg>
+                 </a>
+               </div>
+               
+               <div>
+-                <a href="{{linkedin}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
++                <a href="{{site.linkedin}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/linkedin.svg#linkedin"></use>
++                    <use xlink:href="{{baseUrl}}/images/linkedin.svg#linkedin"></use>
+                   </svg>
+                 </a>
+               </div>
+ 
+               <div>
+-                <a href="{{instagram}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
++                <a href="{{site.instagram}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/instagram.svg#instagram"></use>
++                    <use xlink:href="{{baseUrl}}/images/instagram.svg#instagram"></use>
+                   </svg>
+                 </a>
+               </div>
+ 
+               <div>
+-                <a href="{{twitter}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
++                <a href="{{site.twitter}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/x.svg#x"></use>
++                    <use xlink:href="{{baseUrl}}/images/x.svg#x"></use>
+                   </svg>
+                 </a>
+               </div>
+ 
+               <div>
+-                <a href="{{bluesky}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
++                <a href="{{site.bluesky}}" target="_blank" class="footer__social-icon text-body-emphasis hover-text-info hover-text-info-subtle">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/bluesky.svg#bluesky"></use>
++                    <use xlink:href="{{baseUrl}}/images/bluesky.svg#bluesky"></use>
+                   </svg>
+                 </a>
+               </div>
+@@ -70,7 +70,7 @@
+           </div>
+ 
+           <div class="col-12 col-md-6 pt-4 pt-md-0">
+-            <p class="smaller text-center text-md-end mb-0"><span class="pe-3"><a href="https://aws.amazon.com/privacy/" target="_blank" class="text-body-emphasis hover-text-info hover-text-info-subtle">Privacy policy</a></span>© {{copyright_year}}, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>
++            <p class="smaller text-center text-md-end mb-0"><span class="pe-3"><a href="https://aws.amazon.com/privacy/" target="_blank" class="text-body-emphasis hover-text-info hover-text-info-subtle">Privacy policy</a></span>© {{site.copyright_year}}, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>
+           </div>
+         </div>
+       </div>
+diff --git a/toucan/templates/aws_podcasts/views/partials/head.mustache b/toucan/templates/aws_podcasts/views/partials/head.mustache
+new file mode 100644
+index 0000000..2fb83df
+--- /dev/null
++++ b/toucan/templates/aws_podcasts/views/partials/head.mustache
+@@ -0,0 +1,8 @@
++<meta charset="UTF-8">
++<meta name="viewport" content="width=device-width, initial-scale=1.0">
++<title>{{site.name}}</title>
++<link rel="shortcut icon" href="{{baseUrl}}/favicon.ico" />
++<script defer src="{{baseUrl}}/js/main.js"></script>
++<script defer src="{{baseUrl}}/js/rendering.js"></script>
++<script defer src="{{baseUrl}}/js/navigation.js"></script>
++<link href="{{baseUrl}}/css/main.css" rel="stylesheet">
+\ No newline at end of file
+diff --git a/toucan/themes/aws_podcasts/templates/partials/header.mustache b/toucan/templates/aws_podcasts/views/partials/header.mustache
+similarity index 86%
+rename from toucan/themes/aws_podcasts/templates/partials/header.mustache
+rename to toucan/templates/aws_podcasts/views/partials/header.mustache
+index 98183cb..7eeaa30 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/header.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/header.mustache
+@@ -8,11 +8,11 @@
+ 
+                 <div class="pe-4">
+                   <svg class="header__logo">
+-                    <use xlink:href="{{site.baseUrl}}/images/aws-logo.svg#logo"></use>
++                    <use xlink:href="{{baseUrl}}/images/aws-logo.svg#logo"></use>
+                   </svg>
+                 </div>
+ 
+-                <p class="m-0 pe-4 fw-bold">{{site.title}}</p>
++                <p class="m-0 pe-4 fw-bold">{{site.name}}</p>
+     
+                 <div class="form-check form-switch ms-auto">
+                   <input class="form-check-input hover-form-switch cursor-pointer" type="checkbox" role="switch" id="theme-toggle">
+diff --git a/toucan/themes/aws_podcasts/templates/partials/home/episodes.mustache b/toucan/templates/aws_podcasts/views/partials/home/episodes.mustache
+similarity index 87%
+rename from toucan/themes/aws_podcasts/templates/partials/home/episodes.mustache
+rename to toucan/templates/aws_podcasts/views/partials/home/episodes.mustache
+index 29a9d8c..fe76f2f 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/home/episodes.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/home/episodes.mustache
+@@ -1,6 +1,7 @@
+   <!-- Episodes -->
+   <script>
+-  let maxPages = {{count(pagination.links.podcast)}};
++  let maxPodcast = {{count(context.podcasts)}};
++  let maxPages = Math.ceil(maxPodcast / 10)
+   console.log("maxPages = " + maxPages);
+   </script>
+ 
+@@ -8,7 +9,7 @@
+       <div class="container">
+         <div class="row pt-5 pt-md-8">
+           <div class="col-12">
+-            <h2 class="fw-bold mb-5">{{episodes.title}}</h2>
++            <h2 class="fw-bold mb-5">{{site.episodes.title}}</h2>
+           </div>
+         </div>
+ 
+@@ -32,7 +33,7 @@
+                 <span class="cta__text cta__text--left">Show 10 more</span>
+                 <span class="cta__icon">
+                   <svg>
+-                    <use xlink:href="{{site.baseUrl}}/images/arrow-right.svg#arrow-right"></use>
++                    <use xlink:href="{{baseUrl}}/images/arrow-right.svg#arrow-right"></use>
+                   </svg>
+                 </span>
+               </button>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/home/featured.mustache b/toucan/templates/aws_podcasts/views/partials/home/featured.mustache
+similarity index 75%
+rename from toucan/themes/aws_podcasts/templates/partials/home/featured.mustache
+rename to toucan/templates/aws_podcasts/views/partials/home/featured.mustache
+index ad2040b..5cc8fa0 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/home/featured.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/home/featured.mustache
+@@ -1,5 +1,5 @@
+   
+-{{#site.context.latest}}
++{{#context.latest}}
+ 
+   <!-- Featured episode -->
+     <section class="featured-episode">
+@@ -8,8 +8,8 @@
+           <div class="col-12">
+             <div class="featured-episode__card hover-gradient-2 position-relative overflow-hidden p-4 p-md-6">
+         
+-              <div class="featured-episode__background d-none d-md-block position-absolute"  style="background-image: url('{{ imagelink }}{{ episode }}-bannerh.png');"></div>
+-              <div class="featured-episode__background-mb d-block d-md-none position-absolute"  style="background-image: url('{{ imagelink }}{{ episode }}-bannerv.png');"></div>
++              <div class="featured-episode__background d-none d-md-block position-absolute"  style="background-image: url('{{ site.imagelink }}{{ episode }}-bannerh.png');"></div>
++              <div class="featured-episode__background-mb d-block d-md-none position-absolute"  style="background-image: url('{{ site.imagelink }}{{ episode }}-bannerv.png');"></div>
+ 
+               <div class="featured-episode__content">
+                 <p class="featured-episode__tag text-uppercase text-white fw-bold mb-9"><span>Episode {{episode}}</span></p>
+@@ -29,12 +29,12 @@
+ 
+               <div>
+                 <div class="episode__cta pt-7">
+-                  <a href="{{site.baseUrl}}/episodes/{{episode}}/index.html" class="btn btn-link stretched-link cta-with-icon text-white text-decoration-none px-0">
++                  <a href="{{baseUrl}}/episodes/{{episode}}/index.html" class="btn btn-link stretched-link cta-with-icon text-white text-decoration-none px-0">
+                     <div class="cta-anim-text-left">
+                       <span class="cta__text cta__text--left">Learn more</span>
+                       <span class="cta__icon">
+                         <svg>
+-                          <use xlink:href="{{site.baseUrl}}/images/arrow-right.svg#arrow-right"></use>
++                          <use xlink:href="{{baseUrl}}/images/arrow-right.svg#arrow-right"></use>
+                         </svg>
+                       </span>
+                     </div>
+@@ -43,11 +43,11 @@
+ 
+                 <div class="episode__play position-absolute">
+                   <!-- To allow the button to play audio files, include the data-audio-src with the url to the audio file along with a data-title and data-details for the track information -->
+-                  <button class="btn btn-play bg-lighter text-darker hover-border-darker cta-with-icon" data-audio-src="{{medialink}}{{episode}}.mp3" data-title="Episode {{ episode }} : {{ title }}" data-details="{{#guests}}{{name}}{{^last()}}, {{/last()}}{{/guests}}">
++                  <button class="btn btn-play bg-lighter text-darker hover-border-darker cta-with-icon" data-audio-src="{{site.medialink}}{{episode}}.mp3" data-title="Episode {{ episode }} : {{ title }}" data-details="{{#guests}}{{name}}{{^last()}}, {{/last()}}{{/guests}}">
+                     <div class="cta-anim-text-right">
+                       <span class="cta__icon">
+                         <svg>
+-                          <use xlink:href="{{site.baseUrl}}/images/play.svg#play"></use>
++                          <use xlink:href="{{baseUrl}}/images/play.svg#play"></use>
+                         </svg>
+                       </span>
+                       <span class="cta__text cta__text--right">Play</span>
+@@ -63,4 +63,4 @@
+     </section>
+   <!-- End featured episode -->
+ 
+-  {{/site.context.latest}}
+\ No newline at end of file
++  {{/context.latest}}
+\ No newline at end of file
+diff --git a/toucan/themes/aws_podcasts/templates/partials/home/hero.mustache b/toucan/templates/aws_podcasts/views/partials/home/hero.mustache
+similarity index 80%
+rename from toucan/themes/aws_podcasts/templates/partials/home/hero.mustache
+rename to toucan/templates/aws_podcasts/views/partials/home/hero.mustache
+index 624a16e..4aa488f 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/home/hero.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/home/hero.mustache
+@@ -8,12 +8,12 @@
+ 
+             <h1 class="fw-bold mb-5">{{page.title}}</h1>
+ 
+-            <p class="lead mb-0">{{& page.contents}}</p>
++            <p class="lead mb-0">{{& page.contents.html}}</p>
+ 
+           </div>
+ 
+           <div class="col-12 col-md-6 d-flex align-items-center order-0 order-md-1">
+-            <img src="{{site.baseUrl}}/images/hero-image.png" alt="Hero" class="w-100">
++            <img src="{{baseUrl}}/images/hero-image.png" alt="Hero" class="w-100">
+           </div>
+         </div>
+       </div>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/home/text.mustache b/toucan/templates/aws_podcasts/views/partials/home/text.mustache
+similarity index 56%
+rename from toucan/themes/aws_podcasts/templates/partials/home/text.mustache
+rename to toucan/templates/aws_podcasts/views/partials/home/text.mustache
+index 105a25d..fa0681d 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/home/text.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/home/text.mustache
+@@ -4,24 +4,24 @@
+         <div class="row justify-content-between py-5 py-md-8">
+           <div class="col-12 col-md-6 col-lg-5">
+ 
+-            <h2 class="fw-bold mb-5">{{podcast_description.title}}</h2>
++            <h2 class="fw-bold mb-5">{{site.podcast_description.title}}</h2>
+ 
+-            <h4 class="fw-medium mb-3">{{podcast_description.subtitle}}</h4>
++            <h4 class="fw-medium mb-3">{{site.podcast_description.subtitle}}</h4>
+ 
+-            <p class="mb-0">{{podcast_description.text}}</p>
++            <p class="mb-0">{{site.podcast_description.text}}</p>
+ 
+           </div>
+ 
+           <div class="col-12 col-md-6 pt-4 pt-md-0">
+ 
+-            <h4 class="fw-medium mb-5">{{sources.title}}</h4>
++            <h4 class="fw-medium mb-5">{{site.sources.title}}</h4>
+ 
+             <div class="row row-gap-4 mb-5">
+               <div class="col-6">
+-                <a href="{{sources.amazon_music}}" target="_blank" class="logo-badge text-body-emphasis">
++                <a href="{{site.sources.amazon_music}}" target="_blank" class="logo-badge text-body-emphasis">
+                   <div class="d-flex align-items-center column-gap-3">
+                     <svg class="section-text__icon">
+-                      <use xlink:href="{{site.baseUrl}}/images/amazon-music.svg#amazon-music"></use>
++                      <use xlink:href="{{baseUrl}}/images/amazon-music.svg#amazon-music"></use>
+                     </svg>
+                     <p class="mb-0">Amazon Music</p>
+                   </div>
+@@ -29,10 +29,10 @@
+               </div>
+ 
+               <div class="col-6">
+-                <a href="{{sources.apple_podcast}}" target="_blank" class="logo-badge text-body-emphasis">
++                <a href="{{site.sources.apple_podcast}}" target="_blank" class="logo-badge text-body-emphasis">
+                   <div class="d-flex align-items-center column-gap-3">
+                     <svg class="section-text__icon">
+-                      <use xlink:href="{{site.baseUrl}}/images/apple-podcast.svg#apple-podcast"></use>
++                      <use xlink:href="{{baseUrl}}/images/apple-podcast.svg#apple-podcast"></use>
+                     </svg>
+                     <p class="mb-0">Apple Podcast</p>
+                   </div>
+@@ -40,13 +40,13 @@
+               </div>
+ 
+               <div class="col-6">
+-                <a href="{{sources.spotify}}" target="_blank" class="logo-badge text-body-emphasis">
++                <a href="{{site.sources.spotify}}" target="_blank" class="logo-badge text-body-emphasis">
+                   <div class="d-flex align-items-center column-gap-3">
+                     <svg class="section-text__icon dark-d-none">
+-                      <use xlink:href="{{site.baseUrl}}/images/spotify.svg#spotify"></use>
++                      <use xlink:href="{{baseUrl}}/images/spotify.svg#spotify"></use>
+                     </svg>
+                     <svg class="section-text__icon light-d-none">
+-                      <use xlink:href="{{site.baseUrl}}/images/spotify-alt.svg#spotify-alt"></use>
++                      <use xlink:href="{{baseUrl}}/images/spotify-alt.svg#spotify-alt"></use>
+                     </svg>
+                     <p class="mb-0">Spotify</p>
+                   </div>
+@@ -54,10 +54,10 @@
+               </div>
+ 
+               <div class="col-6">
+-                <a href="{{sources.youtube}}" target="_blank" class="logo-badge text-body-emphasis">
++                <a href="{{site.sources.youtube}}" target="_blank" class="logo-badge text-body-emphasis">
+                   <div class="d-flex align-items-center column-gap-3">
+                     <svg class="section-text__icon">
+-                      <use xlink:href="{{site.baseUrl}}/images/youtube-music.svg#youtube-music"></use>
++                      <use xlink:href="{{baseUrl}}/images/youtube-music.svg#youtube-music"></use>
+                     </svg>
+                     <p class="mb-0">YouTube</p>
+                   </div>
+@@ -65,12 +65,12 @@
+               </div>
+             </div>
+ 
+-            <h4 class="fw-medium mb-3">{{builder_id.title}}</h4>
++            <h4 class="fw-medium mb-3">{{site.builder_id.title}}</h4>
+ 
+-            <p class="mb-0">{{builder_id.text}}</p>
++            <p class="mb-0">{{site.builder_id.text}}</p>
+ 
+             <div class="mt-5">
+-              <a href="{{builder_id.url}}" target="_blank" class="btn bg-dark-subtle text-dark-emphasis hover-gradient-1">{{builder_id.signup}}</a>
++              <a href="{{site.builder_id.url}}" target="_blank" class="btn bg-dark-subtle text-dark-emphasis hover-gradient-1">{{site.builder_id.signup}}</a>
+             </div>
+ 
+           </div>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/pagination.mustache b/toucan/templates/aws_podcasts/views/partials/pagination.mustache
+similarity index 72%
+rename from toucan/themes/aws_podcasts/templates/partials/pagination.mustache
+rename to toucan/templates/aws_podcasts/views/partials/pagination.mustache
+index 93ccdb6..f4338d3 100644
+--- a/toucan/themes/aws_podcasts/templates/partials/pagination.mustache
++++ b/toucan/templates/aws_podcasts/views/partials/pagination.mustache
+@@ -1 +1 @@
+-<a href="{{permalink}}"{{#isCurrent}} class="current-page"{{/isCurrent}}>{{number}}</a>
++<a href="{{permalink}}"{{#isCurrent}} class="current-page"{{/isCurrent}}>{{number}}</a>
+\ No newline at end of file
+diff --git a/toucan/templates/aws_podcasts/views/redirect.mustache b/toucan/templates/aws_podcasts/views/redirect.mustache
+new file mode 100644
+index 0000000..b52ffff
+--- /dev/null
++++ b/toucan/templates/aws_podcasts/views/redirect.mustache
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html {{#site.language}}lang="{{.}}"{{/site.language}}>
++    <meta charset="utf-8">
++    <title>Redirecting…</title>
++    <link rel="canonical" href="{{baseUrl}}/{{page.to}}">
++    <script>location="{{baseUrl}}/{{page.to}}"</script>
++    <meta http-equiv="refresh" content="0; url={{baseUrl}}/{{page.to}}">
++    <meta name="robots" content="noindex">
++    <h1>Redirecting…</h1>
++    <a href="{{baseUrl}}/{{page.to}}">Click here if you are not redirected.</a>
++</html>
+diff --git a/toucan/themes/aws_podcasts/templates/rss.mustache b/toucan/templates/aws_podcasts/views/rss.mustache
+similarity index 99%
+rename from toucan/themes/aws_podcasts/templates/rss.mustache
+rename to toucan/templates/aws_podcasts/views/rss.mustache
+index 313cb52..0cf0a8b 100644
+--- a/toucan/themes/aws_podcasts/templates/rss.mustache
++++ b/toucan/templates/aws_podcasts/views/rss.mustache
+@@ -18,17 +18,17 @@
+     <itunes:type>episodic</itunes:type>
+     <itunes:category text="Technology"/>
+     <itunes:explicit>false</itunes:explicit>
+-    <itunes:image href="{{ imagelink }}{{rss.artwork}}"/>
++    <itunes:image href="{{ site.imagelink }}{{site.rss.artwork}}"/>
+     <itunes:owner>
+-        <itunes:name>{{rss.owner.name}}</itunes:name>
+-        <itunes:email>{{rss.owner.email}}</itunes:email>
++        <itunes:name>{{site.rss.owner.name}}</itunes:name>
++        <itunes:email>{{site.rss.owner.email}}</itunes:email>
+     </itunes:owner>
+ 
+ <!-- https://help.apple.com/itc/podcasts_connect/#/itcb54353390 --> 
+ {{#items}}
+ <item>
+     <title>{{ title }}</title>
+-    <enclosure url="{{ medialink }}{{ file }}" length="{{ size }}" type="audio/mpeg"/>
++    <enclosure url="{{ site.medialink }}{{ file }}" length="{{ size }}" type="audio/mpeg"/>
+     <guid isPermaLink="false">{{ file }}</guid>
+ 
+     <pubDate>{{ publicationDate}}</pubDate>
+@@ -37,7 +37,7 @@
+ 		<![CDATA[{{ description }}<p/>{{#guests}}With <a href='{{link}}'>{{name}}</a>, {{title}}{{^last()}} ; {{/last()}}{{/guests}}<p/>{{^empty(links)}}<li>{{#links}}<ul><a href="{{ link }}">{{ text }}</a></ul>{{/links}}</li>{{/empty(links)}}{{& contents }}]]>
+ 		</content:encoded>
+     <link>{{ permalink }}index.html</link>
+-    <itunes:image href="{{ imagelink }}{{social-background}}"/>
++    <itunes:image href="{{ site.imagelink }}{{social-background}}"/>
+     <itunes:duration>{{ duration }}</itunes:duration>
+     <itunes:explicit>no</itunes:explicit>
+     
+diff --git a/toucan/templates/aws_podcasts/views/sitemap.mustache b/toucan/templates/aws_podcasts/views/sitemap.mustache
+new file mode 100644
+index 0000000..16f4af8
+--- /dev/null
++++ b/toucan/templates/aws_podcasts/views/sitemap.mustache
+@@ -0,0 +1,13 @@
++<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
++
++    {{#context.pages}}
++        <loc>{{permalink}}</loc>
++        <lastmod>{{lastUpdate.formats.sitemap}}</lastmod>
++    {{/context.pages}}
++
++    {{#context.podcasts}}
++        <loc>{{permalink}}</loc>
++        <lastmod>{{lastUpdate.formats.sitemap}}</lastmod>
++    {{/context.podcasts}}
++
++</urlset>
+diff --git a/toucan/themes/aws_podcasts/templates/partials/head.mustache b/toucan/themes/aws_podcasts/templates/partials/head.mustache
+deleted file mode 100644
+index 7159cac..0000000
+--- a/toucan/themes/aws_podcasts/templates/partials/head.mustache
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<meta charset="UTF-8">
+-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>{{site.title}}</title>
+-<link rel="shortcut icon" href="{{site.baseUrl}}/favicon.ico" />
+-<script defer src="{{site.baseUrl}}/js/main.js"></script>
+-<script defer src="{{site.baseUrl}}/js/rendering.js"></script>
+-<script defer src="{{site.baseUrl}}/js/navigation.js"></script>
+-<link href="{{site.baseUrl}}/css/main.css" rel="stylesheet">
+\ No newline at end of file
+diff --git a/toucan/themes/aws_podcasts/templates/sitemap.mustache b/toucan/themes/aws_podcasts/templates/sitemap.mustache
+deleted file mode 100644
+index b04d27a..0000000
+--- a/toucan/themes/aws_podcasts/templates/sitemap.mustache
++++ /dev/null
+@@ -1,12 +0,0 @@
+-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+-    {{#empty(urls)}}
+-    {{/empty(urls)}}
+-    {{^empty(urls)}}
+-    <url>
+-    {{#urls}}
+-        <loc>{{location}}</loc>
+-        <lastmod>{{lastModification}}</lastmod>
+-    {{/urls}}
+-    </url>
+-    {{/empty(urls)}}
+-</urlset>
+diff --git a/toucan/themes/aws_podcasts/types/podcast.yaml b/toucan/themes/aws_podcasts/types/podcast.yaml
+deleted file mode 100644
+index 6845a62..0000000
+--- a/toucan/themes/aws_podcasts/types/podcast.yaml
++++ /dev/null
+@@ -1,18 +0,0 @@
+-id: podcast
+-rss: true
+-location: episodes
+-template: pages.detail
+-
+-pagination:
+-    bundle: episodes/pagination
+-    limit: 10
+-    sort: publication
+-    order: desc
+-
+-context:
+-    site:        
+-        latest:
+-            sort: publication
+-            order: desc
+-            limit: 1
+-
+diff --git a/toucan/types/not-found.yml b/toucan/types/not-found.yml
+new file mode 100644
+index 0000000..c7ff6c4
+--- /dev/null
++++ b/toucan/types/not-found.yml
+@@ -0,0 +1,3 @@
++id: not-found
++paths:
++    - 404
+\ No newline at end of file
+diff --git a/toucan/types/page.yml b/toucan/types/page.yml
+new file mode 100644
+index 0000000..c8270dd
+--- /dev/null
++++ b/toucan/types/page.yml
+@@ -0,0 +1,2 @@
++id: page
++default: true
+\ No newline at end of file
+diff --git a/toucan/types/podcast.yaml b/toucan/types/podcast.yaml
+new file mode 100644
+index 0000000..50b1541
+--- /dev/null
++++ b/toucan/types/podcast.yaml
+@@ -0,0 +1,14 @@
++id: podcast
++paths: 
++  - episodes
++
++properties:
++    title:
++        type: string
++        required: true
++    publication:
++        type: date
++        required: true
++    image:
++        type: asset
++        required: false
+\ No newline at end of file
+diff --git a/toucan/types/redirect.yml b/toucan/types/redirect.yml
+new file mode 100644
+index 0000000..080ba39
+--- /dev/null
++++ b/toucan/types/redirect.yml
+@@ -0,0 +1,11 @@
++id: redirect
++
++properties:
++    to: 
++        type: string
++        required: true
++    code:
++        type: int
++        required: false
++        default: 301
++

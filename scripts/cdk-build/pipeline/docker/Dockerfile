@@ -1,21 +1,22 @@
 # Swift Toucan Stage 
-FROM swift:amazonlinux2 AS toucan
+FROM swift:6.2 AS toucan
 
-RUN yum install -y git && git clone --depth 1 https://github.com/toucansites/toucan
+RUN git clone --depth 1 --branch 1.0.0-rc.1 https://github.com/toucansites/toucan
 WORKDIR /toucan
 RUN swift build -c release --static-swift-stdlib
 
 # NodeJS Stage
-FROM public.ecr.aws/amazonlinux/amazonlinux:2023
+FROM ubuntu:24.04
 
 # Install toucan
-COPY --from=toucan /toucan/.build/release/toucan-cli /usr/local/bin/toucan
+COPY --from=toucan /toucan/.build/release/toucan* /usr/local/bin
 
 # Install GIT and Node.js 23
-RUN curl -fsSL https://rpm.nodesource.com/setup_23.x -o nodesource_setup.sh && \
-    bash nodesource_setup.sh && \
-		dnf install -y git nodejs && \
-		node -v
+RUN apt-get update && \
+    apt-get install -y curl git && \
+    curl -fsSL https://deb.nodesource.com/setup_23.x | bash - && \
+    apt-get install -y nodejs && \
+    rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /build

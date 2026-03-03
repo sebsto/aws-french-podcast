@@ -1,0 +1,35 @@
+site:
+    settings:
+        path: toucan
+blocks:
+    path: toucan/blocks
+contents:
+    path: toucan/contents
+pipelines:
+    path: toucan/pipelines
+templates:
+    location:
+        path: toucan/templates
+    current:
+        path: aws_podcasts
+types:
+    path: toucan/types
+dataTypes:
+    date:
+        input:
+            format: "yyyy-MM-dd HH:mm:ss Z"
+            locale: fr-FR
+            timeZone: CET
+        output:
+            locale: fr-FR
+            timeZone: CET
+            format: "dd MMM yyyy"
+        formats:
+            html:
+                format: "dd MMM yyyy"
+                locale: fr-FR
+                timeZone: CET
+            rss:
+                format: "EEE, dd MMM yyyy HH:mm:ss Z"
+                locale: en-US
+                timeZone: GMT

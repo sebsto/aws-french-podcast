@@ -1,0 +1,67 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:aws="http://francais.podcast.go-aws.com/" 
+     version="2.0">
+<channel>
+    <title>{{page.title}}</title>
+    <description>{{page.description}}</description>
+    <copyright>Tous droits réservés</copyright>
+    <language>{{page.language}}</language>
+    <link>{{baseUrl}}</link>
+    <atom:link href="{{baseUrl}}/feed.xml" rel="self" type="application/rss+xml"/>
+{{#context.items}}{{#first()}}
+    <lastBuildDate>{{publication.formats.rss}}</lastBuildDate>
+    <pubDate>{{publication.formats.rss}}</pubDate>
+{{/first()}}{{/context.items}}
+    <itunes:subtitle>Chaque semaine, Seb et ses invité•es explorent le cloud AWS.</itunes:subtitle>
+    <itunes:summary>Les sujets qui comptent pour les développeurs cloud.</itunes:summary>
+    <itunes:author>Amazon Web Services</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="{{site.imagelink}}{{site.rss.artwork}}"/>
+    <itunes:owner>
+        <itunes:name>{{site.rss.owner.name}}</itunes:name>
+        <itunes:email>{{site.rss.owner.email}}</itunes:email>
+    </itunes:owner>
+<!-- https://help.apple.com/itc/podcasts_connect/#/itcb54353390 --> 
+{{#context.items}}
+<item>
+    <title>{{ title }}</title>
+    <enclosure url="{{site.medialink}}{{ file }}" length="{{ size }}" type="audio/mpeg"/>
+    <guid isPermaLink="false">{{ file }}</guid>
+
+    <pubDate>{{ publication.formats.rss}}</pubDate>
+    <description>{{ description }}</description>
+    <content:encoded>
+		<![CDATA[{{ description }}<p/>{{#guests}}Avec <a href='{{link}}'>{{name}}</a>, {{title}}{{^last()}} ; {{/last()}}{{/guests}}<p/>{{^empty(links)}}<li>{{#links}}<ul><a href="{{ link }}">{{ text }}</a></ul>{{/links}}</li>{{/empty(links)}}]]>
+		</content:encoded>
+    <link>{{ permalink }}index.html</link>
+    <itunes:image href="{{site.imagelink}}{{social-background}}"/>
+    <itunes:duration>{{ duration }}</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    
+    <itunes:title>{{ title }}</itunes:title>
+    <itunes:subtitle/>
+    <itunes:episode>{{ episode }}</itunes:episode>
+
+	<aws:host>{{ author }}</aws:host>
+    {{#guests}}
+    <aws:guest>
+		<aws:guest-name>{{name}}</aws:guest-name>
+		<aws:guest-title>{{title}}</aws:guest-title>
+		<aws:guest-link>{{link}}</aws:guest-link>
+    <aws:guest-display><![CDATA[ <a href='{{link}}'>{{name}}</a>, {{title}}{{^last()}} ; {{/last()}}]]></aws:guest-display>
+    </aws:guest>
+    {{/guests}}
+
+    {{#empty(aws-categories)}}<aws:categories/>{{/empty(aws-categories)}}
+    {{^empty(aws-categories)}}
+    <aws:categories>{{# aws-categories }}<aws:category>{{.}}</aws:category>{{/ aws-categories }}</aws:categories>
+    {{/empty(aws-categories)}}
+</item>
+{{/context.items}}
+
+  </channel>
+</rss>

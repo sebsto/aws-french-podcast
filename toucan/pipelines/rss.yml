@@ -1,0 +1,31 @@
+id: rss
+definesType: true
+
+queries:
+    items:
+        contentType: podcast
+        scope: detail
+        filter:
+            key: publication
+            operator: lessThanOrEquals
+            value: "{{date.now}}"
+        orderBy:
+            - key: publication
+              direction: desc
+        limit: 100
+
+contentTypes: 
+    include:
+        - rss
+
+engine: 
+    id: mustache
+    options:
+        contentTypes: 
+            rss:
+                view: "rss"
+
+output:
+    path: ""
+    file: feed
+    ext: xml

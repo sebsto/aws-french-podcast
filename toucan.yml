@@ -1,0 +1,11 @@
+targets:
+    - name: dev
+      config: toucan
+      input: toucan
+      default: true
+      url: "http://localhost:3000/"
+
+    - name: prod
+      config: toucan
+      input: toucan
+      url: "https://francais.podcast.go-aws.com/web/"

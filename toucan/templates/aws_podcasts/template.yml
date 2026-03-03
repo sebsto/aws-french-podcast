@@ -1,0 +1,6 @@
+name: AWS Podcasts
+description: Template for AWS French Podcast website
+version: 1.0.0-beta.5
+generatorVersion:
+  value: 1.0.0-rc.1
+tags: []
