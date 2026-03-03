@@ -1,12 +1,12 @@
 # Swift Toucan Stage 
 FROM swift:amazonlinux2 AS toucan
 
-RUN yum install -y git && git clone --depth 1 https://github.com/toucansites/toucan
+RUN yum install -y git && git clone --depth 1 --branch 1.0.0-rc.1 https://github.com/toucansites/toucan
 WORKDIR /toucan
 RUN swift build -c release --static-swift-stdlib
 
 # NodeJS Stage
-FROM public.ecr.aws/amazonlinux/amazonlinux:2023
+FROM public.ecr.aws/amazonlinux/amazonlinux:2023-minimal
 
 # Install toucan
 COPY --from=toucan /toucan/.build/release/toucan-cli /usr/local/bin/toucan
