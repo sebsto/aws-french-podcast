@@ -3,6 +3,8 @@ SHELL=/bin/sh
 # if you need image optimization, you can install optipng and jpegoptim
 # brew install optipng jpegoptim
 
+TOUCAN="./scripts/toucan-docker.sh"
+
 # directories
 WEB_DIR=./src
 DIST_DIR=./dist
@@ -17,23 +19,23 @@ THEME_FILES = $(wildcard $(TOUCAN_DIR)/themes/aws_podcasts/**/*.*)
 # The dist target depends on the source files
 $(DIST_DIR): $(SRC_FILES) $(CONTENT_FILES) $(THEME_FILES)
 	npm install && npm run build && npm run copy
-	toucan generate $(TOUCAN_DIR) $(DIST_DIR)
+	${TOUCAN} generate $(TOUCAN_DIR) $(DIST_DIR)
 
 # Prod build depends on dist directory and adds base URL
 prod: $(DIST_DIR)
-	toucan generate $(TOUCAN_DIR) $(DIST_DIR) --base-url https://francais.podcast.go-aws.com/web
+	${TOUCAN}  generate --target prod
 
 # Development build depends on dist directory and adds base URL
 dev: $(DIST_DIR)
-	toucan generate $(TOUCAN_DIR) $(DIST_DIR) --base-url http://127.0.0.1:8888
+	${TOUCAN}  generate --target dev
 
 # Watch depends on dev build
 watch: dev
-	toucan watch $(TOUCAN_DIR) $(DIST_DIR) --base-url http://127.0.0.1:8888
+	${TOUCAN}  watch . --ignore $(DIST_DIR) --target dev
 
 # Serve depends on having the dist directory
 serve: $(DIST_DIR)
-	toucan serve $(DIST_DIR) -p 8888
+	${TOUCAN}  serve $(DIST_DIR)
 
 # Image optimization targets
 png: $(wildcard $(TOUCAN_DIR)/**/*.png)

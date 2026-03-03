@@ -1,0 +1,26 @@
+id: podcast
+paths:
+  - episodes
+
+properties:
+    title:
+        type: string
+        required: true
+    publication:
+        type: date
+        required: true
+    episode:
+        type: int
+        required: true
+    duration:
+        type: string
+        required: true
+    description:
+        type: string
+        required: true
+    file:
+        type: string
+        required: true
+    image:
+        type: asset
+        required: false
