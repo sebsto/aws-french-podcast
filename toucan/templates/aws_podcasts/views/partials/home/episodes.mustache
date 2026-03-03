@@ -1,6 +1,7 @@
   <!-- Episodes -->
   <script>
-  let maxPages = {{count(pagination.links.podcast)}};
+  let maxPodcast = {{count(context.podcasts)}};
+  let maxPages = Math.ceil(maxPodcast / 10);
   console.log("maxPages = " + maxPages);
   </script>
 
