@@ -8,7 +8,7 @@ language: "fr"
 dark_mode: "Mode sombre"
 
 # data appearing in the footer
-copyright_year: "2023-2025"
+copyright_year: "2019-2026"
 french_podcast_url: "https://francais.podcast.go-aws.com"
 developers_podcast_url: "https://developers.podcast.go-aws.com"
 youtube: "https://www.youtube.com/playlist?list=PLZ_TUMnTqfu9lG7nh_3VHJ1iM2q9grWvd"
