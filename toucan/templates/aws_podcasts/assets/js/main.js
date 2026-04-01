@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     audio.addEventListener('loadeddata', () => {
       console.log('Audio loaded:', audio.src);
-      audio.volume = volumeSlider.value / 100;
+      audio.volume = volumeSlider ? volumeSlider.value / 100 : 1;
       audio.play().catch(error => {
         console.error('Error playing audio:', error);
       });
@@ -372,28 +372,30 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Volume control
-  volumeBtn.addEventListener('click', e => {
-    e.stopPropagation();
-    const isOpen = volumePopup.classList.toggle('show');
-    volumeBtn.setAttribute('aria-expanded', isOpen);
-  });
-  volumeSlider.addEventListener('input', e => {
-    const volume = e.target.value / 100;
-    if (audio) {
-      audio.volume = volume;
-    }
-  });
+  if (volumeBtn && volumePopup && volumeSlider) {
+    volumeBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const isOpen = volumePopup.classList.toggle('show');
+      volumeBtn.setAttribute('aria-expanded', isOpen);
+    });
+    volumeSlider.addEventListener('input', e => {
+      const volume = e.target.value / 100;
+      if (audio) {
+        audio.volume = volume;
+      }
+    });
 
-  // Prevent clicks inside the popup from closing it
-  volumePopup.addEventListener('click', e => {
-    e.stopPropagation();
-  });
+    // Prevent clicks inside the popup from closing it
+    volumePopup.addEventListener('click', e => {
+      e.stopPropagation();
+    });
 
-  // Close volume popup when clicking outside
-  document.addEventListener('click', () => {
-    volumePopup.classList.remove('show');
-    volumeBtn.setAttribute('aria-expanded', 'false');
-  });
+    // Close volume popup when clicking outside
+    document.addEventListener('click', () => {
+      volumePopup.classList.remove('show');
+      volumeBtn.setAttribute('aria-expanded', 'false');
+    });
+  }
   function handlePlayEvent(element) {
     const audioSrc = element.getAttribute('data-audio-src');
     const title = element.getAttribute('data-title');
@@ -535,6 +537,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+// Fix SVG <use> references in local dev: Toucan's dev target sets baseUrl to
+// http://localhost:3000 which breaks <use xlink:href> cross-origin in browsers.
+// Strip the origin so they become path-only URLs that work correctly.
+if (window.location.hostname === 'localhost') {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('use').forEach(el => {
+      const href = el.getAttribute('xlink:href') || el.getAttribute('href');
+      if (href && /^https?:\/\//.test(href)) {
+        try {
+          const url = new URL(href);
+          const attr = el.hasAttribute('xlink:href') ? 'xlink:href' : 'href';
+          el.setAttribute(attr, url.pathname + url.hash);
+        } catch (e) {/* ignore */}
+      }
+    });
+  });
+}
 __webpack_require__(263);
 }();
 /******/ })()
