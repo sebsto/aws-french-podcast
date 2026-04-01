@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     audio.addEventListener('loadeddata', () => {
       console.log('Audio loaded:', audio.src);
-      audio.volume = volumeSlider.value / 100;
+      audio.volume = volumeSlider ? volumeSlider.value / 100 : 1;
       audio.play().catch(error => {
         console.error('Error playing audio:', error);
       });
@@ -85,29 +85,31 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Volume control
-  volumeBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const isOpen = volumePopup.classList.toggle('show');
-    volumeBtn.setAttribute('aria-expanded', isOpen);
-  });
+  if (volumeBtn && volumePopup && volumeSlider) {
+    volumeBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = volumePopup.classList.toggle('show');
+      volumeBtn.setAttribute('aria-expanded', isOpen);
+    });
 
-  volumeSlider.addEventListener('input', (e) => {
-    const volume = e.target.value / 100;
-    if (audio) {
-      audio.volume = volume;
-    }
-  });
+    volumeSlider.addEventListener('input', (e) => {
+      const volume = e.target.value / 100;
+      if (audio) {
+        audio.volume = volume;
+      }
+    });
 
-  // Prevent clicks inside the popup from closing it
-  volumePopup.addEventListener('click', (e) => {
-    e.stopPropagation();
-  });
+    // Prevent clicks inside the popup from closing it
+    volumePopup.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
 
-  // Close volume popup when clicking outside
-  document.addEventListener('click', () => {
-    volumePopup.classList.remove('show');
-    volumeBtn.setAttribute('aria-expanded', 'false');
-  });
+    // Close volume popup when clicking outside
+    document.addEventListener('click', () => {
+      volumePopup.classList.remove('show');
+      volumeBtn.setAttribute('aria-expanded', 'false');
+    });
+  }
 
   function handlePlayEvent(element) {
     const audioSrc = element.getAttribute('data-audio-src');
