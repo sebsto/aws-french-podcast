@@ -16,17 +16,17 @@ SRC_FILES = $(wildcard $(WEB_DIR)/**/*.*)
 CONTENT_FILES = $(wildcard $(TOUCAN_DIR)/content/*.md)
 THEME_FILES = $(wildcard $(TOUCAN_DIR)/themes/aws_podcasts/**/*.*)
 
-# The dist target depends on the source files
-$(DIST_DIR): $(SRC_FILES) $(CONTENT_FILES) $(THEME_FILES)
+# Build web assets and generate base site
+build:
 	npm install && npm run build && npm run copy
-	${TOUCAN} generate $(TOUCAN_DIR) $(DIST_DIR)
+	${TOUCAN} generate $(TOUCAN_DIR)
 
-# Prod build depends on dist directory and adds base URL
-prod: $(DIST_DIR)
+# Prod build
+prod: build
 	${TOUCAN}  generate --target prod
 
-# Development build depends on dist directory and adds base URL
-dev: $(DIST_DIR)
+# Development build
+dev: build
 	${TOUCAN}  generate --target dev
 
 # Watch depends on dev build
@@ -34,7 +34,7 @@ watch: dev
 	${TOUCAN}  watch . --ignore $(DIST_DIR) --target dev
 
 # Serve depends on having the dist directory
-serve: $(DIST_DIR)
+serve:
 	${TOUCAN}  serve $(DIST_DIR)
 
 # Image optimization targets
@@ -49,8 +49,8 @@ clean:
 	rm -rf $(DIST_DIR)
 
 # Declare phony targets (targets that don't create files)
-.PHONY: dev watch serve png jpg codebuild clean
+.PHONY: build dev prod watch serve png jpg codebuild clean
 
-codebuild:
-	docker build cdk/docker -t adp:latest
-	./codebuild_build.sh -i adp:latest -a .
+# codebuild:
+# 	docker build cdk/docker -t adp:latest
+# 	./codebuild_build.sh -i adp:latest -a .

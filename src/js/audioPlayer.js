@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressFill = document.querySelector('.progress-fill');
   const audioTitle = document.querySelector('.audio-player__title');
   const audioDetails = document.querySelector('.audio-player__details');
+  const volumeBtn = document.getElementById('volume-btn');
+  const volumePopup = document.getElementById('volume-popup');
+  const volumeSlider = document.getElementById('volume-slider');
 
   let audio = null;
   let isPlaying = false;
@@ -52,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     audio.addEventListener('loadeddata', () => {
       console.log('Audio loaded:', audio.src);
+      audio.volume = volumeSlider.value / 100;
       audio.play().catch(error => {
         console.error('Error playing audio:', error);
       });
@@ -78,6 +82,31 @@ document.addEventListener('DOMContentLoaded', () => {
       audio.currentTime = 0;
     }
     audioPlayer.classList.remove('show');
+  });
+
+  // Volume control
+  volumeBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = volumePopup.classList.toggle('show');
+    volumeBtn.setAttribute('aria-expanded', isOpen);
+  });
+
+  volumeSlider.addEventListener('input', (e) => {
+    const volume = e.target.value / 100;
+    if (audio) {
+      audio.volume = volume;
+    }
+  });
+
+  // Prevent clicks inside the popup from closing it
+  volumePopup.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
+
+  // Close volume popup when clicking outside
+  document.addEventListener('click', () => {
+    volumePopup.classList.remove('show');
+    volumeBtn.setAttribute('aria-expanded', 'false');
   });
 
   function handlePlayEvent(element) {
