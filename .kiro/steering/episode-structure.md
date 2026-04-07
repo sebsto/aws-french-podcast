@@ -2,9 +2,13 @@
 inclusion: always
 ---
 
-# Podcast Episode Structure and Organization
+# Podcast AWS en Français - Guide de Production
 
 ## Overview
+
+Ce document décrit l'ensemble du workflow de production du podcast AWS en français : structure des fichiers, métadonnées, et publication sur les réseaux sociaux.
+
+## Episode Structure
 
 Each podcast episode consists of multiple files stored in S3 and a local markdown file with frontmatter metadata. All files use the episode number as the primary identifier.
 
@@ -168,3 +172,47 @@ When working with files, extract the episode number from the filename:
 - **Audio files always use `.mp3` format**
 - **Local metadata is stored in `toucan/contents/episodes/{episode}/index.md`**
 - **S3 files and local metadata must be kept in sync manually**
+
+## Social Media Posting
+
+### Social Media Content File
+
+Each episode has a social media content file at `toucan/contents/episodes/{episode_number}/social_media.md` containing pre-written posts for LinkedIn and BlueSky/Mastodon/X.
+
+### How to Post
+
+Use the Kiro CLI Social Media agent to publish posts. The command is:
+
+```bash
+kiro-cli-chat --agent "Social Media"
+```
+
+Then provide a prompt like:
+
+```
+Poste le message LinkedIn et Mastodon de l'épisode {episode_number}. L'image est {episode_number}.webp
+```
+
+The agent reads the social media content from `toucan/contents/episodes/{episode_number}/social_media.md` and posts to the configured platforms.
+
+### Social Media Image
+
+- The social media image for posting is `{episode_number}.webp` (WebP format, not PNG)
+- This is different from the S3 images which are PNG format
+- The `.webp` image is used specifically for social media posts via the Social Media agent
+
+### Platforms
+
+- **LinkedIn**: Full-length post with hashtags
+- **Mastodon**: Full-length post (same as LinkedIn or adapted)
+- **Bluesky**: Short version, 300 caractères max (limite Bluesky), avec lien vers l'épisode
+- **Twitter/X**: Short version, 200 characters max
+
+### Social Media Content Guidelines
+
+When writing social media posts for an episode:
+
+- **LinkedIn**: Include an emoji hook (🎙), a summary of the episode topic, key figures/stats from the conversation, guest name and title, hashtags (#TechForGood, #IA, #AWS, #Podcast, etc.), and end with "🎧 Lien dans les commentaires"
+- **Mastodon**: Same content as LinkedIn, or slightly adapted. Hashtags are important for discoverability on Mastodon.
+- **Bluesky**: 300 caractères max. Résumé concis du sujet, mention du guest, lien vers l'épisode. Pas de hashtags (peu utilisés sur Bluesky), privilégier un ton conversationnel.
+- **Twitter/X**: 200 characters max, mention guest handles when available, include 1-2 hashtags
