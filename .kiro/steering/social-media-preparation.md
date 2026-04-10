@@ -33,8 +33,12 @@ For episode `{N}`, read these files to understand the content:
 
 ## Image
 
-- **File** : `s3://aws-french-podcast-media/img/{N}.png`
-- Download before posting:
+- **Local folder (try first)** : `/Users/stormacq/Library/CloudStorage/OneDrive-amazon.com/te/2026/10 - podcast/`
+  Images are inside subfolders named `{N} - <episode title>/` (e.g. `358 - whats new week 15/358.png`). List the directory to find the correct subfolder:
+  ```bash
+  ls "/Users/stormacq/Library/CloudStorage/OneDrive-amazon.com/te/2026/10 - podcast/" | grep "^{N} "
+  ```
+- **S3 fallback** : `s3://aws-french-podcast-media/img/{N}.png`
   ```bash
   aws s3 cp s3://aws-french-podcast-media/img/{N}.png /tmp/{N}.png --profile podcast --region eu-central-1
   ```
