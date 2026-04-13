@@ -1,2 +1,2 @@
 Based on the list of links here, and the template from previous episodes (such as 343) write the title, the description and format the list of links.  Use your web tools to read each URL
-Also fill the episode length and the number of bytes of the S3 files. Local MP3 files are available locally at ~/Library/CloudStorage/OneDrive-amazon.com/te/2026/10\ -\ podcast
+Also fill the episode length and the number of bytes of the S3 files. Local transcription and MP3 files are available locally at ~/Library/CloudStorage/OneDrive-amazon.com/te/2026/10\ -\ podcast
