@@ -1,31 +1,26 @@
-Image pour tous les réseaux : 362.png (S3 : s3://aws-french-podcast-media/img/362.png)
-Alt text : Épisode 362 du podcast AWS en français
+Image pour tous les réseaux : 365.png (S3 : s3://aws-french-podcast-media/img/365.png)
+Alt text : Épisode 365 du podcast AWS en français
 
 ---
 
-Post LinkedIn #1 (456 chars, image)
+Post LinkedIn #1 (285 chars, image)
 
 le podcast 🎙 AWS ☁️ en 🇫🇷
 
-Les talents du numérique : attirer, former, diversifier.
+Épisode Women in Tech avec Flore Egnell, directrice générale de Willa.
 
-Rémi Ferrand, délégué général de Talents du Numérique, nous explique comment cette association (créée par Numeum et le CIGREF côté entreprises, et par l'enseignement supérieur côté formation) agit depuis 20 ans pour développer l'attractivité des métiers du numérique.
+Depuis 20 ans, Willa utilise l'entrepreneuriat comme levier pour plus d'égalité économique entre femmes et hommes.
 
-→ 10 à 20% de femmes seulement dans les formations techniques
-→ 80 métiers du numérique, pas juste développeur
-→ Le programme Tech pour Toutes : 20 000 jeunes femmes accompagnées du lycée à l'insertion pro
-→ Les victoires : CAPES et agrégation d'informatique, NSI en première et terminale
-→ Les soft skills : communication, pédagogie, empathie
-→ Préparation des propositions pour la présidentielle 2027
+→ Incubateur, accélérateur de carrière, institut d'études : les 3 facettes de l'association
+→ Les chiffres sur les écarts de financement et de motivations
+→ L'usage de l'IA au travail vu sous l'angle du genre
+→ Et un détour inattendu par une expérience autour de yaourts salés 🫢
 
 🎧 Lien dans les commentaires
 
 Post LinkedIn #2 (reply au 1, 437 chars)
 
-🎧 Écoutez l'épisode : https://francais.podcast.go-aws.com/web/episodes/362/index.html
-
-🔗 Talents du Numérique : https://talentsdunumerique.com
-🔗 Destination Numérique : https://destination-numerique.talentsdunumerique.com/
+🎧 Écoutez l'épisode 365 👉 https://francais.podcast.go-aws.com/web/episodes/365/index.html
 
 🎧 Retrouvez tous les épisodes du  podcast 🎙 AWS ☁️ en 🇫🇷 👉
 
@@ -36,26 +31,28 @@ YouTube : https://sebs.to/paef_yt
 Deezer: https://bit.ly/paef_deezer
 Flux RSS : https://sebs.to/paef_rss
 
-#AWS #Cloud #Podcast #WomenInTech #Diversité #Formation #Numérique #TechPourToutes
+#AWS #Cloud #Podcast #WomenInTech #Entrepreneuriat #Égalité
 
 ---
 
-Post Mastodon #1 (398 chars, image)
+Post Mastodon #1 (389 chars, image)
 
 le podcast 🎙 AWS ☁️ en 🇫🇷
 
-Les talents du numérique : attirer, former, diversifier.
+Épisode Women in Tech avec Flore Egnell, DG de Willa — 20 ans d'action pour l'égalité économique via l'entrepreneuriat.
 
-Rémi Ferrand (Talents du Numérique) explique comment l'asso agit depuis 20 ans pour l'attractivité des métiers du numérique. 10-20% de femmes dans les formations tech, 80 métiers, le programme Tech pour Toutes (20 000 jeunes femmes), et les chantiers politiques pour la présidentielle 2027.
+→ Incubateur, accélérateur, institut d'études
+→ Chiffres sur les écarts de financement
+→ L'IA au travail sous l'angle du genre
+→ Et une histoire de yaourts salés 🫢
 
 Dispo dans toutes les apps de podcast (lien dans la 🧵👇)
 
 Post Mastodon #2 (reply, 420 chars)
 
-🎧 https://francais.podcast.go-aws.com/web/episodes/362/index.html
+🎧 Épisode 365 👉 https://francais.podcast.go-aws.com/web/episodes/365/index.html
 
-🔗 Talents du Numérique : https://talentsdunumerique.com
-🔗 Destination Numérique : https://destination-numerique.talentsdunumerique.com/
+🎧 Retrouvez tous les épisodes du  podcast 🎙 AWS ☁️ en 🇫🇷 👉
 
 Amazon Music : https://sebs.to/paef_amzn
 Spotify : https://sebs.to/paef_spot
@@ -64,27 +61,23 @@ YouTube : https://sebs.to/paef_yt
 Deezer: https://bit.ly/paef_deezer
 Flux RSS : https://sebs.to/paef_rss
 
-#WomenInTech #Numérique #Formation
-
 ---
 
-Post BlueSky #1 (249 chars, image)
+Post BlueSky #1 (248 chars, image)
 
 le podcast 🎙 AWS ☁️ en 🇫🇷
 
-Rémi Ferrand (Talents du Numérique) : 20 ans d'action pour l'attractivité des métiers du numérique. 80 métiers, 10-20% de femmes en formation tech, le programme Tech pour Toutes, et les propositions pour la présidentielle 2027.
+Épisode Women in Tech avec Flore Egnell, DG de Willa — 20 ans d'action pour l'égalité économique via l'entrepreneuriat. Chiffres, IA et genre, et une histoire de yaourts salés 🫢
 
-🧵👇
+Lien dans la 🧵👇
 
 Post BlueSky #2 (reply, 109 chars)
 
-🎧 https://francais.podcast.go-aws.com/web/episodes/362/index.html
+🎧 Épisode 365 👉 https://francais.podcast.go-aws.com/web/episodes/365/index.html
 
-🔗 https://talentsdunumerique.com
+Post BlueSky #3 (reply, 272 chars)
 
-Post BlueSky #3 (reply, 267 chars)
-
-🎧 Retrouvez le podcast AWS en français 👉
+🎧 Tous les épisodes du podcast AWS en français 👉
 
 Amazon Music : https://sebs.to/paef_amzn
 Spotify : https://sebs.to/paef_spot
