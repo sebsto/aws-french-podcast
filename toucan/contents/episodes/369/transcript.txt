@@ -1,0 +1,39 @@
+Épisode de podcast traité avec succès !
+
+Fichier original: media/369.mp3
+Fichier de transcription: text/369-transcribe.json
+
+=== TITRES SUGGÉRÉS ===
+["Cognito multi-région, nouveaux modèles Bedrock et dépréciation des images Bitnami","Claude Opus 4.8, GPT 5.5 sur Bedrock et Cognito enfin multi-région","Résilience Hub nouvelle génération et Cognito multi-région : les annonces de juin"]
+
+=== DESCRIPTION ===
+Dans cet épisode 369, Sébastien passe en revue les nouveautés AWS des deux dernières semaines. Côté Bedrock, Agent Core Identity s'intègre désormais avec AWS Secrets Manager, ce qui simplifie la gestion des secrets pour vos agents. Deux nouveaux modèles arrivent également : Claude Opus 4.8 d'Anthropic et les modèles GPT 5.5 et 5.4 d'OpenAI, ces derniers étant appelables directement via l'API OpenAI en pointant vers Bedrock.
+
+AWS Resilience Hub fait peau neuve avec une refonte majeure : politiques de résilience modulaires, modèle d'application orienté métier, évaluations des modes de défaillance assistées par IA générative et découverte automatique des dépendances.
+
+La nouveauté majeure concerne Amazon Cognito qui devient enfin multi-région. Vous pouvez définir une région principale et une région secondaire répliquée en temps réel, avec basculement DNS en cas de panne. Les tokens émis par le nœud principal sont reconnus par le secondaire.
+
+Attention également à la dépréciation des images Bitnami sur ECR public prévue pour le 10 juin. Si vous les utilisez, il est urgent de les copier dans votre registry privé et de prévoir une migration vers d'autres sources.
+
+Sébastien annonce aussi une série d'été sur l'histoire de Linux dans le cloud, à suivre en juillet et août.
+
+=== CONTENU RÉSEAUX SOCIAUX ===
+LinkedIn: 🎙️ Épisode 369 du podcast AWS en français
+
+Au programme cette semaine : Cognito devient multi-région après une longue attente, avec réplication temps réel et basculement DNS. Bedrock accueille Claude Opus 4.8 et les modèles GPT 5.5/5.4 d'OpenAI, ces derniers appelables via l'API OpenAI native. Resilience Hub se refait une beauté avec des évaluations assistées par IA générative.
+
+À noter : les images Bitnami quittent ECR public le 10 juin. Si vous les utilisez, c'est le moment d'agir.
+
+Lien dans les commentaires.
+Twitter: 🎙️ Épisode 369 : Cognito multi-région, Claude Opus 4.8 et GPT 5.5 sur Bedrock, Resilience Hub nouvelle génération. ⚠️ Images Bitnami retirées d'ECR le 10 juin.
+
+=== CONTENU BRUT ===
+{"titles":["Cognito multi-région, nouveaux modèles Bedrock et dépréciation des images Bitnami","Claude Opus 4.8, GPT 5.5 sur Bedrock et Cognito enfin multi-région","Résilience Hub nouvelle génération et Cognito multi-région : les annonces de juin"],"description":"Dans cet épisode 369, Sébastien passe en revue les nouveautés AWS des deux dernières semaines. Côté Bedrock, Agent Core Identity s'intègre désormais avec AWS Secrets Manager, ce qui simplifie la gestion des secrets pour vos agents. Deux nouveaux modèles arrivent également : Claude Opus 4.8 d'Anthropic et les modèles GPT 5.5 et 5.4 d'OpenAI, ces derniers étant appelables directement via l'API OpenAI en pointant vers Bedrock.\n\nAWS Resilience Hub fait peau neuve avec une refonte majeure : politiques de résilience modulaires, modèle d'application orienté métier, évaluations des modes de défaillance assistées par IA générative et découverte automatique des dépendances.\n\nLa nouveauté majeure co
+ncerne Amazon Cognito qui devient enfin multi-région. Vous pouvez définir une région principale et une région secondaire répliquée en temps réel, avec basculement DNS en cas de panne. Les tokens émis par le nœud principal sont reconnus par le secondaire.\n\nAttention également à la dépréciation des images Bitnami sur ECR public prévue pour le 10 juin. Si vous les utilisez, il est urgent de les copier dans votre registry privé et de prévoir une migration vers d'autres sources.\n\nSébastien annonce aussi une série d'été sur l'histoire de Linux dans le cloud, à suivre en juillet et août.","social_media":{"linkedin":"🎙️ Épisode 369 du podcast AWS en français\n\nAu programme cette semaine : Cognito devient multi-région après une longue attente, avec réplication temps réel et basculement DNS. Bedrock accueille Claude Opus 4.8 et les modèles GPT 5.5/5.4 d'OpenAI, ces derniers appelables via l'API OpenAI native. Resilience Hub se refait une beauté avec des
+ évaluations assistées par IA générative.\n\nÀ noter : les images Bitnami quittent ECR public le 10 juin. Si vous les utilisez, c'est le moment d'agir.\n\nLien dans les commentaires.","twitter":"🎙️ Épisode 369 : Cognito multi-région, Claude Opus 4.8 et GPT 5.5 sur Bedrock, Resilience Hub nouvelle génération. ⚠️ Images Bitnami retirées d'ECR le 10 juin."}}
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.eu-central-1.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:eu-central-1:533267385481:PodcastProcessorWorkflowStack-PodcastNotificationTopicC242469A-zdKGAJ3X6grX:4fb5b9e3-6d20-4c6a-837f-4c898c0f75ca&Endpoint=stormacq@amazon.com
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
