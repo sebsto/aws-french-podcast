@@ -1,0 +1,26 @@
+=== TITRES SUGGÉRÉS ===
+["PayFit : -40% sur la facture AWS avec plus de services managés","De Kubernetes self-hosted aux services managés AWS : retour d'expérience PayFit","Comment PayFit a migré son infrastructure sans big bang"]
+
+=== DESCRIPTION ===
+Alexis Cottard, Staff Engineer chez PayFit, partage le parcours de migration de cette licorne française spécialisée dans la gestion de paie. En 2020, l'infrastructure reposait sur un cluster Kubernetes auto-géré avec Kops, hébergeant bases de données, brokers de messages et même un reverse proxy développé en interne. Trois ans plus tard, PayFit s'appuie massivement sur les services managés AWS : Aurora, ElastiCache, OpenSearch, SQS, SNS, EventBridge Scheduler et Lambda. Alexis explique comment cette transformation s'est faite sans projet de migration global, mais par une succession de petits chantiers menés main dans la main avec les équipes produit. Il détaille les principes directeurs qui ont guidé ces choix, notamment le fameux "we buy before we build" et l'acceptation assumée du vendor lock-in. L'épisode aborde aussi les aspects humains de cette transition, l'accompagnement des équipes via les sessions d'enablement AWS, et l'impact concret sur les coûts : une r
+éduction de 40% de la facture AWS malgré une croissance du business. Alexis partage également sa vision du futur de la plateforme, avec potentiellement de moins en moins de Kubernetes au profit de Lambda et des services serverless.
+
+=== CONTENU RÉSEAUX SOCIAUX ===
+LinkedIn: 🎙️ Nouvel épisode du podcast AWS en français avec Alexis Cottard de PayFit.
+
+Comment cette licorne française a transformé son infrastructure en 3 ans : d'un cluster Kubernetes auto-géré avec reverse proxy maison vers les services managés AWS (Aurora, SQS, Lambda, EventBridge...).
+
+Au programme :
+→ Pourquoi ils ont choisi d'assumer le vendor lock-in plutôt que de poursuivre "la chimère du multi-cloud"
+→ Comment migrer progressivement sans big bang ni interruption de service
+→ L'impact réel : -40% sur la facture AWS avec plus de clients
+→ Les engineering tenets qui guident leurs décisions techniques
+
+Un retour d'expérience pragmatique sur ce que signifie vraiment "se concentrer sur son métier" quand on est une scale-up.
+Twitter: 🎙️ PayFit partage son retour d'expérience : de Kubernetes self-hosted aux services managés AWS. -40% sur la facture, plus de clients, moins de maintenance. Alexis Cottard explique comment et pourquoi.
+
+=== CONTENU BRUT ===
+{"titles":["PayFit : -40% sur la facture AWS avec plus de services managés","De Kubernetes self-hosted aux services managés AWS : retour d'expérience PayFit","Comment PayFit a migré son infrastructure sans big bang"],"description":"Alexis Cottard, Staff Engineer chez PayFit, partage le parcours de migration de cette licorne française spécialisée dans la gestion de paie. En 2020, l'infrastructure reposait sur un cluster Kubernetes auto-géré avec Kops, hébergeant bases de données, brokers de messages et même un reverse proxy développé en interne. Trois ans plus tard, PayFit s'appuie massivement sur les services managés AWS : Aurora, ElastiCache, OpenSearch, SQS, SNS, EventBridge Scheduler et Lambda. Alexis explique comment cette transformation s'est faite sans projet de migration global, mais par une succession de petits chantiers menés main dans la main avec les équipes produit. Il détaille les principes directeurs qui ont guidé ces choix, notamment le fameux \"we b
+uy before we build\" et l'acceptation assumée du vendor lock-in. L'épisode aborde aussi les aspects humains de cette transition, l'accompagnement des équipes via les sessions d'enablement AWS, et l'impact concret sur les coûts : une réduction de 40% de la facture AWS malgré une croissance du business. Alexis partage également sa vision du futur de la plateforme, avec potentiellement de moins en moins de Kubernetes au profit de Lambda et des services serverless.","social_media":{"linkedin":"🎙️ Nouvel épisode du podcast AWS en français avec Alexis Cottard de PayFit.\n\nComment cette licorne française a transformé son infrastructure en 3 ans : d'un cluster Kubernetes auto-géré avec reverse proxy maison vers les services managés AWS (Aurora, SQS, Lambda, EventBridge...).\n\nAu programme :\n→ Pourquoi ils ont choisi d'assumer le vendor lock-in plutôt que de poursuivre \"la chimère du multi-cloud\"\n→ Comment migrer progressivement sans big bang ni interruption de
+ service\n→ L'impact réel : -40% sur la facture AWS avec plus de clients\n→ Les engineering tenets qui guident leurs décisions techniques\n\nUn retour d'expérience pragmatique sur ce que signifie vraiment \"se concentrer sur son métier\" quand on est une scale-up.","twitter":"🎙️ PayFit partage son retour d'expérience : de Kubernetes self-hosted aux services managés AWS. -40% sur la facture, plus de clients, moins de maintenance. Alexis Cottard explique comment et pourquoi."}}
+
