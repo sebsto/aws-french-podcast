@@ -1,0 +1,45 @@
+Épisode de podcast traité avec succès !
+
+Fichier original: media/371.mp3
+Fichier de transcription: text/371-transcribe.json
+
+=== TITRES SUGGÉRÉS ===
+["S3 stocke désormais 1 Go de métadonnées par objet, et WAF fait payer les bots IA","Quand WAF devient caissier : monétiser le contenu face aux agents IA","Summit New York : S3 Annotations, Bedrock Managed Knowledge Base et agents qui paient"]
+
+=== DESCRIPTION ===
+Épisode 372, enregistré après le Summit AWS de New York. Cette édition est dense en annonces, particulièrement autour de l'écosystème agentique.
+
+On commence avec S3 Annotations, une nouvelle fonctionnalité qui permet d'attacher jusqu'à 1 Go de métadonnées structurées par objet, interrogeables directement via Athena. S3 Vectors baisse aussi ses prix jusqu'à 80% sur les gros index et supporte désormais 10 000 résultats par requête.
+
+Côté Bedrock, la grande nouveauté est Managed Knowledge Base, une option zero-config qui se distingue de l'approche existante où il fallait choisir sa base vectorielle et configurer le chunking. Six connecteurs natifs sont disponibles, dont Sharepoint, Confluence et Google Drive. Agent Core gagne un outil de web search intégré, compatible MCP.
+
+Un développement intéressant à suivre : WAF Bot Control peut maintenant facturer les bots IA pour l'accès au contenu via le protocole HTTP 402, pendant qu'Agent Core Payment permet aux agents de payer. Les deux côtés de l'équation sont couverts.
+
+Autres annonces : AWS Security Agent fait du threat modeling avec la méthodologie STRIDE, le Dev Agent gère maintenant les releases, et AWS Blocks arrive en preview pour les développeurs full-stack TypeScript. Gemini 2.5 de Google et Grok de xAI sont disponibles sur Bedrock. Amazon Q gagne des agents autonomes et de nouveaux connecteurs.
+
+La semaine prochaine, interview de Julie Paget du Groupe SEB sur leur usage d'Amazon Q.
+
+=== CONTENU RÉSEAUX SOCIAUX ===
+LinkedIn: 🎙️ Épisode 372 du podcast AWS en français, après le Summit de New York.
+
+S3 permet maintenant d'attacher jusqu'à 1 Go de métadonnées par objet, interrogeables via Athena. Pratique pour les médias qui gèrent des centaines de milliers de fichiers vidéo.
+
+Bedrock Managed Knowledge Base arrive en option zero-config à côté de l'approche existante. Plus besoin de choisir sa base vectorielle ou de configurer le chunking.
+
+Le développement le plus intéressant selon moi : WAF peut maintenant facturer les bots IA via HTTP 402, et Agent Core Payment permet aux agents de payer. Une réponse concrète à la question de la monétisation du contenu dans un monde où plus de 50% du trafic web vient des bots.
+
+Également au programme : AWS Blocks en preview pour le développement full-stack, Gemini et Grok sur Bedrock, et Amazon Q avec des agents autonomes.
+
+🎧 Lien en commentaire
+Twitter: ☁️ Épisode 372 : S3 stocke 1 Go de métadonnées par objet, WAF fait payer les bots IA via HTTP 402, Bedrock Managed Knowledge Base en zero-config. Summit New York bien chargé côté agents.
+
+=== CONTENU BRUT ===
+{"titles":["S3 stocke désormais 1 Go de métadonnées par objet, et WAF fait payer les bots IA","Quand WAF devient caissier : monétiser le contenu face aux agents IA","Summit New York : S3 Annotations, Bedrock Managed Knowledge Base et agents qui paient"],"description":"Épisode 372, enregistré après le Summit AWS de New York. Cette édition est dense en annonces, particulièrement autour de l'écosystème agentique.\n\nOn commence avec S3 Annotations, une nouvelle fonctionnalité qui permet d'attacher jusqu'à 1 Go de métadonnées structurées par objet, interrogeables directement via Athena. S3 Vectors baisse aussi ses prix jusqu'à 80% sur les gros index et supporte désormais 10 000 résultats par requête.\n\nCôté Bedrock, la grande nouveauté est Managed Knowledge Base, une option zero-config qui se distingue de l'approche existante où il fallait choisir sa base vectorielle et configurer le chunking. Six connecteurs natifs sont disponibles, dont Sharepoint, Confluence e
+t Google Drive. Agent Core gagne un outil de web search intégré, compatible MCP.\n\nUn développement intéressant à suivre : WAF Bot Control peut maintenant facturer les bots IA pour l'accès au contenu via le protocole HTTP 402, pendant qu'Agent Core Payment permet aux agents de payer. Les deux côtés de l'équation sont couverts.\n\nAutres annonces : AWS Security Agent fait du threat modeling avec la méthodologie STRIDE, le Dev Agent gère maintenant les releases, et AWS Blocks arrive en preview pour les développeurs full-stack TypeScript. Gemini 2.5 de Google et Grok de xAI sont disponibles sur Bedrock. Amazon Q gagne des agents autonomes et de nouveaux connecteurs.\n\nLa semaine prochaine, interview de Julie Paget du Groupe SEB sur leur usage d'Amazon Q.","social_media":{"linkedin":"🎙️ Épisode 372 du podcast AWS en français, après le Summit de New York.\n\nS3 permet maintenant d'attacher jusqu'à 1 Go de métadonnées par objet, interrogeables via Athena. Pratique
+ pour les médias qui gèrent des centaines de milliers de fichiers vidéo.\n\nBedrock Managed Knowledge Base arrive en option zero-config à côté de l'approche existante. Plus besoin de choisir sa base vectorielle ou de configurer le chunking.\n\nLe développement le plus intéressant selon moi : WAF peut maintenant facturer les bots IA via HTTP 402, et Agent Core Payment permet aux agents de payer. Une réponse concrète à la question de la monétisation du contenu dans un monde où plus de 50% du trafic web vient des bots.\n\nÉgalement au programme : AWS Blocks en preview pour le développement full-stack, Gemini et Grok sur Bedrock, et Amazon Q avec des agents autonomes.\n\n🎧 Lien en commentaire","twitter":"☁️ Épisode 372 : S3 stocke 1 Go de métadonnées par objet, WAF fait payer les bots IA via HTTP 402, Bedrock Managed Knowledge Base en zero-config. Summit New York bien chargé côté agents."}}
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.eu-central-1.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:eu-central-1:533267385481:PodcastProcessorWorkflowStack-PodcastNotificationTopicC242469A-zdKGAJ3X6grX:4fb5b9e3-6d20-4c6a-837f-4c898c0f75ca&Endpoint=stormacq@amazon.com
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
