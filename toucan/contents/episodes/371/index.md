@@ -23,6 +23,8 @@ links:
   link: https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/
 - text: "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access"
   link: https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/
+- text: "Épisode 364 du podcast - AgentCore Payments et le protocole x402"
+  link: https://francais.podcast.go-aws.com/web/episodes/364/index.html
 - text: "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed"
   link: https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/
 - text: "Amazon Quick expands integrations with new connectors for Adobe, Figma, WhatsApp, and more"
