@@ -1,0 +1,30 @@
+Épisode de podcast traité avec succès !
+
+Fichier original: media/374.mp3
+Fichier de transcription: text/374-transcribe.json
+
+=== TITRES SUGGÉRÉS ===
+["Domotique DIY avec LoRa WAN et AWS IoT Core","Construire ses capteurs connectés avec LoRa WAN, de l'Arduino au dashboard Grafana","LoRa WAN pour la maison : protocole industriel, budget DIY"]
+
+=== DESCRIPTION ===
+Maximilien Charlier, solution architect chez Neco Technologies, partage son projet de domotique maison construit autour du protocole LoRa WAN. Pourquoi choisir ce protocole industriel plutôt que Zigbee ou Bluetooth pour surveiller sa consommation d'énergie ? Comment fabriquer un capteur pour son compteur électrique avec un Arduino et quelques composants ? L'épisode détaille toute la chaîne technique : des capteurs DIY branchés sur le port série du compteur électrique belge aux capteurs commerciaux pour le gaz, en passant par les gateways à 100 euros, le service AWS IoT Core for LoRaWAN qui fait office de network server managé, les topics MQTT, le stockage dans Aurora DSQL pour rester dans le free tier, et la visualisation avec Grafana Cloud. On y parle aussi des défis rencontrés : compatibilité des gateways avec les certificats AWS, gestion des clés de chiffrement lors des mises à jour d'infrastructure avec CDK, et parsing des payloads binaires spécifiques à chaque
+fabricant de capteurs. Un épisode pour celles et ceux qui aiment bricoler et cherchent de l'inspiration pour leurs projets IoT estivaux.
+
+=== CONTENU RÉSEAUX SOCIAUX ===
+LinkedIn: 🔧 Nouveau podcast AWS en français avec Maximilien Charlier qui nous fait visiter son installation domotique DIY.
+
+Au programme : pourquoi choisir LoRa WAN (protocole industriel) plutôt que Zigbee pour monitorer sa consommation d'énergie à la maison, comment souder un capteur sur le port série de son compteur électrique, et comment tout connecter à AWS IoT Core, Aurora DSQL et Grafana en restant dans le free tier.
+
+Un épisode technique avec du C sur Arduino, des step functions, et des astuces pour éviter de casser ses capteurs quand on fait un cdk deploy.
+Twitter: 🔧 Domotique DIY avec LoRa WAN et AWS IoT Core. Maximilien Charlier détaille son setup : capteurs Arduino, gateways à 100€, Aurora DSQL gratuit et Grafana Cloud. Du fer à souder au dashboard.
+
+=== CONTENU BRUT ===
+{"titles":["Domotique DIY avec LoRa WAN et AWS IoT Core","Construire ses capteurs connectés avec LoRa WAN, de l'Arduino au dashboard Grafana","LoRa WAN pour la maison : protocole industriel, budget DIY"],"description":"Maximilien Charlier, solution architect chez Neco Technologies, partage son projet de domotique maison construit autour du protocole LoRa WAN. Pourquoi choisir ce protocole industriel plutôt que Zigbee ou Bluetooth pour surveiller sa consommation d'énergie ? Comment fabriquer un capteur pour son compteur électrique avec un Arduino et quelques composants ? L'épisode détaille toute la chaîne technique : des capteurs DIY branchés sur le port série du compteur électrique belge aux capteurs commerciaux pour le gaz, en passant par les gateways à 100 euros, le service AWS IoT Core for LoRaWAN qui fait office de network server managé, les topics MQTT, le stockage dans Aurora DSQL pour rester dans le free tier, et la visualisation avec Grafana Cloud. On y parle auss
+i des défis rencontrés : compatibilité des gateways avec les certificats AWS, gestion des clés de chiffrement lors des mises à jour d'infrastructure avec CDK, et parsing des payloads binaires spécifiques à chaque fabricant de capteurs. Un épisode pour celles et ceux qui aiment bricoler et cherchent de l'inspiration pour leurs projets IoT estivaux.","social_media":{"linkedin":"🔧 Nouveau podcast AWS en français avec Maximilien Charlier qui nous fait visiter son installation domotique DIY.\n\nAu programme : pourquoi choisir LoRa WAN (protocole industriel) plutôt que Zigbee pour monitorer sa consommation d'énergie à la maison, comment souder un capteur sur le port série de son compteur électrique, et comment tout connecter à AWS IoT Core, Aurora DSQL et Grafana en restant dans le free tier.\n\nUn épisode technique avec du C sur Arduino, des step functions, et des astuces pour éviter de casser ses capteurs quand on fait un cdk deploy.","twitter":"🔧 Domotique DIY av
+ec LoRa WAN et AWS IoT Core. Maximilien Charlier détaille son setup : capteurs Arduino, gateways à 100€, Aurora DSQL gratuit et Grafana Cloud. Du fer à souder au dashboard."}}
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.eu-central-1.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:eu-central-1:533267385481:PodcastProcessorWorkflowStack-PodcastNotificationTopicC242469A-zdKGAJ3X6grX:4fb5b9e3-6d20-4c6a-837f-4c898c0f75ca&Endpoint=stormacq@amazon.com
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
