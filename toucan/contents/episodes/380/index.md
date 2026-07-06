@@ -1,5 +1,5 @@
 ---
-title: "Série d'été : l'utlime frontière"
+title: "Série d'été : l'ultime frontière"
 description: "Dis papa, pourquoi ce sont des serveurs Linux qui tournent dans le cloud ? On sait maintenant pourquoi Linux. Reste à comprendre pourquoi le cloud. L'idée de vendre de la puissance de calcul comme l'électricité, on ouvre le robinet, on consomme, on paie, elle date de 1961. Mais entre l'idée et la réalité, il a fallu quarante ans, quelques échecs spectaculaires, et un libraire en ligne que personne ne voyait venir. C'est cette histoire — celle des pionniers du cloud — que je vous raconte aujourd'hui. Alors dit papa, pourquoi les serveurs dans le cloud, ils sont sous Linux ? Épisode 6 : l'ultime frontière."
 episode: 380
 duration: "00:15:55"
@@ -7,7 +7,7 @@ size: 20127897
 file: "380.mp3"
 social-background: "380.png"
 category: "podcasts"
-publication: "2026-08-08 04:00:00 +0100"
+publication: "2026-08-14 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "MIT Technology Review - The Cloud Imperative (citation McCarthy 1961)"

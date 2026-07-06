@@ -7,7 +7,7 @@ size: 22441007
 file: "381.mp3"
 social-background: "381.png"
 category: "podcasts"
-publication: "2026-08-15 04:00:00 +0100"
+publication: "2026-08-21 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Wikipedia - Larry Ellison"

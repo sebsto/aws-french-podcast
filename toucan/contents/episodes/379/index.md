@@ -7,7 +7,7 @@ size: 26349458
 file: "379.mp3"
 social-background: "379.png"
 category: "podcasts"
-publication: "2026-08-01 04:00:00 +0100"
+publication: "2026-08-07 04:00:00 +0100"
 author: "Sébastien Stormacq"
 links:
 - text: "Ars Technica - How Linux was born, as told by Linus Torvalds himself"
