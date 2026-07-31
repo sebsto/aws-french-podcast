@@ -9,11 +9,11 @@ dark_mode: "Mode sombre"
 
 # data appearing in the footer
 copyright_year: "2019-2026"
-french_podcast_url: "https://francais.podcast.go-aws.com"
+french_podcast_url: "https://podcast.stormacq.net"
 developers_podcast_url: "https://developers.podcast.go-aws.com"
 youtube: "https://www.youtube.com/playlist?list=PLZ_TUMnTqfu9lG7nh_3VHJ1iM2q9grWvd"
 linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
-instagram: "https://www.instagram.com/awsdevelopers"
+instagram: "https://www.instagram.com/sebsto"
 twitter: "https://x.com/sebsto"
 bluesky: "https://bsky.app/profile/sebsto.bsky.social"
 
@@ -40,13 +40,13 @@ builder_id:
 episodes:
   title: "Explorez tous les épisodes"
 
-medialink: "https://op3.dev/e/dts.podtrac.com/redirect.mp3/francais.podcast.go-aws.com/media/"
-imagelink: "https://francais.podcast.go-aws.com/img/"
+medialink: "https://op3.dev/e/dts.podtrac.com/redirect.mp3/podcast.stormacq.net/awsfr/media/"
+imagelink: "https://podcast.stormacq.net/awsfr/img/"
 rss:
   artwork: podcast-artwork-white.png
   owner:
     name: "Sébastien Stormacq"
-    email: "stormacq@amazon.com"
+    email: "seb@stormacq.net"
 
 # op3.dev dashboard page 
 #

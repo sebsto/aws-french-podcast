@@ -4,11 +4,9 @@ import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import { Platform } from 'aws-cdk-lib/aws-ecr-assets';
-import * as scheduler from 'aws-cdk-lib/aws-scheduler';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
 import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
-import * as wafv2 from 'aws-cdk-lib/aws-wafv2';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import * as sns from 'aws-cdk-lib/aws-sns';
 import * as subscriptions from 'aws-cdk-lib/aws-sns-subscriptions';
@@ -21,9 +19,11 @@ const getGithubConnectionArn = (scope: Construct): string => {
   const account = cdk.Stack.of(scope).account;
   
   switch (account) {
+    case '226945380156': // Personal podcast account
+      return 'arn:aws:codestar-connections:eu-central-1:226945380156:connection/ab8ad8c1-3e3c-4bae-a728-9d50230fc736';
     case '401955065246': // Development account
       return 'arn:aws:codestar-connections:eu-central-1:401955065246:connection/1a3722f1-bd2f-40d4-badf-accd624640c6';
-    case '533267385481': // Production account
+    case '533267385481': // Old production account
       return 'arn:aws:codestar-connections:us-west-2:533267385481:connection/71d399bc-b280-4066-b56a-03095ff9cc8f';
     default:
       throw new Error(`No GitHub connection ARN configured for account ${account}`);
@@ -41,36 +41,37 @@ export class PipelineStack extends cdk.Stack {
     });
 
     // Add email subscription
-    buildFailureTopic.addSubscription(new subscriptions.EmailSubscription('stormacq@amazon.com'));
-    // create an image and upload it to the ECR repo created during the bootstrap
-    // must disable containerd in docker for this to work
-    // see https://github.com/aws/aws-cdk/issues/31549
+    buildFailureTopic.addSubscription(new subscriptions.EmailSubscription('seb@stormacq.net'));
+
+    // Create the S3 bucket for the podcast website and media
+    const websiteBucket = new s3.Bucket(this, 'PodcastBucket', {
+      bucketName: 'podcast-stormacq-net',
+      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+      eventBridgeEnabled: true,
+      removalPolicy: cdk.RemovalPolicy.RETAIN,
+    });
+
+    // Build project using ARM Docker image
     const buildProject = new codebuild.PipelineProject(this, 'BuildProject', {
       environment: {
-        // buildImage: codebuild.LinuxBuildImage.fromEcrRepository(repository, 'latest'),
         buildImage: codebuild.LinuxBuildImage.fromAsset(this, 'PAEFBuildImage', {
           directory: './docker',
           platform: Platform.LINUX_ARM64,
         }),
         privileged: false,
-        },
+      },
       buildSpec: codebuild.BuildSpec.fromSourceFilename('buildspec.yaml'),
       projectName: 'FrenchPodcastBuildProject',
     });
 
     // https://github.com/aws/aws-cdk/issues/5517#issuecomment-568596787
-    const cfnArmTestProject = buildProject.node.defaultChild as codebuild.CfnProject
-    cfnArmTestProject.addOverride('Properties.Environment.Type','ARM_CONTAINER')
-
-    // Import existing S3 bucket for website hosting
-    const websiteBucket = s3.Bucket.fromBucketName(this, 'FrenchPodcastBucket', 
-      'aws-french-podcast-media' 
-    );
+    const cfnArmTestProject = buildProject.node.defaultChild as codebuild.CfnProject;
+    cfnArmTestProject.addOverride('Properties.Environment.Type', 'ARM_CONTAINER');
 
     // Create the pipeline
     const pipeline = new codepipeline.Pipeline(this, 'DeploymentPipeline', {
       pipelineName: 'FrenchPodcastPipeline',
-      crossAccountKeys: false, // If you're deploying to the same account
+      crossAccountKeys: false,
       pipelineType: codepipeline.PipelineType.V2,
       executionMode: codepipeline.ExecutionMode.QUEUED
     });
@@ -88,8 +89,8 @@ export class PipelineStack extends cdk.Stack {
           owner: 'sebsto', 
           repo: 'aws-french-podcast', 
           branch: 'main', 
-          connectionArn: getGithubConnectionArn(this), // Use the ARN directly
-          codeBuildCloneOutput: true, // clone insteda of copy to get version history during the build
+          connectionArn: getGithubConnectionArn(this),
+          codeBuildCloneOutput: true,
           output: sourceOutput,
         }),
       ],
@@ -108,7 +109,7 @@ export class PipelineStack extends cdk.Stack {
       ],
     });
 
-    // Add deployment stage to S3
+    // Add deployment stage to S3 — deploy under awsfr/site/ prefix
     pipeline.addStage({
       stageName: 'Deploy', 
       actions: [
@@ -116,11 +117,10 @@ export class PipelineStack extends cdk.Stack {
           actionName: 'DeployToS3',
           bucket: websiteBucket,
           input: buildOutput,
-          objectKey: 'web', // Deploy under /web prefix
+          objectKey: 'awsfr/site',
         }),
       ],
     });
-
 
     // Create EventBridge rule for pipeline failures
     const pipelineFailureRule = new events.Rule(this, 'PipelineFailureRule', {
@@ -144,111 +144,106 @@ export class PipelineStack extends cdk.Stack {
         'Time: ${time}'
       )
     }));
-    
-    // There is no L2 construct for scheduler yet 
-    // https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_scheduler-readme.html
-    
-    // Create an IAM role for the scheduler to invoke CodePipeline
-    const schedulerRole = new iam.Role(this, 'SchedulerRole', {
-      assumedBy: new iam.ServicePrincipal('scheduler.amazonaws.com'),
-    });
-    
-    // Add permission to start pipeline execution
-    schedulerRole.addToPolicy(new iam.PolicyStatement({
-      actions: ['codepipeline:StartPipelineExecution'],
-      resources: [pipeline.pipelineArn],
-    }));
-    
-    // Create the schedule
-    const scheduleFriday = new scheduler.CfnSchedule(this, 'PAEFFridayPipelineSchedule', {
-      flexibleTimeWindow: {
-        mode: 'OFF'
-      },
-      scheduleExpression: 'cron(0 4 ? * FRI *)',
-      scheduleExpressionTimezone: 'UTC',
-      target: {
-        arn: pipeline.pipelineArn,
-        roleArn: schedulerRole.roleArn,
-        input: JSON.stringify({}),
-      },
-      name: 'french-podcast-friday-pipeline',
-      description: 'Triggers the French Podcast pipeline every Friday at 4am UTC',
-      state: 'ENABLED',
-    });
-    
-    const scheduleWednesday = new scheduler.CfnSchedule(this, 'PAEFWednesdayPipelineSchedule', {
-      flexibleTimeWindow: {
-        mode: 'OFF'
-      },
-      scheduleExpression: 'cron(0 4 ? * WED *)',
-      scheduleExpressionTimezone: 'UTC',
-      target: {
-        arn: pipeline.pipelineArn,
-        roleArn: schedulerRole.roleArn,
-        input: JSON.stringify({}),
-      },
-      name: 'french-podcast-wednesday-pipeline',
-      description: 'Triggers the French Podcast pipeline every Friday at 4am UTC',
-      state: 'ENABLED',
-    });
 
     //
-    // Cloudfront 
+    // CloudFront
     //
 
-    // Import existing ACM certificate
+    // Import ACM certificate (must be in us-east-1)
     const certificate = acm.Certificate.fromCertificateArn(this, 'Certificate', 
-      'arn:aws:acm:us-east-1:533267385481:certificate/bf3dcc3c-1e7e-4c6f-9956-ad636633a79a'
+      'arn:aws:acm:us-east-1:226945380156:certificate/5d92b935-2b40-462e-8b9a-77810f56b2f9'
     );
 
+    // CloudFront Function for URL rewriting
+    // - /awsfr/media/* and /awsfr/img/* → pass through to S3 as-is
+    // - /awsfr/* → rewrite to serve from awsfr/site/
+    // - / or empty → 302 redirect to /awsfr/
+    const urlRewriteFunction = new cloudfront.Function(this, 'UrlRewriteFunction', {
+      code: cloudfront.FunctionCode.fromInline(`
+function handler(event) {
+  var request = event.request;
+  var uri = request.uri;
+
+  // Root or empty → redirect to /awsfr/
+  if (uri === '/' || uri === '') {
+    return {
+      statusCode: 302,
+      statusDescription: 'Found',
+      headers: {
+        'location': { value: '/awsfr/' }
+      }
+    };
+  }
+
+  // /awsfr/media/* and /awsfr/img/* → serve directly from S3 (no rewrite needed)
+  if (uri.startsWith('/awsfr/media/') || uri.startsWith('/awsfr/img/')) {
+    return request;
+  }
+
+  // /awsfr/* → rewrite to awsfr/site/*
+  if (uri.startsWith('/awsfr/')) {
+    request.uri = '/awsfr/site/' + uri.substring(7);
+    // Handle trailing slash → append index.html
+    if (request.uri.endsWith('/')) {
+      request.uri += 'index.html';
+    }
+    return request;
+  }
+
+  // Anything else → redirect to /awsfr/
+  return {
+    statusCode: 302,
+    statusDescription: 'Found',
+    headers: {
+      'location': { value: '/awsfr/' }
+    }
+  };
+}
+`),
+      functionName: 'podcast-url-rewrite',
+      comment: 'Rewrites URLs for podcast.stormacq.net: /awsfr/* to S3 paths',
+    });
+
     // Create CloudFront distribution
-    // https://aws.amazon.com/blogs/devops/a-new-aws-cdk-l2-construct-for-amazon-cloudfront-origin-access-control-oac/
     const distribution = new cloudfront.Distribution(this, 'Distribution', {
-      webAclId: 'arn:aws:wafv2:us-east-1:533267385481:global/webacl/WebACL-2ijNukbvUyvs/4f9531f2-64dd-49a7-a220-d77130d5f4fa',
       defaultBehavior: {
         origin: origins.S3BucketOrigin.withOriginAccessControl(websiteBucket),
         viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.HTTPS_ONLY,
         allowedMethods: cloudfront.AllowedMethods.ALLOW_GET_HEAD,
         cachedMethods: cloudfront.CachedMethods.CACHE_GET_HEAD,
         compress: true,
-        cachePolicy: cloudfront.CachePolicy.CACHING_DISABLED
+        cachePolicy: cloudfront.CachePolicy.CACHING_OPTIMIZED,
+        functionAssociations: [{
+          function: urlRewriteFunction,
+          eventType: cloudfront.FunctionEventType.VIEWER_REQUEST,
+        }],
       },
-      domainNames: ['francais.podcast.go-aws.com'],
+      domainNames: ['podcast.stormacq.net'],
       certificate: certificate,
       defaultRootObject: '',
       enabled: true,
-      httpVersion: cloudfront.HttpVersion.HTTP2,
-      priceClass: cloudfront.PriceClass.PRICE_CLASS_ALL,
+      httpVersion: cloudfront.HttpVersion.HTTP2_AND_3,
+      priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
       enableIpv6: true,
       errorResponses: [
         {
           httpStatus: 403,
           responseHttpStatus: 404,
-          responsePagePath: '/index.html',
+          responsePagePath: '/awsfr/site/index.html',
           ttl: cdk.Duration.seconds(10),
         },
       ],
-      logBucket: s3.Bucket.fromBucketName(this, 'LogBucket', 'aws-podcasts-cloudfront-logs'),
-      logFilePrefix: 'PodcastEnFrancais',
-      logIncludesCookies: false,
     });
 
-    // Grant the CloudFront distribution access to the S3 bucket
-    websiteBucket.addToResourcePolicy(new iam.PolicyStatement({
-      actions: ['s3:GetObject'],
-      resources: [websiteBucket.arnForObjects('*')],
-      principals: [new iam.ServicePrincipal('cloudfront.amazonaws.com')],
-      conditions: {
-        StringEquals: {
-          'AWS:SourceArn': `arn:aws:cloudfront::${cdk.Stack.of(this).account}:distribution/${distribution.distributionId}`
-        }
-      }
-    }));    
+    // Output the CloudFront distribution domain name (needed for DNS CNAME)
+    new cdk.CfnOutput(this, 'DistributionDomainName', {
+      value: distribution.distributionDomainName,
+      description: 'CloudFront distribution domain name — point podcast.stormacq.net CNAME here',
+    });
 
-    // Output the website URL
-    new cdk.CfnOutput(this, 'WebsiteURL', {
-      value: websiteBucket.bucketWebsiteUrl,
-      description: 'The URL of the website',
+    new cdk.CfnOutput(this, 'BucketName', {
+      value: websiteBucket.bucketName,
+      description: 'S3 bucket name',
     });
   }
 }

@@ -11,20 +11,12 @@ then
 	exit -1
 fi
 
-PODCAST_BUCKET=aws-french-podcast-media
-MEDIA_PREFIX=media
-IMG_PREFIX=img
+PODCAST_BUCKET=podcast-stormacq-net
+MEDIA_PREFIX=awsfr/media
+IMG_PREFIX=awsfr/img
 
 # LOCAL_PODCAST=~/Documents/amazon/te/2025/10\ -\ podcast\ FR
 LOCAL_PODCAST=~/Library/CloudStorage/OneDrive-amazon.com/te/2026/10\ -\ podcast
-
-# check dependency on mwinit
-which mwinit > /dev/null
-if [ $? != 0 ];
-then
-    echo 'mwinit must be installed to run this script.\nFollow instructions at https://w.amazon.com/index.php/NextGenMidway/UserGuide#Client_Environment_Setup_.28for_CLI_or_SSH.29'
-    exit -1
-fi
 
 # check dependency on jq
 which jq > /dev/null
@@ -34,12 +26,12 @@ then
 		exit -1
 fi
 
-# check dependency on isengardcli
-which isengardcli > /dev/null
+# check dependency on aws cli
+which aws > /dev/null
 if [ $? != 0 ];
 then
-	echo 'isengardcli must be installed to run this script.\nFollow instructions at https://w.amazon.com/bin/view/Isengard-cli/'
-	exit -1
+    echo 'aws CLI must be installed to run this script.'
+    exit -1
 fi
 
 # force user authentication 

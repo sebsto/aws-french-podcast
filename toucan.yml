@@ -8,7 +8,7 @@ targets:
     - name: prod
       config: toucan
       input: toucan
-      url: "https://francais.podcast.go-aws.com/web/"
+      url: "https://podcast.stormacq.net/awsfr/"
 
     - name: preview
       config: toucan
