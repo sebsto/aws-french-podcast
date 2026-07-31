@@ -82,21 +82,23 @@ function renderKPIs(data) {
   document.getElementById('kpi-30d-date').textContent = `as of ${dateStr}`;
   renderSparkline('spark-30d', data.dailyDownloads || [], colors);
 
-  // Card 3: Current month downloads + weekly bars
+  // Card 3: Current month downloads + monthly bars
   document.getElementById('kpi-month').textContent = formatNumber(data.summary.currentMonthDownloads);
   const monthName = new Date(data.summary.currentMonth + '-15').toLocaleDateString('fr-FR', {
     month: 'long'
   });
   document.getElementById('kpi-month-date').textContent = `in ${monthName} (so far)`;
-  renderMiniBars('bars-month', data.weeklyDownloads || [], colors);
+  const recentMonthsDl = (data.monthlyDownloads || []).slice(-4);
+  renderMiniBars('bars-month', recentMonthsDl.map(m => m.count), recentMonthsDl.map(m => m.month), colors);
 
-  // Card 4: Previous month audience + weekly bars
+  // Card 4: Previous month audience + monthly bars
   document.getElementById('kpi-audience').textContent = formatNumber(data.summary.previousMonthListeners);
   const prevMonthName = new Date(data.summary.previousMonth + '-15').toLocaleDateString('fr-FR', {
     month: 'long'
   });
   document.getElementById('kpi-audience-date').textContent = `in ${prevMonthName}`;
-  renderMiniBars('bars-audience', data.weeklyDownloads || [], colors);
+  const recentMonthsLi = (data.monthlyListeners || []).slice(-4);
+  renderMiniBars('bars-audience', recentMonthsLi.map(m => m.count), recentMonthsLi.map(m => m.month), colors);
 
   // Generated at timestamp
   const genAt = document.getElementById('generated-at');
@@ -146,9 +148,17 @@ function renderSparkline(canvasId, dailyData, colors) {
     }
   });
 }
-function renderMiniBars(canvasId, weeklyData, colors) {
+function renderMiniBars(canvasId, values, labels, colors) {
   const ctx = document.getElementById(canvasId);
-  if (!ctx || !weeklyData.length) return;
+  if (!ctx || !values.length) return;
+
+  // Format month labels for display
+  const monthLabels = labels.map(m => {
+    const d = new Date(m + '-15');
+    return d.toLocaleDateString('fr-FR', {
+      month: 'short'
+    });
+  });
 
   // Get the parent card's number and date elements
   const card = ctx.closest('.kpi-card');
@@ -156,27 +166,16 @@ function renderMiniBars(canvasId, weeklyData, colors) {
   const dateEl = card.querySelector('.kpi-card__date');
   const originalNumber = numberEl.textContent;
   const originalDate = dateEl.textContent;
-
-  // Generate week-ending dates for labels
-  const now = new Date();
-  const weekLabels = weeklyData.map((_, i) => {
-    const weekEnd = new Date(now);
-    weekEnd.setDate(weekEnd.getDate() - (weeklyData.length - 1 - i) * 7);
-    return weekEnd.toLocaleDateString('fr-FR', {
-      day: 'numeric',
-      month: 'short'
-    });
-  });
-  const chart = new Chart(ctx, {
+  new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: weekLabels,
+      labels: monthLabels,
       datasets: [{
-        data: weeklyData,
+        data: values,
         backgroundColor: colors.primary + '99',
         hoverBackgroundColor: colors.primary,
         borderRadius: 2,
-        barPercentage: 0.7
+        barPercentage: 0.85
       }]
     },
     options: {
@@ -206,8 +205,8 @@ function renderMiniBars(canvasId, weeklyData, colors) {
       onHover: (event, elements) => {
         if (elements.length > 0) {
           const idx = elements[0].index;
-          numberEl.textContent = formatNumber(weeklyData[idx]);
-          dateEl.textContent = `week of ${weekLabels[idx]}`;
+          numberEl.textContent = formatNumber(values[idx]);
+          dateEl.textContent = `in ${monthLabels[idx]}`;
         } else {
           numberEl.textContent = originalNumber;
           dateEl.textContent = originalDate;
@@ -215,8 +214,6 @@ function renderMiniBars(canvasId, weeklyData, colors) {
       }
     }
   });
-
-  // Restore on mouse leave
   ctx.addEventListener('mouseleave', () => {
     numberEl.textContent = originalNumber;
     dateEl.textContent = originalDate;
