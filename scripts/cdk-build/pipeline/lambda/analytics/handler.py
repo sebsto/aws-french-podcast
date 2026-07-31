@@ -556,6 +556,45 @@ def compute_analytics_json():
         if day['date'] >= thirty_days_ago and isinstance(day.get('listeners'), int)
     )
 
+    # Last 7 days downloads
+    seven_days_ago = (now - timedelta(days=7)).strftime('%Y-%m-%d')
+    total_7d_downloads = sum(
+        day['downloads'] for day in all_daily
+        if day['date'] >= seven_days_ago
+    )
+
+    # Current month downloads
+    current_month_str = now.strftime('%Y-%m')
+    current_month_downloads = monthly_downloads.get(current_month_str, 0)
+
+    # Previous month listeners
+    if now.month == 1:
+        prev_month_str = f"{now.year - 1}-12"
+    else:
+        prev_month_str = f"{now.year}-{now.month - 1:02d}"
+    previous_month_listeners = monthly_listeners.get(prev_month_str, 0)
+
+    # Daily downloads for last 30 days (for sparkline)
+    daily_downloads_30d = [
+        {'date': day['date'], 'downloads': day['downloads']}
+        for day in all_daily
+        if day['date'] >= thirty_days_ago
+    ]
+
+    # Weekly downloads (last 5 weeks, oldest first)
+    weekly_downloads_list = []
+    for i in range(5):
+        week_end = now - timedelta(days=i * 7)
+        week_start = week_end - timedelta(days=7)
+        week_start_str = week_start.strftime('%Y-%m-%d')
+        week_end_str = week_end.strftime('%Y-%m-%d')
+        week_total = sum(
+            day['downloads'] for day in all_daily
+            if week_start_str <= day['date'] < week_end_str
+        )
+        weekly_downloads_list.append(week_total)
+    weekly_downloads_list.reverse()
+
     # Build monthly arrays (sorted by month)
     sorted_months = sorted(monthly_downloads.keys())
     monthly_downloads_arr = [
@@ -602,14 +641,21 @@ def compute_analytics_json():
     analytics = {
         'generatedAt': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'summary': {
+            'totalDownloads7d': total_7d_downloads,
             'totalDownloads30d': total_30d_downloads,
             'uniqueListeners30d': unique_listeners_30d,
+            'currentMonthDownloads': current_month_downloads,
+            'currentMonth': current_month_str,
+            'previousMonthListeners': previous_month_listeners,
+            'previousMonth': prev_month_str,
             'totalEpisodes': total_episodes,
         },
         'monthlyDownloads': monthly_downloads_arr,
         'monthlyListeners': monthly_listeners_arr,
         'episodeDownloads': episode_downloads_arr,
         'topCountries': top_countries_arr,
+        'dailyDownloads': daily_downloads_30d,
+        'weeklyDownloads': weekly_downloads_list,
     }
 
     return analytics

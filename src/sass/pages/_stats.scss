@@ -1,13 +1,40 @@
-// Stats dashboard styles
 .stats-dashboard {
   .card {
     border-radius: 0.75rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
 
-  #kpi-cards .card-title {
-    font-size: 2.5rem;
-    color: #FF9900;
+  .kpi-card {
+    .card-body {
+      padding: 1.25rem;
+    }
+
+    &__number {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #FF9900;
+      margin-bottom: 0.25rem;
+      line-height: 1.1;
+    }
+
+    &__label {
+      font-size: 0.85rem;
+      color: inherit;
+      opacity: 0.8;
+      margin-bottom: 0.15rem;
+    }
+
+    &__date {
+      font-size: 0.75rem;
+      color: inherit;
+      opacity: 0.5;
+      margin-bottom: 0.75rem;
+    }
+
+    &__spark, &__bars {
+      width: 100% !important;
+      height: 40px !important;
+    }
   }
 
   .chart-container {
@@ -35,7 +62,7 @@
     border-color: rgba(255,255,255,0.1);
   }
 
-  #kpi-cards .card-title {
+  .kpi-card__number {
     color: #FFB84D;
   }
 }

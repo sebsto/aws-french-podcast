@@ -14,27 +14,43 @@
 
     <!-- KPI Cards -->
     <div class="row mb-5" id="kpi-cards">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100">
-          <div class="card-body text-center">
-            <p class="card-text text-muted mb-1">Downloads (30 jours)</p>
-            <h2 class="card-title fw-bold" id="kpi-downloads">—</h2>
+      <div class="col-md-3 col-sm-6 mb-3">
+        <div class="card kpi-card h-100">
+          <div class="card-body">
+            <h2 class="kpi-card__number" id="kpi-7d">—</h2>
+            <p class="kpi-card__label">downloads in last 7 days</p>
+            <p class="kpi-card__date" id="kpi-7d-date"></p>
+            <canvas class="kpi-card__spark" id="spark-7d" height="40"></canvas>
           </div>
         </div>
       </div>
-      <div class="col-md-4 mb-3">
-        <div class="card h-100">
-          <div class="card-body text-center">
-            <p class="card-text text-muted mb-1">Auditeurs uniques (30 jours)</p>
-            <h2 class="card-title fw-bold" id="kpi-listeners">—</h2>
+      <div class="col-md-3 col-sm-6 mb-3">
+        <div class="card kpi-card h-100">
+          <div class="card-body">
+            <h2 class="kpi-card__number" id="kpi-30d">—</h2>
+            <p class="kpi-card__label">downloads in last 30 days</p>
+            <p class="kpi-card__date" id="kpi-30d-date"></p>
+            <canvas class="kpi-card__spark" id="spark-30d" height="40"></canvas>
           </div>
         </div>
       </div>
-      <div class="col-md-4 mb-3">
-        <div class="card h-100">
-          <div class="card-body text-center">
-            <p class="card-text text-muted mb-1">Épisodes</p>
-            <h2 class="card-title fw-bold" id="kpi-episodes">—</h2>
+      <div class="col-md-3 col-sm-6 mb-3">
+        <div class="card kpi-card h-100">
+          <div class="card-body">
+            <h2 class="kpi-card__number" id="kpi-month">—</h2>
+            <p class="kpi-card__label">downloads</p>
+            <p class="kpi-card__date" id="kpi-month-date"></p>
+            <canvas class="kpi-card__bars" id="bars-month" height="40"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-3">
+        <div class="card kpi-card h-100">
+          <div class="card-body">
+            <h2 class="kpi-card__number" id="kpi-audience">—</h2>
+            <p class="kpi-card__label">unique audience</p>
+            <p class="kpi-card__date" id="kpi-audience-date"></p>
+            <canvas class="kpi-card__bars" id="bars-audience" height="40"></canvas>
           </div>
         </div>
       </div>

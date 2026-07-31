@@ -45,23 +45,96 @@ async function loadAnalytics() {
     return await response.json();
   } catch (err) {
     console.error('Failed to load analytics:', err);
-    document.getElementById('kpi-downloads').textContent = 'Erreur';
-    document.getElementById('kpi-listeners').textContent = 'de chargement';
-    document.getElementById('kpi-episodes').textContent = '—';
+    document.getElementById('kpi-7d').textContent = 'Erreur';
+    document.getElementById('kpi-30d').textContent = '—';
+    document.getElementById('kpi-month').textContent = '—';
+    document.getElementById('kpi-audience').textContent = '—';
     return null;
   }
 }
 
 function renderKPIs(data) {
-  document.getElementById('kpi-downloads').textContent = formatNumber(data.summary.totalDownloads30d);
-  document.getElementById('kpi-listeners').textContent = formatNumber(data.summary.uniqueListeners30d);
-  document.getElementById('kpi-episodes').textContent = formatNumber(data.summary.totalEpisodes);
-  
+  const colors = getChartColors();
+  const genDate = new Date(data.generatedAt);
+  const dateStr = genDate.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' });
+
+  // Card 1: Downloads last 7 days + sparkline
+  document.getElementById('kpi-7d').textContent = formatNumber(data.summary.totalDownloads7d);
+  document.getElementById('kpi-7d-date').textContent = `as of ${dateStr}`;
+  renderSparkline('spark-7d', data.dailyDownloads || [], colors);
+
+  // Card 2: Downloads last 30 days + sparkline
+  document.getElementById('kpi-30d').textContent = formatNumber(data.summary.totalDownloads30d);
+  document.getElementById('kpi-30d-date').textContent = `as of ${dateStr}`;
+  renderSparkline('spark-30d', data.dailyDownloads || [], colors);
+
+  // Card 3: Current month downloads + weekly bars
+  document.getElementById('kpi-month').textContent = formatNumber(data.summary.currentMonthDownloads);
+  const monthName = new Date(data.summary.currentMonth + '-15').toLocaleDateString('fr-FR', { month: 'long' });
+  document.getElementById('kpi-month-date').textContent = `in ${monthName} (so far)`;
+  renderMiniBars('bars-month', data.weeklyDownloads || [], colors);
+
+  // Card 4: Previous month audience + weekly bars
+  document.getElementById('kpi-audience').textContent = formatNumber(data.summary.previousMonthListeners);
+  const prevMonthName = new Date(data.summary.previousMonth + '-15').toLocaleDateString('fr-FR', { month: 'long' });
+  document.getElementById('kpi-audience-date').textContent = `in ${prevMonthName}`;
+  renderMiniBars('bars-audience', data.weeklyDownloads || [], colors);
+
+  // Generated at timestamp
   const genAt = document.getElementById('generated-at');
-  if (genAt && data.generatedAt) {
-    const d = new Date(data.generatedAt);
-    genAt.textContent = `Dernière mise à jour : ${d.toLocaleDateString('fr-FR')} à ${d.toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'})}`;
+  if (genAt) {
+    genAt.textContent = `Dernière mise à jour : ${genDate.toLocaleDateString('fr-FR')} à ${genDate.toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'})}`;
   }
+}
+
+function renderSparkline(canvasId, dailyData, colors) {
+  const ctx = document.getElementById(canvasId);
+  if (!ctx || !dailyData.length) return;
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: dailyData.map(d => d.date),
+      datasets: [{
+        data: dailyData.map(d => d.downloads),
+        borderColor: colors.primary,
+        borderWidth: 1.5,
+        fill: false,
+        pointRadius: 0,
+        tension: 0.3,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      scales: { x: { display: false }, y: { display: false } },
+      animation: false,
+    }
+  });
+}
+
+function renderMiniBars(canvasId, weeklyData, colors) {
+  const ctx = document.getElementById(canvasId);
+  if (!ctx || !weeklyData.length) return;
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: weeklyData.map((_, i) => `W${i+1}`),
+      datasets: [{
+        data: weeklyData,
+        backgroundColor: colors.primary + '99',
+        borderRadius: 2,
+        barPercentage: 0.7,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      scales: { x: { display: false }, y: { display: false } },
+      animation: false,
+    }
+  });
 }
 
 function renderMonthlyDownloads(data) {
