@@ -40,7 +40,7 @@ if [[ -n "$DO_DOWNLOAD" ]]; then
   echo "Syncing logs from S3..."
   mkdir -p "$LOGDIR"
   aws s3 sync "$S3_BUCKET" "$LOGDIR" \
-    --profile podcast --region eu-central-1 --quiet
+    --profile podcast-old --region eu-central-1 --quiet
   echo "Organizing files by month..."
   for f in "$LOGDIR"/*.gz; do
     [ -f "$f" ] || continue

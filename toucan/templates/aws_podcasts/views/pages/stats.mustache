@@ -1,0 +1,139 @@
+{{<html}}
+{{$main}}
+
+<section class="stats-dashboard py-5">
+  <div class="container">
+    
+    <!-- Header -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h1 class="fw-bold">📊 Statistiques</h1>
+        <p class="text-muted">Données conformes IAB Podcast Measurement v2.2 — Mise à jour quotidienne</p>
+      </div>
+    </div>
+
+    <!-- KPI Cards -->
+    <div class="row mb-5" id="kpi-cards">
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <p class="card-text text-muted mb-1">Downloads (30 jours)</p>
+            <h2 class="card-title fw-bold" id="kpi-downloads">—</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <p class="card-text text-muted mb-1">Auditeurs uniques (30 jours)</p>
+            <h2 class="card-title fw-bold" id="kpi-listeners">—</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <p class="card-text text-muted mb-1">Épisodes</p>
+            <h2 class="card-title fw-bold" id="kpi-episodes">—</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Monthly Downloads Chart -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Downloads mensuels</h5>
+            <canvas id="chart-monthly-downloads" height="300"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Monthly Listeners Chart -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Auditeurs uniques par mois</h5>
+            <canvas id="chart-monthly-listeners" height="300"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Episodes Chart -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Top épisodes (par nombre de downloads)</h5>
+            <canvas id="chart-top-episodes" height="500"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Countries -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Top pays (90 jours)</h5>
+            <table class="table table-sm" id="table-countries">
+              <thead><tr><th>Pays</th><th>Downloads</th><th>%</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- OP3 Comparison -->
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Comparaison OP3 (validation 6 mois)</h5>
+            <table class="table table-sm" id="table-op3-comparison">
+              <thead><tr><th>Métrique</th><th>CloudFront</th><th>OP3</th><th>Écart</th></tr></thead>
+              <tbody></tbody>
+            </table>
+            <small class="text-muted">✅ écart &lt; 10% · ⚠️ écart ≥ 10%</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Methodology -->
+    <div class="row">
+      <div class="col-12">
+        <div class="card bg-light">
+          <div class="card-body">
+            <h5 class="card-title">Méthodologie</h5>
+            <p class="card-text small">
+              Ces métriques sont conformes aux recommandations 
+              <a href="https://iabtechlab.com/standards/podcast-measurement-guidelines/" target="_blank">IAB Podcast Measurement Technical Guidelines v2.2</a>.
+            </p>
+            <ul class="small">
+              <li><strong>Download</strong> = requête GET unique par combinaison IP + User-Agent sur une fenêtre de 24h (jour UTC)</li>
+              <li><strong>Auditeur unique</strong> = combinaison IP + User-Agent distincte dans la période</li>
+              <li>Bots exclus (patterns IAB, Apple Watch, data centers)</li>
+              <li>Seuil minimum : 1 minute de contenu téléchargé (~960 KB)</li>
+              <li>Adresses IPv6 tronquées au préfixe /64</li>
+              <li>Source : logs d'accès CloudFront (first-party)</li>
+            </ul>
+            <p class="card-text small text-muted" id="generated-at"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<script defer src="{{baseUrl}}/js/stats.js"></script>
+
+{{/main}}
+{{/html}}

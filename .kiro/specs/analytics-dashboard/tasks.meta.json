@@ -1,0 +1,1287 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "Create S3 bucket `podcast-stormacq-net-cf-logs` in CDK with 90-day lifecycle rule": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998311
+      },
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488015157
+      },
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488130109
+      }
+    ],
+    "Modify the existing CloudFront Distribution construct to enable standard logging to this bucket with prefix `cloudfront-logs/`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998348
+      },
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488130870
+      },
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488141944
+      }
+    ],
+    "Deploy the updated CDK stack": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998389
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489794412
+      }
+    ],
+    "Verify logs appear in S3 within ~15 minutes of a request": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998431
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489794645
+      }
+    ],
+    "Create directory `scripts/cdk-build/pipeline/lambda/analytics/`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998465
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489794673
+      }
+    ],
+    "Create `handler.py` with basic structure (entry point, error handling, SNS notification on failure)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998537
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489794874
+      }
+    ],
+    "Create `requirements.txt` with dependencies (`maxminddb`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998573
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489795170
+      }
+    ],
+    "Bundle GeoLite2-Country.mmdb database in the Lambda package": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998613
+      },
+      {
+        "executionId": "10939b38-11cc-49a1-b8e3-9e41719cbb83",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785490159732
+      },
+      {
+        "executionId": "86b12645-81a2-49fc-8af2-8ffb35b9598d",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785490957585
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858138
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491885158
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492338626
+      }
+    ],
+    "Add Lambda construct to CDK stack (Python 3.12, 512MB, 5min timeout)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998646
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489796845
+      }
+    ],
+    "Add EventBridge rule (daily at 04:00 UTC) targeting the Lambda": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998681
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489797337
+      }
+    ],
+    "Add IAM permissions (read log bucket, read/write website bucket at `awsfr/site/data/*` and `analytics-state/*`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998716
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489798537
+      }
+    ],
+    "Add SNS publish permission to existing failure topic": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998753
+      },
+      {
+        "executionId": "40e73d08-ec75-4c70-b45e-d1d6ffc670af",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785489799500
+      }
+    ],
+    "Deploy and verify Lambda is invoked daily": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998789
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858210
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492407849
+      }
+    ],
+    "Implement S3 log file listing (by prefix + last-modified after watermark)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998822
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858247
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491886175
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492339943
+      }
+    ],
+    "Implement gzip decompression + W3C tab-separated parsing": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998855
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858280
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491887029
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492341062
+      }
+    ],
+    "Filter only rows where `cs-uri-stem` matches `/awsfr/media/*.mp3`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998890
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858314
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492343460
+      }
+    ],
+    "Filter only rows where `cs-method` = `GET`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998931
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858350
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492344439
+      }
+    ],
+    "Filter only rows where `sc-status` in (200, 206)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998968
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858391
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492345361
+      }
+    ],
+    "Extract episode number from URI: `/awsfr/media/341.mp3` → `341`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487998996
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858423
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492346504
+      }
+    ],
+    "URL-decode the `cs(User-Agent)` field": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999031
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858462
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492347417
+      }
+    ],
+    "Implement bot UA pattern matching (list of ~30 known patterns)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999094
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858515
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491887960
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492342162
+      }
+    ],
+    "Implement Apple Watch UA filtering (`atc/` prefix, `(null)/(null) watchOS`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999126
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858567
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492349067
+      }
+    ],
+    "Implement empty/malformed UA check (< 5 chars)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999154
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858604
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492350049
+      }
+    ],
+    "Implement 2-byte range probe detection (`bytes=0-1` in Range header)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999189
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858639
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492351759
+      }
+    ],
+    "Implement file threshold check (`sc-bytes` >= 960000)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999222
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858672
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492352297
+      }
+    ],
+    "Implement excessive IP detection (> 1000 requests per IP per UTC day)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999254
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858707
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492353325
+      }
+    ],
+    "Implement IPv6 truncation to first 64 bits (/64 prefix)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999290
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858748
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492354368
+      }
+    ],
+    "Implement deduplication: one download per (IP + UA + episode) per UTC calendar day": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999321
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858778
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492355392
+      }
+    ],
+    "Ensure dedup operates after all other filters": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999357
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858812
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492356907
+      }
+    ],
+    "Implement watermark read/write (S3 `analytics-state/watermark.json`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999391
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858855
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492357673
+      }
+    ],
+    "Implement daily aggregate file write (S3 `analytics-state/daily/YYYY-MM-DD.json`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999421
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858886
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492358775
+      }
+    ],
+    "Implement monthly rollup: sum daily downloads, count distinct listeners per month (last 24 months)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999455
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858932
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492360127
+      }
+    ],
+    "Implement per-episode cumulative totals": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999492
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491858987
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492360992
+      }
+    ],
+    "Implement country aggregation (last 90 days of daily files)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999523
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859024
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492362246
+      }
+    ],
+    "Implement GeoIP lookup using MaxMind GeoLite2": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999570
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859062
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492363027
+      }
+    ],
+    "Generate `analytics.json` with schema: generatedAt, summary, monthlyDownloads, monthlyListeners, episodeDownloads, topCountries": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999605
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859096
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492364318
+      }
+    ],
+    "Upload `analytics.json` to `s3://podcast-stormacq-net/awsfr/site/data/analytics.json`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999661
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859133
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492365671
+      }
+    ],
+    "Prune daily files older than 24 months": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999711
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859183
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785492366678
+      }
+    ],
+    "Create `toucan/contents/stats/index.md` with frontmatter (title: \"Statistiques\", layout: stats)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999748
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859221
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497501034
+      }
+    ],
+    "Create `toucan/templates/aws_podcasts/views/pages/stats.mustache` with page structure": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999780
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859253
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497501942
+      }
+    ],
+    "Add navigation link to stats page in site footer/header": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999813
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859295
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497502977
+      }
+    ],
+    "`npm install chart.js`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999847
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859329
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497556759
+      }
+    ],
+    "Create `src/js/stats.js` as a new Webpack entry point": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999884
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859370
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497504065
+      }
+    ],
+    "Update `webpack.config.js` to produce a separate `stats.js` bundle": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999912
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859406
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497557872
+      }
+    ],
+    "Create `src/sass/pages/_stats.scss` for dashboard-specific styles": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999949
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859443
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497504929
+      }
+    ],
+    "Fetch `data/analytics.json` on page load with loading state": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785487999980
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859484
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497505910
+      }
+    ],
+    "Render 3 KPI cards: downloads 30d, listeners 30d, total episodes": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000015
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859528
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497507132
+      }
+    ],
+    "Render monthly downloads bar chart (Chart.js, AWS orange theme)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000045
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859569
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497508261
+      }
+    ],
+    "Render monthly listeners line chart": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000080
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859604
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497508939
+      }
+    ],
+    "Render top episodes horizontal bar chart (top 25, sorted desc)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000117
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859638
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497510025
+      }
+    ],
+    "Render top countries table with flag emojis and percentages": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000151
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859672
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497511047
+      }
+    ],
+    "Add methodology section text (IAB v2.2 compliance explanation in French)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000195
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859706
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497512211
+      }
+    ],
+    "Handle error state (JSON load failure → French error message)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000230
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859739
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497513492
+      }
+    ],
+    "Detect dark mode (existing `data-theme` attribute or CSS media query)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000288
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859776
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497514473
+      }
+    ],
+    "Switch Chart.js colors/grid for dark mode": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000320
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859816
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497515458
+      }
+    ],
+    "Ensure charts resize responsively (container-based sizing)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000357
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859857
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497516593
+      }
+    ],
+    "Test mobile layout (KPI cards stack, charts full-width)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000389
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859889
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497559070
+      }
+    ],
+    "Create a build script that generates `analytics-state/episode-titles.json` from `toucan/contents/episodes/*/index.md`": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000424
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859932
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497600603
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497883774
+      }
+    ],
+    "Lambda reads this file and enriches `episodeDownloads` with titles": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000455
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491859967
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497883953
+      }
+    ],
+    "Add the script to the build pipeline (run during `npm run dist`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000494
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860003
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497885432
+      }
+    ],
+    "Export OP3 download data via their API for the period before CloudFront logging": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000536
+      }
+    ],
+    "Convert to daily aggregate file format": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000575
+      }
+    ],
+    "Upload as `analytics-state/daily/YYYY-MM-DD.json` files": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000612
+      }
+    ],
+    "Rerun Lambda to regenerate `analytics.json` with full history": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000654
+      }
+    ],
+    "Implement SNS notification on Lambda error": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000694
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860277
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497886356
+      }
+    ],
+    "Add CloudWatch alarm for Lambda errors > 0 in 24h": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000730
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860314
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497887246
+      }
+    ],
+    "Log processing stats (files processed, records filtered, downloads counted)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000784
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860350
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497888556
+      }
+    ],
+    "Store OP3 API token in SSM Parameter Store (`/podcast/op3-api-token`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000831
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860392
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785498129780
+      }
+    ],
+    "Add `ssm:GetParameter` permission to Lambda IAM role for the parameter": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000864
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860433
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785498130902
+      }
+    ],
+    "Implement OP3 API client in Lambda (fetch show-download-counts and show-episode-downloads)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000896
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860470
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785498132139
+      }
+    ],
+    "Add `op3Comparison` field to `analytics.json` output (with `fetchedAt`, `monthlyDownloads30d`, `weeklyAvgDownloads`, `episodeDownloads`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000935
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860512
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785498133527
+      }
+    ],
+    "Handle OP3 API failures gracefully (`op3Comparison: null`, `op3Error: \"...\"`)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488000972
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860547
+      }
+    ],
+    "Add comparison table to dashboard UI (CloudFront vs OP3, side-by-side)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488001005
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860582
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497518008
+      }
+    ],
+    "Highlight discrepancies > 10% with warning indicator": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488001041
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860625
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497518981
+      }
+    ],
+    "Add a note indicating the comparison period start date and planned end date (6 months)": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488001088
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860665
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497560444
+      }
+    ],
+    "Set calendar reminder to evaluate and potentially remove comparison after 6 months": [
+      {
+        "executionId": "c03d138e-bf53-4eb8-b69b-14a0c887677a",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785488001128
+      },
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860703
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785498136139
+      }
+    ],
+    "Create a one-time script `scripts/cdk-build/pipeline/lambda/analytics/backfill.py` that:": [
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860041
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785497928017
+      },
+      {
+        "executionId": "a99d9ae3-105d-425a-93e2-6e0b025dd8fb",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785498128795
+      }
+    ],
+    "Run the backfill script for June 2025 through July 2026 (13 months)": [
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860116
+      }
+    ],
+    "Verify backfill output: compare monthly totals against `scripts/podcast-stats/data/*.json` reference (expect roughly similar numbers, differences explained by stricter IAB filtering)": [
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860157
+      }
+    ],
+    "After verification, regenerate `analytics.json` from all daily files (backfill + current)": [
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860198
+      }
+    ],
+    "Delete the backfill script (throw-away, not needed after one-time run)": [
+      {
+        "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785491860238
+      }
+    ]
+  }
+}

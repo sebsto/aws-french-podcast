@@ -1,0 +1,35 @@
+// Stats dashboard styles
+.stats-dashboard {
+  .card {
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  #kpi-cards .card-title {
+    font-size: 2.5rem;
+    color: #FF9900;
+  }
+
+  canvas {
+    max-height: 400px;
+  }
+
+  #chart-top-episodes {
+    max-height: 600px;
+  }
+
+  .table {
+    font-size: 0.9rem;
+  }
+}
+
+[data-bs-theme="dark"] .stats-dashboard {
+  .card {
+    background-color: var(--bs-dark);
+    border-color: rgba(255,255,255,0.1);
+  }
+
+  #kpi-cards .card-title {
+    color: #FFB84D;
+  }
+}

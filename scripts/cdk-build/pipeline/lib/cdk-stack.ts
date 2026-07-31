@@ -9,9 +9,13 @@ import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import * as sns from 'aws-cdk-lib/aws-sns';
+import * as ssm from 'aws-cdk-lib/aws-ssm';
 import * as subscriptions from 'aws-cdk-lib/aws-sns-subscriptions';
 import * as events from 'aws-cdk-lib/aws-events';
 import * as targets from 'aws-cdk-lib/aws-events-targets';
+import * as lambda from 'aws-cdk-lib/aws-lambda';
+import * as cloudwatch from 'aws-cdk-lib/aws-cloudwatch';
+import * as cw_actions from 'aws-cdk-lib/aws-cloudwatch-actions';
 
 import { Construct } from 'constructs';
 
@@ -146,6 +150,28 @@ export class PipelineStack extends cdk.Stack {
     }));
 
     //
+    // CloudFront Logs Bucket
+    //
+
+    const logBucket = new s3.Bucket(this, 'CloudFrontLogsBucket', {
+      bucketName: 'podcast-stormacq-net-cf-logs',
+      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+      objectOwnership: s3.ObjectOwnership.OBJECT_WRITER,
+      removalPolicy: cdk.RemovalPolicy.RETAIN,
+      lifecycleRules: [
+        {
+          transitions: [
+            {
+              storageClass: s3.StorageClass.INFREQUENT_ACCESS,
+              transitionAfter: cdk.Duration.days(90),
+            },
+          ],
+          expiration: cdk.Duration.days(365),
+        },
+      ],
+    });
+
+    //
     // CloudFront
     //
 
@@ -225,6 +251,8 @@ function handler(event) {
       httpVersion: cloudfront.HttpVersion.HTTP2_AND_3,
       priceClass: cloudfront.PriceClass.PRICE_CLASS_100,
       enableIpv6: true,
+      logBucket: logBucket,
+      logFilePrefix: 'cloudfront-logs/',
       errorResponses: [
         {
           httpStatus: 403,
@@ -245,5 +273,59 @@ function handler(event) {
       value: websiteBucket.bucketName,
       description: 'S3 bucket name',
     });
+
+    //
+    // Analytics Pipeline
+    //
+
+    // Lambda function for processing CloudFront logs
+    const analyticsLambda = new lambda.Function(this, 'AnalyticsProcessor', {
+      functionName: 'podcast-analytics-processor',
+      runtime: lambda.Runtime.PYTHON_3_12,
+      handler: 'handler.main',
+      code: lambda.Code.fromAsset('./lambda/analytics'),
+      memorySize: 512,
+      timeout: cdk.Duration.minutes(5),
+      environment: {
+        LOG_BUCKET: logBucket.bucketName,
+        LOG_PREFIX: 'cloudfront-logs/',
+        WEBSITE_BUCKET: websiteBucket.bucketName,
+        OUTPUT_KEY: 'awsfr/site/data/analytics.json',
+        STATE_PREFIX: 'analytics-state/',
+        SNS_TOPIC_ARN: buildFailureTopic.topicArn,
+      },
+    });
+
+    // Permissions
+    logBucket.grantRead(analyticsLambda);
+    websiteBucket.grantReadWrite(analyticsLambda, 'awsfr/site/data/*');
+    websiteBucket.grantReadWrite(analyticsLambda, 'analytics-state/*');
+    buildFailureTopic.grantPublish(analyticsLambda);
+
+    // SSM parameter access for OP3 API token (SecureString - read at runtime, not deploy time)
+    analyticsLambda.addToRolePolicy(new iam.PolicyStatement({
+      actions: ['ssm:GetParameter'],
+      resources: [`arn:aws:ssm:${this.region}:${this.account}:parameter/podcast/op3-api-token`],
+    }));
+    analyticsLambda.addEnvironment('OP3_TOKEN_PARAM', '/podcast/op3-api-token');
+    analyticsLambda.addEnvironment('OP3_SHOW_UUID', 'd8347e02-cf46-566b-924b-468b4d848aee');
+
+    // Daily trigger at 04:00 UTC
+    new events.Rule(this, 'DailyAnalyticsRule', {
+      ruleName: 'podcast-analytics-daily',
+      schedule: events.Schedule.cron({ hour: '4', minute: '0' }),
+      targets: [new targets.LambdaFunction(analyticsLambda)],
+    });
+
+    // CloudWatch alarm for Lambda errors
+    const errorAlarm = analyticsLambda.metricErrors({
+      period: cdk.Duration.hours(24),
+    }).createAlarm(this, 'AnalyticsErrorAlarm', {
+      alarmName: 'podcast-analytics-processor-errors',
+      threshold: 0,
+      evaluationPeriods: 1,
+      comparisonOperator: cloudwatch.ComparisonOperator.GREATER_THAN_THRESHOLD,
+    });
+    errorAlarm.addAlarmAction(new cw_actions.SnsAction(buildFailureTopic));
   }
 }
