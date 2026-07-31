@@ -10,12 +10,18 @@
     color: #FF9900;
   }
 
-  canvas {
-    max-height: 400px;
+  .chart-container {
+    position: relative;
+    width: 100%;
   }
 
-  #chart-top-episodes {
-    max-height: 600px;
+  .chart-container--monthly {
+    height: 300px;
+  }
+
+  .chart-container--episodes {
+    height: 600px;
+    overflow-y: auto;
   }
 
   .table {
