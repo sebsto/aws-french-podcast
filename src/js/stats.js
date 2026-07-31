@@ -83,7 +83,7 @@ function renderMonthlyDownloads(data) {
     },
     options: {
       responsive: true,
-      maintainAspectRatio: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
         x: { ticks: { color: colors.text }, grid: { color: colors.grid } },
@@ -113,7 +113,7 @@ function renderMonthlyListeners(data) {
     },
     options: {
       responsive: true,
-      maintainAspectRatio: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
         x: { ticks: { color: colors.text }, grid: { color: colors.grid } },
