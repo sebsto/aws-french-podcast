@@ -43,7 +43,7 @@ phases:
     commands:
       - echo "Generating episode titles..."
       - node scripts/cdk-build/pipeline/lambda/analytics/generate-episode-titles.js
-      - aws s3 cp scripts/cdk-build/pipeline/lambda/analytics/episode-titles.json s3://podcast-stormacq-net/analytics-state/episode-titles.json --region $AWS_DEFAULT_REGION
+      - aws s3 cp scripts/cdk-build/pipeline/lambda/analytics/episode-titles.json s3://podcast-stormacq-net/analytics-state/episode-titles.json --region eu-central-1
       - echo "Build $CODEBUILD_BUILD_NUMBER completed on `date`, publishing to French Podcast will be done by the pipeline."
 
 artifacts:
