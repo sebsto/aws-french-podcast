@@ -116,10 +116,19 @@ function renderSparkline(canvasId, dailyData, colors) {
 function renderMiniBars(canvasId, weeklyData, colors) {
   const ctx = document.getElementById(canvasId);
   if (!ctx || !weeklyData.length) return;
+
+  // Generate week labels (ending dates)
+  const now = new Date();
+  const labels = weeklyData.map((_, i) => {
+    const weekEnd = new Date(now);
+    weekEnd.setDate(weekEnd.getDate() - (weeklyData.length - 1 - i) * 7);
+    return weekEnd.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+  });
+
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: weeklyData.map((_, i) => `W${i+1}`),
+      labels: labels,
       datasets: [{
         data: weeklyData,
         backgroundColor: colors.primary + '99',
@@ -130,7 +139,16 @@ function renderMiniBars(canvasId, weeklyData, colors) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          enabled: true,
+          callbacks: {
+            title: (items) => `Semaine du ${items[0].label}`,
+            label: (item) => `${formatNumber(item.raw)} downloads`,
+          }
+        }
+      },
       scales: { x: { display: false }, y: { display: false } },
       animation: false,
     }
