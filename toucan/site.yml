@@ -40,7 +40,7 @@ builder_id:
 episodes:
   title: "Explorez tous les épisodes"
 
-medialink: "https://op3.dev/e/dts.podtrac.com/redirect.mp3/podcast.stormacq.net/awsfr/media/"
+medialink: "https://op3.dev/e,pg=d8347e02-cf46-566b-924b-468b4d848aee/dts.podtrac.com/redirect.mp3/podcast.stormacq.net/awsfr/media/"
 imagelink: "https://podcast.stormacq.net/awsfr/img/"
 rss:
   artwork: podcast-artwork-white.png

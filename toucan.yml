@@ -13,4 +13,4 @@ targets:
     - name: preview
       config: toucan
       input: toucan
-      url: "https://preview-fr.podcast.go-aws.com/web/"
+      url: "https://preview.podcast.stormacq.net/web/"
