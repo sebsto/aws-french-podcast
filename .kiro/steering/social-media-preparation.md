@@ -11,7 +11,7 @@ This document tells the AI agent how to prepare a `social_media.md` file for any
 ## Inputs
 
 The user provides:
-- **Episode number** (required) — e.g. `358`
+- **Episode number** (required) — e.g. `378`
 - **Tone or angle** (optional) — e.g. "focus on S3 Files" or "mets en avant l'invité"
 
 ## Source Data
@@ -27,20 +27,20 @@ For episode `{N}`, read these files to understand the content:
 
 2. **Transcript** (optional, for deeper content) : download from S3
    ```bash
-   aws s3 cp s3://aws-french-podcast-media/text/{N}-transcribe.json /tmp/{N}-transcribe.json --profile podcast --region eu-central-1
+   aws s3 cp s3://podcast-stormacq-net/awsfr/text/{N}-transcribe.json /tmp/{N}-transcribe.json --profile podcast --region eu-central-1
    ```
    Note: episodes 1-99 use zero-padded filenames (e.g. `001-transcribe.json`).
 
 ## Image
 
 - **Local folder (try first)** : `/Users/stormacq/Library/CloudStorage/OneDrive-amazon.com/te/2026/10 - podcast/`
-  Images are inside subfolders named `{N} - <episode title>/` (e.g. `358 - whats new week 15/358.png`). List the directory to find the correct subfolder:
+  Images are inside subfolders named `{N} - <episode title>/` (e.g. `378 - serie ete episode 4/378.png`). List the directory to find the correct subfolder:
   ```bash
   ls "/Users/stormacq/Library/CloudStorage/OneDrive-amazon.com/te/2026/10 - podcast/" | grep "^{N} "
   ```
-- **S3 fallback** : `s3://aws-french-podcast-media/img/{N}.png`
+- **S3 fallback** : `s3://podcast-stormacq-net/awsfr/img/{N}.png`
   ```bash
-  aws s3 cp s3://aws-french-podcast-media/img/{N}.png /tmp/{N}.png --profile podcast --region eu-central-1
+  aws s3 cp s3://podcast-stormacq-net/awsfr/img/{N}.png /tmp/{N}.png --profile podcast --region eu-central-1
   ```
 - **Alt text** : "Épisode {N} du podcast AWS en français" (unless the user specifies something else)
 - **Format notes** :
@@ -65,7 +65,7 @@ If a post exceeds a platform's limit, split it into multiple posts in the thread
 Generate `toucan/contents/episodes/{N}/social_media.md` with this structure:
 
 ```
-Image pour tous les réseaux : {N}.png (S3 : s3://aws-french-podcast-media/img/{N}.png)
+Image pour tous les réseaux : {N}.png (S3 : s3://podcast-stormacq-net/awsfr/img/{N}.png)
 Alt text : Épisode {N} du podcast AWS en français
 
 ---
@@ -109,7 +109,7 @@ Post BlueSky #2 (reply, {X} chars)
 - End with `🎧 Lien dans les commentaires`
 
 ### LinkedIn post #2 (reply with links)
-- Direct link to the episode: `https://francais.podcast.go-aws.com/web/episodes/{N}/index.html`
+- Direct link to the episode: `https://podcast.stormacq.net/awsfr/episodes/{N}/index.html`
 - List all podcast platforms:
   ```
   🎧 Retrouvez tous les épisodes du  podcast 🎙 AWS ☁️ en 🇫🇷 👉
