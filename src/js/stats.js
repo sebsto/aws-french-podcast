@@ -117,21 +117,29 @@ function renderMiniBars(canvasId, weeklyData, colors) {
   const ctx = document.getElementById(canvasId);
   if (!ctx || !weeklyData.length) return;
 
-  // Generate week labels (ending dates)
+  // Get the parent card's number and date elements
+  const card = ctx.closest('.kpi-card');
+  const numberEl = card.querySelector('.kpi-card__number');
+  const dateEl = card.querySelector('.kpi-card__date');
+  const originalNumber = numberEl.textContent;
+  const originalDate = dateEl.textContent;
+
+  // Generate week-ending dates for labels
   const now = new Date();
-  const labels = weeklyData.map((_, i) => {
+  const weekLabels = weeklyData.map((_, i) => {
     const weekEnd = new Date(now);
     weekEnd.setDate(weekEnd.getDate() - (weeklyData.length - 1 - i) * 7);
     return weekEnd.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
   });
 
-  new Chart(ctx, {
+  const chart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: labels,
+      labels: weekLabels,
       datasets: [{
         data: weeklyData,
         backgroundColor: colors.primary + '99',
+        hoverBackgroundColor: colors.primary,
         borderRadius: 2,
         barPercentage: 0.7,
       }]
@@ -139,19 +147,30 @@ function renderMiniBars(canvasId, weeklyData, colors) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          enabled: true,
-          callbacks: {
-            title: (items) => `Semaine du ${items[0].label}`,
-            label: (item) => `${formatNumber(item.raw)} downloads`,
-          }
-        }
-      },
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
       scales: { x: { display: false }, y: { display: false } },
       animation: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
+      onHover: (event, elements) => {
+        if (elements.length > 0) {
+          const idx = elements[0].index;
+          numberEl.textContent = formatNumber(weeklyData[idx]);
+          dateEl.textContent = `week of ${weekLabels[idx]}`;
+        } else {
+          numberEl.textContent = originalNumber;
+          dateEl.textContent = originalDate;
+        }
+      }
     }
+  });
+
+  // Restore on mouse leave
+  ctx.addEventListener('mouseleave', () => {
+    numberEl.textContent = originalNumber;
+    dateEl.textContent = originalDate;
   });
 }
 
