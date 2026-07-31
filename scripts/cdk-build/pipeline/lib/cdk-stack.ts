@@ -16,6 +16,7 @@ import * as targets from 'aws-cdk-lib/aws-events-targets';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as cloudwatch from 'aws-cdk-lib/aws-cloudwatch';
 import * as cw_actions from 'aws-cdk-lib/aws-cloudwatch-actions';
+import * as logs from 'aws-cdk-lib/aws-logs';
 
 import { Construct } from 'constructs';
 
@@ -67,6 +68,9 @@ export class PipelineStack extends cdk.Stack {
       buildSpec: codebuild.BuildSpec.fromSourceFilename('buildspec.yaml'),
       projectName: 'FrenchPodcastBuildProject',
     });
+
+    // Grant CodeBuild permission to upload episode-titles.json during build
+    websiteBucket.grantWrite(buildProject, 'analytics-state/*');
 
     // https://github.com/aws/aws-cdk/issues/5517#issuecomment-568596787
     const cfnArmTestProject = buildProject.node.defaultChild as codebuild.CfnProject;
@@ -230,6 +234,18 @@ function handler(event) {
       comment: 'Rewrites URLs for podcast.stormacq.net: /awsfr/* to S3 paths',
     });
 
+    // Custom CORS response headers policy for analytics
+    const corsPolicy = new cloudfront.ResponseHeadersPolicy(this, 'AnalyticsCorsPolicy', {
+      responseHeadersPolicyName: 'podcast-analytics-cors',
+      corsBehavior: {
+        accessControlAllowOrigins: ['https://podcast.stormacq.net', 'http://localhost:3000', 'http://localhost:8080'],
+        accessControlAllowHeaders: ['*'],
+        accessControlAllowMethods: ['GET', 'HEAD'],
+        accessControlAllowCredentials: false,
+        originOverride: true,
+      },
+    });
+
     // Create CloudFront distribution
     const distribution = new cloudfront.Distribution(this, 'Distribution', {
       defaultBehavior: {
@@ -239,6 +255,7 @@ function handler(event) {
         cachedMethods: cloudfront.CachedMethods.CACHE_GET_HEAD,
         compress: true,
         cachePolicy: cloudfront.CachePolicy.CACHING_OPTIMIZED,
+        responseHeadersPolicy: corsPolicy,
         functionAssociations: [{
           function: urlRewriteFunction,
           eventType: cloudfront.FunctionEventType.VIEWER_REQUEST,
@@ -283,9 +300,18 @@ function handler(event) {
       functionName: 'podcast-analytics-processor',
       runtime: lambda.Runtime.PYTHON_3_12,
       handler: 'handler.main',
-      code: lambda.Code.fromAsset('./lambda/analytics'),
+      code: lambda.Code.fromAsset('./lambda/analytics', {
+        bundling: {
+          image: lambda.Runtime.PYTHON_3_12.bundlingImage,
+          command: [
+            'bash', '-c',
+            'pip install -r requirements.txt -t /asset-output && cp -au . /asset-output',
+          ],
+        },
+      }),
       memorySize: 512,
       timeout: cdk.Duration.minutes(5),
+      logRetention: logs.RetentionDays.ONE_MONTH,
       environment: {
         LOG_BUCKET: logBucket.bucketName,
         LOG_PREFIX: 'cloudfront-logs/',
@@ -308,7 +334,7 @@ function handler(event) {
       resources: [`arn:aws:ssm:${this.region}:${this.account}:parameter/podcast/op3-api-token`],
     }));
     analyticsLambda.addEnvironment('OP3_TOKEN_PARAM', '/podcast/op3-api-token');
-    analyticsLambda.addEnvironment('OP3_SHOW_UUID', 'd8347e02-cf46-566b-924b-468b4d848aee');
+    analyticsLambda.addEnvironment('OP3_SHOW_UUID', '82002a7f8d7e4ac29715b95b110c9339');
 
     // Daily trigger at 04:00 UTC
     new events.Rule(this, 'DailyAnalyticsRule', {

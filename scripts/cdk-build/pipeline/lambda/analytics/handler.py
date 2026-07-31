@@ -29,7 +29,7 @@ OUTPUT_KEY = os.environ.get('OUTPUT_KEY', 'awsfr/site/data/analytics.json')
 STATE_PREFIX = os.environ.get('STATE_PREFIX', 'analytics-state/')
 SNS_TOPIC_ARN = os.environ.get('SNS_TOPIC_ARN', '')
 OP3_TOKEN_PARAM = os.environ.get('OP3_TOKEN_PARAM', '/podcast/op3-api-token')
-OP3_SHOW_UUID = os.environ.get('OP3_SHOW_UUID', 'd8347e02-cf46-566b-924b-468b4d848aee')
+OP3_SHOW_UUID = os.environ.get('OP3_SHOW_UUID', '82002a7f8d7e4ac29715b95b110c9339')
 
 # Lazy-initialized clients (avoids credential resolution at import time)
 _s3 = None
@@ -139,57 +139,25 @@ def lookup_country(ip):
 def fetch_op3_comparison():
     """Fetch OP3 metrics for parallel comparison. Returns dict or None."""
     try:
-        # Get token from SSM
         token_response = _get_ssm().get_parameter(
-            Name=OP3_TOKEN_PARAM,
-            WithDecryption=True
+            Name=OP3_TOKEN_PARAM, WithDecryption=True
         )
         token = token_response['Parameter']['Value']
 
-        base_url = 'https://op3.dev/api/1'
-        headers = {'Authorization': f'Bearer {token}'}
-
-        # Fetch show download counts
-        url = f'{base_url}/queries/show-download-counts?showUuid={OP3_SHOW_UUID}'
-        req = urllib.request.Request(url, headers=headers)
+        # Only /queries/show-download-counts is available
+        url = f'https://op3.dev/api/1/queries/show-download-counts?showUuid={OP3_SHOW_UUID}&token={token}'
+        req = urllib.request.Request(url)
         with urllib.request.urlopen(req, timeout=30) as resp:
             counts_data = json.loads(resp.read())
 
         show_counts = counts_data.get('showDownloadCounts', {}).get(OP3_SHOW_UUID, {})
 
-        # Fetch episode downloads
-        url = f'{base_url}/queries/show-episode-downloads?showUuid={OP3_SHOW_UUID}'
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            episodes_data = json.loads(resp.read())
-
-        # Build comparison object
-        episode_downloads = []
-        for ep in episodes_data.get('episodes', [])[:30]:
-            # Extract episode number from title or itemGuid
-            ep_title = ep.get('title', '')
-            ep_downloads_30 = ep.get('downloads30', 0)
-            ep_downloads_all = ep.get('downloadsAll', 0)
-
-            # Try to extract episode number from the title
-            ep_match = re.search(r'(?:Episode\s+|Ep\s*\.?\s*|#)(\d+)', ep_title, re.IGNORECASE)
-            if not ep_match:
-                # Try from pubdate ordering (episodes are in order)
-                continue
-
-            episode_downloads.append({
-                'episode': int(ep_match.group(1)),
-                'op3Downloads30d': ep_downloads_30,
-                'op3DownloadsAll': ep_downloads_all,
-            })
-
         return {
             'fetchedAt': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
             'monthlyDownloads30d': show_counts.get('monthlyDownloads', 0),
             'weeklyAvgDownloads': show_counts.get('weeklyAvgDownloads', 0),
-            'episodeDownloads': episode_downloads[:30],
+            'weeklyDownloads': show_counts.get('weeklyDownloads', []),
         }
-
     except Exception as e:
         logger.warning("OP3 comparison failed: %s", str(e))
         return None
@@ -484,7 +452,8 @@ def aggregate_daily(records):
 def write_daily_aggregate(metrics):
     """Write daily aggregate JSON to S3."""
     for date, data in metrics.items():
-        key = f"{STATE_PREFIX}daily/{date}.json"
+        year = date[:4]
+        key = f"{STATE_PREFIX}daily/{year}/{date}.json"
         _get_s3().put_object(
             Bucket=WEBSITE_BUCKET,
             Key=key,
@@ -500,23 +469,31 @@ def compute_analytics_json():
     cutoff = datetime.now(timezone.utc) - timedelta(days=730)
     cutoff_str = cutoff.strftime('%Y-%m-%d')
 
-    paginator = _get_s3().get_paginator('list_objects_v2')
-    page_iterator = paginator.paginate(
-        Bucket=WEBSITE_BUCKET,
-        Prefix=f"{STATE_PREFIX}daily/"
-    )
+    # Determine which year prefixes to scan
+    current_year = datetime.now(timezone.utc).year
+    cutoff_year = cutoff.year
+    years_to_scan = set()
+    for y in range(cutoff_year, current_year + 1):
+        years_to_scan.add(str(y))
 
+    paginator = _get_s3().get_paginator('list_objects_v2')
+
+    # Scan only relevant year prefixes
     daily_files = []
-    for page in page_iterator:
-        for obj in page.get('Contents', []):
-            # Extract date from key: analytics-state/daily/YYYY-MM-DD.json
-            key = obj['Key']
-            filename = key.rsplit('/', 1)[-1]
-            if not filename.endswith('.json'):
-                continue
-            date_str = filename.replace('.json', '')
-            if date_str >= cutoff_str:
-                daily_files.append(key)
+    for year in sorted(years_to_scan):
+        page_iterator = paginator.paginate(
+            Bucket=WEBSITE_BUCKET,
+            Prefix=f"{STATE_PREFIX}daily/{year}/"
+        )
+        for page in page_iterator:
+            for obj in page.get('Contents', []):
+                key = obj['Key']
+                filename = key.rsplit('/', 1)[-1]
+                if not filename.endswith('.json'):
+                    continue
+                date_str = filename.replace('.json', '')
+                if date_str >= cutoff_str:
+                    daily_files.append(key)
 
     # Read all daily aggregate files
     all_daily = []
@@ -590,10 +567,25 @@ def compute_analytics_json():
         for m in sorted_months
     ]
 
-    # Top 50 episodes by downloads
+    # Load episode titles from S3 (uploaded by CodeBuild)
+    episode_titles = {}
+    try:
+        titles_response = _get_s3().get_object(
+            Bucket=WEBSITE_BUCKET,
+            Key=f"{STATE_PREFIX}episode-titles.json"
+        )
+        episode_titles = json.loads(titles_response['Body'].read())
+    except Exception as e:
+        logger.warning("Could not load episode titles: %s", str(e))
+
+    # Top 50 episodes by downloads (enriched with titles)
     top_episodes = episode_downloads.most_common(50)
     episode_downloads_arr = [
-        {'episode': int(ep), 'totalDownloads': count}
+        {
+            'episode': int(ep),
+            'title': episode_titles.get(str(ep), episode_titles.get(ep, '')),
+            'totalDownloads': count,
+        }
         for ep, count in top_episodes
     ]
 

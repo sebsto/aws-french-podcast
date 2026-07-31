@@ -266,7 +266,8 @@ def upload_daily_files(daily_metrics, session, dry_run=False):
     s3 = session.client('s3', region_name='eu-central-1')
     
     for date, data in sorted(daily_metrics.items()):
-        key = f"{OUTPUT_PREFIX}{date}.json"
+        year = date[:4]
+        key = f"{OUTPUT_PREFIX}{year}/{date}.json"
         body = json.dumps(data, ensure_ascii=False)
         
         if dry_run:

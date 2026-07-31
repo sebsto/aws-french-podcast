@@ -1168,6 +1168,11 @@
         "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
         "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
         "timestamp": 1785491860547
+      },
+      {
+        "executionId": "44bd1582-dd7a-4931-9873-a7105c8fa47b",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785519652377
       }
     ],
     "Add comparison table to dashboard UI (CloudFront vs OP3, side-by-side)": [
@@ -1260,6 +1265,11 @@
         "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
         "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
         "timestamp": 1785491860116
+      },
+      {
+        "executionId": "44bd1582-dd7a-4931-9873-a7105c8fa47b",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785519649458
       }
     ],
     "Verify backfill output: compare monthly totals against `scripts/podcast-stats/data/*.json` reference (expect roughly similar numbers, differences explained by stricter IAB filtering)": [
@@ -1267,6 +1277,11 @@
         "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
         "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
         "timestamp": 1785491860157
+      },
+      {
+        "executionId": "44bd1582-dd7a-4931-9873-a7105c8fa47b",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785519650509
       }
     ],
     "After verification, regenerate `analytics.json` from all daily files (backfill + current)": [
@@ -1274,6 +1289,11 @@
         "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
         "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
         "timestamp": 1785491860198
+      },
+      {
+        "executionId": "44bd1582-dd7a-4931-9873-a7105c8fa47b",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785519651280
       }
     ],
     "Delete the backfill script (throw-away, not needed after one-time run)": [
@@ -1281,6 +1301,11 @@
         "executionId": "06c88106-030c-40fc-8c73-cca2b20875ec",
         "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
         "timestamp": 1785491860238
+      },
+      {
+        "executionId": "cba8ba00-1e17-4051-b037-20517c2b1f75",
+        "chatSessionId": "sess_3d0c864b-4d79-4cf8-b492-81446971ff57",
+        "timestamp": 1785519884377
       }
     ]
   }

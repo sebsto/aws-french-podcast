@@ -121,10 +121,10 @@ Reprocess 12 months of historical CloudFront logs (June 2025 – July 2026) from
   - Applies the same IAB v2.2 filtering as the production Lambda
   - Produces daily aggregate JSON files in the same format as the production pipeline
   - Writes output to `s3://podcast-stormacq-net/analytics-state/daily/` (profile: `podcast`, region: `eu-central-1`)
-- [~] Run the backfill script for June 2025 through July 2026 (13 months)
-- [~] Verify backfill output: compare monthly totals against `scripts/podcast-stats/data/*.json` reference (expect roughly similar numbers, differences explained by stricter IAB filtering)
-- [~] After verification, regenerate `analytics.json` from all daily files (backfill + current)
-- [~] Delete the backfill script (throw-away, not needed after one-time run)
+- [x] Run the backfill script for June 2025 through July 2026 (13 months)
+- [x] Verify backfill output: compare monthly totals against `scripts/podcast-stats/data/*.json` reference (expect roughly similar numbers, differences explained by stricter IAB filtering)
+- [x] After verification, regenerate `analytics.json` from all daily files (backfill + current)
+- [x] Delete the backfill script (throw-away, not needed after one-time run)
 
 ### Task 13: Monitoring and Alerting
 **References**: Requirement 7 (AC3)
@@ -140,7 +140,7 @@ Reprocess 12 months of historical CloudFront logs (June 2025 – July 2026) from
 - [x] Add `ssm:GetParameter` permission to Lambda IAM role for the parameter
 - [x] Implement OP3 API client in Lambda (fetch show-download-counts and show-episode-downloads)
 - [x] Add `op3Comparison` field to `analytics.json` output (with `fetchedAt`, `monthlyDownloads30d`, `weeklyAvgDownloads`, `episodeDownloads`)
-- [~] Handle OP3 API failures gracefully (`op3Comparison: null`, `op3Error: "..."`)
+- [x] Handle OP3 API failures gracefully (`op3Comparison: null`, `op3Error: "..."`)
 - [x] Add comparison table to dashboard UI (CloudFront vs OP3, side-by-side)
 - [x] Highlight discrepancies > 10% with warning indicator
 - [x] Add a note indicating the comparison period start date and planned end date (6 months)

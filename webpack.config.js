@@ -8,7 +8,10 @@ const path = require('path');
 module.exports = () => ({
   mode: 'production',
   performance: { hints: false },
-  entry: './src/js/main.js',
+  entry: {
+    main: './src/js/main.js',
+    stats: './src/js/stats.js',
+  },
   output: {
     path: path.resolve(__dirname, './build'),
     filename: 'js/[name].js',
@@ -126,6 +129,7 @@ module.exports = () => ({
       template: 'src/index.html',
       filename: 'index.html',
       minify: false,
+      chunks: ['main'],
     }),
     new RemoveAttributePlugin(),
     new BrowserSyncPlugin({

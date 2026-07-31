@@ -28,6 +28,8 @@ prod: build
 # Development build
 dev: build
 	${TOUCAN}  generate --target dev
+	@mkdir -p $(DIST_DIR)/data
+	@aws s3 cp s3://podcast-stormacq-net/awsfr/site/data/analytics.json $(DIST_DIR)/data/analytics.json --profile podcast --region eu-central-1 2>/dev/null || echo "⚠️  analytics.json not available - dashboard will fetch from production"
 
 # Watch depends on dev build
 watch: dev
