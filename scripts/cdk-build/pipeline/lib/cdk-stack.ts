@@ -4,6 +4,7 @@ import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import { Platform } from 'aws-cdk-lib/aws-ecr-assets';
+import * as scheduler from 'aws-cdk-lib/aws-scheduler';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
 import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
@@ -152,6 +153,57 @@ export class PipelineStack extends cdk.Stack {
         'Time: ${time}'
       )
     }));
+
+    //
+    // Scheduled Pipeline Triggers (Wednesday & Friday at 5am UTC)
+    //
+    // There is no L2 construct for scheduler yet
+    // https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_scheduler-readme.html
+
+    // Create an IAM role for the scheduler to invoke CodePipeline
+    const schedulerRole = new iam.Role(this, 'SchedulerRole', {
+      assumedBy: new iam.ServicePrincipal('scheduler.amazonaws.com'),
+    });
+
+    // Add permission to start pipeline execution
+    schedulerRole.addToPolicy(new iam.PolicyStatement({
+      actions: ['codepipeline:StartPipelineExecution'],
+      resources: [pipeline.pipelineArn],
+    }));
+
+    // Friday schedule - triggers pipeline every Friday at 5am UTC
+    new scheduler.CfnSchedule(this, 'PAEFFridayPipelineSchedule', {
+      flexibleTimeWindow: {
+        mode: 'OFF'
+      },
+      scheduleExpression: 'cron(0 5 ? * FRI *)',
+      scheduleExpressionTimezone: 'UTC',
+      target: {
+        arn: pipeline.pipelineArn,
+        roleArn: schedulerRole.roleArn,
+        input: JSON.stringify({}),
+      },
+      name: 'french-podcast-friday-pipeline',
+      description: 'Triggers the French Podcast pipeline every Friday at 5am UTC',
+      state: 'ENABLED',
+    });
+
+    // Wednesday schedule - triggers pipeline every Wednesday at 5am UTC
+    new scheduler.CfnSchedule(this, 'PAEFWednesdayPipelineSchedule', {
+      flexibleTimeWindow: {
+        mode: 'OFF'
+      },
+      scheduleExpression: 'cron(0 5 ? * WED *)',
+      scheduleExpressionTimezone: 'UTC',
+      target: {
+        arn: pipeline.pipelineArn,
+        roleArn: schedulerRole.roleArn,
+        input: JSON.stringify({}),
+      },
+      name: 'french-podcast-wednesday-pipeline',
+      description: 'Triggers the French Podcast pipeline every Wednesday at 5am UTC',
+      state: 'ENABLED',
+    });
 
     //
     // CloudFront Logs Bucket
